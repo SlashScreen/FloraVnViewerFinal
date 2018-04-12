@@ -1,0 +1,1778 @@
+{
+    "asset_root": ".",
+    "name": "brokentoy-part4",
+    "title": "Broken Toy: Part 4",
+    "subtitle": "Beleth is Elsewhere",
+    "date": "2015-06-15",
+    "preview": "preview.png",
+    "credits": {
+        "people": [
+            {
+                "who": "PK",
+                "for": "Art, Music",
+                "deviantart": "purplekecleon",
+                "tumblr": "purplekecleon",
+                "twitter": "papayakitty"
+            },
+            {
+                "who": "Marl",
+                "for": "Script",
+                "deviantart": "marlcabinet",
+                "tumblr": "avolontes"
+            },
+            {
+                "who": "Eevee",
+                "for": "Programming",
+                "website": "http://eev.ee/",
+                "deviantart": "lexyeevee",
+                "tumblr": "lexyeevee",
+                "twitter": "eevee"
+            }
+        ],
+        "footer_html": [
+            "<a href='http://floraverse.com/'>Floraverse</a>",
+            "<a href='https://floraverse.bandcamp.com/'>Bandcamp</a>",
+            "to be continued"
+        ]
+    },
+    "actors": {
+        "curtain": {
+            "type": "curtain"
+        },
+        "jukebox": {
+            "type": "jukebox",
+            "tracks": {
+                "amdusias-slow": "amdslow_2.oga",
+                "amdusias": "amdusias_3.oga",
+                "amdusias-normal": "amdusiasnormal_4.oga",
+                "price": "price_3.oga",
+                "rainchop": "rainchop.oga"
+            }
+        },
+        "backdrop": {
+            "type": "spot",
+            "position": "backdrop",
+            "views": {
+                "splash": "titlecard4.png",
+                "1a": "beleth4bg1a.png",
+                "1b1": "beleth4bg1b1.png",
+                "1b2": "beleth4bg1b2.png",
+                "1b3": "beleth4bg1b3.png",
+                "1c1": "beleth4bg1c1.png",
+                "1c2": "beleth4bg1c2.png",
+                "1c3": "beleth4bg1c3.png",
+                "1d1": "beleth4bg1d1.png",
+                "1d2": "beleth4bg1d2.png",
+                "1d3": "beleth4bg1d3.png",
+                "1e1": "beleth4bg1e1.png",
+                "1e2": "beleth4bg1e2.png",
+                "1e3": "beleth4bg1e3.png",
+                "1f1": "beleth4bg1f1.png",
+                "1f2": "beleth4bg1f2.png",
+                "1f3": "beleth4bg1f3.png",
+                "1f4": "beleth4bg1f4.png",
+                "1f5": "beleth4bg1f5.png",
+                "1f6": "beleth4bg1f6.png",
+                "1g": "beleth4bg1g.png",
+                "1h10": "beleth4bg1h10.png",
+                "1h11": "beleth4bg1h11.png",
+                "1h12": "beleth4bg1h12.png",
+                "1h13": "beleth4bg1h13.png",
+                "1h1": "beleth4bg1h1.png",
+                "1h2": "beleth4bg1h2.png",
+                "1h3": "beleth4bg1h3.png",
+                "1h4": "beleth4bg1h4.png",
+                "1h5": "beleth4bg1h5.png",
+                "1h6": "beleth4bg1h6.png",
+                "1h7": "beleth4bg1h7.png",
+                "1h8": "beleth4bg1h8.png",
+                "1h9": "beleth4bg1h9.png",
+                "1i1": "beleth4bg1i1.png",
+                "1i2": "beleth4bg1i2.png",
+                "1j": "beleth4bg1j.png",
+                "1k1": "beleth4bg1k1.png",
+                "1l1": "beleth4bg1l1.png",
+                "1l2": "beleth4bg1l2.png",
+                "2a": "beleth4bg2a.png",
+                "2b": "beleth4bg2b.png",
+                "2c1": "beleth4bg2c1.png",
+                "2c2": "beleth4bg2c2.png",
+                "2c3": "beleth4bg2c3.png",
+                "2d1": "beleth4bg2d1.png",
+                "2d2": "beleth4bg2d2.png",
+                "2e": "beleth4bg2e.png",
+                "2f1": "beleth4bg2f1.png",
+                "2f2": "beleth4bg2f2.png",
+                "2f3": "beleth4bg2f3.png",
+                "2f4": "beleth4bg2f4.png",
+                "2g": "beleth4bg2g.png",
+                "2h": "beleth4bg2h.png",
+                "2i1": "beleth4bg2i1.png",
+                "2i2": "beleth4bg2i2.png",
+                "2j": "beleth4bg2j.png",
+                "2k": "beleth4bg2k.png",
+                "2l": "beleth4bg2l.png",
+                "2m1": "beleth4bg2m1.png",
+                "2m2": "beleth4bg2m2.png",
+                "2m3": "beleth4bg2m3.png",
+                "2n": "beleth4bg2n.png",
+                "2o": "beleth4bg2o.png",
+                "2p1": "beleth4bg2p1.png",
+                "2p2": "beleth4bg2p2.png",
+                "2p3": "beleth4bg2p3.png",
+                "3a1": "beleth4bg3a1.png",
+                "3a2": "beleth4bg3a2.png",
+                "3b1": "beleth4bg3b1.png",
+                "3b2": "beleth4bg3b2.png",
+                "3b3": "beleth4bg3b3.png",
+                "3b4": "beleth4bg3b4.png",
+                "3b5": "beleth4bg3b5.png",
+                "3b6": "beleth4bg3b6.png",
+                "3b7": "beleth4bg3b7.png",
+                "3c1": "beleth4bg3c1.png",
+                "3c2": "beleth4bg3c2.png",
+                "3d1": "beleth4bg3d1.png",
+                "3d2": "beleth4bg3d2.png",
+                "3e": "beleth4bg3e.png",
+                "3f": "beleth4bg3f.png",
+                "3g": "beleth4bg3g.png",
+                "3h": "beleth4bg3h.png",
+                "3i": "beleth4bg3i.png",
+                "3j": "beleth4bg3j.png",
+                "3k": "beleth4bg3k.png",
+                "3l": "beleth4bg3l.png",
+                "3m1": "beleth4bg3m1.png",
+                "3m2": "beleth4bg3m2.png",
+                "3n1": "beleth4bg3n1.png",
+                "3n2": "beleth4bg3n2.png",
+                "3o": "beleth4bg3o.png",
+                "3p": "beleth4bg3p.png"
+            }
+        },
+        "narrator": {
+            "type": "character",
+            "name": null,
+            "color": "black"
+        },
+        "char:beleth": {
+            "type": "character",
+            "name": "Beleth",
+            "color": "#d22e8c",
+            "position": "right"
+        },
+        "char:orobas": {
+            "type": "character",
+            "name": "Orobas",
+            "color": "#8a5678",
+            "position": "right"
+        },
+        "char:amdusias": {
+            "type": "character",
+            "name": "Amdusias",
+            "color": "#491247",
+            "position": "left"
+        },
+        "char:tv": {
+            "type": "character",
+            "name": "Mirror",
+            "color": "#110d56",
+            "position": "left"
+        }
+    },
+    "script": [
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "splash"
+        },
+        {
+            "actor": "narrator",
+            "action": "say",
+            "text": ""
+        },
+        {
+            "actor": "jukebox",
+            "action": "play",
+            "track": "amdusias-normal"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "1a"
+        },
+        {
+            "actor": "char:orobas",
+            "action": "say",
+            "text": "Where are we headed?"
+        },
+        {
+            "actor": "char:amdusias",
+            "action": "say",
+            "text": "<em>I</em> am going to make Vassal Beleth’s acquaintance. I was informed they were… instrumental in saving Trebol."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "1b1"
+        },
+        {
+            "actor": "char:orobas",
+            "action": "say",
+            "text": "Hah! I get it."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "1b2"
+        },
+        {
+            "actor": "char:amdusias",
+            "action": "say",
+            "text": "Get what?"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "1b1"
+        },
+        {
+            "actor": "char:orobas",
+            "action": "say",
+            "text": "Instrumental."
+        },
+        {
+            "actor": "char:orobas",
+            "action": "say",
+            "text": "Yeah?"
+        },
+        {
+            "actor": "char:amdusias",
+            "action": "say",
+            "text": "…"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "1b3"
+        },
+        {
+            "actor": "char:orobas",
+            "action": "say",
+            "text": "I guess not."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "1c1"
+        },
+        {
+            "actor": "char:orobas",
+            "action": "say",
+            "text": "What about the others? Vassal Beleth wasn’t the only one who helped."
+        },
+        {
+            "actor": "char:amdusias",
+            "action": "say",
+            "text": "The others were not reprimanded for their poor use of time."
+        },
+        {
+            "actor": "char:amdusias",
+            "action": "say",
+            "text": "They did as they were expected to do. I am not interested in them."
+        },
+        {
+            "actor": "char:amdusias",
+            "action": "say",
+            "text": "I <em>am</em> interested in the miscreant."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "1c2"
+        },
+        {
+            "actor": "char:orobas",
+            "action": "say",
+            "text": "Jeez, you’re going to scare them if you show up with a face like that!"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "1c3"
+        },
+        {
+            "actor": "char:amdusias",
+            "action": "say",
+            "text": "Are you implying my appearance is inappropriate for the situation?"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "1c2"
+        },
+        {
+            "actor": "char:orobas",
+            "action": "say",
+            "text": "Totally. Vassal Beleth’s on vacation, and they’ll be far more likely to talk to you if you don’t make them run away in fright when they first see you."
+        },
+        {
+            "actor": "char:amdusias",
+            "action": "say",
+            "text": "…"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "1d1"
+        },
+        {
+            "actor": "char:amdusias",
+            "action": "say",
+            "text": "Fine. I will be happy."
+        },
+        {
+            "actor": "char:orobas",
+            "action": "say",
+            "text": "Good!"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "1d2"
+        },
+        {
+            "actor": "char:amdusias",
+            "action": "say",
+            "text": "Because they will tell me what they were thinking when they decided to slack off during a crisis."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "1d3"
+        },
+        {
+            "actor": "char:orobas",
+            "action": "say",
+            "text": "..."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "1e1"
+        },
+        {
+            "actor": "char:amdusias",
+            "action": "say",
+            "text": "…"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "1e2"
+        },
+        {
+            "actor": "char:amdusias",
+            "action": "say",
+            "text": "Why did Andre send for you? He did not tell me the reason."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "1e3"
+        },
+        {
+            "actor": "char:orobas",
+            "action": "say",
+            "text": "Are you sure you want to know?"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "1e2"
+        },
+        {
+            "actor": "char:amdusias",
+            "action": "say",
+            "text": "Since it’s from him, probably not. But tell me anyway."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "1e3"
+        },
+        {
+            "actor": "char:orobas",
+            "action": "say",
+            "text": "He said you needed someone to mellow out your harsh edges. And that I am the only one who would be able to deal with how uptight you are."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "1f1"
+        },
+        {
+            "actor": "char:amdusias",
+            "action": "say",
+            "text": "He what?!"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "1f2"
+        },
+        {
+            "actor": "char:orobas",
+            "action": "say",
+            "text": "Also, he said you were so stiff, you were ruining his easygoing vibe, and therefore Trebol’s easygoing vibe."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "1f1"
+        },
+        {
+            "actor": "char:amdusias",
+            "action": "say",
+            "text": "That… buffoon!"
+        },
+        {
+            "actor": "char:amdusias",
+            "action": "say",
+            "text": "Does he find it amusing to constantly meddle in the affairs of others?!"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "1f2"
+        },
+        {
+            "actor": "char:orobas",
+            "action": "say",
+            "text": "He IS Arch Magni of Trebol."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "1f3"
+        },
+        {
+            "actor": "narrator",
+            "action": "say",
+            "text": ""
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "1f4"
+        },
+        {
+            "actor": "char:amdusias",
+            "action": "say",
+            "text": "What are you supposed to do, then? Are you comprised of nothing but soft edges?"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "1f6"
+        },
+        {
+            "actor": "char:orobas",
+            "action": "say",
+            "text": "He just told me to assist you. He didn’t specify what that would entail."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "1f4"
+        },
+        {
+            "actor": "char:amdusias",
+            "action": "say",
+            "text": "Then you may assist me by leaving me alone. I do not need someone tagging along."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "1f5"
+        },
+        {
+            "actor": "char:orobas",
+            "action": "say",
+            "text": "Andre did specify you would say that. And that I can’t be compelled to follow any orders that would result in me not being ready and able to assist you at any moment."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "1g"
+        },
+        {
+            "actor": "char:amdusias",
+            "action": "say",
+            "text": "That irksome little peacock!"
+        },
+        {
+            "actor": "char:orobas",
+            "action": "say",
+            "text": "I think he’s pretty funny. He said we’d look natural together."
+        },
+        {
+            "actor": "char:amdusias",
+            "action": "say",
+            "text": "I don’t know what that means."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "1h1"
+        },
+        {
+            "actor": "char:orobas",
+            "action": "say",
+            "text": "Me either."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "1h2"
+        },
+        {
+            "actor": "narrator",
+            "action": "say",
+            "text": ""
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "1h3"
+        },
+        {
+            "actor": "narrator",
+            "action": "say",
+            "text": ""
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "1h2"
+        },
+        {
+            "actor": "char:amdusias",
+            "action": "say",
+            "text": "One of your eyes just winked at me."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "1h5"
+        },
+        {
+            "actor": "char:orobas",
+            "action": "say",
+            "text": "Did it?"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "1h4"
+        },
+        {
+            "actor": "char:amdusias",
+            "action": "say",
+            "text": "Yes."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "1h6"
+        },
+        {
+            "actor": "char:orobas",
+            "action": "say",
+            "text": "Strange."
+        },
+        {
+            "actor": "char:orobas",
+            "action": "say",
+            "text": "I don’t know why it did that."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "1h7"
+        },
+        {
+            "actor": "narrator",
+            "action": "say",
+            "text": ""
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "1h8"
+        },
+        {
+            "actor": "narrator",
+            "action": "say",
+            "text": ""
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "1h7"
+        },
+        {
+            "actor": "char:amdusias",
+            "action": "say",
+            "text": "It winked at me, again."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "1h10"
+        },
+        {
+            "actor": "char:orobas",
+            "action": "say",
+            "text": "How odd! It can’t be helped then, I guess."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "1h9"
+        },
+        {
+            "actor": "narrator",
+            "action": "say",
+            "text": ""
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "1h11"
+        },
+        {
+            "actor": "char:amdusias",
+            "action": "say",
+            "text": "I find it difficult to believe your own physiology is a mystery to you."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "1h12"
+        },
+        {
+            "actor": "char:orobas",
+            "action": "say",
+            "text": "And <em>I</em> find it difficult to believe you don’t need an assistant."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "1h13"
+        },
+        {
+            "actor": "char:amdusias",
+            "action": "say",
+            "text": "Why do—"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "1i1"
+        },
+        {
+            "actor": "char:orobas",
+            "action": "say",
+            "text": "Look! Bluegrass!"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "1i2"
+        },
+        {
+            "actor": "char:orobas",
+            "action": "say",
+            "text": "That’s our stop, yes?"
+        },
+        {
+            "actor": "char:amdusias",
+            "action": "say",
+            "text": "…"
+        },
+        {
+            "actor": "char:amdusias",
+            "action": "say",
+            "text": "Yes. I am getting off."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "1j"
+        },
+        {
+            "actor": "char:orobas",
+            "action": "say",
+            "text": "Have their address?"
+        },
+        {
+            "actor": "char:amdusias",
+            "action": "say",
+            "text": "Yes. Andre provided me with a map, as well."
+        },
+        {
+            "actor": "char:orobas",
+            "action": "say",
+            "text": "Then let's go!"
+        },
+        {
+            "actor": "char:amdusias",
+            "action": "say",
+            "text": "I was already going."
+        },
+        {
+            "actor": "curtain",
+            "action": "lower"
+        },
+        {
+            "actor": "jukebox",
+            "action": "stop"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "1k1"
+        },
+        {
+            "actor": "char:amdusias",
+            "action": "say",
+            "text": "The map confirms my suspicions. This is the correct path."
+        },
+        {
+            "actor": "char:orobas",
+            "action": "say",
+            "text": "The sign back there <em>did</em> read “Private Road: Vassal Beleth”."
+        },
+        {
+            "actor": "char:amdusias",
+            "action": "say",
+            "text": "You can’t always trust signs."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "1l1"
+        },
+        {
+            "actor": "char:orobas",
+            "action": "say",
+            "text": "Make sure to smile when you meet them! First impressions are important."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "1l2"
+        },
+        {
+            "actor": "jukebox",
+            "action": "play",
+            "track": "amdusias-slow"
+        },
+        {
+            "actor": "char:amdusias",
+            "action": "say",
+            "text": "You are not my mother. I will smile only if I feel it necessary. "
+        },
+        {
+            "actor": "char:amdusias",
+            "action": "say",
+            "text": "Given the reason I am calling on them, a scowl would be more appropriate."
+        },
+        {
+            "actor": "curtain",
+            "action": "lower"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "2a"
+        },
+        {
+            "actor": "char:amdusias",
+            "action": "say",
+            "text": "I can see light behind the curtains."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "2b"
+        },
+        {
+            "actor": "char:amdusias",
+            "action": "say",
+            "text": "(knock, knock)"
+        },
+        {
+            "actor": "char:amdusias",
+            "action": "say",
+            "text": "…"
+        },
+        {
+            "actor": "char:orobas",
+            "action": "say",
+            "text": "…"
+        },
+        {
+            "actor": "char:orobas",
+            "action": "say",
+            "text": "Maybe they can’t hear you."
+        },
+        {
+            "actor": "char:amdusias",
+            "action": "say",
+            "text": "(KNOCK, KNOCK)"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "2c1"
+        },
+        {
+            "actor": "narrator",
+            "action": "say",
+            "text": ""
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "2c3"
+        },
+        {
+            "actor": "char:orobas",
+            "action": "say",
+            "text": "Wow."
+        },
+        {
+            "actor": "char:amdusias",
+            "action": "say",
+            "text": "…"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "2d1"
+        },
+        {
+            "actor": "char:amdusias",
+            "action": "say",
+            "text": "Is there something I’m not aware of?"
+        },
+        {
+            "actor": "char:orobas",
+            "action": "say",
+            "text": "I can feel a storm a-comin’."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "2d2"
+        },
+        {
+            "actor": "char:amdusias",
+            "action": "say",
+            "text": "…"
+        },
+        {
+            "actor": "char:amdusias",
+            "action": "say",
+            "text": "It <em>does</em> appear to have been raining. This weather is not uncommon for Bluegrass, however."
+        },
+        {
+            "actor": "char:amdusias",
+            "action": "say",
+            "text": "I suspect your amazement will fade in time."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "2c1"
+        },
+        {
+            "actor": "char:amdusias",
+            "action": "say",
+            "text": "(<em>KNOCK, KNOCK</em>)"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "2c3"
+        },
+        {
+            "actor": "char:orobas",
+            "action": "say",
+            "text": "Looks like it’ll be a big one, too."
+        },
+        {
+            "actor": "char:amdusias",
+            "action": "say",
+            "text": "They almost always are."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "2c1"
+        },
+        {
+            "actor": "char:amdusias",
+            "action": "say",
+            "text": "(knock)"
+        },
+        {
+            "actor": "char:amdusias",
+            "action": "say",
+            "text": "…"
+        },
+        {
+            "actor": "char:amdusias",
+            "action": "say",
+            "text": "Are they ignoring me?! I have knocked hard enough for it to be felt by everyone inside!"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "2c2"
+        },
+        {
+            "actor": "char:orobas",
+            "action": "say",
+            "text": "Everyone outside, too."
+        },
+        {
+            "actor": "char:amdusias",
+            "action": "say",
+            "text": "…"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "2e"
+        },
+        {
+            "actor": "char:amdusias",
+            "action": "say",
+            "text": "Ah! The miscreant has left their door unlocked."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "2f1"
+        },
+        {
+            "actor": "char:amdusias",
+            "action": "say",
+            "text": "Let us proceed."
+        },
+        {
+            "actor": "char:orobas",
+            "action": "say",
+            "text": "I don’t think we should."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "2f2"
+        },
+        {
+            "actor": "char:amdusias",
+            "action": "say",
+            "text": "Don’t be ridiculous. A storm approaches, just as you mentioned. It could resume raining any moment, and I do not wish to be rained upon."
+        },
+        {
+            "actor": "char:orobas",
+            "action": "say",
+            "text": "I wouldn’t mind being rained down upon."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "2f3"
+        },
+        {
+            "actor": "char:amdusias",
+            "action": "say",
+            "text": "Then you may stay out here. I do not care."
+        },
+        {
+            "actor": "char:orobas",
+            "action": "say",
+            "text": "Don’t ruin their vacation. Be polite!"
+        },
+        {
+            "actor": "char:amdusias",
+            "action": "say",
+            "text": "Again, you are not my mother. But if it will ease your mind, I will be professional."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "2f4"
+        },
+        {
+            "actor": "char:orobas",
+            "action": "say",
+            "text": "Yeah, about that."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "2g"
+        },
+        {
+            "actor": "char:amdusias",
+            "action": "say",
+            "text": "They are wasting energy!"
+        },
+        {
+            "actor": "char:orobas",
+            "action": "say",
+            "text": "What?"
+        },
+        {
+            "actor": "char:amdusias",
+            "action": "say",
+            "text": "They have left their projector on, and they are nowhere to be seen."
+        },
+        {
+            "actor": "char:orobas",
+            "action": "say",
+            "text": "They’re probably just getting something to eat. Maybe it’s showing a commercial. Stop making excuses to go inside!"
+        },
+        {
+            "actor": "char:amdusias",
+            "action": "say",
+            "text": "It doesn’t sound like a commercial. They must have left the house without turning it off."
+        },
+        {
+            "actor": "char:amdusias",
+            "action": "say",
+            "text": "This is the perfect chance."
+        },
+        {
+            "actor": "char:orobas",
+            "action": "say",
+            "text": "For what?"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "2h"
+        },
+        {
+            "actor": "narrator",
+            "action": "say",
+            "text": ""
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "2i1"
+        },
+        {
+            "actor": "char:orobas",
+            "action": "say",
+            "text": "This isn’t professional at all! "
+        },
+        {
+            "actor": "char:orobas",
+            "action": "say",
+            "text": "Amdusias!"
+        },
+        {
+            "actor": "char:amdusias",
+            "action": "say",
+            "text": "Quiet! You will alert them to our presence."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "2i2"
+        },
+        {
+            "actor": "char:orobas",
+            "action": "say",
+            "text": "You said they weren’t here!"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "2j"
+        },
+        {
+            "actor": "narrator",
+            "action": "say",
+            "text": ""
+        },
+        {
+            "actor": "char:amdusias",
+            "action": "say",
+            "text": "I’ll confirm that. I will be back in an hour."
+        },
+        {
+            "actor": "char:orobas",
+            "action": "say",
+            "text": "You don’t need an hour to see if anyone’s home! Amdusias!"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "2k"
+        },
+        {
+            "actor": "char:amdusias",
+            "action": "say",
+            "text": "..."
+        },
+        {
+            "actor": "char:amdusias",
+            "action": "say",
+            "text": "Is Vassal Beleth an actual child?"
+        },
+        {
+            "actor": "char:orobas",
+            "action": "say",
+            "text": "What?"
+        },
+        {
+            "actor": "char:amdusias",
+            "action": "say",
+            "text": "Not only is the program being shown cheaply-made horror, there are comic books scattered about. And…"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "2l"
+        },
+        {
+            "actor": "char:amdusias",
+            "action": "say",
+            "text": "A life-sized doll? What nonsense!"
+        },
+        {
+            "actor": "char:amdusias",
+            "action": "say",
+            "text": "And there are more dolls all over!"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "2m1"
+        },
+        {
+            "actor": "char:amdusias",
+            "action": "say",
+            "text": "This is not the house of a serious commander!"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "2m2"
+        },
+        {
+            "actor": "char:amdusias",
+            "action": "say",
+            "text": "I must investigate."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "2m3"
+        },
+        {
+            "actor": "char:orobas",
+            "action": "say",
+            "text": "I will tell on you <em>so hard</em> if you do."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "2n"
+        },
+        {
+            "actor": "char:amdusias",
+            "action": "say",
+            "text": "You will do no such thing!"
+        },
+        {
+            "actor": "char:orobas",
+            "action": "say",
+            "text": "Then don’t be creepy!"
+        },
+        {
+            "actor": "char:amdusias",
+            "action": "say",
+            "text": "I am <em>not</em> creepy."
+        },
+        {
+            "actor": "char:orobas",
+            "action": "say",
+            "text": "You’re already <em>being</em> creepy. Just come back later, when they’re home!"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "2o"
+        },
+        {
+            "actor": "char:amdusias",
+            "action": "say",
+            "text": "No. It is about to rain, and I have no umbrella."
+        },
+        {
+            "actor": "char:orobas",
+            "action": "say",
+            "text": "You know I have one! Let’s go!"
+        },
+        {
+            "actor": "char:amdusias",
+            "action": "say",
+            "text": "Your umbrella is too small for me."
+        },
+        {
+            "actor": "char:amdusias",
+            "action": "say",
+            "text": "I have no choice but to sit here and wait for our host to return. Perhaps they can provide me with a spare umbrella."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "2p1"
+        },
+        {
+            "actor": "char:orobas",
+            "action": "say",
+            "text": "You’re just going to sit there? Really?"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "2p2"
+        },
+        {
+            "actor": "char:amdusias",
+            "action": "say",
+            "text": "Yes."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "2p1"
+        },
+        {
+            "actor": "char:orobas",
+            "action": "say",
+            "text": "That is <em>way</em> creepy."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "2p2"
+        },
+        {
+            "actor": "char:amdusias",
+            "action": "say",
+            "text": "If I investigate the house, it’s creepy. If I don’t investigate the house, it’s creepy."
+        },
+        {
+            "actor": "char:amdusias",
+            "action": "say",
+            "text": "As you cannot make up your mind, I will do as I please. Which is to wait right here."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "2p3"
+        },
+        {
+            "actor": "char:orobas",
+            "action": "say",
+            "text": "I am so not doing this. I’m out. I’ll be back later."
+        },
+        {
+            "actor": "char:amdusias",
+            "action": "say",
+            "text": "Enjoy the rain."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "3a1"
+        },
+        {
+            "actor": "char:amdusias",
+            "action": "say",
+            "text": "<em>What a boring program. Do they really find this rubbish entertaining?</em>"
+        },
+        {
+            "actor": "char:amdusias",
+            "action": "say",
+            "text": "…"
+        },
+        {
+            "actor": "jukebox",
+            "action": "play",
+            "track": "price"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "3b2"
+        },
+        {
+            "actor": "char:amdusias",
+            "action": "say",
+            "text": "…"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "3b3"
+        },
+        {
+            "actor": "char:amdusias",
+            "action": "say",
+            "text": "…"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "3b5"
+        },
+        {
+            "actor": "narrator",
+            "action": "say",
+            "text": ""
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "3b3"
+        },
+        {
+            "actor": "narrator",
+            "action": "say",
+            "text": ""
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "3b2"
+        },
+        {
+            "actor": "narrator",
+            "action": "say",
+            "text": ""
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "3b1"
+        },
+        {
+            "actor": "narrator",
+            "action": "say",
+            "text": ""
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "3a1"
+        },
+        {
+            "actor": "char:tv",
+            "action": "say",
+            "text": "Welcome back, kids! You’re very brave to still be here, you know. "
+        },
+        {
+            "actor": "char:tv",
+            "action": "say",
+            "text": "Tonight’s story is about a monster."
+        },
+        {
+            "actor": "char:amdusias",
+            "action": "say",
+            "text": "Hmph. I deal with those all the time."
+        },
+        {
+            "actor": "char:tv",
+            "action": "say",
+            "text": "Not the monster that taps on your window. Not the monster that lurks under your bed."
+        },
+        {
+            "actor": "char:tv",
+            "action": "say",
+            "text": "Not the monster that waits under the stairs, waiting to grab you as you walk past."
+        },
+        {
+            "actor": "char:tv",
+            "action": "say",
+            "text": "Those monsters are just figments of someone’s imagination."
+        },
+        {
+            "actor": "char:tv",
+            "action": "say",
+            "text": "And don’t we know it, kids? Truth is often scarier than imagination."
+        },
+        {
+            "actor": "jukebox",
+            "action": "stop"
+        },
+        {
+            "actor": "char:tv",
+            "action": "say",
+            "text": "The real monster, kids, lives in your closet."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "3a2"
+        },
+        {
+            "actor": "jukebox",
+            "action": "play",
+            "track": "amdusias"
+        },
+        {
+            "actor": "char:amdusias",
+            "action": "say",
+            "text": "…"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "3c1"
+        },
+        {
+            "actor": "char:tv",
+            "action": "say",
+            "text": "Would you like to know the signs? How to tell if it’s there? I do not think you do, but..."
+        },
+        {
+            "actor": "char:tv",
+            "action": "say",
+            "text": "When you hear something moving around in there, late at night, when you’re all alone."
+        },
+        {
+            "actor": "char:tv",
+            "action": "say",
+            "text": "When the doorknob starts to rattle."
+        },
+        {
+            "actor": "char:tv",
+            "action": "say",
+            "text": "That’s how you know it’s there."
+        },
+        {
+            "actor": "char:tv",
+            "action": "say",
+            "text": "You can run to your parents, and tell them all about it."
+        },
+        {
+            "actor": "char:tv",
+            "action": "say",
+            "text": "“It’s just the house settling.” That’s what they’ll say. "
+        },
+        {
+            "actor": "char:tv",
+            "action": "say",
+            "text": "“Monsters aren’t real.”"
+        },
+        {
+            "actor": "char:tv",
+            "action": "say",
+            "text": "“There’s nothing to worry about.” "
+        },
+        {
+            "actor": "char:tv",
+            "action": "say",
+            "text": "You don’t agree. Nevertheless, it’s back to bed for you."
+        },
+        {
+            "actor": "char:tv",
+            "action": "say",
+            "text": "And as you lay in bed, thinking that your parents were right, that there was nothing to worry about, the doorknob will turn again."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "3c2"
+        },
+        {
+            "actor": "char:tv",
+            "action": "say",
+            "text": "The closet door will open, ever so slowly, with nary a sound."
+        },
+        {
+            "actor": "char:tv",
+            "action": "say",
+            "text": "Your parents were wrong. "
+        },
+        {
+            "actor": "char:tv",
+            "action": "say",
+            "text": "There is something in your closet."
+        },
+        {
+            "actor": "char:tv",
+            "action": "say",
+            "text": "And it sees you."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "3d1"
+        },
+        {
+            "actor": "char:amdusias",
+            "action": "say",
+            "text": "Nonsense. "
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "3d2"
+        },
+        {
+            "actor": "char:amdusias",
+            "action": "say",
+            "text": "I can’t believe anyone would willingly pollute their brain with this."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "3e"
+        },
+        {
+            "actor": "char:amdusias",
+            "action": "say",
+            "text": "…"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "3f"
+        },
+        {
+            "actor": "narrator",
+            "action": "say",
+            "text": ""
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "3g"
+        },
+        {
+            "actor": "narrator",
+            "action": "say",
+            "text": ""
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "3h"
+        },
+        {
+            "actor": "narrator",
+            "action": "say",
+            "text": ""
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "3i"
+        },
+        {
+            "actor": "narrator",
+            "action": "say",
+            "text": ""
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "3j"
+        },
+        {
+            "actor": "narrator",
+            "action": "say",
+            "text": ""
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "3k"
+        },
+        {
+            "actor": "char:amdusias",
+            "action": "say",
+            "text": "…"
+        },
+        {
+            "actor": "char:amdusias",
+            "action": "say",
+            "text": "You…"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "3l"
+        },
+        {
+            "actor": "char:amdusias",
+            "action": "say",
+            "text": "You are not welcome in this place."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "3b7"
+        },
+        {
+            "actor": "jukebox",
+            "action": "play",
+            "track": "rainchop"
+        },
+        {
+            "actor": "char:tv",
+            "action": "say",
+            "text": "And now for a word from our sponsors! Stay tuned, kids!"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "3b6"
+        },
+        {
+            "actor": "char:orobas",
+            "action": "say",
+            "text": "Amdusias! Amdusias!"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "3m1"
+        },
+        {
+            "actor": "char:amdusias",
+            "action": "say",
+            "text": "What is it?"
+        },
+        {
+            "actor": "char:orobas",
+            "action": "say",
+            "text": "I’ve been trying to wake you up for the past thirty minutes!"
+        },
+        {
+            "actor": "char:amdusias",
+            "action": "say",
+            "text": "I fell asleep?!"
+        },
+        {
+            "actor": "char:orobas",
+            "action": "say",
+            "text": "Yes, you did! Look!"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "3m2"
+        },
+        {
+            "actor": "char:orobas",
+            "action": "say",
+            "text": "It’s Vassal Beleth!"
+        },
+        {
+            "actor": "char:amdusias",
+            "action": "say",
+            "text": "..."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "3n2"
+        },
+        {
+            "actor": "char:amdusias",
+            "action": "say",
+            "text": "I see <em>you</em> had no problem going through their belongings."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "3n1"
+        },
+        {
+            "actor": "char:beleth",
+            "action": "say",
+            "text": "One… six…"
+        },
+        {
+            "actor": "char:amdusias",
+            "action": "say",
+            "text": "Hm?"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "3o"
+        },
+        {
+            "actor": "char:beleth",
+            "action": "say",
+            "text": "Five… six…"
+        },
+        {
+            "actor": "char:orobas",
+            "action": "say",
+            "text": "Oh, shit! They’re waking up!"
+        },
+        {
+            "actor": "char:amdusias",
+            "action": "say",
+            "text": "They’re just talking in their sleep."
+        },
+        {
+            "actor": "char:beleth",
+            "action": "say",
+            "text": "Two… three… two…"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "3p"
+        },
+        {
+            "actor": "char:orobas",
+            "action": "say",
+            "text": "I’m not here. I’m not here!"
+        },
+        {
+            "action": "notext"
+        },
+        {
+            "actor": "jukebox",
+            "action": "stop"
+        },
+        {
+            "actor": "curtain",
+            "action": "lower"
+        },
+        {
+            "actor": "backdrop",
+            "action": "hide"
+        },
+        {
+            "action": "roll_credits"
+        }
+    ]
+}

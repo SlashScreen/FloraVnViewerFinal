@@ -1,0 +1,1170 @@
+{
+    "asset_root": ".",
+    "name": "prompt2-itchyitchy-final",
+    "title": "Itchy Itchy: Prompt",
+    "preview": "preview.png",
+    "credits": {
+        "people": [
+            {
+                "who": "PK",
+                "for": "Art, Music",
+                "deviantart": "purplekecleon",
+                "tumblr": "purplekecleon",
+                "twitter": "papayakitty"
+            },
+            {
+                "who": "Marl",
+                "for": "Script",
+                "deviantart": "marlcabinet",
+                "tumblr": "avolontes"
+            },
+            {
+                "who": "Eevee",
+                "for": "Programming",
+                "website": "http://eev.ee/",
+                "deviantart": "lexyeevee",
+                "tumblr": "lexyeevee",
+                "twitter": "eevee"
+            }
+        ],
+        "footer_html": [
+            "<a href='http://floraverse.com/'>Floraverse</a>",
+            "<a href='https://floraverse.bandcamp.com/'>Bandcamp</a>",
+            "ball's in your court now!"
+        ]
+    },
+    "actors": {
+        "curtain": {
+            "type": "curtain"
+        },
+        "jukebox": {
+            "type": "jukebox",
+            "tracks": {
+                "biff": "biff.oga",
+                "andre": "andre_6militarynew.oga",
+                "buer": "wind_3buer.oga",
+                "beleth": "beleththing.oga"
+            }
+        },
+        "frame-contents": {
+            "type": "spot",
+            "position": "imagespot-back backdrop",
+            "views": {
+                "splash": "itchitchypromptcard.png",
+                "beleth": "auditoriumbelethbg.png",
+                "biff": "auditoriumbiffbg.png",
+                "buer": "auditoriumbuerbg.png",
+                "andre": "militarybgportrait.png"
+            }
+        },
+        "narrator": {
+            "type": "character",
+            "name": null,
+            "color": "black"
+        },
+        "char:beleth": {
+            "type": "character",
+            "name": "Beleth",
+            "color": "#d22e8c",
+            "position": "back",
+            "poses": {
+                "1": "beleth1.png",
+                "1a": "beleth1a.png",
+                "2": "beleth2.png",
+                "3": "beleth3.png",
+                "4": "beleth4.png",
+                "5": "beleth5.png",
+                "6": "beleth6.png",
+                "7": "beleth7.png",
+                "8": "beleth8.png",
+                "9": "beleth9.png"
+            }
+        },
+        "char:biff": {
+            "type": "character",
+            "name": "Biff",
+            "color": "#466e82",
+            "position": "middle",
+            "poses": {
+                "1": "biff1.png",
+                "2": "biff2.png",
+                "3": "biff3.png",
+                "4": "biff4.png",
+                "5": "biff5.png",
+                "6": "biff6.png",
+                "7": "biff7.png",
+                "8": "biff8.png",
+                "9": "biff9.png",
+                "10": "biff10.png",
+                "11": "biff11.png"
+            }
+        },
+        "char:buer": {
+            "type": "character",
+            "name": "Buer",
+            "color": "#7f9783",
+            "position": "middle",
+            "poses": {
+                "1": "buer1.png",
+                "2": "buer2.png",
+                "3": "buer3.png",
+                "4": "buer4.png",
+                "5": "buer5.png"
+            }
+        },
+        "char:andre": {
+            "type": "character",
+            "name": "Andre",
+            "color": "#952413",
+            "position": "back",
+            "poses": {
+                "1": "andre1.png",
+                "2": "andre2.png",
+                "3": "andre3.png",
+                "4": "andre4.png",
+                "5": "andre5.png",
+                "6": "andre6.png",
+                "7": "andre7.png",
+                "8": "andre8.png",
+                "9": "andre9.png",
+                "10": "andre10.png",
+                "11": "andre11.png"
+            }
+        },
+        "frame": {
+            "type": "spot",
+            "position": "imagespot-middle",
+            "views": {
+                "auditorium": "auditorium.png",
+                "warehouse": "militarybg.png"
+            }
+        }
+    },
+    "script": [
+        {
+            "actor": "frame-contents",
+            "action": "show",
+            "view": "splash"
+        },
+        {
+            "action": "pause"
+        },
+        {
+            "actor": "jukebox",
+            "action": "play",
+            "track": "beleth"
+        },
+        {
+            "actor": "frame",
+            "action": "show",
+            "view": "auditorium"
+        },
+        {
+            "actor": "frame-contents",
+            "action": "show",
+            "view": "beleth"
+        },
+        {
+            "actor": "narrator",
+            "action": "say",
+            "text": "<i>Turnstile — Vinyl\nGeneric Warehouse — Auditorium area</i>"
+        },
+        {
+            "actor": "char:beleth",
+            "action": "pose",
+            "view": "1a"
+        },
+        {
+            "actor": "char:beleth",
+            "action": "pose",
+            "view": "1a"
+        },
+        {
+            "actor": "char:beleth",
+            "action": "say",
+            "text": "Hey."
+        },
+        {
+            "actor": "char:beleth",
+            "action": "pose",
+            "view": "1"
+        },
+        {
+            "actor": "char:beleth",
+            "action": "say",
+            "text": "Everyone here?"
+        },
+        {
+            "actor": "char:beleth",
+            "action": "pose",
+            "view": "2"
+        },
+        {
+            "actor": "char:beleth",
+            "action": "say",
+            "text": "All right. You can all hear me? Sorry I can’t be there with you all in person. It’d be too risky, what with the disease and everything still running rampant. I’m supposed to stay in my broom cl—"
+        },
+        {
+            "actor": "char:beleth",
+            "action": "pose",
+            "view": "4"
+        },
+        {
+            "actor": "char:beleth",
+            "action": "say",
+            "text": "Command center."
+        },
+        {
+            "actor": "char:beleth",
+            "action": "pose",
+            "view": "7"
+        },
+        {
+            "actor": "char:beleth",
+            "action": "say",
+            "text": "Let’s get this started."
+        },
+        {
+            "actor": "char:beleth",
+            "action": "pose",
+            "view": "2"
+        },
+        {
+            "actor": "char:beleth",
+            "action": "say",
+            "text": "I’m sorry you all have to see Trebol in its current state. It's normally a pretty good place for your type to visit. It's the least dangerous of all the islands."
+        },
+        {
+            "actor": "char:beleth",
+            "action": "pose",
+            "view": "6"
+        },
+        {
+            "actor": "char:beleth",
+            "action": "say",
+            "text": "..."
+        },
+        {
+            "actor": "char:beleth",
+            "action": "pose",
+            "view": "5"
+        },
+        {
+            "actor": "char:beleth",
+            "action": "say",
+            "text": "Usually."
+        },
+        {
+            "actor": "char:beleth",
+            "action": "pose",
+            "view": "8"
+        },
+        {
+            "actor": "char:beleth",
+            "action": "say",
+            "text": "Well, I think it still is. Especially when you compare it to Pike."
+        },
+        {
+            "actor": "char:beleth",
+            "action": "pose",
+            "view": "2"
+        },
+        {
+            "actor": "char:beleth",
+            "action": "say",
+            "text": "Anyway, that’s kind of off topic. We're going to need all of you to patrol Trebol and look for Hellsiders that aren't in a city or town. If you find any, you need to tell them to get to the nearest one as soon as possible. They need to stay there until the outbreak is over."
+        },
+        {
+            "actor": "char:beleth",
+            "action": "pose",
+            "view": "1"
+        },
+        {
+            "actor": "char:beleth",
+            "action": "say",
+            "text": "We'll need the entire island to be searched, with an emphasis on Bluegrass. Bluegrass is the only section of the island that has forests and mountains, so there's bound to be more than a few Hellsiders camping up there."
+        },
+        {
+            "actor": "char:beleth",
+            "action": "pose",
+            "view": "2"
+        },
+        {
+            "actor": "char:beleth",
+            "action": "say",
+            "text": "Finding them will be the easy part. The difficult part will be getting them to actually do what you say. Luckily, I have a solution."
+        },
+        {
+            "actor": "char:beleth",
+            "action": "pose",
+            "view": "7"
+        },
+        {
+            "actor": "char:beleth",
+            "action": "say",
+            "text": "Hellsiders probably aren't going to want to listen to anything you say. So if you want them to comply with your orders, you're gonna need one of my dolls to stand behind you and look scary. I'm recording your face and broadcasting it to my dolls, so they'll follow you around if you want them to."
+        },
+        {
+            "actor": "char:beleth",
+            "action": "pose",
+            "view": "8"
+        },
+        {
+            "actor": "char:beleth",
+            "action": "say",
+            "text": "The dolls will defend you from small threats if you get into trouble, too. I'm talking really small threats, like wildlife."
+        },
+        {
+            "actor": "char:beleth",
+            "action": "pose",
+            "view": "3"
+        },
+        {
+            "actor": "char:beleth",
+            "action": "say",
+            "text": "Try not to get in trouble, though. If the protective coating on my dolls gets damaged, I'll have to scrap the entire doll and build a completely new one, and that takes forever. So don't do it."
+        },
+        {
+            "actor": "char:beleth",
+            "action": "pose",
+            "view": "9"
+        },
+        {
+            "actor": "char:beleth",
+            "action": "say",
+            "text": "..."
+        },
+        {
+            "actor": "char:beleth",
+            "action": "pose",
+            "view": "2"
+        },
+        {
+            "actor": "char:beleth",
+            "action": "say",
+            "text": "That wraps it up for you and I. Good luck. Hellside appreciates it, even if most demons don't enjoy being around Topsiders."
+        },
+        {
+            "actor": "char:beleth",
+            "action": "pose",
+            "view": "9"
+        },
+        {
+            "actor": "narrator",
+            "action": "say",
+            "text": "<i>Task: Hellside Roundup — Do as the toy says and no one gets hurt\n\nCommander Beleth (Rank: Vassal) has given you a mission to travel across Trebol to look for Hellsiders that are currently not in a city or town. If you find any, tell them to head to the nearest city or town immediately. They need to stay there until Arch Magni Andre has declared the outbreak over.\n\nIf any Hellsider gives you trouble, find one of Beleth's dolls and have it follow you. Beleth has them wandering all over Trebol, so finding one should be very easy. No Hellsider will want to argue with a commander, so if they see a doll backing you up, they'll do as you say. Within reason, of course.</i>"
+        },
+        {
+            "actor": "jukebox",
+            "action": "stop"
+        },
+        {
+            "actor": "curtain",
+            "action": "lower"
+        },
+        {
+            "actor": "jukebox",
+            "action": "play",
+            "track": "biff"
+        },
+        {
+            "actor": "char:beleth",
+            "action": "leave"
+        },
+        {
+            "actor": "frame-contents",
+            "action": "show",
+            "view": "biff"
+        },
+        {
+            "actor": "char:biff",
+            "action": "pose",
+            "view": "1"
+        },
+        {
+            "actor": "char:biff",
+            "action": "say",
+            "text": "The life of the party is here!"
+        },
+        {
+            "actor": "char:biff",
+            "action": "pose",
+            "view": "2"
+        },
+        {
+            "actor": "char:biff",
+            "action": "say",
+            "text": "Ahahah!"
+        },
+        {
+            "actor": "char:biff",
+            "action": "pose",
+            "view": "4"
+        },
+        {
+            "actor": "char:biff",
+            "action": "say",
+            "text": "I’m pretty tall in this format. You could say I’m..."
+        },
+        {
+            "actor": "char:biff",
+            "action": "pose",
+            "view": "1"
+        },
+        {
+            "actor": "char:biff",
+            "action": "say",
+            "text": "Larger than life."
+        },
+        {
+            "actor": "char:biff",
+            "action": "pose",
+            "view": "2"
+        },
+        {
+            "actor": "char:biff",
+            "action": "say",
+            "text": "Hoo!"
+        },
+        {
+            "actor": "char:biff",
+            "action": "pose",
+            "view": "5"
+        },
+        {
+            "actor": "char:biff",
+            "action": "say",
+            "text": "..."
+        },
+        {
+            "actor": "char:biff",
+            "action": "pose",
+            "view": "6"
+        },
+        {
+            "actor": "char:biff",
+            "action": "say",
+            "text": "Nothing? Oh well."
+        },
+        {
+            "actor": "char:biff",
+            "action": "pose",
+            "view": "2"
+        },
+        {
+            "actor": "char:biff",
+            "action": "say",
+            "text": "Who wants a party hat? They’re free!"
+        },
+        {
+            "actor": "char:biff",
+            "action": "pose",
+            "view": "6"
+        },
+        {
+            "actor": "char:biff",
+            "action": "say",
+            "text": "Aw, fine. None of you are any fun. Let’s get to work, then. You wouldn’t want to wear those hats, anyway."
+        },
+        {
+            "actor": "char:biff",
+            "action": "pose",
+            "view": "1"
+        },
+        {
+            "actor": "char:biff",
+            "action": "say",
+            "text": "Are you all ready to walk hand in hand with death? To see beyond the veil of mortality?"
+        },
+        {
+            "actor": "char:biff",
+            "action": "pose",
+            "view": "2"
+        },
+        {
+            "actor": "char:biff",
+            "action": "say",
+            "text": "Stick some party hats on corpses? Ahah!"
+        },
+        {
+            "actor": "char:biff",
+            "action": "pose",
+            "view": "11"
+        },
+        {
+            "actor": "char:biff",
+            "action": "say",
+            "text": "But seriously, I'm going to need all of you to put some party hats on corpses. You won't be in any danger. Median has told me that Topsiders can't catch or carry the disease we got running rampant down here. "
+        },
+        {
+            "actor": "char:biff",
+            "action": "pose",
+            "view": "1"
+        },
+        {
+            "actor": "char:biff",
+            "action": "say",
+            "text": "I see some of you looking nervous! They're just dead bodies. I bet you've seen dozens of them yourself. With luck, you'll even be one someday! Isn't that exciting?"
+        },
+        {
+            "actor": "char:biff",
+            "action": "pose",
+            "view": "3"
+        },
+        {
+            "actor": "char:biff",
+            "action": "say",
+            "text": "Besides, It's not like they're zombies."
+        },
+        {
+            "actor": "char:biff",
+            "action": "pose",
+            "view": "1"
+        },
+        {
+            "actor": "char:biff",
+            "action": "say",
+            "text": "Median says that the bodies can spread this disease even after death, so it's much too dangerous to get Hellsiders to handle their disposal. But we're not asking you to haul every corpse you see to a safe burial spot, no!"
+        },
+        {
+            "actor": "char:biff",
+            "action": "pose",
+            "view": "2"
+        },
+        {
+            "actor": "char:biff",
+            "action": "say",
+            "text": "That's where the hats come in. When you find a body, I'll need you to slip the hat on right over its head. Nothing to it. Give it the hat and go about your business, and the body will do all the manual labor for you! It'll walk itself right into the designated burial spots all on its own. You won't have to lift a muscle! Isn't that great?"
+        },
+        {
+            "actor": "char:biff",
+            "action": "pose",
+            "view": "6"
+        },
+        {
+            "actor": "char:biff",
+            "action": "say",
+            "text": "Okay, yeah, you're turning them into zombies. Don't worry about it. They're cool. Not like the ones you may have read about. No mindless violence or insatiable hunger for the living. Not at all."
+        },
+        {
+            "actor": "char:biff",
+            "action": "pose",
+            "view": "8"
+        },
+        {
+            "actor": "char:biff",
+            "action": "say",
+            "text": "Well, usually. Some of them might be kinda angry."
+        },
+        {
+            "actor": "char:biff",
+            "action": "pose",
+            "view": "9"
+        },
+        {
+            "actor": "char:biff",
+            "action": "say",
+            "text": "Okay, you know what? I'm gonna be honest with all of you. My party hats reanimate corpses almost instantly, but they need a few minutes to take control of the body. "
+        },
+        {
+            "actor": "char:biff",
+            "action": "pose",
+            "view": "10"
+        },
+        {
+            "actor": "char:biff",
+            "action": "say",
+            "text": "This normally isn't a problem, but some corpses just don't like to be disturbed. They can be kind of grumpy. If you wake one up and it attempts to detach your face from your body or anything else like that, just give it a good thwack on the head. It'll leave you alone and go on its way."
+        },
+        {
+            "actor": "char:biff",
+            "action": "pose",
+            "view": "5"
+        },
+        {
+            "actor": "char:biff",
+            "action": "say",
+            "text": "That's about it. Each of you should take a crate of party hats and a compass on your way out. The compass will point to the nearest dead thing within a mile or two."
+        },
+        {
+            "actor": "char:biff",
+            "action": "pose",
+            "view": "7"
+        },
+        {
+            "actor": "char:biff",
+            "action": "say",
+            "text": "The compass won't start working until you're outside Vinyl, though. It'll point to me until you leave the city limits. I haven't figured out how to get it to ignore certain things, yet."
+        },
+        {
+            "actor": "char:biff",
+            "action": "pose",
+            "view": "1"
+        },
+        {
+            "actor": "char:biff",
+            "action": "say",
+            "text": "Oh! Make sure all of you grab a stick or a baseball bat or something before you start your search."
+        },
+        {
+            "actor": "char:biff",
+            "action": "pose",
+            "view": "2"
+        },
+        {
+            "actor": "char:biff",
+            "action": "say",
+            "text": "Seeya!"
+        },
+        {
+            "actor": "narrator",
+            "action": "say",
+            "text": "<i>Task: Body Removal — You can't even rest when you're dead\n\nCommander Biff (Rank: Marquis) has given you a mission to travel across Trebol to put... party hats on dead bodies? Yes, you read that right. The compass he has given you has the foolproof ability to point to the nearest dead body a two-mile radius, so all you have to do is follow the needle!\n\nIf any of the reanimated corpses turn on you, do as Biff says and give them a smack on the head. With any luck, the zombie will be stunned long enough for the party hat to take control of its body. Oh, and don't worry about getting bitten by a zombie and turning into one yourself. Things like that just don't happen in real life.</i>"
+        },
+        {
+            "actor": "jukebox",
+            "action": "stop"
+        },
+        {
+            "actor": "curtain",
+            "action": "lower"
+        },
+        {
+            "actor": "jukebox",
+            "action": "play",
+            "track": "buer"
+        },
+        {
+            "actor": "char:biff",
+            "action": "leave"
+        },
+        {
+            "actor": "frame-contents",
+            "action": "show",
+            "view": "buer"
+        },
+        {
+            "actor": "char:buer",
+            "action": "pose",
+            "view": "2"
+        },
+        {
+            "actor": "char:buer",
+            "action": "say",
+            "text": "<span style='font-size: 0.6em;'>GREETINGS, TOPSIDERS! WE HAVE BEEN TOLD OF YOUR APPROACH, AND WE HAVE BEEN EXPECTING YOUR ARRIVAL!</span>"
+        },
+        {
+            "actor": "char:buer",
+            "action": "pose",
+            "view": "2"
+        },
+        {
+            "actor": "char:buer",
+            "action": "say",
+            "text": "..."
+        },
+        {
+            "actor": "char:buer",
+            "action": "pose",
+            "view": "1"
+        },
+        {
+            "actor": "char:buer",
+            "action": "say",
+            "text": "<span style='font-size: 1.5em;'>WE APOLOGIZE, TOPSIDERS. WE ARE TOLD OUR EARLIER VOICE WAS NEARLY OUTSIDE YOUR RANGE OF HEARING.</span>"
+        },
+        {
+            "actor": "char:buer",
+            "action": "pose",
+            "view": "1"
+        },
+        {
+            "actor": "char:buer",
+            "action": "say",
+            "text": "<span style='font-size: 1.5em;'>WE HAVE ALSO BEEN INFORMED THAT THIS CURRENT VOICE IS TOO LOUD FOR COMFORT. PLEASE HOLD.</span>"
+        },
+        {
+            "actor": "char:buer",
+            "action": "pose",
+            "view": "3"
+        },
+        {
+            "actor": "char:buer",
+            "action": "say",
+            "text": "THERE. WE THANK YOU FOR YOUR PATIENCE, AND FOR YOUR WILLINGNESS TO ASSIST OUR ISLAND IN ITS TIME OF NEED."
+        },
+        {
+            "actor": "char:buer",
+            "action": "pose",
+            "view": "3"
+        },
+        {
+            "actor": "char:buer",
+            "action": "say",
+            "text": "WE HAVE BEEN INFORMED BY ARCH MAGNI ANDRE AND MEDIAN THAT WE ARE TO ASSIST YOU IN THE LOCATING AND CAPTURING OF VARIOUS WILDLIFE ON SCREAMING ISLAND. BAROMETZ AND MANDRAKES, TO BE SPECIFIC."
+        },
+        {
+            "actor": "char:buer",
+            "action": "pose",
+            "view": "3"
+        },
+        {
+            "actor": "char:buer",
+            "action": "say",
+            "text": "WERE ONLY BAROMETZ REQUIRED, HELLSIDERS WOULD BE ABLE TO ACCOMPLISH THIS TASK WITHOUT THE HELP OF TOPSIDERS. ALAS, THAT IS NOT THE CASE."
+        },
+        {
+            "actor": "char:buer",
+            "action": "pose",
+            "view": "3"
+        },
+        {
+            "actor": "char:buer",
+            "action": "say",
+            "text": "BAROMETZ EXTRACT NUTRIENTS AND ELEMENTAL MAGIC FROM THE VERY GROUND THEY GROW IN. WE HAVE BEEN TOLD THAT BAROMETZ WILL ALSO BE ABLE TO EXTRACT THE PLAGUED MAGIC THAT IS RESPONSIBLE FOR OUR CURRENT SITUATION."
+        },
+        {
+            "actor": "char:buer",
+            "action": "pose",
+            "view": "3"
+        },
+        {
+            "actor": "char:buer",
+            "action": "say",
+            "text": "BAROMETZ ARE NORMALLY FIERCE AND VICIOUS CREATURES, AND ALTHOUGH THEY ARE PLANTS, THEY ARE ABLE TO LUNGE SEVERAL FEET TOWARD ANYTHING THEY VIEW AS A POTENTIAL FOOD SOURCE. TOPSIDERS ARE A POTENTIAL FOOD SOURCE FOR BAROMETZ."
+        },
+        {
+            "actor": "char:buer",
+            "action": "pose",
+            "view": "3"
+        },
+        {
+            "actor": "char:buer",
+            "action": "say",
+            "text": "IT IS UNFORTUNATE THAT YOU HAVE BEEN ASKED TO HANDLE SUCH CREATURES. FORTUNATELY, IF BAROMETZ ARE PRESENTED WITH THEIR FAVORITE FOOD: MANDRAKES, THEY WILL IGNORE ALL OTHER POTENTIAL FOOD SOURCES."
+        },
+        {
+            "actor": "char:buer",
+            "action": "pose",
+            "view": "3"
+        },
+        {
+            "actor": "char:buer",
+            "action": "say",
+            "text": "EVEN MORE FORTUNATE: BAROMETZ BECOME EXTREMELY DOCILE AND WILL SLEEP FOR UPWARDS OF TWELVE HOURS AFTER CONSUMING MANDRAKES. "
+        },
+        {
+            "actor": "char:buer",
+            "action": "pose",
+            "view": "3"
+        },
+        {
+            "actor": "char:buer",
+            "action": "say",
+            "text": "WE RECOMMEND USING THAT TIME TO UPROOT THE BAROMETZ AND BEGIN TRANSPORTING IT TO BLUEGRASS."
+        },
+        {
+            "actor": "char:buer",
+            "action": "pose",
+            "view": "3"
+        },
+        {
+            "actor": "char:buer",
+            "action": "say",
+            "text": "THE JOURNEY FROM SCREAMING ISLAND TO BLUEGRASS CAN TAKE SEVERAL DAYS, SO WE URGE YOU TO STOCKPILE AS MANY MANDRAKES AS YOU ARE ABLE TO, IN ORDER TO KEEP YOUR BAROMETZ DOCILE FOR THE DURATION OF THE JOURNEY."
+        },
+        {
+            "actor": "char:buer",
+            "action": "pose",
+            "view": "3"
+        },
+        {
+            "actor": "char:buer",
+            "action": "say",
+            "text": "IF DURING YOUR JOURNEY IT BECOMES APPARENT YOU DO NOT HAVE ENOUGH MANDRAKES TO LAST UNTIL YOU REACH YOUR DESTINATION, PROCEED WITH EXTREME CAUTION."
+        },
+        {
+            "actor": "char:buer",
+            "action": "pose",
+            "view": "3"
+        },
+        {
+            "actor": "char:buer",
+            "action": "say",
+            "text": "ENOUGH OF THAT. WE ARE GETTING AHEAD OF OURSELVES."
+        },
+        {
+            "actor": "char:buer",
+            "action": "pose",
+            "view": "5"
+        },
+        {
+            "actor": "char:buer",
+            "action": "say",
+            "text": "WHEN YOU REACH SCREAMING ISLAND, ONE OF OUR TOPSIDER BRETHREN JACKS WILL ACCOMPANY YOU. THEY WILL ASSIST YOU IN YOUR SEARCH FOR BAROMETZ AND MANDRAKES."
+        },
+        {
+            "actor": "char:buer",
+            "action": "pose",
+            "view": "4"
+        },
+        {
+            "actor": "char:buer",
+            "action": "say",
+            "text": "THE JACKS WILL ONLY LOCATE THE BAROMETZ AND THE MANDRAKES FOR YOU. THEY CANNOT ASSIST YOU IN HANDLING THEM.."
+        },
+        {
+            "actor": "char:buer",
+            "action": "pose",
+            "view": "4"
+        },
+        {
+            "actor": "char:buer",
+            "action": "say",
+            "text": "THAT IS ALL. PLEASE MAKE YOUR WAY TO SCREAMING ISLAND."
+        },
+        {
+            "actor": "narrator",
+            "action": "say",
+            "text": "<i>Task: Gather Barometz and Mandrakes — <span style='font-size: 0.6em;'>YOU WILL DO ALL OF THE LIFTING</span>\n\nGovernor Buer (Rank: Count) has given you a mission to find and gather as many Barometz as you can and to transport them to Bluegrass Forest, where they will be planted. Hopefully, they'll be able to remove all residual traces of the plagued magic present in the forest's soil.\n\nA Jack will accompany you throughout your search on Screaming Island. It will be able to lead you straight to either a Barometz or a Mandrake, but no more. You'll have to do all the difficult and dangerous work yourself.</i>"
+        },
+        {
+            "actor": "jukebox",
+            "action": "stop"
+        },
+        {
+            "actor": "curtain",
+            "action": "lower"
+        },
+        {
+            "actor": "jukebox",
+            "action": "play",
+            "track": "andre"
+        },
+        {
+            "actor": "char:buer",
+            "action": "leave"
+        },
+        {
+            "actor": "frame",
+            "action": "show",
+            "view": "warehouse"
+        },
+        {
+            "actor": "frame-contents",
+            "action": "show",
+            "view": "andre"
+        },
+        {
+            "actor": "char:andre",
+            "action": "pose",
+            "view": "10"
+        },
+        {
+            "actor": "char:andre",
+            "action": "say",
+            "text": "You must be the Topsiders I haven’t heard so much about! "
+        },
+        {
+            "actor": "char:andre",
+            "action": "pose",
+            "view": "11"
+        },
+        {
+            "actor": "char:andre",
+            "action": "say",
+            "text": "It’s about time you arrived."
+        },
+        {
+            "actor": "char:andre",
+            "action": "pose",
+            "view": "11"
+        },
+        {
+            "actor": "char:andre",
+            "action": "say",
+            "text": "Since you have demonstrated the insight required to choose the best and most important task, you have my approval to carry it out."
+        },
+        {
+            "actor": "char:andre",
+            "action": "pose",
+            "view": "8"
+        },
+        {
+            "actor": "char:andre",
+            "action": "say",
+            "text": "To your left we have a number of devices, all different sizes, but all the same in function."
+        },
+        {
+            "actor": "char:andre",
+            "action": "pose",
+            "view": "7"
+        },
+        {
+            "actor": "char:andre",
+            "action": "say",
+            "text": "Pick one best suited to your stature, and get ready to let the fun begin!"
+        },
+        {
+            "actor": "char:andre",
+            "action": "pose",
+            "view": "10"
+        },
+        {
+            "actor": "char:andre",
+            "action": "say",
+            "text": "Just keep your finger off the trigger until you’re ready to fire the grenades."
+        },
+        {
+            "actor": "char:andre",
+            "action": "pose",
+            "view": "9"
+        },
+        {
+            "actor": "char:andre",
+            "action": "say",
+            "text": "By the way, you’ll be loading the devices with grenades. Those are on the right, in the crates."
+        },
+        {
+            "actor": "char:andre",
+            "action": "pose",
+            "view": "6"
+        },
+        {
+            "actor": "char:andre",
+            "action": "say",
+            "text": "You’ll be firing those grenades into as many villages, towns and cities as you can manage!"
+        },
+        {
+            "actor": "char:andre",
+            "action": "pose",
+            "view": "5"
+        },
+        {
+            "actor": "char:andre",
+            "action": "say",
+            "text": "But instead of raining down devastation, you’ll be raining down the cure for this plague."
+        },
+        {
+            "actor": "char:andre",
+            "action": "pose",
+            "view": "10"
+        },
+        {
+            "actor": "char:andre",
+            "action": "say",
+            "text": "Wonderful, isn’t it? It couldn’t have come at a better time!"
+        },
+        {
+            "actor": "char:andre",
+            "action": "pose",
+            "view": "11"
+        },
+        {
+            "actor": "char:andre",
+            "action": "say",
+            "text": "Do I need to tell you anything more? I hope not! Take a grenade launcher, take a crate of grenades, and go live out your wildest action fantasies!"
+        },
+        {
+            "actor": "char:andre",
+            "action": "pose",
+            "view": "11"
+        },
+        {
+            "actor": "char:andre",
+            "action": "say",
+            "text": "Use one grenade for small villages, two for towns, and as many as you need for cities. "
+        },
+        {
+            "actor": "char:andre",
+            "action": "pose",
+            "view": "10"
+        },
+        {
+            "actor": "char:andre",
+            "action": "say",
+            "text": "If you’re ever in doubt, know that you’ve used enough when the entire area’s obscured by smoke."
+        },
+        {
+            "actor": "char:andre",
+            "action": "pose",
+            "view": "4"
+        },
+        {
+            "actor": "char:andre",
+            "action": "say",
+            "text": "And in case you feel the urge to tamper with the launchers: don’t."
+        },
+        {
+            "actor": "char:andre",
+            "action": "pose",
+            "view": "4"
+        },
+        {
+            "actor": "char:andre",
+            "action": "say",
+            "text": "We don’t want to have to clean up the mess."
+        },
+        {
+            "actor": "char:andre",
+            "action": "pose",
+            "view": "3"
+        },
+        {
+            "actor": "char:andre",
+            "action": "say",
+            "text": "Hmm..."
+        },
+        {
+            "actor": "char:andre",
+            "action": "pose",
+            "view": "11"
+        },
+        {
+            "actor": "char:andre",
+            "action": "say",
+            "text": "Oh, I almost forgot! I have another task for you."
+        },
+        {
+            "actor": "char:andre",
+            "action": "pose",
+            "view": "11"
+        },
+        {
+            "actor": "char:andre",
+            "action": "say",
+            "text": "You are aware of Beleth’s task, yes? Rounding up all the straggler Hellside demons? Good."
+        },
+        {
+            "actor": "char:andre",
+            "action": "pose",
+            "view": "10"
+        },
+        {
+            "actor": "char:andre",
+            "action": "say",
+            "text": "Beleth may succeed in rounding up a good deal of Hellsiders, yes. They may even round up most of the Hellsiders. But they won’t be able to get them all."
+        },
+        {
+            "actor": "char:andre",
+            "action": "pose",
+            "view": "1"
+        },
+        {
+            "actor": "char:andre",
+            "action": "say",
+            "text": "That is where this device comes in. A dart gun!"
+        },
+        {
+            "actor": "char:andre",
+            "action": "pose",
+            "view": "1"
+        },
+        {
+            "actor": "char:andre",
+            "action": "say",
+            "text": "Ever wanted to hunt the most dangerous game? Well, now you can pretend to!"
+        },
+        {
+            "actor": "char:andre",
+            "action": "pose",
+            "view": "1"
+        },
+        {
+            "actor": "char:andre",
+            "action": "say",
+            "text": "If, during your task you find a Hellsider who simply doesn’t want to follow Beleth’s orders, shoot them with the dart gun!"
+        },
+        {
+            "actor": "char:andre",
+            "action": "pose",
+            "view": "1"
+        },
+        {
+            "actor": "char:andre",
+            "action": "say",
+            "text": "It’ll be great fun, I think. They won’t know what hit them!"
+        },
+        {
+            "actor": "char:andre",
+            "action": "pose",
+            "view": "2"
+        },
+        {
+            "actor": "char:andre",
+            "action": "say",
+            "text": "Really. They won’t. The cure’s in those darts, but so is a tranquilizer. I’m told one of the side effects is minor retrograde amnesia."
+        },
+        {
+            "actor": "char:andre",
+            "action": "pose",
+            "view": "11"
+        },
+        {
+            "actor": "char:andre",
+            "action": "say",
+            "text": "We didn’t have to add the tranquilizer, but I pushed for it. We can’t have a Hellsider getting angry at you for shooting them, can we?"
+        },
+        {
+            "actor": "char:andre",
+            "action": "pose",
+            "view": "7"
+        },
+        {
+            "actor": "char:andre",
+            "action": "say",
+            "text": "Just make sure you don’t miss."
+        },
+        {
+            "actor": "char:andre",
+            "action": "pose",
+            "view": "10"
+        },
+        {
+            "actor": "char:andre",
+            "action": "say",
+            "text": "Well, I think that’s that."
+        },
+        {
+            "actor": "char:andre",
+            "action": "pose",
+            "view": "10"
+        },
+        {
+            "actor": "char:andre",
+            "action": "say",
+            "text": "Try not to have too much fun!"
+        },
+        {
+            "actor": "narrator",
+            "action": "say",
+            "text": "<i>Task: Cure the Island — The Most Dangerous Game\n\nArch Magni Andre has given you a simple task: cure the island. Every individual should take a grenade launcher, a crate of grenades, and a dart gun. Fire the grenades into villages, towns and cities. Fire a dart at any Hellsider not in a village, town or city. Don’t miss. Easy, yeah?</i>"
+        },
+        {
+            "actor": "jukebox",
+            "action": "stop"
+        },
+        {
+            "actor": "curtain",
+            "action": "lower"
+        },
+        {
+            "actor": "char:andre",
+            "action": "leave"
+        },
+        {
+            "actor": "frame",
+            "action": "hide"
+        },
+        {
+            "actor": "frame-contents",
+            "action": "hide"
+        },
+        {
+            "action": "notext"
+        },
+        {
+            "action": "roll_credits"
+        }
+    ]
+}

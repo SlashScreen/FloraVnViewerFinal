@@ -1,0 +1,1073 @@
+
+{
+    "asset_root": ".",
+    "name": "species-bugs",
+    "title": "Species Ref: Deep Mountain Bugs",
+    "date": "2015-08-24",
+    "preview": "preview.png",
+    "credits": {
+        "people": [
+            {
+                "who": "PK",
+                "for": "Art, Music",
+                "deviantart": "purplekecleon",
+                "tumblr": "purplekecleon",
+                "twitter": "papayakitty"
+            },
+            {
+                "who": "Marl",
+                "for": "Script",
+                "deviantart": "marlcabinet",
+                "tumblr": "avolontes"
+            },
+            {
+                "who": "Eevee",
+                "for": "Programming",
+                "website": "http://eev.ee/",
+                "deviantart": "lexyeevee",
+                "tumblr": "lexyeevee",
+                "twitter": "eevee"
+            }
+        ],
+        "footer_html": [
+            "<a href='http://floraverse.com/'>Floraverse</a>",
+            "<a href='https://floraverse.bandcamp.com/'>Bandcamp</a>",
+            "logout successful",
+            "␄"
+        ]
+    },
+    "actors": {
+        "curtain": {
+            "type": "curtain"
+        },
+        "jukebox": {
+            "type": "jukebox",
+            "tracks": {
+                "hummerbuzz": "hummerbuzz_5.ogg"
+            }
+        },
+        "backdrop": {
+            "type": "spot",
+            "position": "backdrop",
+            "views": {
+                "splash": "deepmountaintitlecard.png",
+                "1-1a": "bugs1-1a.png",
+                "1-1b": "bugs1-1b.png",
+                "1-1c": "bugs1-1c.png",
+                "1-2a": "bugs1-2a.png",
+                "1-2b": "bugs1-2b.png",
+                "1-2c": "bugs1-2c.png",
+                "1-3": "bugs1-3.png",
+                "1-4a": "bugs1-4a.png",
+                "1-4b": "bugs1-4b.png",
+                "1-4c": "bugs1-4c.png",
+                "1-5a": "bugs1-5a.png",
+                "1-5b": "bugs1-5b.png",
+                "1-5c": "bugs1-5c.png",
+                "2-1": "bugs2-1.png",
+                "2-2": "bugs2-2.png",
+                "2-3a": "bugs2-3a.png",
+                "2-3b": "bugs2-3b.png",
+                "2-3c": "bugs2-3c.png",
+                "2-4a": "bugs2-4a.png",
+                "2-4aa": "bugs2-4aa.png",
+                "2-4b": "bugs2-4b.png",
+                "2-4bb": "bugs2-4bb.png",
+                "2-4c": "bugs2-4c.png",
+                "2-4cc": "bugs2-4cc.png",
+                "2-5a": "bugs2-5a.png",
+                "2-5aa": "bugs2-5aa.png",
+                "2-5b": "bugs2-5b.png",
+                "2-5c": "bugs2-5c.png",
+                "3-1a": "bugs3-1a.png",
+                "3-1b": "bugs3-1b.png",
+                "3-1c": "bugs3-1c.png",
+                "fluffyglow": [
+                    { "url": "bugs3-1a.png", "delay": 500 },
+                    { "url": "bugs3-1b.png", "delay": 150 },
+                    { "url": "bugs3-1a.png", "delay": 100 },
+                    { "url": "bugs3-1b.png", "delay": 350 },
+                    { "url": "bugs3-1a.png", "delay": 500 },
+                    { "url": "bugs3-1c.png", "delay": 0 }
+                ],
+                "3-2a": "bugs3-2a.png",
+                "3-2b": "bugs3-2b.png",
+                "3-2c": "bugs3-2c.png",
+                "3-2d": "bugs3-2d.png",
+                "3-2e": "bugs3-2e.png",
+                "3-2f": "bugs3-2f.png",
+                "3-3": "bugs3-3.png",
+                "3-4a": "bugs3-4a.png",
+                "3-4b": "bugs3-4b.png",
+                "3-5a": "bugs3-5a.png",
+                "3-5b": "bugs3-5b.png",
+                "fluffycomm": [
+                    { "url": "bugs3-4a.png", "delay": 500 },
+                    { "url": "bugs3-4b.png", "delay": 150 },
+                    { "url": "bugs3-4a.png", "delay": 100 },
+                    { "url": "bugs3-4b.png", "delay": 200 },
+                    { "url": "bugs3-4a.png", "delay": 100 },
+                    { "url": "bugs3-4b.png", "delay": 450 },
+                    { "url": "bugs3-4a.png", "delay": 1000 },
+                    { "url": "bugs3-5a.png", "delay": 500 },
+                    { "url": "bugs3-5b.png", "delay": 200 },
+                    { "url": "bugs3-5a.png", "delay": 100 },
+                    { "url": "bugs3-5b.png", "delay": 600 },
+                    { "url": "bugs3-5a.png", "delay": 100 },
+                    { "url": "bugs3-5b.png", "delay": 100 },
+                    { "url": "bugs3-5a.png", "delay": 500 },
+                    { "url": "bugextra.png", "delay": 0 }
+                ],
+                "extra": "bugextra.png"
+            }
+        },
+        "illustration": {
+            "type": "spot",
+            "position": "imagespot-goat",
+            "views": {
+                "catfishrabbit": "catfishrabbit.png",
+                "coralspider": "coralspider.png",
+                "fluffymoth": "fluffymoth.png",
+                "flyght": "flyght.png",
+                "leaffacedant": "leaffacedant.png",
+                "rotobug": "rotobug.png",
+                "slimepillar": "slimepillar.png",
+                "trunkate": "trunkate.png"
+            }
+        },
+        "narrator": {
+            "type": "character",
+            "name": null,
+            "color": "black"
+        },
+        "data": {
+            "type": "character",
+            "position": "data",
+            "name": null,
+            "color": "black"
+        },
+        "journal": {
+            "type": "character",
+            "position": "journal",
+            "name": null,
+            "color": "black"
+        },
+        "char:lily": {
+            "type": "character",
+            "position": "left",
+            "name": "Lily",
+            "color": "#ca5677"
+        },
+        "char:tal": {
+            "type": "character",
+            "position": "right",
+            "name": "TAL",
+            "color": "#1f5443"
+        }
+    },
+    "script": [
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "splash"
+        },
+        {
+            "actor": "narrator",
+            "action": "say",
+            "text": ""
+        },
+        {
+            "actor": "jukebox",
+            "action": "play",
+            "track": "hummerbuzz"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "1-1a"
+        },
+        {
+            "actor": "narrator",
+            "action": "say",
+            "text": "<em>Deep Mountain, not very deep</em>"
+        },
+        {
+            "actor": "char:lily",
+            "action": "say",
+            "text": "When do we start seeing the big bugs?"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "1-1b"
+        },
+        {
+            "actor": "char:tal",
+            "action": "say",
+            "text": "The insects are already big."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "1-1a"
+        },
+        {
+            "actor": "char:lily",
+            "action": "say",
+            "text": "What? No way."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "1-1b"
+        },
+        {
+            "actor": "char:tal",
+            "action": "say",
+            "text": "The specimens here are on average 2.7% larger than specimens found elsewhere on Owel. "
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "1-1c"
+        },
+        {
+            "actor": "char:lily",
+            "action": "say",
+            "text": "That’s not big. That’s bigger. I want to see the giants."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "1-2a"
+        },
+        {
+            "actor": "char:tal",
+            "action": "say",
+            "text": "Most of them won’t be larger than you."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "1-2c"
+        },
+        {
+            "actor": "char:lily",
+            "action": "say",
+            "text": "Giant was relative. "
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "1-2a"
+        },
+        {
+            "actor": "char:tal",
+            "action": "say",
+            "text": "As we near the summit, you’ll start seeing what you want."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "1-2b"
+        },
+        {
+            "actor": "char:tal",
+            "action": "say",
+            "text": "Lily! Get the net."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "1-3"
+        },
+        {
+            "actor": "narrator",
+            "action": "say",
+            "text": ""
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "1-4b"
+        },
+        {
+            "actor": "char:lily",
+            "action": "say",
+            "text": "Got it. What is it?"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "1-4a"
+        },
+        {
+            "actor": "char:tal",
+            "action": "say",
+            "text": "It’s new."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "1-4b"
+        },
+        {
+            "actor": "char:lily",
+            "action": "say",
+            "text": "It looks like an ant. With a leaf for a face."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "1-4a"
+        },
+        {
+            "actor": "char:tal",
+            "action": "say",
+            "text": "I will call it the Leaf-Faced Ant."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "1-4c"
+        },
+        {
+            "actor": "char:lily",
+            "action": "say",
+            "text": "Inspired."
+        },
+        {
+            "actor": "illustration",
+            "action": "show",
+            "view": "leaffacedant"
+        },
+        {
+            "actor": "data",
+            "action": "say",
+            "text": "Specimen 3A “Leaf-Faced Ant”\n\nRarity: Common\nDiet: Decomposing matter; seeds\n\nThe Leaf-Faced Ant is similar in function to other, normal ants. Leaf-Faced Ants will travel great distances in order to collect food for their colony, and will glide from treetop to treetop using their large facial wings. When agitated, Leaf-Faced Ants exude irritating oils from their facial wings, similar to those found in poison ivy and poison sumac."
+        },
+        {
+            "actor": "illustration",
+            "action": "hide"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "1-5a"
+        },
+        {
+            "actor": "char:lily",
+            "action": "say",
+            "text": "This net seems kind of old-fashioned, now that I think about it. Did you make this?"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "1-5b"
+        },
+        {
+            "actor": "char:tal",
+            "action": "say",
+            "text": "Yes. I thought it would be appropriate. It looks traditional."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "1-5a"
+        },
+        {
+            "actor": "char:lily",
+            "action": "say",
+            "text": "I don’t think there’s anything traditional about what we’re doing."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "1-5c"
+        },
+        {
+            "actor": "char:tal",
+            "action": "say",
+            "text": "What could be more traditional than exploring the woods and catching bugs? Nothing. I checked."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "1-5a"
+        },
+        {
+            "actor": "char:lily",
+            "action": "say",
+            "text": "Uh huh. "
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "1-5b"
+        },
+        {
+            "actor": "char:tal",
+            "action": "say",
+            "text": "Let’s go. With the route I have planned, we’ll reach the summit by tonight."
+        },
+        {
+            "actor": "curtain",
+            "action": "lower"
+        },
+        {
+            "action": "notext"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "2-1"
+        },
+        {
+            "actor": "narrator",
+            "action": "say",
+            "text": "<em>Deep Mountain, summit</em>"
+        },
+        {
+            "actor": "char:tal",
+            "action": "say",
+            "text": "That’ll be the last one for this trip."
+        },
+        {
+            "actor": "char:lily",
+            "action": "say",
+            "text": "Come on, thing. Get in the net."
+        },
+        {
+            "actor": "char:lily",
+            "action": "say",
+            "text": "Gah!"
+        },
+        {
+            "actor": "char:lily",
+            "action": "say",
+            "text": "Come on!"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "2-2"
+        },
+        {
+            "actor": "char:lily",
+            "action": "say",
+            "text": "Finally."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "2-3a"
+        },
+        {
+            "actor": "char:tal",
+            "action": "say",
+            "text": "With this, my catalog is complete."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "2-3b"
+        },
+        {
+            "actor": "char:tal",
+            "action": "say",
+            "text": "<i>For now.</i>"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "2-3c"
+        },
+        {
+            "actor": "char:lily",
+            "action": "say",
+            "text": "Was that supposed to be ominous?"
+        },
+        {
+            "actor": "char:tal",
+            "action": "say",
+            "text": "It foreshadows my never-ending quest for knowledge."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "2-4a"
+        },
+        {
+            "actor": "char:lily",
+            "action": "say",
+            "text": "Let me see it."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "2-4aa"
+        },
+        {
+            "actor": "char:tal",
+            "action": "say",
+            "text": "The never-ending quest?"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "2-4b"
+        },
+        {
+            "actor": "char:lily",
+            "action": "say",
+            "text": "No! The catalog."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "2-4bb"
+        },
+        {
+            "actor": "char:tal",
+            "action": "say",
+            "text": "Just this one entry, or all of it?"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "2-4c"
+        },
+        {
+            "actor": "char:lily",
+            "action": "say",
+            "text": "All of it. I stopped paying attention after the ant."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "2-4cc"
+        },
+        {
+            "actor": "char:tal",
+            "action": "say",
+            "text": "Stand by."
+        },
+        {
+            "actor": "illustration",
+            "action": "show",
+            "view": "flyght"
+        },
+        {
+            "actor": "data",
+            "action": "say",
+            "text": "Specimen 1Z “Flyght”\n\nRarity: Common\nDiet: Ultraviolet light; heat\n\nWithout Flyghts, much of Deep Mountain would be in total darkness. Flyghts spend most of their time flying across the canopy in order to absorb filtered sunlight and warmth. This is a constant process, and is responsible for powering their segmented lights. Flyghts become dim if exposed to total darkness, and will hibernate in frigid temperatures."
+        },
+        {
+            "actor": "illustration",
+            "action": "show",
+            "view": "rotobug"
+        },
+        {
+            "actor": "data",
+            "action": "say",
+            "text": "Specimen 2A “Rotobug”\n\nRarity: Uncommon\nDiet: Smaller insects\n\nThe Rotobug has a voracious appetite, and will attempt to hunt any insect smaller than itself. It stores seeds and pebbles in its main body, and will fire them from its upper appendage when hunting prey. The fired seeds and pebbles are capable of stinging and leaving bruises, but pose no serious threat to most individuals."
+        },
+        {
+            "actor": "illustration",
+            "action": "hide"
+        },
+        {
+            "actor": "char:lily",
+            "action": "say",
+            "text": "That one was a massive pain. Those seeds sting."
+        },
+        {
+            "actor": "char:tal",
+            "action": "say",
+            "text": "Even through the suit?"
+        },
+        {
+            "actor": "char:lily",
+            "action": "say",
+            "text": "Even through the suit. I’m probably gonna have a bruise."
+        },
+        {
+            "actor": "illustration",
+            "action": "show",
+            "view": "catfishrabbit"
+        },
+        {
+            "actor": "data",
+            "action": "say",
+            "text": "Specimen 4A “Catfish Rabbit”\n\nRarity: Common\nDiet: Fish; insects; seeds; algae\n\nThe Catfish Rabbit is an aquatic predator, and will attempt to bite and eat anything smaller than itself. It possesses a small amount of mobility on land, and will jump from the water’s edge in order to snatch up small insects. It uses its whiskers to detect the electrical signals of living things as well as their sizes, and will hide from anything larger than itself. If cornered, they are capable of emitting a shock similar to that of an electric eel."
+        },
+        {
+            "actor": "illustration",
+            "action": "hide"
+        },
+        {
+            "actor": "char:lily",
+            "action": "say",
+            "text": "I wonder if we could domesticate these."
+        },
+        {
+            "actor": "char:tal",
+            "action": "say",
+            "text": "No one will buy a pet that can electrocute them."
+        },
+        {
+            "actor": "char:lily",
+            "action": "say",
+            "text": "I’m sure someone would."
+        },
+        {
+            "actor": "illustration",
+            "action": "show",
+            "view": "coralspider"
+        },
+        {
+            "actor": "data",
+            "action": "say",
+            "text": "Specimen 5A “Coral Spiderfish”\n\nRarity: Uncommon\nDiet: Fish; insects\n\nThe Coral Spiderfish is an underwater spider, and is incapable of living on land. They commonly live among lake coral, and weave waterproof webs among it in hopes of catching prey, usually small fish or insects. Instead of biting its prey, it stabs them with the points on its arms, which exude a fast-acting paralyzing venom. Coral Spiderfish are timid, and will flee if approached by anything larger than they are. If cornered, they will lash out with their arms, but will not use venom."
+        },
+        {
+            "actor": "illustration",
+            "action": "hide"
+        },
+        {
+            "actor": "char:tal",
+            "action": "say",
+            "text": "We could domesticate these. Arachnids are a popular type of pet."
+        },
+        {
+            "actor": "char:lily",
+            "action": "say",
+            "text": "You’d have to sell them with coral, though, and no one wants to take care of coral."
+        },
+        {
+            "actor": "illustration",
+            "action": "show",
+            "view": "slimepillar"
+        },
+        {
+            "actor": "data",
+            "action": "say",
+            "text": "Specimen 6A “Slimepillar”\n\nDiet: Moss; mold; fungi\n\nThe Slimepillar wanders throughout the lower levels of Deep Mountain, constantly searching for moss and mold to eat. If threatened, it will stand upright in an attempt to make itself appear larger and more fearsome. A healthy Slimepillar will be covered in a thick layer of translucent gel-like armor. A sickly or starving Slimepillar will have thin armor, or no armor at all, and is an easy target for predators. Their gel-armor promises to be an excellent material for impact-resistant body armors."
+        },
+        {
+            "actor": "illustration",
+            "action": "hide"
+        },
+        {
+            "actor": "char:tal",
+            "action": "say",
+            "text": "I can’t wait to return home and begin experimenting with their armor."
+        },
+        {
+            "actor": "char:lily",
+            "action": "say",
+            "text": "As long as you can make it not sticky, I’ll wear it."
+        },
+        {
+            "actor": "char:tal",
+            "action": "say",
+            "text": "I was planning on keeping its adhesive qualities intact. It simplifies things."
+        },
+        {
+            "actor": "char:lily",
+            "action": "say",
+            "text": "Gross."
+        },
+        {
+            "actor": "illustration",
+            "action": "show",
+            "view": "trunkate"
+        },
+        {
+            "actor": "data",
+            "action": "say",
+            "text": "Specimen 7A “Trunkate”\n\nDiet: Large insects; fish\n\nTrunkates are indiscriminate eaters, and will bite anything that comes near them. They spend their time sleeping, naturally camouflaged as ordinary tree trunks or rock formations. When a fish or a large insect touches it, the Trunkate springs to life, grabs it, and takes a large bite from it. This is an automatic reflex, and Trunkates will bite anything they can grab. Trunkates ignore anything too small to grasp with their branches."
+        },
+        {
+            "actor": "illustration",
+            "action": "hide"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "2-5a"
+        },
+        {
+            "actor": "char:lily",
+            "action": "say",
+            "text": "You could put a few of these in your garden to scare trespassers away."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "2-5aa"
+        },
+        {
+            "actor": "char:tal",
+            "action": "say",
+            "text": "I don’t think the trespassers would be able to leave if they encountered these, Lily."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "2-5b"
+        },
+        {
+            "actor": "char:lily",
+            "action": "say",
+            "text": "You may be right."
+        },
+        {
+            "actor": "char:tal",
+            "action": "say",
+            "text": "Your surprise is ready, Lily. "
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "2-5c"
+        },
+        {
+            "actor": "char:lily",
+            "action": "say",
+            "text": "What?"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "3-1a"
+        },
+        {
+            "actor": "char:tal",
+            "action": "say",
+            "text": "Turn around."
+        },
+        {
+            "actor": "char:lily",
+            "action": "say",
+            "text": "Whoa! Wow."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "3-1b"
+        },
+        {
+            "actor": "narrator",
+            "action": "say",
+            "text": ""
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "3-1a"
+        },
+        {
+            "actor": "char:lily",
+            "action": "say",
+            "text": "That’s awesome!"
+        },
+        {
+            "actor": "char:lily",
+            "action": "say",
+            "text": "Is it dangerous?"
+        },
+        {
+            "actor": "char:tal",
+            "action": "say",
+            "text": "It shouldn’t be."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "fluffyglow"
+        },
+        {
+            "actor": "narrator",
+            "action": "say",
+            "text": ""
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "3-2a"
+        },
+        {
+            "actor": "char:lily",
+            "action": "say",
+            "text": "Where’d it go?"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "3-2b"
+        },
+        {
+            "actor": "char:tal",
+            "action": "say",
+            "text": "It went to tell its friends about us. We’re going to have company in a few moments."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "3-2c"
+        },
+        {
+            "actor": "char:lily",
+            "action": "say",
+            "text": "They’re sentient?"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "3-2d"
+        },
+        {
+            "actor": "char:tal",
+            "action": "say",
+            "text": "Yes. That’s the surprise."
+        },
+        {
+            "actor": "char:tal",
+            "action": "say",
+            "text": "Surprise!"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "3-2e"
+        },
+        {
+            "actor": "char:lily",
+            "action": "say",
+            "text": "That’s amazing! When did that happen? "
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "3-2f"
+        },
+        {
+            "actor": "char:tal",
+            "action": "say",
+            "text": "Sometime in the last few years."
+        },
+        {
+            "actor": "curtain",
+            "action": "lower"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "3-3"
+        },
+        {
+            "actor": "char:lily",
+            "action": "say",
+            "text": "You’re sure they’re not hostile?"
+        },
+        {
+            "actor": "char:tal",
+            "action": "say",
+            "text": "I am sure. If they were, they would have made it evident by now."
+        },
+        {
+            "actor": "char:lily",
+            "action": "say",
+            "text": "What do they want?"
+        },
+        {
+            "actor": "char:tal",
+            "action": "say",
+            "text": "They don’t know what to think of us. They’re waiting for you to introduce us."
+        },
+        {
+            "actor": "char:tal",
+            "action": "say",
+            "text": "Raise the monitor up to them. I’ll do the rest."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "fluffycomm"
+        },
+        {
+            "actor": "narrator",
+            "action": "say",
+            "text": ""
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "extra"
+        },
+        {
+            "actor": "char:lily",
+            "action": "say",
+            "text": "What’s the news? "
+        },
+        {
+            "actor": "char:tal",
+            "action": "say",
+            "text": "They want to give us a tour. You're the first mammal they’ve ever seen, and they’re curious about us."
+        },
+        {
+            "actor": "char:lily",
+            "action": "say",
+            "text": "They said all that in a couple flashes of light, huh?"
+        },
+        {
+            "actor": "char:tal",
+            "action": "say",
+            "text": "Absolutely. Their language is fantastically efficient. I would know."
+        },
+        {
+            "actor": "char:lily",
+            "action": "say",
+            "text": "Well, let’s not keep them waiting. "
+        },
+        {
+            "actor": "curtain",
+            "action": "lower"
+        },
+        {
+            "action": "notext"
+        },
+        {
+            "actor": "backdrop",
+            "action": "hide"
+        },
+        {
+            "actor": "illustration",
+            "action": "show",
+            "view": "fluffymoth"
+        },
+        {
+            "actor": "data",
+            "action": "say",
+            "text": "Species: Fuzzy Moth\nNotes: Fuzzy Moths have not named themselves, so I have given them this name until they do. Additionally, translating their language to ours was difficult, and many concepts and terms were lost in the process."
+            
+        },
+        {
+            "actor": "data",
+            "action": "say",
+            "text": "Hereditary influence: Low\nNotes: Prior to gaining sentience, Fuzzy Moths had an HI of Very High. This was not my intention, and I do not know why it has changed."
+        },
+        {
+            "actor": "data",
+            "action": "say",
+            "text": "Environmental influence: High\nNotes: Fuzzy Moths cannot survive outside of Deep Mountain, and prefer to live on or immediately near the summit. If Fuzzy Moths live away from the summit, sentience in their subsequent generations begins to decline, and they become more prone to spontaneous mutations."
+        },
+        {
+            "actor": "data",
+            "action": "say",
+            "text": "Language: Pulse\nNotes: Fuzzy Moths communicate via pulses of multicolored bioluminescence. The color, rate, intensity, pattern and position of these pulses determine their message. The pulses can emit a clicking sound of varying intensity, and is only used to get the attention of another Fuzzy Moth."
+        },
+        {
+            "actor": "data",
+            "action": "say",
+            "text": "Ability to reason: High\nNotes: Fuzzy Moths are an isolated and relatively new sentient species, and have yet to invent and grasp many of the concepts most Owel species are already familiar with. They are capable of learning them, however; they merely lack experience."
+        },
+        {
+            "actor": "data",
+            "action": "say",
+            "text": "Climate preference: Humid, warm\nNotes: According to my scans, this is just a preference, and not a requirement. I am considering unleashing them upon the world, when I am able to.\n\nNative to: Owel\nNotes: Deep Mountain only. For now."
+        },
+        {
+            "actor": "data",
+            "action": "say",
+            "text": "Found in: Deep Mountain Summit\nNotes: Fuzzy Moths require the heightened oxygen levels of Deep Mountain in order to live."
+        },
+        {
+            "actor": "data",
+            "action": "say",
+            "text": "Elements\n\nAffinities: Air, subtypes; Earth, subtypes\nNotes: The most common affinity in Fuzzy Moths is Air, followed by Light, Earth, Clay, Acid and Poison.\n\nWeaknesses: Unknown\nNotes: Fuzzy Moths did not understand this concept, and I was unable to communicate it effectively to them.\n\nResistances: Air, Light\nNotes: Most insects in or near Deep Mountain’s summit are highly resistant to Air. Fuzzy Moths have an innate understanding of light, and handle it effectively."
+        },
+        {
+            "actor": "data",
+            "action": "say",
+            "text": "Society\n\nFuzzy Moths, pre-sentience, were apex predators and lacked concern for their ecosystem’s stability. Their urge to hunt was dictated by sight, rather than hunger. They would constantly hunt and kill anything that moved.\n\nPost-sentience, Fuzzy Moths are still apex predators, but show responsibility and restraint when it comes to their environment. They have suppressed their once-constant prey drive, and only hunt when hunger dictates.\n\nFuzzy Moths live in large communities, and build shelters out of leaves, moss, mud and rocks. Their territories are always enclosed by large wooden barricades, presumably to ward off larger predators.\n\nFuzzy Moths are not inherently hostile to outsiders, but lack any kind of experience with them. Their greeting consists of striking each other’s leaf-like whips with great force. Fuzzy Moths do not seem to realize that most outsiders are incapable of participating in this. Were it not for her suit, Lily would have sustained several grievous head injuries during her visit.\n\nFuzzy Moths have tamed and domesticated a variety of insect I have named “Sawhorses”. Sawhorses serve to perform any and all laborious tasks for the Fuzzy Moths, such as cutting timber and pulling heavy loads. They will also defend Fuzzy Moths from attackers, if required."
+        },
+        {
+            "actor": "data",
+            "action": "say",
+            "text": "Abilities\nNotes: Fuzzy Moths possess a wide range of natural abilities due to their physiology. Their leaf-like whip is capable of extending several feet within an instant, and can strike objects with immense blunt force.\n\nThey can communicate over great distances through the use of their pulsing lights. Their pulses are far more effective than any known spoken language. In just a few seconds, Fuzzy Moths can pulse a message that would take Common over a minute to speak."
+        },
+        {
+            "actor": "data",
+            "action": "say",
+            "text": "Physiology\n\nFuzzy Moths resemble various plants found throughout Deep Mountain, but almost always possess a leaf-like whip upon their head and a faceplate capable of emitting pulses of colored light."
+        },
+        {
+            "actor": "data",
+            "action": "say",
+            "text": "Reproduction\n\nCurrently unknown."
+        },
+        {
+            "actor": "curtain",
+            "action": "lower"
+        },
+        {
+            "actor": "illustration",
+            "action": "hide"
+        },
+        {
+            "actor": "journal",
+            "action": "say",
+            "text": "Lily’s Journal"
+        },
+        {
+            "actor": "journal",
+            "action": "say",
+            "text": "The Fuzzy Moths were very strange. Despite what she said, I was half-expecting them to be vicious, bloodthirsty killers. I was glad they weren’t."
+        },
+        {
+            "actor": "journal",
+            "action": "say",
+            "text": "They didn’t quite know what to do about us. After they showed us around a bit, they went about their business as if we weren’t there. It wasn’t until we expressed an interest in leaving that they paid attention to us again."
+        },
+        {
+            "actor": "journal",
+            "action": "say",
+            "text": "I guess they had never contemplated leaving Deep Mountain. They were mildly curious about the concept, but had no desire to attempt it."
+        },
+        {
+            "actor": "journal",
+            "action": "say",
+            "text": "They did, however, lend us a couple of Sawhorses. They’re badass, and I want one. The fuzzy moths offered to give them to us, but she declined. Said they would explode if they left Deep Mountain. Rats."
+        },
+        {
+            "actor": "journal",
+            "action": "say",
+            "text": "I look forward to returning. There was another species of insect down there, a sentient one, but we didn’t see it. We would have looked for it, but my air filters were getting overloaded, and I didn’t want to risk a leak."
+        },
+        {
+            "actor": "journal",
+            "action": "say",
+            "text": "Until next time, Deep Mountain."
+        },
+        {
+            "actor": "jukebox",
+            "action": "stop"
+        },
+        {
+            "action": "notext"
+        },
+        {
+            "actor": "curtain",
+            "action": "lower"
+        },
+        {
+            "actor": "backdrop",
+            "action": "hide"
+        },
+        {
+            "action": "roll_credits"
+        }
+    ]
+}

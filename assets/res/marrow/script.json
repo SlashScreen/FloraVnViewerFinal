@@ -1,0 +1,696 @@
+{
+    "asset_root": ".",
+    "name": "marrow",
+    "title": "A Favor",
+    "date": "2015/07/22",
+    "preview": "preview.png",
+    "size": [900, 600],
+    "credits": {
+        "people": [
+            {
+                "who": "PK",
+                "for": "Art, Music",
+                "deviantart": "purplekecleon",
+                "tumblr": "purplekecleon",
+                "twitter": "papayakitty"
+            },
+            {
+                "who": "Marl",
+                "for": "Script",
+                "deviantart": "marlcabinet",
+                "tumblr": "avolontes"
+            },
+            {
+                "who": "Eevee",
+                "for": "Programming",
+                "website": "http://eev.ee/",
+                "deviantart": "lexyeevee",
+                "tumblr": "lexyeevee",
+                "twitter": "eevee"
+            }
+        ],
+        "footer_html": [
+            "<a href='http://floraverse.com/'>Floraverse</a>",
+            "<a href='https://floraverse.bandcamp.com/'>Bandcamp</a>"
+        ]
+    },
+    "actors": {
+        "curtain": {
+            "type": "curtain"
+        },
+        "jukebox": {
+            "type": "jukebox",
+            "tracks": {
+                "tbte_2": "TBTE_2.ogg"
+            }
+        },
+        "backdrop": {
+            "type": "spot",
+            "position": "backdrop",
+            "views": {
+                "splash": "favortitle.png",
+                "1-1": "tbte1-1.png",
+                "1-2": "tbte1-2.png",
+                "1-3": "tbte1-3.png",
+                "1-4a": "tbte1-4a.png",
+                "1-4b": "tbte1-4b.png",
+                "1-4c": "tbte1-4c.png",
+                "1-5a": "tbte1-5a.png",
+                "1-5b": "tbte1-5b.png",
+                "1-5c": "tbte1-5c.png",
+                "1-5d": "tbte1-5d.png",
+                "1-6": "tbte1-6.png",
+                "1-7": "tbte1-7.png",
+                "1-8": "tbte1-8.png",
+                "1-9a": "tbte1-9a.png",
+                "1-9b": "tbte1-9b.png",
+                "2-1a": "tbte2-1a.png",
+                "2-1b": "tbte2-1b.png",
+                "2-1c": "tbte2-1c.png",
+                "2-2a": "tbte2-2a.png",
+                "2-2b": "tbte2-2b.png",
+                "2-3": "tbte2-3.png",
+                "2-4": "tbte2-4.png",
+                "2-5a": "tbte2-5a.png",
+                "2-5b": "tbte2-5b.png",
+                "2-6a": "tbte2-6a.png",
+                "2-6b": "tbte2-6b.png"
+            }
+        },
+        "char:median": {
+            "type": "character",
+            "position": "right",
+            "name": "Median",
+            "color": "#84095d"
+        },
+        "char:marrow": {
+            "type": "character",
+            "position": "left",
+            "name": "Marrow",
+            "color": "#5b2359"
+        },
+        "narrator": {
+            "type": "character",
+            "name": null,
+            "color": "black"
+        }
+    },
+    "script": [
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "splash"
+        },
+        {
+            "actor": "jukebox",
+            "action": "play",
+            "track": "tbte_2"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "1-1"
+        },
+        {
+            "actor": "char:median",
+            "action": "say",
+            "text": "Dr. Marrow?"
+        },
+        {
+            "actor": "char:marrow",
+            "action": "say",
+            "text": "Median! So nice to see you again. Are you taking me up on my offer?"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "1-2"
+        },
+        {
+            "actor": "char:median",
+            "action": "say",
+            "text": "No. I’m dropping off a new formula. This one’s a bit different from the others."
+        },
+        {
+            "actor": "char:marrow",
+            "action": "say",
+            "text": "It must be. We have enough variations to treat anyone down here."
+        },
+        {
+            "actor": "char:median",
+            "action": "say",
+            "text": "I thought so too, but I was wrong. I’m embarrassed, but I just forgot to make it. Here you go."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "1-3"
+        },
+        {
+            "actor": "char:marrow",
+            "action": "say",
+            "text": "Is... this real?"
+        },
+        {
+            "actor": "char:median",
+            "action": "say",
+            "text": "The formula? Of course. Everything about it is in order."
+        },
+        {
+            "actor": "char:marrow",
+            "action": "say",
+            "text": "What body type is this supposed to work on?"
+        },
+        {
+            "actor": "char:median",
+            "action": "say",
+            "text": "Completely inorganic ones. Not like Seadragons, either. Here, I have a list."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "1-4a"
+        },
+        {
+            "actor": "char:marrow",
+            "action": "say",
+            "text": "This is very odd. Did you just write down the densest materials you could think of?"
+        },
+        {
+            "actor": "char:median",
+            "action": "say",
+            "text": "It certainly looks that way."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "1-4b"
+        },
+        {
+            "actor": "char:marrow",
+            "action": "say",
+            "text": "It’s difficult to believe the disease could spread through any one of these things. Is it really able to?"
+        },
+        {
+            "actor": "char:median",
+            "action": "say",
+            "text": "I’m not sure. Better safe than sorry, though, right?"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "1-4c"
+        },
+        {
+            "actor": "char:marrow",
+            "action": "say",
+            "text": "This might be a bit too safe. I don’t know of anyone with a body composition like this."
+        },
+        {
+            "actor": "char:median",
+            "action": "say",
+            "text": "Regardless, you have it now. Just in case."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "1-5a"
+        },
+        {
+            "actor": "char:marrow",
+            "action": "say",
+            "text": "Are you sure you don’t want something new? It won’t take long."
+        },
+        {
+            "actor": "char:median",
+            "action": "say",
+            "text": "I’m sure."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "1-5b"
+        },
+        {
+            "actor": "narrator",
+            "action": "say",
+            "text": ""
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "1-5c"
+        },
+        {
+            "actor": "char:marrow",
+            "action": "say",
+            "text": "You wouldn’t feel a thing."
+        },
+        {
+            "actor": "char:median",
+            "action": "say",
+            "text": "I doubt I would. I’m still sure."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "1-5d"
+        },
+        {
+            "actor": "char:marrow",
+            "action": "say",
+            "text": "Shame."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "1-6"
+        },
+        {
+            "actor": "char:median",
+            "action": "say",
+            "text": "Here. You requested these a while ago, but I forgot to mail them."
+        },
+        {
+            "actor": "char:marrow",
+            "action": "say",
+            "text": "Are these your notes on TBTE? Splendid!"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "1-7"
+        },
+        {
+            "actor": "char:marrow",
+            "action": "say",
+            "text": "Where did you get these models? This satyrbun looks horrible!"
+        },
+        {
+            "actor": "char:median",
+            "action": "say",
+            "text": "They looked fine to me. I only had to pay them a dollar. Or whatever it is you use for currency down here. And that’s what really matters."
+        },
+        {
+            "actor": "char:marrow",
+            "action": "say",
+            "text": "I would have charged <i>him</i> a dollar. He needs a serious upgrade."
+        },
+        {
+            "actor": "char:median",
+            "action": "say",
+            "text": "I'll be sure to tell them that, if I see them again."
+        },
+        {
+            "actor": "char:marrow",
+            "action": "say",
+            "text": "You do that. Those ears! How horrid!"
+        },
+        {
+            "actor": "char:marrow",
+            "action": "say",
+            "text": "Ah!"
+        },
+        {
+            "actor": "char:median",
+            "action": "say",
+            "text": "What?"
+        },
+        {
+            "actor": "char:marrow",
+            "action": "say",
+            "text": "He’s also much too short. "
+        },
+        {
+            "actor": "char:median",
+            "action": "say",
+            "text": "There’s not much he can do about that."
+        },
+        {
+            "actor": "char:marrow",
+            "action": "say",
+            "text": "But there is! He knows what I do here. He knows what we all do here. I’ll send him a postcard. Do you know where he lives?"
+        },
+        {
+            "actor": "char:median",
+            "action": "say",
+            "text": "No. I actually wanted to talk to you about something, actually."
+        },
+        {
+            "actor": "char:marrow",
+            "action": "say",
+            "text": "What is it?"
+        },
+        {
+            "actor": "char:median",
+            "action": "say",
+            "text": "It’s about the disease. Could you finish reading my notes?"
+        },
+        {
+            "actor": "curtain",
+            "action": "lower"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "1-8"
+        },
+        {
+            "actor": "char:marrow",
+            "action": "say",
+            "text": "For izagesia to have been corrupted so completely and effortlessly by that angel is remarkable! I wouldn't have expected that. "
+        },
+        {
+            "actor": "char:median",
+            "action": "say",
+            "text": "The what?"
+        },
+        {
+            "actor": "char:marrow",
+            "action": "say",
+            "text": "The angel. It attacked you. You wrote that it was wildlife, which I found charming! Who told you it was wildlife?"
+        },
+        {
+            "actor": "char:median",
+            "action": "say",
+            "text": "Was it not?"
+        },
+        {
+            "actor": "char:marrow",
+            "action": "say",
+            "text": "Well, wildlife does not do it justice. Though, it is native to our world."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "1-9a"
+        },
+        {
+            "actor": "char:median",
+            "action": "say",
+            "text": "What did it do to izagesia?"
+        },
+        {
+            "actor": "char:marrow",
+            "action": "say",
+            "text": "Corrupted it. Made it contagious. You know about its base form, yes?"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "1-9b"
+        },
+        {
+            "actor": "char:median",
+            "action": "say",
+            "text": "I do. It's not supposed to ever do that. It's not physically possible <i>for</i> it to do that."
+        },
+        {
+            "actor": "char:marrow",
+            "action": "say",
+            "text": "And yet it was able to."
+        },
+        {
+            "actor": "char:median",
+            "action": "say",
+            "text": "That's what confuses me. How did the angel manage to do that? I've never dealt with a spiritual disease before this one."
+        },
+        {
+            "actor": "char:marrow",
+            "action": "say",
+            "text": "You haven’t? Well, you handled it fantastically all the same. Good job. "
+        },
+        {
+            "actor": "char:marrow",
+            "action": "say",
+            "text": "Did you know, until you came around, nobody had been able to do anything to that disease?"
+        },
+        {
+            "actor": "char:median",
+            "action": "say",
+            "text": "I've been told."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "2-1a"
+        },
+        {
+            "actor": "char:marrow",
+            "action": "say",
+            "text": "I've tried myself, many times. Can’t even alter it a bit! Not even a body-swap deters it!"
+        },
+        {
+            "actor": "char:median",
+            "action": "say",
+            "text": "I think we're getting a bit off topic. Do you know how the angel managed to do it?"
+        },
+        {
+            "actor": "char:marrow",
+            "action": "say",
+            "text": "I'm not sure I can answer that."
+        },
+        {
+            "actor": "char:median",
+            "action": "say",
+            "text": "I think you can."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "2-1b"
+        },
+        {
+            "actor": "char:marrow",
+            "action": "say",
+            "text": "I think you're mistaken!"
+        },
+        {
+            "actor": "char:median",
+            "action": "say",
+            "text": "I don't think I'm mistaken. You’re not the first one I asked, either. I've asked several others down here about this very subject, and every one of them waved me off."
+        },
+        {
+            "actor": "char:median",
+            "action": "say",
+            "text": "What I think, Dr. Marrow, is that I’m a Topsider, and none of you want to talk about angels around Topsiders. But that’s fine. I won’t pry."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "2-1c"
+        },
+        {
+            "actor": "char:marrow",
+            "action": "say",
+            "text": "I assure you, there is no offense intended."
+        },
+        {
+            "actor": "char:median",
+            "action": "say",
+            "text": "None taken. "
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "2-2a"
+        },
+        {
+            "actor": "char:median",
+            "action": "say",
+            "text": "Are you familiar with the plague in Heaven's Keys?"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "2-2b"
+        },
+        {
+            "actor": "char:marrow",
+            "action": "say",
+            "text": "Vaguely. That was a long time ago, and it's only a rumor. We have no records from that place."
+        },
+        {
+            "actor": "char:median",
+            "action": "say",
+            "text": "I have one."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "2-3"
+        },
+        {
+            "actor": "char:marrow",
+            "action": "say",
+            "text": "What? That's absurd! How can you possibly have anything from there?!"
+        },
+        {
+            "actor": "char:median",
+            "action": "say",
+            "text": "One of my previous patients gave it to me, as payment. Here it is."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "2-4"
+        },
+        {
+            "actor": "char:marrow",
+            "action": "say",
+            "text": "What is this?"
+        },
+        {
+            "actor": "char:median",
+            "action": "say",
+            "text": "It's a journal recovered from the wreckage of a ship, long ago. The ship passed through Heaven's Keys and stopped at one of the islands."
+        },
+        {
+            "actor": "char:marrow",
+            "action": "say",
+            "text": "This is incredible. Incredible! This is extremely valuable, you have no idea!"
+        },
+        {
+            "actor": "char:median",
+            "action": "say",
+            "text": "I'm very lucky to have it. We all are, actually."
+        },
+        {
+            "actor": "char:marrow",
+            "action": "say",
+            "text": "Why is that?"
+        },
+        {
+            "actor": "char:median",
+            "action": "say",
+            "text": "After leaving the island, the ship's crew came down with an unknown disease. The descriptions of it are like the one that plagued Trebol. "
+        },
+        {
+            "actor": "char:marrow",
+            "action": "say",
+            "text": "If that's true, then we are extremely lucky."
+        },
+        {
+            "actor": "char:median",
+            "action": "say",
+            "text": "If that ship wasn’t destroyed, and if the crew had survived long enough to make it to the mainland..."
+        },
+        {
+            "actor": "char:marrow",
+            "action": "say",
+            "text": "There's a good chance none of us would be here today."
+        },
+        {
+            "actor": "char:median",
+            "action": "say",
+            "text": "Yes."
+        },
+        {
+            "actor": "char:marrow",
+            "action": "say",
+            "text": "When did you get this journal?"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "2-5a"
+        },
+        {
+            "actor": "char:median",
+            "action": "say",
+            "text": "A long while back. I can’t really remember when. I think we’re lucky that whatever’s on that island hasn’t spread to the mainland yet."
+        },
+        {
+            "actor": "char:marrow",
+            "action": "say",
+            "text": "Are you even certain it’s still there? If it was ever there?"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "2-5b"
+        },
+        {
+            "actor": "char:median",
+            "action": "say",
+            "text": "Unless someone cured it, it’s still there."
+        },
+        {
+            "actor": "char:marrow",
+            "action": "say",
+            "text": "Noted. May I have a few moments to read this?"
+        },
+        {
+            "actor": "char:median",
+            "action": "say",
+            "text": "Sure."
+        },
+        {
+            "actor": "curtain",
+            "action": "lower"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "2-6a"
+        },
+        {
+            "actor": "char:marrow",
+            "action": "say",
+            "text": "This is eerily similar to what Trebol faced. This is very worrisome."
+        },
+        {
+            "actor": "char:median",
+            "action": "say",
+            "text": "I need to find out if it's the same disease. If it is, then it's a ticking time-bomb for our world, and I need to get rid of it."
+        },
+        {
+            "actor": "char:marrow",
+            "action": "say",
+            "text": "Are you asking me for a favor?"
+        },
+        {
+            "actor": "char:median",
+            "action": "say",
+            "text": "I did save your world."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "2-6b"
+        },
+        {
+            "actor": "char:marrow",
+            "action": "say",
+            "text": "Hah! I suppose you did."
+        },
+        {
+            "actor": "char:marrow",
+            "action": "say",
+            "text": "Do you like cruises?"
+        },
+        {
+            "actor": "char:median",
+            "action": "say",
+            "text": "I do like cruises."
+        },
+        {
+            "actor": "curtain",
+            "action": "lower"
+        },
+        {
+            "actor": "jukebox",
+            "action": "stop"
+        },
+        {
+            "action": "notext"
+        },
+        {
+            "actor": "backdrop",
+            "action": "hide"
+        },
+        {
+            "action": "roll_credits"
+        }
+    ]
+}

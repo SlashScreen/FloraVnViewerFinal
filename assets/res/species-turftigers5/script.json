@@ -1,0 +1,279 @@
+{
+    "asset_root": ".",
+    "name": "species-turftigers5",
+    "title": "Species Ref: Turf Tigers",
+    "subtitle": "Part 5: Pygmy Tiger sheet",
+    "date": "2016-01-11",
+    "preview": "preview.png",
+    "credits": {
+        "people": [
+            {
+                "who": "Glip",
+                "for": "Art, Music",
+                "deviantart": "glitchedpuppet",
+                "tumblr": "glitchedpuppet",
+                "twitter": "glitchedpuppet"
+            },
+            {
+                "who": "Marl",
+                "for": "Script",
+                "deviantart": "marlcabinet",
+                "tumblr": "avolontes"
+            },
+            {
+                "who": "Eevee",
+                "for": "Programming",
+                "website": "http://eev.ee/",
+                "deviantart": "lexyeevee",
+                "tumblr": "lexyeevee",
+                "twitter": "eevee"
+            }
+        ],
+        "footer_html": [
+            "<a href='http://floraverse.com/'>Floraverse</a>",
+            "<a href='https://floraverse.bandcamp.com/'>Bandcamp</a>",
+            "it's about time, too"
+        ]
+    },
+    "actors": {
+        "curtain": {
+            "type": "curtain"
+        },
+        "jukebox": {
+            "type": "jukebox",
+            "tracks": {
+                "toyle_2": "toyle_2.ogg"
+            }
+        },
+        "backdrop": {
+            "type": "spot",
+            "position": "backdrop",
+            "views": {
+                "splash": "pygmytitlecard.png",
+                "1": "pygmysheet1.png",
+                "2": "pygmysheet2.png",
+                "bg": "tigersheetlayers1.png"
+            }
+        },
+        "pygmy": {
+            "type": "spot",
+            "position": "left",
+            "views": {
+                "t5": "tigersheetlayerst5.png",
+                "t9": "tigersheetlayerst9.png",
+                "1": "pygmy1.png",
+                "2": "pygmy2.png",
+                "3": "pygmy3.png",
+                "4": "pygmy4.png",
+                "5": "pygmy5.png"
+            }
+        },
+        "narrator": {
+            "type": "character",
+            "name": null,
+            "color": "black"
+        },
+        "data": {
+            "type": "character",
+            "position": "alice-tigers",
+            "name": null,
+            "color": "black"
+        },
+        "char:toyle": {
+            "type": "character",
+            "name": "Toyle",
+            "color": "#476ca3",
+            "position": "left",
+            "views": {}
+        }
+    },
+    "script": [
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "splash"
+        },
+        {
+            "actor": "narrator",
+            "action": "say",
+            "text": ""
+        },
+        {
+            "actor": "jukebox",
+            "action": "play",
+            "track": "toyle_2"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "1"
+        },
+        {
+            "actor": "char:toyle",
+            "action": "say",
+            "text": "Hmm."
+        },
+        {
+            "actor": "char:toyle",
+            "action": "say",
+            "text": "Well, folks, it's taking a little longer than I anticipated to start the match."
+        },
+        {
+            "actor": "char:toyle",
+            "action": "say",
+            "text": "In the meantime, we had several viewers send questions asking what a Pygmy Tiger is! So I've asked our independent witch-analyst to send us over some information."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "2"
+        },
+        {
+            "actor": "char:toyle",
+            "action": "say",
+            "text": "They're not too common, so she had to scour through an image search to find these shots. Don't be surprised if you recognize one of them, though!"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "bg"
+        },
+        {
+            "actor": "pygmy",
+            "action": "show",
+            "view": "t5"
+        },
+        {
+            "actor": "data",
+            "action": "say",
+            "text": "<strong>Pygmy Tiger - small enough to fit into any society</strong>\n\nSmaller than your average Turf Tiger, Flowercat, or Bastian. Despite the size disparity (or perhaps because of it?), Pygmy Tigers can become established in most any society without much discomfort. (Pygmy Tigers are also known as Taiga Tigers.)"
+        },
+        {
+            "actor": "data",
+            "action": "say",
+            "text": "Hereditary influence: Variable\nEnvironmental influence: Variable\nNative to: Owel, Hellside\nLanguage: no native language\nAbility to reason: High\nClimate preference: Varies\nFound in: Anywhere"
+        },
+        {
+            "actor": "data",
+            "action": "say",
+            "text": "<strong>Elements</strong>\n\nAffinities: Varies\nUntil a Pygmy Tiger is fully grown, the environment can affect their affinity. Past adulthood, an affinity is difficult to change. Parents can pass down aptitudes for affinities, but the environment a child grows up in will determine how the affinity manifests."
+        },
+        {
+            "actor": "data",
+            "action": "say",
+            "text": "Weaknesses: Varies, Light\nResistances: Varies, Clay\n\nDepending on a Pygmy Tiger's affinity, they may have additional weaknesses and resistances, but in general, Light magic is good at \"exposing\" them, and Clay magic is good at helping \"conceal\" them."
+        },
+        {
+            "actor": "pygmy",
+            "action": "show",
+            "view": "1"
+        },
+        {
+            "actor": "data",
+            "action": "say",
+            "text": "<strong>Society</strong>\n\nPygmy Tigers tend to stick together in tight-knit groups. However, they're also curious and adaptable, and adventurous Pygmy Tigers sometimes decide to leave a community in pursuit of another way of life. They're also resourceful and perceptive, which makes living in the wilderness a trivial task."
+        },
+        {
+            "actor": "data",
+            "action": "say",
+            "text": "Trust is innately important to Pygmy Tigers. To add to that. they often exude trustworthiness, themselves. While not quite an ability, it does give off the effect that an individual will think twice before trying to pull a fast one on a Pygmy Tiger."
+        },
+        {
+            "actor": "data",
+            "action": "say",
+            "text": "<strong>Ability:</strong> Crowd Camo\n\nA curious trait shared among Pygmy Tigers is the ease and swiftness at which they fit into new groups. The larger the group, the more seamless their assimilation. Pygmy Tigers are adept at learning new skills that will help them get along in a community or group — such as just enough of new languages, the important social customs, etc."
+        },
+        {
+            "actor": "data",
+            "action": "say",
+            "text": "This, surprisingly, applies even when a Pygmy Tiger is trying to become part of a demon community. It's not surefire, and doesn't apply 100% of the time, but demons consistently have been shown to trust Pygmy Tigers a little more quickly than they would trust most non-demons.*\n\n<small>* based on surveys and studies performed by researchers in Kadath.</small>"
+        },
+        {
+            "actor": "pygmy",
+            "action": "show",
+            "view": "5"
+        },
+        {
+            "actor": "data",
+            "action": "say",
+            "text": "<strong>Physiology</strong>\n\nThe two variants of Pygmy Tiger depend on where one is raised: Hellside, or Topside.\n\nHellside tigers tend to average no more than 3 feet tall, and are very often black and white in coloration. (Though if a Hellside tiger spends enough time on Topside, their fur will take on different hues until they return to Hellside.)\n\nTopside tigers can come in any set of colors, and may end up a foot or so taller.\n\nAt some point in the distant past, Turf Tigers seem to have emerged from a group of Topside Pygmy Tigers."
+        },
+        {
+            "actor": "pygmy",
+            "action": "show",
+            "view": "t9"
+        },
+        {
+            "actor": "data",
+            "action": "say",
+            "text": "<strong>Hybrids</strong>\n\nPygmy Tigers are compatible with most feline species (such as Flowercats or Bastians), and a handful of loosely related species, i.e. vulpine or canine species."
+        },
+        {
+            "actor": "pygmy",
+            "action": "show",
+            "view": "2"
+        },
+        {
+            "actor": "data",
+            "action": "say",
+            "text": "<em>Pygmy Bastian - Bastian hybrid</em>\nMost Bastians are over 7 feet tall, but Pygmy Bastians are noticeably shorter. Their proportions are a lot like a Bastian's, just scaled down."
+        },
+        {
+            "actor": "pygmy",
+            "action": "show",
+            "view": "4"
+        },
+        {
+            "actor": "data",
+            "action": "say",
+            "text": "<em>Swirl Fox - Aurorian Fox hybrid</em>\nThe markings of a Pygmy Tiger combined with those of an Aurorian Fox tend to produce interesting fur patterns and striations. They're still about average-sized for both Aurorian Foxes or Pygmy Tigers, though."
+        },
+        {
+            "actor": "pygmy",
+            "action": "show",
+            "view": "3"
+        },
+        {
+            "actor": "data",
+            "action": "say",
+            "text": "<em>Atrocitiger - Rakshasa hybrid</em>\nDespite Rakshasa being outcast even among demons, the Atrocitiger manages to get along pretty decently due to the Pygmy Tiger's Crowd Camo, even though they—"
+        },
+        {
+            "actor": "pygmy",
+            "action": "hide"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "2"
+        },
+        {
+            "actor": "char:toyle",
+            "action": "say",
+            "text": "Ah! Hold on, I just got a memo that the fight's about to begin! "
+        },
+        {
+            "actor": "char:toyle",
+            "action": "say",
+            "text": "Get ready, everyone!"
+        },
+        {
+            "actor": "jukebox",
+            "action": "stop"
+        },
+        {
+            "action": "notext"
+        },
+        {
+            "actor": "curtain",
+            "action": "lower"
+        },
+        {
+            "actor": "backdrop",
+            "action": "hide"
+        },
+        {
+            "action": "roll_credits"
+        }
+    ]
+}

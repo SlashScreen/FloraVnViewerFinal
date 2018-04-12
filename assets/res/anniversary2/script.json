@@ -1,0 +1,2045 @@
+{
+    "asset_root": ".",
+    "name": "anniversary2",
+    "title": "Anniversary II",
+    "subtitle": "Just Dropping by",
+    "date": "2015-09-21",
+    "preview": "preview.png",
+    "credits": {
+        "people": [
+            {
+                "who": "Glip",
+                "for": "Art, Music",
+                "deviantart": "glitchedpuppet",
+                "tumblr": "glitchedpuppet",
+                "twitter": "glitchedpuppet"
+            },
+            {
+                "who": "Marl",
+                "for": "Script",
+                "deviantart": "marlcabinet",
+                "tumblr": "avolontes"
+            },
+            {
+                "who": "Eevee",
+                "for": "Programming",
+                "website": "http://eev.ee/",
+                "deviantart": "lexyeevee",
+                "tumblr": "lexyeevee",
+                "twitter": "eevee"
+            }
+        ],
+        "footer_html": [
+            "<a href='http://floraverse.com/'>Floraverse</a>",
+            "<a href='https://floraverse.bandcamp.com/'>Bandcamp</a>",
+            "Happy two-year Floraverse anniversary!",
+            "Here's to two more!  ...and then more after that!"
+        ]
+    },
+    "actors": {
+        "curtain": {
+            "type": "curtain"
+        },
+        "jukebox": {
+            "type": "jukebox",
+            "tracks": {
+                "bassy_2": "bassy_2.ogg"
+            }
+        },
+        "backdrop": {
+            "type": "spot",
+            "position": "backdrop",
+            "views": {
+                "splash": "annivtitlecard.png",
+                "anniv1": "anniv1.png",
+                "anniv2": "anniv2.png",
+                "anniv3": "anniv3.png",
+                "anniv4": "anniv4.png",
+                "palm": "palm.png",
+                "tarot1": "tarot1.png",
+                "tarot2": "tarot2.png",
+                "tarot3": "tarot3.png",
+                "tarot4": "tarot4.png",
+                "anniv5": "anniv5.png",
+                "anniv6": "anniv6.png"
+            }
+        },
+        "narrator": {
+            "type": "character",
+            "name": null,
+            "color": "black"
+        },
+        "char:papaya": {
+            "type": "character",
+            "name": "Fortune Teller",
+            "color": "#a62272",
+            "position": "back-right",
+            "poses": {
+                "palm": "palm.png",
+                "papaya1": "papaya1.png",
+                "papaya2": "papaya2.png",
+                "papaya3": "papaya3.png",
+                "papaya4": "papaya4.png",
+                "papaya5": "papaya5.png",
+                "papaya6": "papaya6.png",
+                "papayaside1": "papayaside1.png",
+                "papayaside2": "papayaside2.png",
+                "papayaside3": "papayaside3.png",
+                "papayaside4": "papayaside4.png",
+                "poof": "poof.png"
+            }
+        },
+        "char:marl": {
+            "type": "character",
+            "name": "Rope Puller",
+            "color": "#31257b",
+            "position": "back-right"
+        },
+        "char:median": {
+            "type": "character",
+            "name": "Median",
+            "color": "#84095d",
+            "position": "back-left",
+            "poses": {
+                "median1c": "median1c.png",
+                "median1o": "median1o.png",
+                "median2c": "median2c.png",
+                "median2o": "median2o.png",
+                "median3c": "median3c.png",
+                "median3o": "median3o.png",
+                "median4c": "median4c.png",
+                "median4o": "median4o.png",
+                "medianbloodheart1": "medianbloodheart1.png",
+                "medianfall1": "medianfall1.png",
+                "medianfall2": "medianfall2.png"
+            }
+        },
+        "char:cayenne": {
+            "type": "character",
+            "name": "Cayenne",
+            "color": "#334f6e",
+            "position": "back-left",
+            "poses": {
+                "cayenne1c": "cayenne1c.png",
+                "cayenne1o": "cayenne1o.png",
+                "cayenne2c": "cayenne2c.png",
+                "cayenne2o": "cayenne2o.png",
+                "cayenne3c": "cayenne3c.png",
+                "cayenne3o": "cayenne3o.png",
+                "cayenne4c": "cayenne4c.png",
+                "cayenne4o": "cayenne4o.png",
+                "cayenne5c": "cayenne5c.png",
+                "cayenne5o": "cayenne5o.png",
+                "cayenne6c": "cayenne6c.png",
+                "cayenne6o": "cayenne6o.png",
+                "cayenne7c": "cayenne7c.png",
+                "cayenne7o": "cayenne7o.png",
+                "cayenne8c": "cayenne8c.png",
+                "cayenne8o": "cayenne8o.png",
+                "cayennefall": "cayennefall.png"
+            }
+        },
+        "char:biff": {
+            "type": "character",
+            "name": "Biff",
+            "color": "#466e82",
+            "position": "back-left",
+            "poses": {
+                "biff1": "biff1.png",
+                "biff2": "biff2.png",
+                "biff3": "biff3.png",
+                "biff4": "biff4.png",
+                "biff5": "biff5.png",
+                "biff6": "biff6.png"
+            }
+        },
+        "char:lily": {
+            "type": "character",
+            "name": "Lily",
+            "color": "#ca5677",
+            "position": "back-left",
+            "poses": {
+                "lily1c": "lily1c.png",
+                "lily1o": "lily1o.png",
+                "lily2c": "lily2c.png",
+                "lily2o": "lily2o.png",
+                "lily3c": "lily3c.png",
+                "lily3o": "lily3o.png",
+                "lily4c": "lily4c.png",
+                "lily4o": "lily4o.png"
+            }
+        },
+        "char:andre": {
+            "type": "character",
+            "name": "Andre",
+            "color": "#952d13",
+            "position": "back-left",
+            "poses": {
+                "encore1": "encore1.png",
+                "encore1c": "encore1c.png",
+                "encore2": "encore2.png",
+                "encore2c": "encore2c.png",
+                "encore3": "encore3.png",
+                "encore3c": "encore3c.png"
+            }
+        },
+        "icecream": {
+            "type": "spot",
+            "position": "middle",
+            "views": {
+                "icecream1": "icecream1.png",
+                "icecream2": "icecream2.png"
+            }
+        },
+        "poof": {
+            "type": "spot",
+            "position": "middle",
+            "views": {
+                "poof": "poof.png"
+            }
+        }
+    },
+    "script": [
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "splash"
+        },
+        {
+            "actor": "narrator",
+            "action": "say",
+            "text": ""
+        },
+        {
+            "actor": "jukebox",
+            "action": "play",
+            "track": "bassy_2"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "anniv1"
+        },
+        {
+            "actor": "char:papaya",
+            "action": "pose",
+            "view": "papayaside1"
+        },
+        {
+            "actor": "char:papaya",
+            "action": "say",
+            "text": "Who's next?"
+        },
+        {
+            "actor": "char:marl",
+            "action": "say",
+            "text": "I think it's Cayenne. I'll go get him."
+        },
+        {
+            "actor": "char:papaya",
+            "action": "pose",
+            "view": "papayaside4"
+        },
+        {
+            "actor": "char:papaya",
+            "action": "say",
+            "text": "Wait."
+        },
+        {
+            "actor": "char:marl",
+            "action": "say",
+            "text": "What?"
+        },
+        {
+            "actor": "char:papaya",
+            "action": "say",
+            "text": "He's like, 2."
+        },
+        {
+            "actor": "char:marl",
+            "action": "say",
+            "text": "So what?"
+        },
+        {
+            "actor": "char:papaya",
+            "action": "pose",
+            "view": "papayaside2"
+        },
+        {
+            "actor": "char:papaya",
+            "action": "say",
+            "text": "He's not gonna be able to understand anything!"
+        },
+        {
+            "actor": "char:marl",
+            "action": "say",
+            "text": "I'll just get him from later on then."
+        },
+        {
+            "actor": "char:marl",
+            "action": "say",
+            "text": "Incoming!"
+        },
+        {
+            "action": "notext"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "anniv2"
+        },
+        {
+            "actor": "char:cayenne",
+            "action": "pose",
+            "view": "cayennefall"
+        },
+        {
+            "action": "delay",
+            "delay": 0.5
+        },
+        {
+            "actor": "char:papaya",
+            "action": "pose",
+            "view": "papaya1"
+        },
+        {
+            "actor": "char:cayenne",
+            "action": "leave"
+        },
+        {
+            "action": "delay",
+            "delay": 0.5
+        },
+        {
+            "actor": "char:cayenne",
+            "action": "pose",
+            "view": "cayenne1o"
+        },
+        {
+            "action": "delay",
+            "delay": 0.2
+        },
+        {
+            "actor": "char:cayenne",
+            "action": "say",
+            "text": "What the fuck?!"
+        },
+        {
+            "actor": "char:cayenne",
+            "action": "pose",
+            "view": "cayenne1c"
+        },
+        {
+            "actor": "char:papaya",
+            "action": "say",
+            "text": "Welcome, Cayenne, to the Booth of Mystery!"
+        },
+        {
+            "actor": "char:cayenne",
+            "action": "pose",
+            "view": "cayenne1o"
+        },
+        {
+            "actor": "char:cayenne",
+            "action": "say",
+            "text": "Who the hell are you? Where the hell am I?"
+        },
+        {
+            "actor": "char:cayenne",
+            "action": "pose",
+            "view": "cayenne1c"
+        },
+        {
+            "actor": "char:marl",
+            "action": "say",
+            "text": "The Booth of Mystery!"
+        },
+        {
+            "actor": "char:cayenne",
+            "action": "pose",
+            "view": "cayenne8o"
+        },
+        {
+            "actor": "char:cayenne",
+            "action": "say",
+            "text": "Put me back! Right now!"
+        },
+        {
+            "actor": "char:cayenne",
+            "action": "pose",
+            "view": "cayenne8c"
+        },
+        {
+            "actor": "char:papaya",
+            "action": "pose",
+            "view": "papaya2"
+        },
+        {
+            "actor": "char:papaya",
+            "action": "say",
+            "text": "In a minute. I need to tell you your fortune first."
+        },
+        {
+            "actor": "char:cayenne",
+            "action": "pose",
+            "view": "cayenne8o"
+        },
+        {
+            "actor": "char:cayenne",
+            "action": "say",
+            "text": "I don't want to hear that bullshit. Put me back!"
+        },
+        {
+            "actor": "char:cayenne",
+            "action": "pose",
+            "view": "cayenne8c"
+        },
+        {
+            "actor": "char:marl",
+            "action": "say",
+            "text": "Come on. Cooperate and she'll give you a coupon for free ice cream or some garbage."
+        },
+        {
+            "actor": "char:cayenne",
+            "action": "pose",
+            "view": "cayenne4c"
+        },
+        {
+            "actor": "char:cayenne",
+            "action": "say",
+            "text": "..."
+        },
+        {
+            "actor": "char:cayenne",
+            "action": "pose",
+            "view": "cayenne4o"
+        },
+        {
+            "actor": "char:cayenne",
+            "action": "say",
+            "text": "Whatever. Hurry it up."
+        },
+        {
+            "actor": "char:cayenne",
+            "action": "pose",
+            "view": "cayenne4c"
+        },
+        {
+            "actor": "char:papaya",
+            "action": "pose",
+            "view": "papaya4"
+        },
+        {
+            "actor": "char:papaya",
+            "action": "say",
+            "text": "You know, your attitude kinda ruined the atmosphere we were going for."
+        },
+        {
+            "actor": "char:cayenne",
+            "action": "pose",
+            "view": "cayenne4o"
+        },
+        {
+            "actor": "char:cayenne",
+            "action": "say",
+            "text": "I don't care."
+        },
+        {
+            "actor": "char:cayenne",
+            "action": "pose",
+            "view": "cayenne4c"
+        },
+        {
+            "actor": "char:papaya",
+            "action": "pose",
+            "view": "papaya5"
+        },
+        {
+            "actor": "char:marl",
+            "action": "say",
+            "text": "Just tell him and get it over with!"
+        },
+        {
+            "actor": "char:papaya",
+            "action": "pose",
+            "view": "papaya6"
+        },
+        {
+            "actor": "char:papaya",
+            "action": "say",
+            "text": "Palm, please."
+        },
+        {
+            "actor": "char:cayenne",
+            "action": "pose",
+            "view": "cayenne3o"
+        },
+        {
+            "actor": "char:cayenne",
+            "action": "say",
+            "text": "What?"
+        },
+        {
+            "actor": "char:cayenne",
+            "action": "pose",
+            "view": "cayenne3c"
+        },
+        {
+            "actor": "char:papaya",
+            "action": "pose",
+            "view": "papaya1"
+        },
+        {
+            "actor": "char:papaya",
+            "action": "say",
+            "text": "I'm going to read your palm."
+        },
+        {
+            "actor": "char:cayenne",
+            "action": "pose",
+            "view": "cayenne3o"
+        },
+        {
+            "actor": "char:cayenne",
+            "action": "say",
+            "text": "There's nothing written on it."
+        },
+        {
+            "actor": "char:cayenne",
+            "action": "pose",
+            "view": "cayenne3c"
+        },
+        {
+            "actor": "char:papaya",
+            "action": "pose",
+            "view": "papaya2"
+        },
+        {
+            "actor": "char:papaya",
+            "action": "say",
+            "text": "Do you want the coupon or not?"
+        },
+        {
+            "actor": "char:cayenne",
+            "action": "pose",
+            "view": "cayenne5c"
+        },
+        {
+            "action": "notext"
+        },
+        {
+            "action": "delay",
+            "delay": 1
+        },
+        {
+            "actor": "char:papaya",
+            "action": "pose",
+            "view": "papaya1"
+        },
+        {
+            "actor": "char:papaya",
+            "action": "say",
+            "text": "I see dark times ahead for you, Cayenne. Dark times, indeed."
+        },
+        {
+            "actor": "char:cayenne",
+            "action": "pose",
+            "view": "cayenne5o"
+        },
+        {
+            "actor": "char:cayenne",
+            "action": "say",
+            "text": "Every day is dark like, half the time."
+        },
+        {
+            "actor": "char:cayenne",
+            "action": "pose",
+            "view": "cayenne5c"
+        },
+        {
+            "actor": "char:papaya",
+            "action": "say",
+            "text": "I see... your sister, stealing from you."
+        },
+        {
+            "actor": "char:cayenne",
+            "action": "pose",
+            "view": "cayenne5o"
+        },
+        {
+            "actor": "char:cayenne",
+            "action": "say",
+            "text": "I'm shock—"
+        },
+        {
+            "actor": "char:cayenne",
+            "action": "pose",
+            "view": "cayenne5c"
+        },
+        {
+            "actor": "char:papaya",
+            "action": "say",
+            "text": "I see... you, with something that once belonged to your sister. Yes! Your sister is totally jealous, because you have something that was once hers."
+        },
+        {
+            "actor": "char:cayenne",
+            "action": "pose",
+            "view": "cayenne6c"
+        },
+        {
+            "actor": "char:papaya",
+            "action": "say",
+            "text": "You will use it to become the blacksmith you've always thought you could be."
+        },
+        {
+            "actor": "char:cayenne",
+            "action": "pose",
+            "view": "cayenne6o"
+        },
+        {
+            "actor": "char:cayenne",
+            "action": "say",
+            "text": "All I gotta do is take something from her? I'm all ears."
+        },
+        {
+            "actor": "char:cayenne",
+            "action": "pose",
+            "view": "cayenne6c"
+        },
+        {
+            "actor": "char:marl",
+            "action": "say",
+            "text": "She didn't say that! Pay attention! And nice pun."
+        },
+        {
+            "actor": "char:cayenne",
+            "action": "pose",
+            "view": "cayenne7o"
+        },
+        {
+            "actor": "char:cayenne",
+            "action": "say",
+            "text": "...wait, what?!"
+        },
+        {
+            "actor": "char:cayenne",
+            "action": "pose",
+            "view": "cayenne7c"
+        },
+        {
+            "actor": "char:papaya",
+            "action": "pose",
+            "view": "papaya6"
+        },
+        {
+            "actor": "char:papaya",
+            "action": "say",
+            "text": "Ahem."
+        },
+        {
+            "actor": "char:papaya",
+            "action": "pose",
+            "view": "papaya1"
+        },
+        {
+            "actor": "char:papaya",
+            "action": "say",
+            "text": "This future will only come to pass if you do not follow in your sister's footsteps, no matter how tempting it may be."
+        },
+        {
+            "actor": "char:cayenne",
+            "action": "pose",
+            "view": "cayenne4o"
+        },
+        {
+            "actor": "char:cayenne",
+            "action": "say",
+            "text": "Well, I hate her and everything she does, so no problem there."
+        },
+        {
+            "actor": "char:cayenne",
+            "action": "say",
+            "text": "Can I go now?"
+        },
+        {
+            "actor": "char:cayenne",
+            "action": "pose",
+            "view": "cayenne4c"
+        },
+        {
+            "actor": "char:papaya",
+            "action": "say",
+            "text": "Fine. Here's your coupon."
+        },
+        {
+            "actor": "icecream",
+            "action": "show",
+            "view": "icecream1"
+        },
+        {
+            "actor": "char:cayenne",
+            "action": "pose",
+            "view": "cayenne2o"
+        },
+        {
+            "actor": "char:cayenne",
+            "action": "say",
+            "text": "All right! I'm outta here."
+        },
+        {
+            "actor": "char:cayenne",
+            "action": "pose",
+            "view": "cayenne2c"
+        },
+        {
+            "actor": "char:cayenne",
+            "action": "pose",
+            "view": "cayenne8o"
+        },
+        {
+            "actor": "char:cayenne",
+            "action": "say",
+            "text": "<i>Wait.</i> This is buy one get one free! That's the shittiest kind of free!"
+        },
+        {
+            "actor": "char:cayenne",
+            "action": "pose",
+            "view": "cayenne8c"
+        },
+        {
+            "action": "notext"
+        },
+        {
+            "actor": "poof",
+            "action": "show",
+            "view": "poof"
+        },
+        {
+            "actor": "char:cayenne",
+            "action": "leave"
+        },
+        {
+            "actor": "icecream",
+            "action": "hide"
+        },
+        {
+            "action": "delay",
+            "delay": 0.5
+        },
+        {
+            "actor": "poof",
+            "action": "hide"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "anniv3"
+        },
+        {
+            "actor": "char:papaya",
+            "action": "pose",
+            "view": "papaya1"
+        },
+        {
+            "actor": "char:papaya",
+            "action": "say",
+            "text": "Next!"
+        },
+        {
+            "actor": "char:marl",
+            "action": "say",
+            "text": "Incoming!"
+        },
+        {
+            "action": "notext"
+        },
+        {
+            "actor": "char:median",
+            "action": "pose",
+            "view": "medianfall1"
+        },
+        {
+            "action": "delay",
+            "delay": 0.5
+        },
+        {
+            "actor": "char:median",
+            "action": "leave"
+        },
+        {
+            "action": "delay",
+            "delay": 0.5
+        },
+        {
+            "actor": "char:median",
+            "action": "pose",
+            "view": "medianbloodheart1"
+        },
+        {
+            "action": "delay",
+            "delay": 1
+        },
+        {
+            "actor": "char:papaya",
+            "action": "pose",
+            "view": "papaya4"
+        },
+        {
+            "actor": "char:papaya",
+            "action": "say",
+            "text": "..."
+        },
+        {
+            "actor": "char:papaya",
+            "action": "pose",
+            "view": "papayaside2"
+        },
+        {
+            "actor": "char:papaya",
+            "action": "say",
+            "text": "Goddamnit! That's disgusting! You got her too early!"
+        },
+        {
+            "actor": "char:papaya",
+            "action": "pose",
+            "view": "papayaside3"
+        },
+        {
+            "actor": "char:marl",
+            "action": "say",
+            "text": "Whatever. Hold on."
+        },
+        {
+            "action": "notext"
+        },
+        {
+            "actor": "poof",
+            "action": "show",
+            "view": "poof"
+        },
+        {
+            "actor": "char:median",
+            "action": "leave"
+        },
+        {
+            "action": "delay",
+            "delay": 0.5
+        },
+        {
+            "actor": "poof",
+            "action": "hide"
+        },
+        {
+            "actor": "char:median",
+            "action": "pose",
+            "view": "medianfall2"
+        },
+        {
+            "action": "delay",
+            "delay": 0.5
+        },
+        {
+            "actor": "char:median",
+            "action": "leave"
+        },
+        {
+            "action": "delay",
+            "delay": 0.5
+        },
+        {
+            "actor": "char:papaya",
+            "action": "pose",
+            "view": "papaya1"
+        },
+        {
+            "actor": "char:median",
+            "action": "pose",
+            "view": "median2c"
+        },
+        {
+            "actor": "char:median",
+            "action": "say",
+            "text": "..."
+        },
+        {
+            "actor": "char:papaya",
+            "action": "say",
+            "text": "Hey, sorry about that. He screwed it up and got you when you were, uh..."
+        },
+        {
+            "actor": "char:median",
+            "action": "pose",
+            "view": "median2o"
+        },
+        {
+            "actor": "char:median",
+            "action": "say",
+            "text": "Intensive surgery. Lots of transplants for one patient."
+        },
+        {
+            "actor": "char:papaya",
+            "action": "pose",
+            "view": "papaya4"
+        },
+        {
+            "actor": "char:papaya",
+            "action": "say",
+            "text": "Well, hey, they lived, right? No harm done!"
+        },
+        {
+            "actor": "char:median",
+            "action": "pose",
+            "view": "median3o"
+        },
+        {
+            "actor": "char:median",
+            "action": "say",
+            "text": "Is this a habit of yours? Kidnapping surgeons? Who even are you?"
+        },
+        {
+            "actor": "char:median",
+            "action": "pose",
+            "view": "median3c"
+        },
+        {
+            "actor": "char:papaya",
+            "action": "pose",
+            "view": "papaya5"
+        },
+        {
+            "actor": "char:papaya",
+            "action": "say",
+            "text": "I am your fortune teller, and this is the Booth of Mystery."
+        },
+        {
+            "actor": "char:median",
+            "action": "pose",
+            "view": "median2o"
+        },
+        {
+            "actor": "char:median",
+            "action": "say",
+            "text": "I see. And why am I here?"
+        },
+        {
+            "actor": "char:median",
+            "action": "pose",
+            "view": "median2c"
+        },
+        {
+            "actor": "char:marl",
+            "action": "say",
+            "text": "Someone paid for you to get your fortune told from us!"
+        },
+        {
+            "actor": "char:median",
+            "action": "pose",
+            "view": "median3o"
+        },
+        {
+            "actor": "char:median",
+            "action": "say",
+            "text": "Should I believe that?"
+        },
+        {
+            "actor": "char:median",
+            "action": "pose",
+            "view": "median3c"
+        },
+        {
+            "actor": "char:marl",
+            "action": "say",
+            "text": "I don't care! Just get your fortune and be happy with it!"
+        },
+        {
+            "actor": "char:median",
+            "action": "pose",
+            "view": "median1o"
+        },
+        {
+            "actor": "char:median",
+            "action": "say",
+            "text": "It's a happy one, then? I think that's all I need to hear."
+        },
+        {
+            "actor": "char:median",
+            "action": "pose",
+            "view": "median2c"
+        },
+        {
+            "actor": "char:papaya",
+            "action": "pose",
+            "view": "papaya1"
+        },
+        {
+            "actor": "char:papaya",
+            "action": "say",
+            "text": "<i>No</i>, that's not all there is to it. It's about your cruise. The one you've always wanted to go on."
+        },
+        {
+            "actor": "char:median",
+            "action": "pose",
+            "view": "median3o"
+        },
+        {
+            "actor": "char:median",
+            "action": "say",
+            "text": "The one no one knows about but me?"
+        },
+        {
+            "actor": "char:median",
+            "action": "pose",
+            "view": "median3c"
+        },
+        {
+            "actor": "char:papaya",
+            "action": "say",
+            "text": "And me. And him. And the other doctor."
+        },
+        {
+            "actor": "char:median",
+            "action": "pose",
+            "view": "median1o"
+        },
+        {
+            "actor": "char:median",
+            "action": "say",
+            "text": "It's just Medi—"
+        },
+        {
+            "actor": "char:median",
+            "action": "pose",
+            "view": "median1c"
+        },
+        {
+            "actor": "char:papaya",
+            "action": "pose",
+            "view": "papaya6"
+        },
+        {
+            "actor": "char:papaya",
+            "action": "say",
+            "text": "I know, not a doctor. Whatever."
+        },
+        {
+            "actor": "char:papaya",
+            "action": "pose",
+            "view": "papaya5"
+        },
+        {
+            "actor": "char:papaya",
+            "action": "say",
+            "text": "Ah jeez, how can I word this without spoiling everything for you? Hmm."
+        },
+        {
+            "actor": "char:marl",
+            "action": "say",
+            "text": "Tell her she'll find everything she's ever hoped to find during the cruise!"
+        },
+        {
+            "actor": "char:papaya",
+            "action": "pose",
+            "view": "papayaside2"
+        },
+        {
+            "actor": "char:papaya",
+            "action": "say",
+            "text": "That's not accurate at all!"
+        },
+        {
+            "actor": "char:marl",
+            "action": "say",
+            "text": "It totally is! She'll totally appreciate it afterward!"
+        },
+        {
+            "actor": "char:papaya",
+            "action": "pose",
+            "view": "papayaside3"
+        },
+        {
+            "actor": "char:papaya",
+            "action": "say",
+            "text": "Fine!"
+        },
+        {
+            "actor": "char:papaya",
+            "action": "pose",
+            "view": "papaya2"
+        },
+        {
+            "actor": "char:papaya",
+            "action": "say",
+            "text": "You'll find everything you ever hoped to find during the cruise."
+        },
+        {
+            "actor": "char:median",
+            "action": "pose",
+            "view": "median1o"
+        },
+        {
+            "actor": "char:median",
+            "action": "say",
+            "text": "Is that a good thing? You do know what I do, right?"
+        },
+        {
+            "actor": "char:median",
+            "action": "pose",
+            "view": "median1c"
+        },
+        {
+            "actor": "char:papaya",
+            "action": "pose",
+            "view": "papaya1"
+        },
+        {
+            "actor": "char:papaya",
+            "action": "say",
+            "text": "I never said it was good or not."
+        },
+        {
+            "actor": "char:median",
+            "action": "pose",
+            "view": "median1o"
+        },
+        {
+            "actor": "char:median",
+            "action": "say",
+            "text": "That's true."
+        },
+        {
+            "actor": "char:median",
+            "action": "pose",
+            "view": "median1c"
+        },
+        {
+            "actor": "char:median",
+            "action": "say",
+            "text": "..."
+        },
+        {
+            "actor": "char:median",
+            "action": "pose",
+            "view": "median1o"
+        },
+        {
+            "actor": "char:median",
+            "action": "say",
+            "text": "Well, I'll be off."
+        },
+        {
+            "actor": "char:median",
+            "action": "pose",
+            "view": "median1c"
+        },
+        {
+            "actor": "char:marl",
+            "action": "say",
+            "text": "Give her the voucher!"
+        },
+        {
+            "actor": "char:papaya",
+            "action": "pose",
+            "view": "papaya2"
+        },
+        {
+            "actor": "char:papaya",
+            "action": "say",
+            "text": "<i>Sigh</i>. Here."
+        },
+        {
+            "actor": "icecream",
+            "action": "show",
+            "view": "icecream2"
+        },
+        {
+            "actor": "char:median",
+            "action": "pose",
+            "view": "median4c"
+        },
+        {
+            "actor": "char:median",
+            "action": "pose",
+            "view": "median4o"
+        },
+        {
+            "actor": "char:median",
+            "action": "say",
+            "text": "Hm. It's been quite some time while since I've had ice cream."
+        },
+        {
+            "actor": "char:median",
+            "action": "say",
+            "text": "Thanks!"
+        },
+        {
+            "action": "notext"
+        },
+        {
+            "actor": "char:median",
+            "action": "pose",
+            "view": "median4c"
+        },
+        {
+            "actor": "poof",
+            "action": "show",
+            "view": "poof"
+        },
+        {
+            "actor": "icecream",
+            "action": "hide"
+        },
+        {
+            "actor": "char:median",
+            "action": "leave"
+        },
+        {
+            "action": "delay",
+            "delay": 0.5
+        },
+        {
+            "actor": "poof",
+            "action": "hide"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "anniv4"
+        },
+        {
+            "actor": "char:papaya",
+            "action": "say",
+            "text": "Next!"
+        },
+        {
+            "actor": "char:papaya",
+            "action": "say",
+            "text": "..."
+        },
+        {
+            "actor": "char:papaya",
+            "action": "pose",
+            "view": "papayaside1"
+        },
+        {
+            "actor": "char:papaya",
+            "action": "say",
+            "text": "Next! Where is he?"
+        },
+        {
+            "actor": "char:papaya",
+            "action": "say",
+            "text": "Pull the rope!"
+        },
+        {
+            "actor": "char:marl",
+            "action": "say",
+            "text": "I don't have to! He's walking here! Give him like a minute."
+        },
+        {
+            "action": "notext"
+        },
+        {
+            "actor": "char:papaya",
+            "action": "pose",
+            "view": "papaya1"
+        },
+        {
+            "actor": "char:biff",
+            "action": "say",
+            "text": "Hello? Is this..."
+        },
+        {
+            "actor": "char:biff",
+            "action": "pose",
+            "view": "biff2"
+        },
+        {
+            "actor": "char:biff",
+            "action": "say",
+            "text": "Madam Azlyn's Booth of Mystery?"
+        },
+        {
+            "actor": "char:papaya",
+            "action": "pose",
+            "view": "papaya4"
+        },
+        {
+            "actor": "char:papaya",
+            "action": "say",
+            "text": "..."
+        },
+        {
+            "actor": "char:papaya",
+            "action": "say",
+            "text": "Y...es."
+        },
+        {
+            "actor": "char:papaya",
+            "action": "pose",
+            "view": "papaya5"
+        },
+        {
+            "actor": "char:papaya",
+            "action": "say",
+            "text": "Welcome, Biff, to my... Azlyn's Booth of Mystery."
+        },
+        {
+            "actor": "char:biff",
+            "action": "pose",
+            "view": "biff1"
+        },
+        {
+            "actor": "char:biff",
+            "action": "say",
+            "text": "Rad! How do we get started?"
+        },
+        {
+            "actor": "char:papaya",
+            "action": "pose",
+            "view": "papaya1"
+        },
+        {
+            "actor": "char:papaya",
+            "action": "say",
+            "text": "Palm, please."
+        },
+        {
+            "actor": "char:biff",
+            "action": "leave"
+        },
+        {
+            "actor": "char:papaya",
+            "action": "leave"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "palm"
+        },
+        {
+            "action": "notext"
+        },
+        {
+            "action": "delay",
+            "delay": 1
+        },
+        {
+            "actor": "char:papaya",
+            "action": "say",
+            "text": "..."
+        },
+        {
+            "actor": "char:papaya",
+            "action": "say",
+            "text": "Let's do Tarot instead."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "anniv4"
+        },
+        {
+            "actor": "char:biff",
+            "action": "pose",
+            "view": "biff2"
+        },
+        {
+            "actor": "char:papaya",
+            "action": "pose",
+            "view": "papaya1"
+        },
+        {
+            "actor": "char:papaya",
+            "action": "say",
+            "text": "I sense you are here because your soul feels weary. Lost. You are searching for something."
+        },
+        {
+            "actor": "char:biff",
+            "action": "pose",
+            "view": "biff3"
+        },
+        {
+            "actor": "char:biff",
+            "action": "say",
+            "text": "That's what it feels like. Except I don't know what it is I'm searching for."
+        },
+        {
+            "actor": "char:papaya",
+            "action": "say",
+            "text": "You need some guidance. The tarot will point you in the right direction."
+        },
+        {
+            "actor": "char:biff",
+            "action": "pose",
+            "view": "biff1"
+        },
+        {
+            "actor": "char:biff",
+            "action": "say",
+            "text": "Hell <i>yes</i>. I shoulda done this months ago."
+        },
+        {
+            "actor": "char:biff",
+            "action": "leave"
+        },
+        {
+            "actor": "char:papaya",
+            "action": "leave"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "tarot1"
+        },
+        {
+            "action": "notext"
+        },
+        {
+            "action": "delay",
+            "delay": 1
+        },
+        {
+            "actor": "char:papaya",
+            "action": "say",
+            "text": "Pick a card."
+        },
+        {
+            "actor": "char:biff",
+            "action": "say",
+            "text": "Aren't you supposed to deal them?"
+        },
+        {
+            "actor": "char:papaya",
+            "action": "say",
+            "text": "That would take too long. Just pick a card."
+        },
+        {
+            "actor": "char:biff",
+            "action": "say",
+            "text": "Sure."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "tarot2"
+        },
+        {
+            "actor": "char:papaya",
+            "action": "say",
+            "text": "Not that one."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "tarot3"
+        },
+        {
+            "actor": "char:biff",
+            "action": "say",
+            "text": "This one?"
+        },
+        {
+            "actor": "char:papaya",
+            "action": "say",
+            "text": "That's a good one."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "tarot4"
+        },
+        {
+            "action": "notext"
+        },
+        {
+            "action": "delay",
+            "delay": 1
+        },
+        {
+            "actor": "char:biff",
+            "action": "say",
+            "text": "Well, it was nice knowing me."
+        },
+        {
+            "actor": "char:marl",
+            "action": "say",
+            "text": "That's not what Death means! It means—"
+        },
+        {
+            "actor": "char:papaya",
+            "action": "say",
+            "text": "No! Let me tell him! You don't make it mysterious at all!"
+        },
+        {
+            "actor": "char:marl",
+            "action": "say",
+            "text": "Whatever!"
+        },
+        {
+            "actor": "char:papaya",
+            "action": "say",
+            "text": "The tarot tells me... it is time for a new chapter of your life. You must close the old chapter, and do not despair over it."
+        },
+        {
+            "actor": "char:biff",
+            "action": "say",
+            "text": "What do you mean?"
+        },
+        {
+            "actor": "char:papaya",
+            "action": "say",
+            "text": "Leave your past behind, and live for the future. Do the things you've always wanted to do. That is all."
+        },
+        {
+            "actor": "char:papaya",
+            "action": "say",
+            "text": "And take this card with you. It will serve as your spirit talisman."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "anniv4"
+        },
+        {
+            "actor": "char:papaya",
+            "action": "pose",
+            "view": "papaya1"
+        },
+        {
+            "actor": "char:biff",
+            "action": "pose",
+            "view": "biff5"
+        },
+        {
+            "actor": "char:biff",
+            "action": "say",
+            "text": "Awesome. I actually feel better already. I kinda knew I had to go off on my own, but it was nice to hear someone else say it."
+        },
+        {
+            "actor": "char:papaya",
+            "action": "say",
+            "text": "Cool."
+        },
+        {
+            "actor": "char:biff",
+            "action": "pose",
+            "view": "biff6"
+        },
+        {
+            "actor": "char:biff",
+            "action": "say",
+            "text": "Thanks!"
+        },
+        {
+            "actor": "char:biff",
+            "action": "leave"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "anniv5"
+        },
+        {
+            "actor": "char:papaya",
+            "action": "say",
+            "text": "Next!"
+        },
+        {
+            "actor": "poof",
+            "action": "show",
+            "view": "poof"
+        },
+        {
+            "action": "delay",
+            "delay": 0.5
+        },
+        {
+            "actor": "char:lily",
+            "action": "pose",
+            "view": "lily4o"
+        },
+        {
+            "actor": "poof",
+            "action": "hide"
+        },
+        {
+            "actor": "char:lily",
+            "action": "say",
+            "text": "Well, this is new. I'm still in the marketplace, at least. I think."
+        },
+        {
+            "actor": "char:lily",
+            "action": "pose",
+            "view": "lily4c"
+        },
+        {
+            "actor": "char:papaya",
+            "action": "pose",
+            "view": "papaya3"
+        },
+        {
+            "actor": "char:papaya",
+            "action": "say",
+            "text": "Ugh..."
+        },
+        {
+            "actor": "char:papaya",
+            "action": "pose",
+            "view": "papayaside2"
+        },
+        {
+            "actor": "char:papaya",
+            "action": "say",
+            "text": "You got the wrong one!"
+        },
+        {
+            "actor": "char:marl",
+            "action": "say",
+            "text": "Aw, shit!"
+        },
+        {
+            "actor": "char:papaya",
+            "action": "pose",
+            "view": "papayaside3"
+        },
+        {
+            "actor": "char:papaya",
+            "action": "say",
+            "text": "I told you this would happen!"
+        },
+        {
+            "actor": "char:marl",
+            "action": "say",
+            "text": "I forgot!"
+        },
+        {
+            "actor": "char:papaya",
+            "action": "pose",
+            "view": "papaya5"
+        },
+        {
+            "actor": "char:papaya",
+            "action": "say",
+            "text": "Sorry. We kinda missed."
+        },
+        {
+            "actor": "char:lily",
+            "action": "pose",
+            "view": "lily1o"
+        },
+        {
+            "actor": "char:lily",
+            "action": "say",
+            "text": "I understand. You should have seen this one witch I talked to earlier. She was brand new, and—"
+        },
+        {
+            "actor": "char:lily",
+            "action": "pose",
+            "view": "lily2c"
+        },
+        {
+            "actor": "char:papaya",
+            "action": "pose",
+            "view": "papaya4"
+        },
+        {
+            "actor": "char:papaya",
+            "action": "say",
+            "text": "No no! Don't say it!"
+        },
+        {
+            "actor": "char:lily",
+            "action": "pose",
+            "view": "lily2o"
+        },
+        {
+            "actor": "char:lily",
+            "action": "say",
+            "text": "Huh?"
+        },
+        {
+            "actor": "char:lily",
+            "action": "pose",
+            "view": "lily2c"
+        },
+        {
+            "actor": "char:papaya",
+            "action": "say",
+            "text": "Uh, do you want your fortune or anything?"
+        },
+        {
+            "actor": "char:lily",
+            "action": "pose",
+            "view": "lily1o"
+        },
+        {
+            "actor": "char:lily",
+            "action": "say",
+            "text": "That's not what I came here for. I'll pass."
+        },
+        {
+            "actor": "char:lily",
+            "action": "pose",
+            "view": "lily1c"
+        },
+        {
+            "actor": "char:papaya",
+            "action": "say",
+            "text": "Hmm."
+        },
+        {
+            "actor": "char:marl",
+            "action": "say",
+            "text": "We have to give her something! Do we have any vouchers?"
+        },
+        {
+            "actor": "char:papaya",
+            "action": "pose",
+            "view": "papayaside1"
+        },
+        {
+            "actor": "char:papaya",
+            "action": "say",
+            "text": "We're out!"
+        },
+        {
+            "actor": "char:papaya",
+            "action": "pose",
+            "view": "papaya1"
+        },
+        {
+            "actor": "char:lily",
+            "action": "pose",
+            "view": "lily1o"
+        },
+        {
+            "actor": "char:lily",
+            "action": "say",
+            "text": "Vouchers for what?"
+        },
+        {
+            "actor": "char:lily",
+            "action": "pose",
+            "view": "lily1c"
+        },
+        {
+            "actor": "char:papaya",
+            "action": "say",
+            "text": "Free ice cream. But we already gave the last one away."
+        },
+        {
+            "actor": "char:lily",
+            "action": "pose",
+            "view": "lily1o"
+        },
+        {
+            "actor": "char:lily",
+            "action": "say",
+            "text": "Got any books instead?"
+        },
+        {
+            "actor": "char:lily",
+            "action": "pose",
+            "view": "lily1c"
+        },
+        {
+            "actor": "char:papaya",
+            "action": "say",
+            "text": "Oh! That's it!"
+        },
+        {
+            "actor": "char:papaya",
+            "action": "say",
+            "text": "You already have the books you'll need."
+        },
+        {
+            "actor": "char:lily",
+            "action": "pose",
+            "view": "lily2c"
+        },
+        {
+            "actor": "char:lily",
+            "action": "say",
+            "text": "..."
+        },
+        {
+            "actor": "char:lily",
+            "action": "pose",
+            "view": "lily2o"
+        },
+        {
+            "actor": "char:lily",
+            "action": "say",
+            "text": "That's it?"
+        },
+        {
+            "actor": "char:lily",
+            "action": "pose",
+            "view": "lily2c"
+        },
+        {
+            "actor": "char:marl",
+            "action": "say",
+            "text": "Tell her she already has the books she'll need!"
+        },
+        {
+            "actor": "char:papaya",
+            "action": "pose",
+            "view": "papayaside1"
+        },
+        {
+            "actor": "char:papaya",
+            "action": "say",
+            "text": "I already did that!"
+        },
+        {
+            "actor": "char:papaya",
+            "action": "pose",
+            "view": "papaya1"
+        },
+        {
+            "actor": "char:lily",
+            "action": "pose",
+            "view": "lily3o"
+        },
+        {
+            "actor": "char:lily",
+            "action": "say",
+            "text": "Who were you aiming for anyway?"
+        },
+        {
+            "actor": "char:lily",
+            "action": "pose",
+            "view": "lily3c"
+        },
+        {
+            "actor": "char:papaya",
+            "action": "pose",
+            "view": "papaya5"
+        },
+        {
+            "actor": "char:papaya",
+            "action": "say",
+            "text": "Someone else. But they, uh, well, it doesn't really matter. They already got a fortune, anyway."
+        },
+        {
+            "actor": "char:lily",
+            "action": "pose",
+            "view": "lily3o"
+        },
+        {
+            "actor": "char:lily",
+            "action": "say",
+            "text": "Uh huh. All right. Well, seeya."
+        },
+        {
+            "actor": "char:lily",
+            "action": "leave"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "anniv6"
+        },
+        {
+            "actor": "char:papaya",
+            "action": "pose",
+            "view": "papaya1"
+        },
+        {
+            "actor": "char:papaya",
+            "action": "say",
+            "text": "Next!"
+        },
+        {
+            "actor": "char:andre",
+            "action": "pose",
+            "view": "encore1c"
+        },
+        {
+            "actor": "char:papaya",
+            "action": "say",
+            "text": "Welco—"
+        },
+        {
+            "actor": "char:papaya",
+            "action": "pose",
+            "view": "papaya2"
+        },
+        {
+            "actor": "char:papaya",
+            "action": "say",
+            "text": "..."
+        },
+        {
+            "actor": "char:papaya",
+            "action": "say",
+            "text": "Oh. It's you again."
+        },
+        {
+            "actor": "char:andre",
+            "action": "pose",
+            "view": "encore2"
+        },
+        {
+            "actor": "char:andre",
+            "action": "say",
+            "text": "It's me!"
+        },
+        {
+            "actor": "char:andre",
+            "action": "pose",
+            "view": "encore1c"
+        },
+        {
+            "actor": "char:papaya",
+            "action": "say",
+            "text": "Whatever. Welcome to the Booth of Mystery."
+        },
+        {
+            "actor": "char:andre",
+            "action": "pose",
+            "view": "encore1"
+        },
+        {
+            "actor": "char:andre",
+            "action": "say",
+            "text": "Wow! The real mystery is how you're getting away with this awful aesthetic!"
+        },
+        {
+            "actor": "char:andre",
+            "action": "pose",
+            "view": "encore1c"
+        },
+        {
+            "actor": "char:papaya",
+            "action": "pose",
+            "view": "papaya3"
+        },
+        {
+            "actor": "char:papaya",
+            "action": "say",
+            "text": "What?!"
+        },
+        {
+            "actor": "char:andre",
+            "action": "pose",
+            "view": "encore1"
+        },
+        {
+            "actor": "char:andre",
+            "action": "say",
+            "text": "How do I look, by the way? Don't be afraid to tell me!"
+        },
+        {
+            "actor": "char:andre",
+            "action": "pose",
+            "view": "encore1c"
+        },
+        {
+            "actor": "char:papaya",
+            "action": "pose",
+            "view": "papaya4"
+        },
+        {
+            "actor": "char:papaya",
+            "action": "say",
+            "text": "You're fine."
+        },
+        {
+            "actor": "char:andre",
+            "action": "pose",
+            "view": "encore2"
+        },
+        {
+            "actor": "char:andre",
+            "action": "say",
+            "text": "Fine? Or... fi...antastic?"
+        },
+        {
+            "actor": "char:andre",
+            "action": "pose",
+            "view": "encore1c"
+        },
+        {
+            "actor": "char:papaya",
+            "action": "pose",
+            "view": "papaya3"
+        },
+        {
+            "actor": "char:papaya",
+            "action": "say",
+            "text": "I don't think I'm gonna tell you your fortune, after hearing that."
+        },
+        {
+            "actor": "char:andre",
+            "action": "pose",
+            "view": "encore1"
+        },
+        {
+            "actor": "char:andre",
+            "action": "say",
+            "text": "Joke's on you! You bringing me here tells me everything I need to know!"
+        },
+        {
+            "actor": "char:andre",
+            "action": "pose",
+            "view": "encore2c"
+        },
+        {
+            "actor": "char:andre",
+            "action": "pose",
+            "view": "encore1c"
+        },
+        {
+            "actor": "char:andre",
+            "action": "pose",
+            "view": "encore3"
+        },
+        {
+            "actor": "char:andre",
+            "action": "say",
+            "text": "You can send me back now. I must practice for my countless admirers!"
+        },
+        {
+            "actor": "char:andre",
+            "action": "pose",
+            "view": "encore3c"
+        },
+        {
+            "action": "delay",
+            "delay": 0.5
+        },
+        {
+            "actor": "char:andre",
+            "action": "leave"
+        },
+        {
+            "actor": "char:papaya",
+            "action": "say",
+            "text": "Ugh."
+        },
+        {
+            "action": "notext"
+        },
+        {
+            "actor": "curtain",
+            "action": "lower"
+        },
+        {
+            "actor": "jukebox",
+            "action": "stop"
+        },
+        {
+            "actor": "backdrop",
+            "action": "hide"
+        },
+        {
+            "actor": "char:papaya",
+            "action": "leave"
+        },
+        {
+            "action": "roll_credits"
+        }
+    ]
+}

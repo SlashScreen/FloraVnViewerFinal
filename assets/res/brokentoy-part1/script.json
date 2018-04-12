@@ -1,0 +1,1709 @@
+{
+    "asset_root": ".",
+    "name": "brokentoy-part1",
+    "title": "Broken Toy: Part 1",
+    "subtitle": "Beleth and Biff Take a Break",
+    "date": "2015-05-25",
+    "preview": "preview.png",
+    "credits": {
+        "people": [
+            {
+                "who": "PK",
+                "for": "Art, Music",
+                "deviantart": "purplekecleon",
+                "tumblr": "purplekecleon",
+                "twitter": "papayakitty"
+            },
+            {
+                "who": "Marl",
+                "for": "Script",
+                "deviantart": "marlcabinet",
+                "tumblr": "avolontes"
+            },
+            {
+                "who": "Eevee",
+                "for": "Programming",
+                "website": "http://eev.ee/",
+                "deviantart": "lexyeevee",
+                "tumblr": "lexyeevee",
+                "twitter": "eevee"
+            }
+        ],
+        "footer_html": [
+            "<a href='http://floraverse.com/'>Floraverse</a>",
+            "<a href='https://floraverse.bandcamp.com/'>Bandcamp</a>",
+            "the end...?"
+        ]
+    },
+    "actors": {
+        "curtain": {
+            "type": "curtain"
+        },
+        "jukebox": {
+            "type": "jukebox",
+            "tracks": {
+                "andrebel": "andre_5beledit.oga",
+                "belethbored": "belethbored2.oga",
+                "belethwhatever": "belethwhatever_2.oga",
+                "belethlaze": "beleth_8laze.oga",
+                "beleththing": "beleththing.oga"
+            }
+        },
+        "backdrop": {
+            "type": "spot",
+            "position": "backdrop",
+            "views": {
+                "splash": "part1titlecard.png",
+                "bg1a": "beleth1bg1a.png",
+                "bg1b": "beleth1bg1b.png",
+                "bg1c": "beleth1bg1c.png",
+                "bg1d": "beleth1bg1d.png",
+                "bg1e": "beleth1bg1e.png",
+                "bg1f": "beleth1bg1f.png",
+                "bg1g1": "beleth1bg1g1.png",
+                "bg1g2": "beleth1bg1g2.png",
+                "bg1g3": "beleth1bg1g3.png",
+                "bg1h1": "beleth1bg1h1.png",
+                "bg1h2": "beleth1bg1h2.png",
+                "bg1h3": "beleth1bg1h3.png",
+                "bg1h4": "beleth1bg1h4.png",
+                "bg1h5": "beleth1bg1h5.png",
+                "bg1h6": "beleth1bg1h6.png",
+                "bg1i": "beleth1bg1i.png",
+                "bg1j": "beleth1bg1j.png",
+                "bg1k1": "beleth1bg1k1.png",
+                "bg1k2": "beleth1bg1k2.png",
+                "bg1l": "beleth1bg1l.png",
+                "bg1m1": "beleth1bg1m1.png",
+                "bg1m2": "beleth1bg1m2.png",
+                "bg1n1": "beleth1bg1n1.png",
+                "bg1n2": "beleth1bg1n2.png",
+                "bg1o": "beleth1bg1o.png",
+                "bg2a1": "beleth1bg2a1.png",
+                "bg2a2": "beleth1bg2a2.png",
+                "bg2b1": "beleth1bg2b1.png",
+                "bg2b2": "beleth1bg2b2.png",
+                "bg2c1": "beleth1bg2c1.png",
+                "bg2c2": "beleth1bg2c2.png",
+                "bg2d1": "beleth1bg2d1.png",
+                "bg2d2": "beleth1bg2d2.png",
+                "bg2d3": "beleth1bg2d3.png",
+                "bg2e1": "beleth1bg2e1.png",
+                "bg2e2": "beleth1bg2e2.png",
+                "bg2f1": "beleth1bg2f1.png",
+                "bg2f2": "beleth1bg2f2.png",
+                "bg2f3": "beleth1bg2f3.png",
+                "bg2g": "beleth1bg2g.png",
+                "bg2h": "beleth1bg2h.png",
+                "bg2i1": "beleth1bg2i1.png",
+                "bg2i2": "beleth1bg2i2.png",
+                "bg2j1": "beleth1bg2j1.png",
+                "bg2j2": "beleth1bg2j2.png",
+                "bg2j3": "beleth1bg2j3.png",
+                "bg2k1": "beleth1bg2k1.png",
+                "bg2k2": "beleth1bg2k2.png",
+                "bg2l": "beleth1bg2l.png",
+                "bg3a1": "beleth1bg3a1.png",
+                "bg3a2": "beleth1bg3a2.png",
+                "bg3a3": "beleth1bg3a3.png",
+                "bg3b1": "beleth1bg3b1.png",
+                "bg3b2": "beleth1bg3b2.png",
+                "bg3b3": "beleth1bg3b3.png",
+                "bg3b4": "beleth1bg3b4.png",
+                "bg3b5": "beleth1bg3b5.png",
+                "bg3c1": "beleth1bg3c1.png",
+                "bg3c2": "beleth1bg3c2.png",
+                "bg3c3": "beleth1bg3c3.png",
+                "bg3d1": "beleth1bg3d1.png",
+                "bg3d2": "beleth1bg3d2.png",
+                "bg3e1": "beleth1bg3e1.png",
+                "bg3e2": "beleth1bg3e2.png",
+                "bg3e3": "beleth1bg3e3.png",
+                "bg3e4": "beleth1bg3e4.png",
+                "bg3f1": "beleth1bg3f1.png",
+                "bg3f2": "beleth1bg3f2.png",
+                "bg3f3": "beleth1bg3f3.png",
+                "bg3f4": "beleth1bg3f4.png",
+                "bg3g": "beleth1bg3g.png",
+                "bg3h1": "beleth1bg3h1.png",
+                "bg3h2": "beleth1bg3h2.png",
+                "bg3h3": "beleth1bg3h3.png",
+                "bg3h4": "beleth1bg3h4.png",
+                "bg3i1": "beleth1bg3i1.png",
+                "bg3i2": "beleth1bg3i2.png",
+                "bg3j1": "beleth1bg3j1.png",
+                "bg3j2": "beleth1bg3j2.png",
+                "bg3j3": "beleth1bg3j3.png",
+                "bg3k1": "beleth1bg3k1.png",
+                "bg3k2": "beleth1bg3k2.png",
+                "bg3k3": "beleth1bg3k3.png",
+                "bg3k4": "beleth1bg3k4.png",
+                "bg3l1": "beleth1bg3l1.png",
+                "bg3l2": "beleth1bg3l2.png",
+                "bg3l3": "beleth1bg3l3.png",
+                "bg3l4": "beleth1bg3l4.png",
+                "bg3l5": "beleth1bg3l5.png",
+                "bg3m": "beleth1bg3m.png",
+                "bg3n": "beleth1bg3n.png"
+            }
+        },
+        "narrator": {
+            "type": "character",
+            "name": null,
+            "color": "black"
+        },
+        "char:beleth": {
+            "type": "character",
+            "name": "Beleth",
+            "color": "#d22e8c",
+            "position": "right"
+        },
+        "char:biff": {
+            "type": "character",
+            "name": "Biff",
+            "color": "#466e82",
+            "position": "left"
+        },
+        "char:median": {
+            "type": "character",
+            "name": "Median",
+            "color": "#84095d",
+            "position": "left"
+        }
+    },
+    "script": [
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "splash"
+        },
+        {
+            "action": "pause"
+        },
+        {
+            "actor": "jukebox",
+            "action": "play",
+            "track": "beleththing"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "bg1a"
+        },
+        {
+            "actor": "narrator",
+            "action": "say",
+            "text": "Beleth's broom closet"
+        },
+        {
+            "actor": "narrator",
+            "action": "say",
+            "text": "<i>*knock knock*</i>"
+        },
+        {
+            "actor": "char:beleth",
+            "action": "say",
+            "text": "Come in."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "bg1b"
+        },
+        {
+            "actor": "char:median",
+            "action": "say",
+            "text": "Hey, we’re done. Pack it up."
+        },
+        {
+            "actor": "char:beleth",
+            "action": "say",
+            "text": "What? That’s it? That’s all there is to it?"
+        },
+        {
+            "actor": "char:median",
+            "action": "say",
+            "text": "Yep."
+        },
+        {
+            "actor": "char:beleth",
+            "action": "say",
+            "text": "It seems a bit... I dunno."
+        },
+        {
+            "actor": "char:median",
+            "action": "say",
+            "text": "Anticlimactic?"
+        },
+        {
+            "actor": "char:beleth",
+            "action": "say",
+            "text": "Yeah."
+        },
+        {
+            "actor": "char:median",
+            "action": "say",
+            "text": "That’s a good thing. The best possible outcome, actually."
+        },
+        {
+            "actor": "char:median",
+            "action": "say",
+            "text": "There are still things for you to do anyway, I’m sure."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "bg1c"
+        },
+        {
+            "actor": "char:beleth",
+            "action": "say",
+            "text": "Like what?"
+        },
+        {
+            "actor": "char:median",
+            "action": "say",
+            "text": "You’ll have to talk to Andre, later. I’m leaving him with a pamphlet on what Trebol’s going to need as it recovers."
+        },
+        {
+            "actor": "char:median",
+            "action": "say",
+            "text": "It was originally going to be a document, but a little bird told me that Andre loves to read pamphlets, so... I turned it into a pamphlet."
+        },
+        {
+            "actor": "char:beleth",
+            "action": "say",
+            "text": "Hmm."
+        },
+        {
+            "actor": "char:median",
+            "action": "say",
+            "text": "But as for me, personally, I’m done."
+        },
+        {
+            "actor": "char:beleth",
+            "action": "say",
+            "text": "What if the disease comes back? Can that happen?"
+        },
+        {
+            "actor": "char:median",
+            "action": "say",
+            "text": "Oh, it can happen. It probably will, actually; there are bound to be a few stragglers who managed to escape getting the medicine."
+        },
+        {
+            "actor": "char:median",
+            "action": "say",
+            "text": "But it won’t be a big deal. I’m going to Vaxine over in Cardios to share the formula for the medicine, so they’ll be able to supply all of the Blackjack Isles with a cure for any new cases."
+        },
+        {
+            "actor": "char:median",
+            "action": "say",
+            "text": "The big deal now is mental recovery. Trebol lost a good deal of citizens, and morale here is pretty low."
+        },
+        {
+            "actor": "char:median",
+            "action": "say",
+            "text": "Things will pick up, though. They always do. It’s all part of the healing process."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "bg1d"
+        },
+        {
+            "actor": "char:median",
+            "action": "say",
+            "text": "Before I leave, I am prescribing you one week of vacation."
+        },
+        {
+            "actor": "char:beleth",
+            "action": "say",
+            "text": "What? Really?"
+        },
+        {
+            "actor": "char:median",
+            "action": "say",
+            "text": "I’ve already cleared it with Andre."
+        },
+        {
+            "actor": "char:median",
+            "action": "say",
+            "text": "Try not to have too much fun."
+        },
+        {
+            "actor": "char:median",
+            "action": "say",
+            "text": "Take care of yourself!"
+        },
+        {
+            "actor": "jukebox",
+            "action": "stop"
+        },
+        {
+            "actor": "curtain",
+            "action": "lower"
+        },
+        {
+            "actor": "jukebox",
+            "action": "play",
+            "track": "belethbored"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "bg1e"
+        },
+        {
+            "actor": "narrator",
+            "action": "say",
+            "text": "Cafeteria"
+        },
+        {
+            "actor": "char:beleth",
+            "action": "say",
+            "text": "Hmm..."
+        },
+        {
+            "actor": "char:beleth",
+            "action": "say",
+            "text": "..."
+        },
+        {
+            "actor": "char:beleth",
+            "action": "say",
+            "text": "I’m bored."
+        },
+        {
+            "actor": "char:beleth",
+            "action": "say",
+            "text": "Wonder what Biff’s up to."
+        },
+        {
+            "actor": "char:beleth",
+            "action": "say",
+            "text": "..."
+        },
+        {
+            "actor": "char:beleth",
+            "action": "say",
+            "text": "It’s way too quiet in here. How long before everything gets back to normal, I wonder?"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "bg1f"
+        },
+        {
+            "actor": "char:beleth",
+            "action": "say",
+            "text": "Maybe I’ll catch up on my comics."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "bg1g1"
+        },
+        {
+            "actor": "char:beleth",
+            "action": "say",
+            "text": "..."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "bg1g2"
+        },
+        {
+            "actor": "char:beleth",
+            "action": "say",
+            "text": "..."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "bg1g3"
+        },
+        {
+            "actor": "char:beleth",
+            "action": "say",
+            "text": "Actually, maybe later."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "bg1h1"
+        },
+        {
+            "actor": "char:beleth",
+            "action": "say",
+            "text": "..."
+        },
+        {
+            "action": "notext"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "bg1h2"
+        },
+        {
+            "action": "pause"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "bg1h3"
+        },
+        {
+            "action": "pause"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "bg1h4"
+        },
+        {
+            "action": "pause"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "bg1h5"
+        },
+        {
+            "action": "pause"
+        },
+        {
+            "actor": "jukebox",
+            "action": "stop"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "bg1h6"
+        },
+        {
+            "actor": "char:beleth",
+            "action": "say",
+            "text": "Whew."
+        },
+        {
+            "actor": "jukebox",
+            "action": "play",
+            "track": "beleththing"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "bg1i"
+        },
+        {
+            "actor": "char:biff",
+            "action": "say",
+            "text": "Hey, Beleth! I’m done!"
+        },
+        {
+            "actor": "char:biff",
+            "action": "say",
+            "text": "And I get a week’s worth of vacation! How awesome is that?"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "bg1j"
+        },
+        {
+            "actor": "char:beleth",
+            "action": "say",
+            "text": "Pretty awesome, yeah. I was surprised when Median prescribed it to me."
+        },
+        {
+            "actor": "char:biff",
+            "action": "say",
+            "text": "Yeah, she said something about mental fatigue and accumulated stress, but whatever. I’ll take a week’s vacation any day of the week."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "bg1k1"
+        },
+        {
+            "actor": "char:biff",
+            "action": "say",
+            "text": "Ahh... Peace at last."
+        },
+        {
+            "actor": "char:biff",
+            "action": "say",
+            "text": "..."
+        },
+        {
+            "actor": "char:beleth",
+            "action": "say",
+            "text": "..."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "bg1k2"
+        },
+        {
+            "actor": "char:biff",
+            "action": "say",
+            "text": "What are you gonna do with your vacation?"
+        },
+        {
+            "actor": "char:beleth",
+            "action": "say",
+            "text": "I don’t know. It’s been so long since my last break, I’ve kinda forgotten how to actually, uh, take one."
+        },
+        {
+            "actor": "jukebox",
+            "action": "stop"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "bg1l"
+        },
+        {
+            "actor": "char:biff",
+            "action": "say",
+            "text": "Oh! Reading comics, huh?"
+        },
+        {
+            "actor": "jukebox",
+            "action": "play",
+            "track": "andrebel"
+        },
+        {
+            "actor": "char:beleth",
+            "action": "say",
+            "text": "No!"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "bg1m1"
+        },
+        {
+            "actor": "char:biff",
+            "action": "say",
+            "text": "Huh? What’s up?"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "bg1m2"
+        },
+        {
+            "action": "notext"
+        },
+        {
+            "action": "pause"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "bg1n1"
+        },
+        {
+            "action": "pause"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "bg1n2"
+        },
+        {
+            "action": "pause"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "bg1o"
+        },
+        {
+            "action": "pause"
+        },
+        {
+            "actor": "jukebox",
+            "action": "stop"
+        },
+        {
+            "actor": "char:biff",
+            "action": "say",
+            "text": "Well."
+        },
+        {
+            "actor": "jukebox",
+            "action": "play",
+            "track": "belethwhatever"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "bg2a1"
+        },
+        {
+            "actor": "char:biff",
+            "action": "say",
+            "text": "Hey! There’s always movies! And cartoons!"
+        },
+        {
+            "actor": "char:biff",
+            "action": "say",
+            "text": "There’s this cool new horror movie coming out next week, you wanna go see it?"
+        },
+        {
+            "actor": "char:beleth",
+            "action": "say",
+            "text": "What is it?"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "bg2a2"
+        },
+        {
+            "actor": "char:biff",
+            "action": "say",
+            "text": "It’s “Zombie 2: Zombier”. It’s the sequel to “Pick Your Brain”."
+        },
+        {
+            "actor": "char:beleth",
+            "action": "say",
+            "text": "Ugh."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "bg2b1"
+        },
+        {
+            "actor": "char:biff",
+            "action": "say",
+            "text": "What’s the ugh for? It’s a good movie franchise!"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "bg2b2"
+        },
+        {
+            "actor": "char:beleth",
+            "action": "say",
+            "text": "Those things are so inaccurate."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "bg2b1"
+        },
+        {
+            "actor": "char:biff",
+            "action": "say",
+            "text": "I never said it was accurate! A movie doesn’t have to be accurate to be good. It’s entertaining."
+        },
+        {
+            "actor": "char:biff",
+            "action": "say",
+            "text": "It’s the same thing with that comic you’re reading."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "bg2b2"
+        },
+        {
+            "actor": "char:beleth",
+            "action": "say",
+            "text": "My graphic novel, you mean."
+        },
+        {
+            "actor": "char:biff",
+            "action": "say",
+            "text": "Yeah, that. Whatever. “Suit Yourself” isn’t that accurate either, buddy."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "bg2c1"
+        },
+        {
+            "actor": "char:beleth",
+            "action": "say",
+            "text": "It portrays things way more correctly than zombie movies do! "
+        },
+        {
+            "actor": "char:beleth",
+            "action": "say",
+            "text": "The range of emotions the characters display make them almost more real than the real thing!"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "bg2c2"
+        },
+        {
+            "actor": "char:biff",
+            "action": "say",
+            "text": "Then you’ll love Zombie 2! It’s a story about forbidden love, society’s expectations, and having the courage to break out of those expectations!"
+        },
+        {
+            "actor": "char:biff",
+            "action": "say",
+            "text": "The main character, Zombiette, falls for a modern-day version of Prince Charming."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "bg2d1"
+        },
+        {
+            "actor": "char:beleth",
+            "action": "say",
+            "text": "Barf. That’s more than overdone."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "bg2d2"
+        },
+        {
+            "actor": "char:biff",
+            "action": "say",
+            "text": "Come on. Give it a try."
+        },
+        {
+            "actor": "char:beleth",
+            "action": "say",
+            "text": "..."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "bg2d3"
+        },
+        {
+            "actor": "char:beleth",
+            "action": "say",
+            "text": "Fine. On one condition."
+        },
+        {
+            "actor": "char:biff",
+            "action": "say",
+            "text": "What is it?"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "bg2e1"
+        },
+        {
+            "actor": "char:beleth",
+            "action": "say",
+            "text": "You have to watch a movie I choose afterward. And you have to sit through the whole thing."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "bg2e2"
+        },
+        {
+            "actor": "char:biff",
+            "action": "say",
+            "text": "That’s fine with me. I love movies. What did you have in mind?"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "bg2f1"
+        },
+        {
+            "actor": "char:beleth",
+            "action": "say",
+            "text": "Let me check what’s opening next week."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "bg2f2"
+        },
+        {
+            "actor": "char:beleth",
+            "action": "say",
+            "text": "Oh!!!"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "bg2f3"
+        },
+        {
+            "actor": "char:biff",
+            "action": "say",
+            "text": "What?"
+        },
+        {
+            "actor": "char:beleth",
+            "action": "say",
+            "text": "I forgot! It’s out already!?"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "bg2g"
+        },
+        {
+            "actor": "char:beleth",
+            "action": "say",
+            "text": "We’re gonna go see “Aliens High School Invasion”! It’s super cool! It’s about a war general, they’re only 16 and they’re—"
+        },
+        {
+            "actor": "char:biff",
+            "action": "say",
+            "text": "Still in high school?"
+        },
+        {
+            "actor": "char:beleth",
+            "action": "say",
+            "text": "Yeah! It’s based on one of my favorite graphic novels!"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "bg2h"
+        },
+        {
+            "actor": "char:beleth",
+            "action": "say",
+            "text": "You see, aliens are going to invade the world, but they want to infiltrate a school first, to see how we act and live and all of that, but they pick the wrong school to invade, because one of the kids is a war general, and they totally figure out the aliens’ plan."
+        },
+        {
+            "actor": "char:beleth",
+            "action": "say",
+            "text": "But I’m not going to spoil it for you. It’s super cool."
+        },
+        {
+            "actor": "char:biff",
+            "action": "say",
+            "text": "Eh..."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "bg2i1"
+        },
+        {
+            "action": "notext"
+        },
+        {
+            "action": "pause"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "bg2i2"
+        },
+        {
+            "actor": "char:beleth",
+            "action": "say",
+            "text": "Do it, or I’m not going to see Zombie 2."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "bg2j1"
+        },
+        {
+            "actor": "char:biff",
+            "action": "say",
+            "text": "Eh..."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "bg2j2"
+        },
+        {
+            "actor": "char:biff",
+            "action": "say",
+            "text": "Fine. Next week it is, then."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "bg2j3"
+        },
+        {
+            "actor": "char:beleth",
+            "action": "say",
+            "text": "All right!"
+        },
+        {
+            "actor": "jukebox",
+            "action": "stop"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "bg2k1"
+        },
+        {
+            "actor": "char:beleth",
+            "action": "say",
+            "text": "But..."
+        },
+        {
+            "actor": "char:biff",
+            "action": "say",
+            "text": "But what?"
+        },
+        {
+            "actor": "jukebox",
+            "action": "play",
+            "track": "belethlaze"
+        },
+        {
+            "actor": "char:beleth",
+            "action": "say",
+            "text": "That’s fine for next week and all, but what am I going to do today? Or tomorrow?"
+        },
+        {
+            "actor": "char:biff",
+            "action": "say",
+            "text": "I dunno."
+        },
+        {
+            "actor": "char:beleth",
+            "action": "say",
+            "text": "What are you doing?"
+        },
+        {
+            "actor": "char:biff",
+            "action": "say",
+            "text": "I’m gonna go spend some time with my parents. They live on Trebol, so it’s not a hassle to see them or anything. I’ve just been busy."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "bg2k2"
+        },
+        {
+            "actor": "char:beleth",
+            "action": "say",
+            "text": "Ah... yeah."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "bg2l"
+        },
+        {
+            "actor": "char:biff",
+            "action": "say",
+            "text": "Plus, it’ll get them to stop sending messages and letters every day to me, asking if I’m doing all right."
+        },
+        {
+            "actor": "char:biff",
+            "action": "say",
+            "text": "I hate messages and letters. It feels like there’s an expectation that I read and reply to them right away, and that’s too much pressure. I can’t do it."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "bg3a1"
+        },
+        {
+            "actor": "char:beleth",
+            "action": "say",
+            "text": "How is that too much pressure? You just got through dealing with stuff a thousand times more pressuring than a message!"
+        },
+        {
+            "actor": "char:biff",
+            "action": "say",
+            "text": "I dunno. It just is."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "bg3a2"
+        },
+        {
+            "actor": "char:beleth",
+            "action": "say",
+            "text": "How did that go, anyway? You were supposed to be finished before Buer or I was. What took you so long?"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "bg3a3"
+        },
+        {
+            "actor": "char:biff",
+            "action": "say",
+            "text": "Huh? Oh!"
+        },
+        {
+            "actor": "char:biff",
+            "action": "say",
+            "text": "I had to track down every Topsider that got bitten by a zombie."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "bg3b1"
+        },
+        {
+            "actor": "char:beleth",
+            "action": "say",
+            "text": "..."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "bg3b2"
+        },
+        {
+            "actor": "char:beleth",
+            "action": "say",
+            "text": "Why is that?"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "bg3b3"
+        },
+        {
+            "actor": "char:biff",
+            "action": "say",
+            "text": "Well, you see, if you get bitten by <i>too many</i> zombies, you run the risk of turning into one."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "bg3b4"
+        },
+        {
+            "actor": "char:beleth",
+            "action": "say",
+            "text": "I thought you said that couldn’t happen!"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "bg3b5"
+        },
+        {
+            "actor": "char:biff",
+            "action": "say",
+            "text": "Hey, hey! I did not!"
+        },
+        {
+            "actor": "char:biff",
+            "action": "say",
+            "text": "I said it probably couldn’t happen. Whole different boat, buddy."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "bg3c1"
+        },
+        {
+            "actor": "char:biff",
+            "action": "say",
+            "text": "Anyway, yeah. I had to track down each and every one of them and put them back to normal."
+        },
+        {
+            "actor": "char:biff",
+            "action": "say",
+            "text": "It wasn’t too bad. No murderous rampages or anything."
+        },
+        {
+            "actor": "char:beleth",
+            "action": "say",
+            "text": "What’d they do?"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "bg3c2"
+        },
+        {
+            "actor": "char:biff",
+            "action": "say",
+            "text": "They were just following my original orders, which were to head to the nearest corpse handling facility and await incineration. "
+        },
+        {
+            "actor": "char:biff",
+            "action": "say",
+            "text": "They didn’t actually like, turn into the undead or anything. Just a mild touch of mind control."
+        },
+        {
+            "actor": "char:beleth",
+            "action": "say",
+            "text": "Wait, what!?"
+        },
+        {
+            "actor": "char:biff",
+            "action": "say",
+            "text": "Relax! Nobody got incinerated that didn’t need to be incinerated. I think."
+        },
+        {
+            "actor": "char:beleth",
+            "action": "say",
+            "text": "That’s... not very convincing."
+        },
+        {
+            "actor": "char:biff",
+            "action": "say",
+            "text": "It’ll be fine. I’m 99.9% sure nobody got hurt. Aside from being bitten, that is."
+        },
+        {
+            "actor": "char:biff",
+            "action": "say",
+            "text": "Plus, they probably won’t even remember it."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "bg3c3"
+        },
+        {
+            "actor": "char:beleth",
+            "action": "say",
+            "text": "You gotta like, do something about that for next time."
+        },
+        {
+            "actor": "char:biff",
+            "action": "say",
+            "text": "Hey, I can’t help it. Sometimes a corpse just doesn’t like being woken up. Plus, I did warn the Topsiders."
+        },
+        {
+            "actor": "char:beleth",
+            "action": "say",
+            "text": "It just seems a bit... irresponsible. I don’t know."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "bg3d2"
+        },
+        {
+            "actor": "char:biff",
+            "action": "say",
+            "text": "All’s well that ends well. We got rid of the disease, and everyone’s happy."
+        },
+        {
+            "actor": "char:beleth",
+            "action": "say",
+            "text": "I guess."
+        },
+        {
+            "actor": "char:beleth",
+            "action": "say",
+            "text": "Whatever happened to Hammy and Toothy?"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "bg3d1"
+        },
+        {
+            "actor": "char:biff",
+            "action": "say",
+            "text": "Aw, I had to have both of them incinerated. Loppy, too."
+        },
+        {
+            "actor": "char:biff",
+            "action": "say",
+            "text": "Sucks, but there’s always more where they came from."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "bg3e1"
+        },
+        {
+            "actor": "char:beleth",
+            "action": "say",
+            "text": "I never got to actually see Toothy. You have any more SAND HIPPOs?"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "bg3e2"
+        },
+        {
+            "actor": "char:biff",
+            "action": "say",
+            "text": "Nope! Those are hard to find. I might go to Althar sometime and try to snag one."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "bg3e1"
+        },
+        {
+            "actor": "char:beleth",
+            "action": "say",
+            "text": "Is that where they come from?"
+        },
+        {
+            "actor": "char:biff",
+            "action": "say",
+            "text": "Supposedly."
+        },
+        {
+            "actor": "char:biff",
+            "action": "say",
+            "text": "You know what? Maybe I will go to Althar, next break or vacation I take. Should be fun."
+        },
+        {
+            "actor": "char:biff",
+            "action": "say",
+            "text": "And the humidity there is almost nothing! This body’s upkeep is gonna be so easy!"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "bg3e4"
+        },
+        {
+            "actor": "char:beleth",
+            "action": "say",
+            "text": "Ehh... I don’t like dry places. And I don’t like sand. It gets everywhere."
+        },
+        {
+            "actor": "char:biff",
+            "action": "say",
+            "text": "Plus, they know all about zombies!"
+        },
+        {
+            "actor": "char:beleth",
+            "action": "say",
+            "text": "What?"
+        },
+        {
+            "actor": "char:beleth",
+            "action": "say",
+            "text": "I think you’re thinking about mummies."
+        },
+        {
+            "actor": "char:biff",
+            "action": "say",
+            "text": "They’re the same thing."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "bg3e3"
+        },
+        {
+            "actor": "char:beleth",
+            "action": "say",
+            "text": "How can you say that? They totally aren’t!"
+        },
+        {
+            "actor": "char:biff",
+            "action": "say",
+            "text": "A zombie is a corpse that becomes alive, and a mummy is a preserved corpse that comes alive."
+        },
+        {
+            "actor": "char:beleth",
+            "action": "say",
+            "text": "Where does it say that mummies come back to life!?"
+        },
+        {
+            "actor": "char:biff",
+            "action": "say",
+            "text": "Like, every good story and movie ever."
+        },
+        {
+            "actor": "char:beleth",
+            "action": "say",
+            "text": "Those are fictional!"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "bg3f1"
+        },
+        {
+            "actor": "char:biff",
+            "action": "say",
+            "text": "Some are based on true stories. Why else would so many stories and movies have the same idea?"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "bg3f2"
+        },
+        {
+            "actor": "char:beleth",
+            "action": "say",
+            "text": "That’s... that’s..."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "bg3f3"
+        },
+        {
+            "actor": "char:biff",
+            "action": "say",
+            "text": "I know. It makes total sense. I was blown away when I first realized it."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "bg3f4"
+        },
+        {
+            "actor": "char:beleth",
+            "action": "say",
+            "text": "I think you might be disappointed when you get to Althar, is all."
+        },
+        {
+            "actor": "char:biff",
+            "action": "say",
+            "text": "And I think I won’t be."
+        },
+        {
+            "actor": "char:beleth",
+            "action": "say",
+            "text": "Whatever."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "bg3g"
+        },
+        {
+            "actor": "char:biff",
+            "action": "say",
+            "text": "You’re gonna be jealous when I come back with like, an army of mummies."
+        },
+        {
+            "actor": "char:beleth",
+            "action": "say",
+            "text": "Ugh."
+        },
+        {
+            "actor": "char:biff",
+            "action": "say",
+            "text": "And a SAND HIPPO mummy. I’m gonna ride it back to Trebol."
+        },
+        {
+            "actor": "char:beleth",
+            "action": "say",
+            "text": "I don’t think Althar’s gonna like you taking any of their mummies."
+        },
+        {
+            "actor": "char:biff",
+            "action": "say",
+            "text": "I’ll work something out."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "bg3h1"
+        },
+        {
+            "actor": "char:biff",
+            "action": "say",
+            "text": "Hmm."
+        },
+        {
+            "actor": "char:beleth",
+            "action": "say",
+            "text": "Hmm."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "bg3h2"
+        },
+        {
+            "actor": "char:biff",
+            "action": "say",
+            "text": "Well, I’m gonna get going. My moms wanted me home in time for dinner."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "bg3h3"
+        },
+        {
+            "actor": "char:beleth",
+            "action": "say",
+            "text": "You don’t even need dinner!"
+        },
+        {
+            "actor": "char:biff",
+            "action": "say",
+            "text": "Yeah, and I needed to leave like, yesterday. I'm gonna be way late."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "bg3h4"
+        },
+        {
+            "actor": "char:beleth",
+            "action": "say",
+            "text": "Why's—"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "bg3i1"
+        },
+        {
+            "actor": "char:biff",
+            "action": "say",
+            "text": "I told them it wouldn't be a problem, and that I'd totally be there today, but then I realized they left right before the quarantine line was set up."
+        },
+        {
+            "actor": "char:beleth",
+            "action": "say",
+            "text": "What are you talking about? I thought they lived here."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "bg3i2"
+        },
+        {
+            "actor": "char:biff",
+            "action": "say",
+            "text": "They did live here. They left when the outbreak was turning into an emergency."
+        },
+        {
+            "actor": "char:beleth",
+            "action": "say",
+            "text": "How'd they—"
+        },
+        {
+            "actor": "char:biff",
+            "action": "say",
+            "text": "Well, I guess they still do, technically, but right now they're living in Zest."
+        },
+        {
+            "actor": "char:beleth",
+            "action": "say",
+            "text": "I have no idea where that is."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "bg3j1"
+        },
+        {
+            "actor": "char:biff",
+            "action": "say",
+            "text": "I kinda... don't know either."
+        },
+        {
+            "actor": "char:beleth",
+            "action": "say",
+            "text": "What!? How are you going to get there?"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "bg3j2"
+        },
+        {
+            "actor": "char:biff",
+            "action": "say",
+            "text": "I'll figure something out. A commander's gotta be able to improvise."
+        },
+        {
+            "actor": "char:beleth",
+            "action": "say",
+            "text": "What are you even going to do over there, in uh, Zest?"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "bg3j3"
+        },
+        {
+            "actor": "char:biff",
+            "action": "say",
+            "text": "If it's anything like usual, we'll all sit in the living room and watch a game show together. Maybe a movie. Maybe the news."
+        },
+        {
+            "actor": "char:beleth",
+            "action": "say",
+            "text": "That sounds so boring."
+        },
+        {
+            "actor": "char:biff",
+            "action": "say",
+            "text": "No way! Total family bonding thing! You should come over sometime. You’ll see."
+        },
+        {
+            "actor": "char:beleth",
+            "action": "say",
+            "text": "I think I’ll pass, for now."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "bg3k1"
+        },
+        {
+            "actor": "char:biff",
+            "action": "say",
+            "text": "..."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "bg3k2"
+        },
+        {
+            "actor": "char:biff",
+            "action": "say",
+            "text": "Suit Yourself."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "bg3k3"
+        },
+        {
+            "actor": "char:beleth",
+            "action": "say",
+            "text": "Augh!"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "bg3k4"
+        },
+        {
+            "actor": "char:biff",
+            "action": "say",
+            "text": "Ahah!"
+        },
+        {
+            "actor": "char:biff",
+            "action": "say",
+            "text": "I’m off. Seeya!"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "bg3l1"
+        },
+        {
+            "actor": "char:beleth",
+            "action": "say",
+            "text": "Hmm."
+        },
+        {
+            "actor": "char:beleth",
+            "action": "say",
+            "text": "Maybe I’ll work on making some more puppets. Can’t ever have too many of those."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "bg3l2"
+        },
+        {
+            "actor": "char:beleth",
+            "action": "say",
+            "text": "Yeah. That sounds good."
+        },
+        {
+            "actor": "jukebox",
+            "action": "stop"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "bg3l3"
+        },
+        {
+            "action": "notext"
+        },
+        {
+            "action": "pause"
+        },
+        {
+            "actor": "jukebox",
+            "action": "play",
+            "track": "andrebel"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "bg3l4"
+        },
+        {
+            "actor": "char:beleth",
+            "action": "say",
+            "text": "Almost forgot... my comic."
+        },
+        {
+            "actor": "char:beleth",
+            "action": "say",
+            "text": "I kind of want to leave it here. I don’t want that in my house."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "bg3l5"
+        },
+        {
+            "actor": "char:beleth",
+            "action": "say",
+            "text": "Oh man, but it’s a first edition. I can’t just leave it here."
+        },
+        {
+            "actor": "char:beleth",
+            "action": "say",
+            "text": "..."
+        },
+        {
+            "actor": "char:beleth",
+            "action": "say",
+            "text": "Augh!"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "bg3m"
+        },
+        {
+            "action": "notext"
+        },
+        {
+            "action": "pause"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "bg3n"
+        },
+        {
+            "action": "pause"
+        },
+        {
+            "actor": "curtain",
+            "action": "lower"
+        },
+        {
+            "actor": "backdrop",
+            "action": "hide"
+        },
+        {
+            "action": "roll_credits"
+        }
+    ]
+}

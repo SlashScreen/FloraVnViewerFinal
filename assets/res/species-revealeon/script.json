@@ -1,0 +1,373 @@
+{
+    "asset_root": ".",
+    "name": "species-revealeon",
+    "title": "Species Ref: Revealeons",
+    "date": "2015-07-24",
+    "preview": "preview.png",
+    "credits": {
+        "people": [
+            {
+                "who": "PK",
+                "for": "Art, Music",
+                "deviantart": "purplekecleon",
+                "tumblr": "purplekecleon",
+                "twitter": "papayakitty"
+            },
+            {
+                "who": "Marl",
+                "for": "Script",
+                "deviantart": "marlcabinet",
+                "tumblr": "avolontes"
+            },
+            {
+                "who": "Eevee",
+                "for": "Programming",
+                "website": "http://eev.ee/",
+                "deviantart": "lexyeevee",
+                "tumblr": "lexyeevee",
+                "twitter": "eevee"
+            }
+        ],
+        "footer_html": [
+            "<a href='http://floraverse.com/'>Floraverse</a>",
+            "<a href='https://floraverse.bandcamp.com/'>Bandcamp</a>",
+            "logout successful",
+            "␄"
+        ]
+    },
+    "actors": {
+        "curtain": {
+            "type": "curtain"
+        },
+        "jukebox": {
+            "type": "jukebox",
+            "tracks": {
+                "vgp": "VGP_6.ogg"
+            }
+        },
+        "splash": {
+            "type": "spot",
+            "position": "backdrop",
+            "views": {
+                "splash": "revealeontitle.png"
+            }
+        },
+        "backdrop": {
+            "type": "spot",
+            "position": "behind-tablet-hack",
+            "views": {
+                "lily": "lilytablet.png"
+            }
+        },
+        "tablet": {
+            "type": "spot",
+            "position": "tablet-hack",
+            "views": {}
+        },
+        "thumbs": {
+            "type": "spot",
+            "position": "far-front",
+            "views": {
+                "thumbs": "lilytabletthumb.png"
+            }
+        },
+        "revealeon": {
+            "type": "spot",
+            "position": "imagespot-revealeon",
+            "views": {
+                "revealeon1": "revealeon1.png",
+                "revealeon2": "revealeon2.png",
+                "revealeon3": "revealeon3.png",
+                "revealeon4": "revealeon4.png",
+                "revealeon5": "revealeon5.png",
+                "revealeon6": "revealeon6.png",
+                "revealeon7": "revealeon7.png",
+                "revealeon8": "revealeon8.png",
+                "revealeon9": "revealeon9.png",
+                "revealeon10": "revealeon10.png"
+            }
+        },
+        "tablet-interaction": {
+            "type": "character",
+            "position": "tablet-interaction",
+            "name": null,
+            "color": "black"
+        },
+        "tablet-data": {
+            "type": "character",
+            "position": "tablet-data",
+            "name": null,
+            "color": "black"
+        }
+    },
+    "script": [
+        {
+            "actor": "splash",
+            "action": "show",
+            "view": "splash"
+        },
+        {
+            "actor": "tablet-interaction",
+            "action": "say",
+            "text": ""
+        },
+        {
+            "actor": "splash",
+            "action": "hide"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "lily"
+        },
+        {
+            "actor": "thumbs",
+            "action": "show",
+            "view": "thumbs"
+        },
+        {
+            "actor": "jukebox",
+            "action": "play",
+            "track": "vgp"
+        },
+        {
+            "actor": "tablet-interaction",
+            "action": "say",
+            "text": "<span class='-panel'>Remote Panel VGP_27_YB\n\nUser “Lily” detected, logging in.</span>"
+        },
+
+        {
+            "actor": "tablet-interaction",
+            "action": "say",
+            "text": "<span class='-tal'>Hello again, Lily. It has been longer than usual. How was the trip?</span>\n\n&gt; \fLong. Need to avoid LM when returning. LM currently exp. political unrest.\n\n<span class='-tal'>I will seal the LM systems for now. Can you make it back on your own?</span>\n\n&gt; \fYes\n\n<span class='-tal'>I am glad to hear that. What brings you here today?</span>\n\n&gt; \fRequesting general information: Revealeons\n\n<span class='-panel'>Transmitting data. Please be patient.</span>\n\n<span class='-tal'>Is this request due to the greater-than-average number of Revealeons currently in VGP?</span>\n\n&gt; \fYes\n\n<span class='-tal'>I am excited. Something may be there. Will you find it?</span>\n\n&gt; \fWill try. May be dangerous.\n\n<span class='-tal'>Dangerous ! That is certainly unsafe. What could it be?</span>\n\n&gt; \fDon’t want to hazard a guess at this time. Several possibilities. Need to converse with locals.\n\n<span class='-tal'>Ha. Ha. I am sure that will be fun. Good luck.</span>\n\n&gt; \fThanks\n\n<span class='-panel'>.\n\f.\n\f.\n\fData transfer complete. Displaying data.</span>\n"
+        },
+        {
+            "actor": "tablet-interaction",
+            "action": "say",
+            "text": "<span class='-term'>REVEALEONS, COMMON</span>; <span class='-term'>SURVEILLEONS, COMMON</span>\nVARIES"
+        },
+        {
+            "actor": "tablet-interaction",
+            "action": "say",
+        
+            "text": "<em>Hereditary influence:</em> High\nNote: Setting HI to None, Low or Medium interferes with <span class='-term'>REVEALEONS, COMMON</span> ability to replicate themselves and can result in spontaneous combustion, explosion, implosion, or a combination of all three. Keep HI set to High."
+        },
+        {
+            "actor": "tablet-interaction",
+            "action": "say",
+            "text": "<em>Environmental influence:</em> High\nNote: Setting EI to None, Low or Medium does not interfere with the health or well-being of <span class='-term'>REVEALEONS, COMMON</span>, but renders them completely unable to produce results. Setting EI to Very High results in poor-quality results."
+        },
+        {
+            "actor": "tablet-interaction",
+            "action": "say",
+            "text": "<em>Language:</em> Leon\nNote: Leon language is updated every 4-5 months on average."
+        },
+        {
+            "actor": "tablet-interaction",
+            "action": "say",
+
+            "text": "<em>Ability to reason:</em> High\nNote: Setting ATR to None, Low or Medium results in <span class='-term'>REVEALEONS, COMMON</span> becoming unable to perform their main objective, or unable to perform it well. ATR must be kept at very high to encourage dynamic decision making."
+        },
+        {
+            "actor": "tablet-interaction",
+            "action": "say",
+
+            "text": "<em>Climate preference:</em> Varies\nNote: Preference only. <span class='-term'>REVEALEONS, COMMON</span> are highly varied and may live anywhere on Owel."
+        },
+        {
+            "actor": "tablet-interaction",
+            "action": "say",
+
+            "text": "<em>Native to:</em> Owel\nNote: I enjoy leaving this note. Ha-Ha. It is great fun."
+        },
+        {
+            "actor": "tablet-interaction",
+            "action": "say",
+
+            "text": "<em>Found in:</em> All over Owel, mostly uninhabited regions\nNote: <span class='-term'>REVEALEONS, COMMON</span> have an innate desire to explore largely-uninhabited areas and to see interesting and unusual sights. Larger cities such as Althar, Mew York, NPO and Gnawth are not home to large numbers of <span class='-term'>REVEALEONS, COMMON</span>."
+        },
+        {
+            "actor": "tablet-interaction",
+            "action": "say",
+
+            "text": "<strong>&gt; Elements</strong>\n\n<em>Affinities:</em> Any\nNotes: “Spirit” and “PSI” are extremely rare in <span class='-term'>REVEALEONS, COMMON</span>. The last-known cases of such affinities were near PM_8_K, but I have since lost track of them."
+        },
+        {
+            "actor": "tablet-interaction",
+            "action": "say",
+            "text": "<em>Weaknesses:</em> Varies, dependent on Revealeon\nNotes: Manually introducing weaknesses results in corruption. <span class='-term'>REVEALEONS, COMMON</span> may change elemental weaknesses on their own without this effect."
+        },
+        {
+            "actor": "tablet-interaction",
+            "action": "say",
+            "text": "<em>Resistances:</em> Varies, dependent on Revealeon\nNotes: Manually introducing resistances results in retrograde amnesia. <span class='-term'>REVEALEONS, COMMON</span> may change elemental resistances on their own without this effect."
+        },
+        {
+            "actor": "tablet-interaction",
+            "action": "say",
+            "text": "<strong>&gt; Society</strong>\n\n<span class='-term'>REVEALEONS, COMMON</span> are solitary creatures, but do rarely form small communities consisting of 2 - 20 individuals. They are extremely shy, and will often flee from any individual that attempts to approach them.\n\nCommunities are mostly formed when a large number of <span class='-term'>REVEALEONS, COMMON</span> congregate in one area. This usually implies something of great importance or remarkable interest resides within the area.\n\n<span class='-term'>REVEALEONS, COMMON</span> will become less shy toward specific individuals the more they observe them.\n\nWhen around other sentient individuals <span class='-term'>REVEALEONS, COMMON</span> thoroughly enjoy disguising themselves as various objects and other wildlife, and will quickly flee from the area if attention is drawn to them.\n\n<span class='-term'>SURVEILLEONS, COMMON</span> are a variant of <span class='-term'>REVEALEONS, COMMON</span>, and are far more solitary. They have no desire to form communities. They have no desire to interact with other individuals, regardless of species.\n\nTheir primary purpose is to <span class='-redacted'>[REDACTED]</span>.\n\n<span class='-tal'>Sorry, Lily. There are no <span class='-term'>SURVEILLEONS, COMMON</span> near your location, so I thought it would be safer to omit this information. If the information is relevant, please let me know.</span>"
+        },
+        {
+            "actor": "tablet-interaction",
+            "action": "say",
+            "text": "<strong>Abilities:</strong> Eye Spy\n\n<span class='-term'>REVEALEONS, COMMON</span> are able to observe and completely memorize their surrounding environment. They are then able to replay this observation, or memory, in the form of taking on the appearance of anything within it.\n\nTheir memories are not perfect, however, and the forms they take on are typically flawed in some way. Usually, they will sport several eyes (or one larger-than-normal eye) and a curled tail on whatever it is they are attempting to look like.\n\nIf they do not periodically refresh their memory, their appearance will start to degrade over time. Examples to follow."
+        },
+        {
+            "actor": "revealeon",
+            "action": "show",
+            "view": "revealeon1"
+        },
+        {
+            "actor": "tablet-data",
+            "action": "say",
+            "text": "This <span class='-term'>REVEALEON, COMMON</span> has spent much of its life exploring the Aurorian wilderness, and has acquired colors that allow it to blend in more easily with the taiga environment."
+        },
+        {
+            "actor": "revealeon",
+            "action": "show",
+            "view": "revealeon2"
+        },
+        {
+            "actor": "tablet-data",
+            "action": "say",
+            "text": "This <span class='-term'>REVEALEON, COMMON</span> has spent a substantial amount of time observing the natives of Croon Fens, and its body has taken on warning colors similar to them. It is not poisonous, despite having those colors."
+        },
+        {
+            "actor": "revealeon",
+            "action": "show",
+            "view": "revealeon3"
+        },
+        {
+            "actor": "tablet-data",
+            "action": "say",
+
+            "text": "This <span class='-term'>REVEALEON, COMMON</span> has spent much of its time in and around Neon Lake. Its body has changed shape to resemble the native kelp, and its coloration has taken on neon highlights. "
+        },
+        {
+            "actor": "revealeon",
+            "action": "show",
+            "view": "revealeon4"
+        },
+        {
+            "actor": "tablet-data",
+            "action": "say",
+
+            "text": "This <span class='-term'>REVEALEON, COMMON</span> has an interest in flowers. Its body shape has changed to resemble a variant of sunflower, and its several petals assist its vision in low-light environments."
+        },
+        {
+            "actor": "revealeon",
+            "action": "show",
+            "view": "revealeon5"
+        },
+        {
+            "actor": "tablet-data",
+            "action": "say",
+
+            "text": "This <span class='-term'>REVEALEON, COMMON</span> has a great fondness for Charcoal Chickens. It currently lives along Owel’s southwest coast and spends its days running up and down the beach, attempting to blend in with other Charcoal Chickens. It is not very successful."
+        },
+        {
+            "actor": "revealeon",
+            "action": "show",
+            "view": "revealeon6"
+        },
+        {
+            "actor": "tablet-data",
+            "action": "say",
+
+            "text": "This <span class='-term'>REVEALEON, COMMON</span> has taken the shape of an Aurorian wildberry. Its memory is not totally accurate; Aurorian wildberries have only one segment, not two connected with a torso."
+        },
+        {
+            "actor": "revealeon",
+            "action": "show",
+            "view": "revealeon7"
+        },
+        {
+            "actor": "tablet-data",
+            "action": "say",
+
+            "text": "This individual insists that it be referred to only as <span class='-term'>STRAWBERRY MAN</span>. It is currently in the process of forgetting what an actual strawberry looks like. When <span class='-term'>STRAWBERRY MAN</span> creates a new version of itself, the new version is referred to as <span class='-term'>STRAWBERRY LAD</span>. When it grows up, it is once again <span class='-term'>STRAWBERRY MAN</span>."
+        },
+        {
+            "actor": "revealeon",
+            "action": "show",
+            "view": "revealeon8"
+        },
+        {
+            "actor": "tablet-data",
+            "action": "say",
+
+            "text": "This <span class='-term'>REVEALEON, COMMON</span> has found the perfect camouflage: an unsuspecting stump. Usually found in the middle of a forest, it prefers to roll away rather than run away from danger."
+        },
+        {
+            "actor": "revealeon",
+            "action": "show",
+            "view": "revealeon9"
+        },
+        {
+            "actor": "tablet-data",
+            "action": "say",
+
+            "text": "This <span class='-term'>REVEALEON, COMMON</span> appreciates the art of faberge eggs and baking, and has changed its body shape to reflect its tastes. The cinnamon bun is actually its tail, and should not be eaten."
+        },
+        {
+            "actor": "revealeon",
+            "action": "show",
+            "view": "revealeon10"
+        },
+        {
+            "actor": "tablet-data",
+            "action": "say",
+
+            "text": "This <span class='-term'>REVEALEON, COMMON</span> may be disguised as a bunch of grapes, or it may be disguised as a single grape and is hiding inside a bunch of grapes. Only time will tell."
+        },
+        {
+            "actor": "revealeon",
+            "action": "hide"
+        },
+        {
+            "actor": "tablet-interaction",
+            "action": "say",
+            "text": "<strong>Physiology</strong>\n\n<span class='-term'>REVEALEONS, COMMON</span> vary wildly in size, shape and color, but always have at least one eye (or other visual organ) and a curled tail.\n\n<span class='-term'>SURVEILLEONS, COMMON</span> vary wildly in size, shape and color, but always have at least <span class='-redacted'>[REDACTED]</span>. In addition, at least one <span class='-redacted'>[REDACTED]</span>, one <span class='-redacted'>[REDACTED]</span> and one curled tail.\n\n<span class='-tal'>See previous apology.</span>"
+        },
+        {
+            "actor": "tablet-interaction",
+            "action": "say",
+            "text": "<strong>Reproduction</strong>\n\n<span class='-term'>REVEALEONS, COMMON</span> reproduce via Holo-Genesis.\n\nWhen a <span class='-term'>REVEALEON, COMMON</span> has determined it has observed enough of its environment, it will project a (scaled down) holographic image of itself, and begin uploading its observations to that hologram.\n\nAs the observations are transferred, the hologram changes shape and begins to take physical form. Eventually, the hologram becomes its own <span class='-term'>REVEALEON, COMMON</span>, with its own appearance and personality, based on the observations that were transferred to it during creation."
+        },
+        {
+            "actor": "revealeon",
+            "action": "hide"
+        },
+        {
+            "actor": "tablet-interaction",
+            "action": "say",
+            "text": "<span class='-panel'>End of data.\n\nThank you for using TAL.</span>"
+        },
+        {
+            "actor": "curtain",
+            "action": "lower"
+        },
+        {
+            "actor": "jukebox",
+            "action": "stop"
+        },
+        {
+            "action": "notext"
+        },
+        {
+            "actor": "backdrop",
+            "action": "hide"
+        },
+        {
+            "actor": "tablet",
+            "action": "hide"
+        },
+        {
+            "actor": "thumbs",
+            "action": "hide"
+        },
+        {
+            "action": "roll_credits"
+        }
+    ]
+}

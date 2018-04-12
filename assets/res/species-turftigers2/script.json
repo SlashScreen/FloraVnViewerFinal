@@ -1,0 +1,882 @@
+{
+    "asset_root": ".",
+    "name": "species-turftigers2",
+    "title": "Species Ref: Turf Tigers",
+    "subtitle": "Part 2",
+    "date": "2016-01-04",
+    "preview": "preview.png",
+    "credits": {
+        "people": [
+            {
+                "who": "Glip",
+                "for": "Art, Music",
+                "deviantart": "glitchedpuppet",
+                "tumblr": "glitchedpuppet",
+                "twitter": "glitchedpuppet"
+            },
+            {
+                "who": "Marl",
+                "for": "Script",
+                "deviantart": "marlcabinet",
+                "tumblr": "avolontes"
+            },
+            {
+                "who": "Eevee",
+                "for": "Programming",
+                "website": "http://eev.ee/",
+                "deviantart": "lexyeevee",
+                "tumblr": "lexyeevee",
+                "twitter": "eevee"
+            }
+        ],
+        "footer_html": [
+            "<a href='http://floraverse.com/'>Floraverse</a>",
+            "<a href='https://floraverse.bandcamp.com/'>Bandcamp</a>",
+            "stay tuned"
+        ]
+    },
+    "actors": {
+        "curtain": {
+            "type": "curtain"
+        },
+        "jukebox": {
+            "type": "jukebox",
+            "tracks": {
+                "toyle_2": "toyle_2.ogg"
+            }
+        },
+        "backdrop": {
+            "type": "spot",
+            "position": "backdrop",
+            "views": {
+                "splash": "tigerscover2.png",
+                "2a1": "tigers2a1.png",
+                "2a2": "tigers2a2.png",
+                "2a3": "tigers2a3.png",
+                "2a4": "tigers2a4.png",
+                "2a5": "tigers2a5.png",
+                "2a6": "tigers2a6.png",
+                "2a7": "tigers2a7.png",
+                "2b1": "tigers2b1.png",
+                "2b2": "tigers2b2.png",
+                "2b3": "tigers2b3.png",
+                "2b4": "tigers2b4.png",
+                "2b5": "tigers2b5.png",
+                "2c1": "tigers2c1.png",
+                "2c2": "tigers2c2.png",
+                "2c3": "tigers2c3.png",
+                "2c4": "tigers2c4.png",
+                "2d1": "tigers2d1.png",
+                "2d2": "tigers2d2.png",
+                "2e1": "tigers2e1.png",
+                "2e2": "tigers2e2.png",
+                "2e3": "tigers2e3.png",
+                "2e4": "tigers2e4.png",
+                "2f1": "tigers2f1.png",
+                "2f2": "tigers2f2.png",
+                "2f3": "tigers2f3.png",
+                "2f4": "tigers2f4.png",
+                "2g1": "tigers2g1.png",
+                "2g2": "tigers2g2.png",
+                "3a1": "tigers3a1.png",
+                "3a2": "tigers3a2.png",
+                "3a3": "tigers3a3.png",
+                "3a4": "tigers3a4.png",
+                "3b": "tigers3b.png",
+                "3c1": "tigers3c1.png",
+                "3c2": "tigers3c2.png",
+                "3c3": "tigers3c3.png"
+            }
+        },
+        "narrator": {
+            "type": "character",
+            "name": null,
+            "color": "black"
+        },
+        "char:toyle": {
+            "type": "character",
+            "name": "Toyle",
+            "color": "#476ca3",
+            "position": "left",
+            "views": {}
+        },
+        "char:kidneon": {
+            "type": "character",
+            "name": "Kid Neon",
+            "color": "#da21c8",
+            "position": "right",
+            "views": {}
+        },
+        "char:incognitochip": {
+            "type": "character",
+            "name": "?",
+            "color": "#9c6fff",
+            "position": "right",
+            "views": {}
+        },
+        "char:chip": {
+            "type": "character",
+            "name": "Chip the MicroCat",
+            "color": "#9c6fff",
+            "position": "right",
+            "views": {}
+        },
+        "char:incognitoadrian": {
+            "type": "character",
+            "name": "?",
+            "color": "#3955e9",
+            "position": "right",
+            "views": {}
+        },
+        "char:adrian": {
+            "type": "character",
+            "name": "Adrian",
+            "color": "#2f18dc",
+            "position": "right",
+            "views": {}
+        },
+        "char:incognitovivian": {
+            "type": "character",
+            "name": "?",
+            "color": "#2e1264",
+            "position": "right",
+            "views": {}
+        },
+        "char:vivian": {
+            "type": "character",
+            "name": "Vivian",
+            "color": "#2e1264",
+            "position": "right",
+            "views": {}
+        },
+        "char:crowd": {
+            "type": "character",
+            "name": "Crowd",
+            "color": "#202020",
+            "position": "left",
+            "views": {}
+        },
+        "char:shizu": {
+            "type": "character",
+            "name": "Shizu",
+            "color": "#914bc7",
+            "position": "right",
+            "views": {}
+        }
+    },
+    "script": [
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "splash"
+        },
+        {
+            "actor": "narrator",
+            "action": "say",
+            "text": ""
+        },
+        {
+            "actor": "jukebox",
+            "action": "play",
+            "track": "toyle_2"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "2a1"
+        },
+        {
+            "actor": "char:toyle",
+            "action": "say",
+            "text": "Representing team Charthur and sporting the latest in Neo-Techno Cyber-augmentation..."
+        },
+        {
+            "actor": "char:toyle",
+            "action": "say",
+            "text": "it's Kid Neon!"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "2a2"
+        },
+        {
+            "actor": "char:kidneon",
+            "action": "say",
+            "text": "This broadcast's comment page indicates that Jasmaby still thinks the zombie is actually a mummy."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "2a1"
+        },
+        {
+            "actor": "char:toyle",
+            "action": "say",
+            "text": "Wow! You can tell all that from here?"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "2a3"
+        },
+        {
+            "actor": "char:kidneon",
+            "action": "say",
+            "text": "My cyber-eyes grant me a constant stream of technobuzz from the surfnet."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "2a4"
+        },
+        {
+            "actor": "char:toyle",
+            "action": "say",
+            "text": "Is that all they see?"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "2a3"
+        },
+        {
+            "actor": "char:kidneon",
+            "action": "say",
+            "text": "They see everything. Including Jasmaby's charade for what it actually is: a charade."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "2a4"
+        },
+        {
+            "actor": "char:toyle",
+            "action": "say",
+            "text": "Can you tell the viewers what you bring to the table?"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "2a5"
+        },
+        {
+            "actor": "char:incognitochip",
+            "action": "say",
+            "text": "Beep boop. Systems armed."
+        },
+        {
+            "actor": "char:kidneon",
+            "action": "say",
+            "text": "Chip the MicroCat is equipped with a variety of anti-personnel artillery and sensors. Jasmaby's sympathizers have no chance."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "2a6"
+        },
+        {
+            "actor": "char:toyle",
+            "action": "say",
+            "text": "It looks fierce! What else—"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "2a5"
+        },
+        {
+            "actor": "char:chip",
+            "action": "say",
+            "text": "Beep boop! Bzzt! Low-quality post detected!"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "2a7"
+        },
+        {
+            "actor": "char:kidneon",
+            "action": "say",
+            "text": "Gotta go. Someone on the surfnet said something I disagree with."
+        },
+        {
+            "actor": "narrator",
+            "action": "say",
+            "text": "<em>Kid Neon ★ Team Charthur ★ Stripegoat\nPower: Neo Technomancy\nBattles Won: 23 ★ Battles Lost: 15</em>"
+        },
+        {
+            "action": "notext"
+        },
+        {
+            "actor": "curtain",
+            "action": "lower"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "2b1"
+        },
+        {
+            "actor": "char:incognitoadrian",
+            "action": "say",
+            "text": "Did someone say..."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "2b2"
+        },
+        {
+            "actor": "char:incognitoadrian",
+            "action": "say",
+            "text": "Surf?"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "2b3"
+        },
+        {
+            "actor": "char:toyle",
+            "action": "say",
+            "text": "Oh! Looks like we have someone from Team Jasmaby!"
+        },
+        {
+            "actor": "char:toyle",
+            "action": "say",
+            "text": "It's Adrian!"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "2b4"
+        },
+        {
+            "actor": "narrator",
+            "action": "say",
+            "text": ""
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "2b5"
+        },
+        {
+            "actor": "char:toyle",
+            "action": "say",
+            "text": "Watch the camera! Watch the camera! It's not waterproof!"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "2c1"
+        },
+        {
+            "actor": "char:adrian",
+            "action": "say",
+            "text": "Stoked to be here, little bro. Looks like we got us some waves comin' our way."
+        },
+        {
+            "actor": "char:adrian",
+            "action": "say",
+            "text": "Totally looked like they were gonna be some bummin' ankle busters, but gnarlatious things come around when you least expect it."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "2c2"
+        },
+        {
+            "actor": "char:toyle",
+            "action": "say",
+            "text": "I don't know what you said, but great!"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "2c1"
+        },
+        {
+            "actor": "char:adrian",
+            "action": "say",
+            "text": "Means it's totally excellent."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "2c2"
+        },
+        {
+            "actor": "char:toyle",
+            "action": "say",
+            "text": "Tell our viewers what you're bringing to Team Jasmaby!"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "2c3"
+        },
+        {
+            "actor": "char:adrian",
+            "action": "say",
+            "text": "Check out the big gun, little dude! Didn't you see it when I shredded on in?"
+        },
+        {
+            "actor": "char:adrian",
+            "action": "say",
+            "text": "This board's my totally awesome girl Valentina. She and I go way back, and we're here today to make those Charthur dweebs eat it."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "2c4"
+        },
+        {
+            "actor": "char:toyle",
+            "action": "say",
+            "text": "Eat what?"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "2c3"
+        },
+        {
+            "actor": "char:adrian",
+            "action": "say",
+            "text": "No time to explain, little dude. Gotta go get ready!"
+        },
+        {
+            "actor": "narrator",
+            "action": "say",
+            "text": "<em>Adrian ★ Team Jasmaby ★ Surf Tiger\nPower: Mondo Waves\nBattles Won: 17 ★ Battles Lost: 12</em>"
+        },
+        {
+            "action": "notext"
+        },
+        {
+            "actor": "curtain",
+            "action": "lower"
+        },
+        {
+            "actor": "backdrop",
+            "action": "hide"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "2d1"
+        },
+        {
+            "actor": "char:incognitovivian",
+            "action": "say",
+            "text": "What's the strongest element in the world?"
+        },
+        {
+            "actor": "char:toyle",
+            "action": "say",
+            "text": "Could it be? It's..."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "2d2"
+        },
+        {
+            "actor": "char:incognitovivian",
+            "action": "say",
+            "text": "It's ROCK!"
+        },
+        {
+            "actor": "char:toyle",
+            "action": "say",
+            "text": "From team Charthur, it's Vivian!"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "2e1"
+        },
+        {
+            "actor": "char:toyle",
+            "action": "say",
+            "text": "Hey! That's my mic!"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "2e2"
+        },
+        {
+            "actor": "char:vivian",
+            "action": "say",
+            "text": "Helllooo, Dewclaw!"
+        },
+        {
+            "actor": "char:vivian",
+            "action": "say",
+            "text": "Are all of you ready to ROCK?"
+        },
+        {
+            "actor": "char:crowd",
+            "action": "say",
+            "text": "YEEEEAAAHHH!"
+        },
+        {
+            "actor": "char:vivian",
+            "action": "say",
+            "text": "YEAH!"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "2e3"
+        },
+        {
+            "actor": "char:vivian",
+            "action": "say",
+            "text": "What about you, little guy?"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "2e4"
+        },
+        {
+            "actor": "char:toyle",
+            "action": "say",
+            "text": "I'm not much of a rocker. Can I have the mic back?"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "2e3"
+        },
+        {
+            "actor": "char:vivian",
+            "action": "say",
+            "text": "You got it, guy."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "2f1"
+        },
+        {
+            "actor": "char:toyle",
+            "action": "say",
+            "text": "Tell us, why did you pick Charthur's side?"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "2f2"
+        },
+        {
+            "actor": "char:vivian",
+            "action": "say",
+            "text": "I was in the neighborhood and heard she was getting into a badass fight, and I owe her one."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "2f1"
+        },
+        {
+            "actor": "char:toyle",
+            "action": "say",
+            "text": "Do you think she's right?"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "2f2"
+        },
+        {
+            "actor": "char:vivian",
+            "action": "say",
+            "text": "About what?"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "2f1"
+        },
+        {
+            "actor": "char:toyle",
+            "action": "say",
+            "text": "About Jasmaby not knowing the mummy was actually a zombie."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "2f2"
+        },
+        {
+            "actor": "char:vivian",
+            "action": "say",
+            "text": "I don't know anything about that. I just owe her one, so I'm gonna melt some faces for her."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "2f3"
+        },
+        {
+            "actor": "char:toyle",
+            "action": "say",
+            "text": "Well, I—"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "2f4"
+        },
+        {
+            "actor": "char:vivian",
+            "action": "say",
+            "text": "Is that Adrian over there?"
+        },
+        {
+            "actor": "char:adrian",
+            "action": "say",
+            "text": "Vivian! Is that you?"
+        },
+        {
+            "actor": "char:vivian",
+            "action": "say",
+            "text": "I'll be damned!"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "2f3"
+        },
+        {
+            "actor": "char:toyle",
+            "action": "say",
+            "text": "Do—"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "2g1"
+        },
+        {
+            "actor": "char:adrian",
+            "action": "say",
+            "text": "You're on the wrong side! You're gonna totally wipe out."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "2g2"
+        },
+        {
+            "actor": "char:vivian",
+            "action": "say",
+            "text": "I'm gonna totally kick your ass!"
+        },
+        {
+            "actor": "narrator",
+            "action": "say",
+            "text": "<em>Vivian ★ Glam Candies\nPower: Underground Hit\nBattles Won: 17 ★ Battles Lost: 12</em>"
+        },
+        {
+            "action": "notext"
+        },
+        {
+            "actor": "curtain",
+            "action": "lower"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "3a1"
+        },
+        {
+            "actor": "char:toyle",
+            "action": "say",
+            "text": "Why is everyone so hard to interview?"
+        },
+        {
+            "actor": "char:toyle",
+            "action": "say",
+            "text": "Okay. Let's just get this over with."
+        },
+        {
+            "actor": "char:toyle",
+            "action": "say",
+            "text": "Team Jasmaby. Shizu. Very cool looking. Will probably leave before answering any of my questions in a satisfactory manner."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "3a2"
+        },
+        {
+            "actor": "char:shizu",
+            "action": "say",
+            "text": "All those jerks thought they were totally hot, but they weren't. They don't even know what hot is."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "3a1"
+        },
+        {
+            "actor": "char:toyle",
+            "action": "say",
+            "text": "And you do?"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "3a2"
+        },
+        {
+            "actor": "char:shizu",
+            "action": "say",
+            "text": "Duh. Look at me. Look at all this. I don't wear this for fun. "
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "3a1"
+        },
+        {
+            "actor": "char:toyle",
+            "action": "say",
+            "text": "No, I imagine you wear it to cover up rotting flesh."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "3a3"
+        },
+        {
+            "actor": "char:shizu",
+            "action": "say",
+            "text": "Well, sure. But more importantly, I wear it so everyone knows what fashion really is."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "3a4"
+        },
+        {
+            "actor": "char:toyle",
+            "action": "say",
+            "text": "That's very big of you. "
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "3a3"
+        },
+        {
+            "actor": "char:shizu",
+            "action": "say",
+            "text": "I know, right? It's really difficult to do it all the time. Every single day I have to consider hundreds of factors before putting all this on and presenting it to the world."
+        },
+        {
+            "actor": "char:shizu",
+            "action": "say",
+            "text": "It's a thankless job."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "3a4"
+        },
+        {
+            "actor": "char:toyle",
+            "action": "say",
+            "text": "What does this have to do with the conflict?"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "3b"
+        },
+        {
+            "actor": "char:shizu",
+            "action": "say",
+            "text": "Uh, everything? Jasmaby's got a real eye for fashion. He was in like, a dozen magazines last year. Also, he runs a pretty amazing fashion vlog."
+        },
+        {
+            "actor": "char:shizu",
+            "action": "say",
+            "text": "Someone that pretty can't be wrong. Ever."
+        },
+        {
+            "actor": "char:toyle",
+            "action": "say",
+            "text": "Oh, of course, I forgot that's totally how that works. "
+        },
+        {
+            "actor": "char:toyle",
+            "action": "say",
+            "text": "To be right, you need to either be: really pretty, or the winner."
+        },
+        {
+            "actor": "char:shizu",
+            "action": "say",
+            "text": "Or both, as Jasmaby's gonna demonstrate."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "3c1"
+        },
+        {
+            "actor": "char:shizu",
+            "action": "say",
+            "text": "But it's okay, I can tell you're just jealous. "
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "3c2"
+        },
+        {
+            "actor": "char:shizu",
+            "action": "say",
+            "text": "You really don't have to be, though. I'll have Miss Meow-Meow give you a makeover."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "3c3"
+        },
+        {
+            "actor": "char:toyle",
+            "action": "say",
+            "text": "Cut to commercial!"
+        },
+        {
+            "actor": "narrator",
+            "action": "say",
+            "text": "<em>Shizu ★ Tomb Tiger\nPower: Sew to Speak\nBattles Won: 25 ★ Battles Lost: 13</em>"
+        },
+        {
+            "actor": "jukebox",
+            "action": "stop"
+        },
+        {
+            "action": "notext"
+        },
+        {
+            "actor": "curtain",
+            "action": "lower"
+        },
+        {
+            "actor": "backdrop",
+            "action": "hide"
+        },
+        {
+            "action": "roll_credits"
+        }
+    ]
+}

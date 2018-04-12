@@ -1,0 +1,301 @@
+{
+    "asset_root": ".",
+    "name": "species-scrapgoat",
+    "title": "Species Ref: Scrapgoats",
+    "date": "2015-07-12",
+    "preview": "preview.png",
+    "credits": {
+        "people": [
+            {
+                "who": "PK",
+                "for": "Art, Music",
+                "deviantart": "purplekecleon",
+                "tumblr": "purplekecleon",
+                "twitter": "papayakitty"
+            },
+            {
+                "who": "Marl",
+                "for": "Script",
+                "deviantart": "marlcabinet",
+                "tumblr": "avolontes"
+            },
+            {
+                "who": "Eevee",
+                "for": "Programming",
+                "website": "http://eev.ee/",
+                "deviantart": "lexyeevee",
+                "tumblr": "lexyeevee",
+                "twitter": "eevee"
+            }
+        ],
+        "footer_html": [
+            "<a href='http://floraverse.com/'>Floraverse</a>",
+            "<a href='https://floraverse.bandcamp.com/'>Bandcamp</a>",
+            "logout successful",
+            "␄"
+        ]
+    },
+    "actors": {
+        "curtain": {
+            "type": "curtain"
+        },
+        "jukebox": {
+            "type": "jukebox",
+            "tracks": {
+                "talab": "talab_2.ogg"
+            }
+        },
+        "backdrop": {
+            "type": "spot",
+            "position": "backdrop",
+            "views": {
+                "splash": "scrapgoattitle.png",
+                "lily": "lilymonitor1.png"
+            }
+        },
+        "scrapgoat": {
+            "type": "spot",
+            "position": "imagespot-goat",
+            "views": {
+                "scrapgoat1": "scrapgoat1.png",
+                "scrapgoat2": "scrapgoat2.png",
+                "scrapgoat3": "scrapgoat3.png",
+                "scrapgoat4": "scrapgoat4.png",
+                "scrapgoat5": "scrapgoat5.png",
+                "scrapgoat6": "scrapgoat6.png",
+                "scrapgoat7": "scrapgoat7.png"
+            }
+        },
+        "interaction": {
+            "type": "character",
+            "position": "interaction",
+            "name": null,
+            "color": "black"
+        },
+        "data": {
+            "type": "character",
+            "position": "data",
+            "name": null,
+            "color": "black"
+        }
+    },
+    "script": [
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "splash"
+        },
+        {
+            "actor": "interaction",
+            "action": "say",
+            "text": ""
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "lily"
+        },
+        {
+            "actor": "jukebox",
+            "action": "play",
+            "track": "talab"
+        },
+        {
+            "actor": "interaction",
+            "action": "say",
+            "text": "<span class='-panel'>Remote Panel TY_304_AD\n\nUser “Lily” detected, logging in.</span>"
+        },
+        {
+            "actor": "interaction",
+            "action": "say",
+            "text": "<span class='-tal'>Hello, Lily.</span>\n\n&gt; \fHello\n\n<span class='-tal'>How may I assist you?</span>\n\n&gt; \fRequesting general information: Scrapgoats\n\n<span class='-panel'>Transmitting data. Please be patient.</span>\n\n<span class='-tal'>Is this for the individual in the room with you?</span>\n\n&gt; \fYes\n\n<span class='-tal'>Do they have an interest in working for me?</span>\n\n&gt; \fNo\n\n<span class='-tal'>Do they have an interest in volunteering for various biological experiments?</span>\n\n&gt; \fI don’t believe so\n\n<span class='-tal'>Have you asked?</span>\n\n&gt; \fNo\n\n<span class='-tal'>According to my observations, none of the experiments would be hazardous to their health. Compensation would be generous.</span>\n\n&gt; \fThey said No, thank you\n\n<span class='-tal'>Understood. Should they change their mind, my offer will remain open.\n\nHave a good day, Lily.</span>\n\n&gt; \fYou too\n\n\f<span class='-panel'>.\n\f.\n\f.\n\fData transfer complete. Displaying data.</span>"
+        },
+        {
+            "actor": "scrapgoat",
+            "action": "show",
+            "view": "scrapgoat1"
+        },
+        {
+            "actor": "data",
+            "action": "say",
+            "text": "<span class='-term'>SCRAPGOATS, COMMON</span>\nTY_000_AA - TY_999_ZZ"
+        },
+        {
+            "actor": "data",
+            "action": "say",
+            "text": "Hereditary influence: Very Low\nNote: Setting HI to Very High causes unstable genetic mutations. Setting HI to None causes stunted growth and sterility. Keep HI at Very Low."
+        },
+        {
+            "actor": "data",
+            "action": "say",
+            "text": "Environmental influence: Very High\nNote: Setting EI to None has no detrimental effect on <span class='-term'>SCRAPGOATS, COMMON</span> but does not produce desired results. EI must be kept at Very High to ensure continued specialization."
+        },
+        {
+            "actor": "data",
+            "action": "say",
+            "text": "Language: Any\nNote: My archives contain every known language on Owel. Many <span class='-term'>SCRAPGOATS, COMMON</span> choose to browse them to learn additional languages."
+        },
+        {
+            "actor": "data",
+            "action": "say",
+            "text": "Ability to reason: High\nNote: Setting ATR to None is disastrous. Setting ATR to Very High results in aboulia. Setting ATR to Very Low, Low, Medium or Medium High has no detrimental effect on <span class='-term'>SCRAPGOATS, COMMON</span> but does not produce desired results."
+        },
+        {
+            "actor": "data",
+            "action": "say",
+            "text": "Climate preference: Warm, Dry\nNote: Preference only. <span class='-term'>SCRAPGOATS, COMMON</span> are durable and adaptable."
+        },
+        {
+            "actor": "data",
+            "action": "say",
+            "text": "Native to: Owel\nNotes: Ha-Ha. Technically correct."
+        },
+        {
+            "actor": "data",
+            "action": "say",
+            "text": "Found in: Teslic Yard, Gloam, technologically-advanced cities\nNotes: <span class='-term'>SCRAPGOATS, COMMON</span> have an innate desire to innovate. And to innervate. Ha-Ha. If spoken in certain dialects, those words are homophones of each other. Ha-Ha."
+        },
+        {
+            "actor": "data",
+            "action": "say",
+            "text": "&gt; Elements\n\nAffinities: Any\nNotes: “Spirit” and “PSI” are extremely rare in <span class='-term'>SCRAPGOATS, COMMON</span> that reside in areas TY_000_AA - TY_999_ZZ. I have not yet figured out why."
+        },
+        {
+            "actor": "data",
+            "action": "say",
+            "text": "Weaknesses: Varies, dependent on Scrapgoat\nNotes: Manually introducing weaknesses results in frailty. <span class='-term'>SCRAPGOATS, COMMON</span> may change elemental weaknesses on their own without this effect as they age."
+        },
+        {
+            "actor": "data",
+            "action": "say",
+            "text": "Resistances: Varies, dependent on Scrapgoat\nNotes: Manually introducing resistances results in stunted growth. <span class='-term'>SCRAPGOATS, COMMON</span> may change elemental resistances on their own without this effect as they age."
+        },
+        {
+            "actor": "data",
+            "action": "say",
+            "text": "&gt; Society\n\n<span class='-term'>SCRAPGOATS, COMMON</span> form tightly-knit communities, and are always accepting of other individuals, provided those individuals have a way to advance the interests and goals of the communities.\n\nTo reject the opportunity to discover or learn something new is a faux pas among <span class='-term'>SCRAPGOATS, COMMON</span>.\n\nTo date, they have no natural enemies, and no natural predators. That may inadvertently change in the future.\n\nEach community appears to gravitate around specific affinities. It may be a case of like attracts like. Polarization has yet to be seen, and would be undesirable."
+        },
+        {
+            "actor": "data",
+            "action": "say",
+            "text": "&gt; Abilities: Recycle\n\nRecycle\n<span class='-term'>A SCRAPGOAT, COMMON</span> is able to insert into their horns, tail, or limbs any item of interest that will physically fit.\n\nThe <span class='-term'>SCRAPGOAT, COMMON</span> will then integrate the item into their body, which will cause gradual changes in their appearance, affinities and abilities.\n\nIf the <span class='-term'>SCRAPGOAT, COMMON</span> does not consume the required nutrients to allow for continued integration and growth of the item, the <span class='-term'>SCRAPGOAT, COMMON</span> will shed it. Their appearance will slowly revert to its look pre-integration."
+        },
+        {
+            "actor": "data",
+            "action": "say",
+            "text": "Examples:"
+        },
+        {
+            "actor": "scrapgoat",
+            "action": "show",
+            "view": "scrapgoat1"
+        },
+        {
+            "actor": "data",
+            "action": "say",
+            "text": "<span class='-term'>SCRAPGOAT, COMMON</span>: <span class='-term'>BASE MODEL</span>\nThis <span class='-term'>SCRAPGOAT, COMMON</span> has integrated nothing into its body. The horns and tail nubs are rubber-like in texture. They have no affinities, weaknesses, or resistances."
+        },
+        {
+            "actor": "scrapgoat",
+            "action": "show",
+            "view": "scrapgoat7"
+        },
+        {
+            "actor": "data",
+            "action": "say",
+            "text": "<span class='-term'>SCRAPGOAT, COMMON</span>: <span class='-term'>CASE MODEL</span>\nThis <span class='-term'>SCRAPGOAT, COMMON</span> has integrated several electronic shielding panels into itself. Their resulting “coat” of armor shields them from heat, cold, magnetic waves and electricity.\nNotes: The shed armor from a <span class='-term'>CASE MODEL</span> variant can be worn or used by other species. "
+        },
+        {
+            "actor": "scrapgoat",
+            "action": "show",
+            "view": "scrapgoat2"
+        },
+        {
+            "actor": "data",
+            "action": "say",
+            "text": "<span class='-term'>SCRAPGOAT, COMMON</span>: <span class='-term'>INFRASOUND MODEL</span>\nThis <span class='-term'>SCRAPGOAT, COMMON</span> has integrated musical instruments into itself. They are now able to emit sound waves ranging from 0.001 - 20hz up to a distance of 500 yards. They are invaluable in detecting precious minerals underground."
+        },
+        {
+            "actor": "scrapgoat",
+            "action": "show",
+            "view": "scrapgoat3"
+        },
+        {
+            "actor": "data",
+            "action": "say",
+            "text": "<span class='-term'>SCRAPGOAT, COMMON</span>: <span class='-term'>LED MODEL</span>\nThis <span class='-term'>SCRAPGOAT, COMMON</span> has integrated several LEDs into itself. They now host an array of aesthetically-pleasing organic LEDs of varying sizes, shapes and colors."
+        },
+        {
+            "actor": "scrapgoat",
+            "action": "show",
+            "view": "scrapgoat6"
+        },
+        {
+            "actor": "data",
+            "action": "say",
+            "text": "<span class='-term'>SCRAPGOAT, COMMON</span>: <span class='-term'>MAGNET MODEL</span>\n<span class='-tal'>I apologize, Lily. Outside individuals not possessing clearance may not view this information.</span>"
+        },
+        {
+            "actor": "scrapgoat",
+            "action": "show",
+            "view": "scrapgoat5"
+        },
+        {
+            "actor": "data",
+            "action": "say",
+            "text": "<span class='-term'>SCRAPGOAT, COMMON</span>: <span class='-term'>RADIO MODEL</span>\n<span class='-tal'>I apologize again, Lily.</span>"
+        },
+        {
+            "actor": "scrapgoat",
+            "action": "show",
+            "view": "scrapgoat4"
+        },
+        {
+            "actor": "data",
+            "action": "say",
+            "text": "<span class='-term'>DIOGOAT, COMMON</span>: <span class='-term'>FAUX FRUIT MODEL</span>\nThis <span class='-term'>DIOGOAT, COMMON</span> has integrated several pieces of wire into its body. Its diet causes the fruit growing on its body to contain high levels of metal.\nNotes: The <span class='-term'>DIOGOAT, COMMON</span> is the hybrid of <span class='-term'>SATYR, COMMON</span> and <span class='-term'>SCRAPGOAT, COMMON</span>."
+        },
+        {
+            "actor": "scrapgoat",
+            "action": "show",
+            "view": "scrapgoat1"
+        },
+        {
+            "actor": "data",
+            "action": "say",
+            "text": "&gt; Physiology\n\n<span class='-term'>SCRAPGOATS, COMMON</span> are composed of biological material found in any average organic individual. Closest physically-similar species to <span class='-term'>SCRAPGOATS, COMMON</span> are: <span class='-term'>SATYRS, COMMON</span>; <span class='-term'>ROCK CANDIES, COMMON</span>; <span class='-term'>SEADRAGONS, COMMON</span>.\n\nHeterochromia occurs with 90% frequency. This does not affect the vision of <span class='-term'>SCRAPGOATS, COMMON</span>."
+        },
+        {
+            "actor": "data",
+            "action": "say",
+            "text": "&gt; Reproduction\n\n<span class='-term'>SCRAPGOATS, COMMON</span> can reproduce with any physically-similar species. As <span class='-term'>SCRAPGOATS, COMMON</span> can change their physical forms in extreme ways, this allows for very diverse pairings."
+        },
+        {
+            "actor": "scrapgoat",
+            "action": "hide"
+        },
+        {
+            "actor": "interaction",
+            "action": "say",
+            "text": "<span class='-panel'>End of data.\n\nThank you for using TAL.</span>"
+        },
+        {
+            "actor": "curtain",
+            "action": "lower"
+        },
+        {
+            "actor": "jukebox",
+            "action": "stop"
+        },
+        {
+            "action": "notext"
+        },
+        {
+            "actor": "backdrop",
+            "action": "hide"
+        },
+        {
+            "action": "roll_credits"
+        }
+    ]
+}

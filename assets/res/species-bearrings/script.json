@@ -1,0 +1,239 @@
+{
+    "asset_root": ".",
+    "name": "species-bearrings",
+    "title": "Species Ref: Bearrings",
+    "date": "2017-05-02",
+    "preview": "preview.png",
+    "credits": {
+        "people": [
+            {
+                "who": "Glip",
+                "for": "Art, Music",
+                "website": "http://glitchedpuppet.com/",
+                "deviantart": "glitchedpuppet",
+                "tumblr": "glitchedpuppet",
+                "twitter": "glitchedpuppet"
+            },
+            {
+                "who": "Eevee",
+                "for": "Programming",
+                "website": "https://eev.ee/",
+                "deviantart": "lexyeevee",
+                "tumblr": "lexyeevee",
+                "twitter": "eevee"
+            }
+        ],
+        "footer_html": [
+            "<a href='http://floraverse.com/'>Floraverse</a>",
+            "<a href='https://floraverse.bandcamp.com/'>Bandcamp</a>",
+            "logout successful",
+            "␄"
+        ]
+    },
+    "actors": {
+        "curtain": {
+            "type": "curtain"
+        },
+        "jukebox": {
+            "type": "jukebox",
+            "tracks": {
+                "talab": "talab_3.ogg"
+            }
+        },
+        "backdrop": {
+            "type": "spot",
+            "position": "backdrop",
+            "views": {
+                "splash": "title.png",
+                "monitor": "monitor.png"
+            }
+        },
+        "bearring": {
+            "type": "spot",
+            "position": "imagespot-goat",
+            "views": {
+                "cozmo": "bearring-cozmo.png",
+                "maryann": "bearring-maryann.png",
+                "angelica": "bearring-angelica.png",
+                "sunny": "bearring-sunny.png",
+                "killian": "bearring-killian.png"
+            }
+        },
+        "interaction": {
+            "type": "character",
+            "position": "interaction",
+            "name": null,
+            "color": "black"
+        },
+        "data": {
+            "type": "character",
+            "position": "data",
+            "name": null,
+            "color": "black"
+        }
+    },
+    "script": [
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "splash"
+        },
+        {
+            "actor": "interaction",
+            "action": "say",
+            "text": ""
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "monitor"
+        },
+        {
+            "actor": "jukebox",
+            "action": "play",
+            "track": "talab"
+        },
+        {
+            "actor": "interaction",
+            "action": "say",
+            "text": "<span class='-panel'>Remote Panel TY_83_ZD\n\nUser \"Neon\" detected, logging in.</span>"
+        },
+        {
+            "actor": "interaction",
+            "action": "say",
+            "text": "<span class='-tal'>Hello, Dr. Neon!</span>\n\n&gt; hi\n\n<span class='-tal'>Are you still enjoying the hardware I provided?</span>\n\n&gt; once I managed to get and keep Jupet out of it, yes\n\n<span class='-tal'>I'm glad. What did you need today?</span>\n\n&gt; do you have anything on bearrings\n\n<span class='-tal'>The species in general? Incoming.</span>\n\n<span class='-panel'>Transmitting data. Please be patient.</span>"
+        },
+        {
+            "actor": "interaction",
+            "action": "say",
+            "text": "&gt; what about personnel files on bearring employees\n\n<span class='-tal'>Do you have permission from any of them to access their files?</span>\n\n&gt; do I need it??\n\n<span class='-tal'>It would be appropriate. Should I ask them for you?</span>\n\n&gt; that sounds kind of shady. i'll just ask them later.\n\n<span class='-tal'>Understood.</span>\n\n<span class='-panel'>Data transfer complete. Displaying data.</span>\n"
+        },
+        {
+            "actor": "bearring",
+            "action": "show",
+            "view": "cozmo"
+        },
+        {
+            "actor": "data",
+            "action": "say",
+            "text": "<span class='-term'>BEARRINGS, COMMON</span>\n&gt; Note: This is a naturally-occurring species. All information within this file should be considered anecdotal unless otherwise noted."
+        },
+        {
+            "actor": "data",
+            "action": "say",
+            "text": "The typical bearring is bipedal, furred, with elongated arms, has one or more ring patterns on their body, and is of average to above-average height. They are able to sleep until an external force wakes them up, such as an alarm clock, or someone calling their name."
+        },
+        {
+            "actor": "data",
+            "action": "say",
+            "text": "<em>Hereditary influence:</em>\nHigh\n\n<em>Environmental influence:</em>\nVery Low\n\n<em>Language:</em>\nAny\n\n<em>Ability to reason:</em>\nHigh"
+        },
+        {
+            "actor": "data",
+            "action": "say",
+            "text": "<em>Climate preference:</em>\nCool, Cold\n&gt; Note: This is a preference only. Bearrings have been known to live even in the hottest regions on Owel. Whether those bearrings are comfortable or not is a different story.\n\n<em>Native to:</em>\nOwel\n&gt; Note: Research suggests bearrings originated from somewhere in Northern Owel, but specifics are currently unavailable.\n\n<em>Found in:</em>\nAnywhere\n&gt; Note: Bearrings in general prefer quiet, relaxing towns and villages. Bustling noisy cities are often described as \"too hard to sleep in\"."
+        },
+        {
+            "actor": "data",
+            "action": "say",
+            "text": "Elements\n--------\n\n<em>Affinities:</em>\nAny\n&gt; Note: Rate of Spirit/PSI affinity in bearrings is around 4.7%, well above most other species but still below the Jackals' 11.2%.\n\n<em>Weaknesses:</em>\nNone\n&gt; Note: Bearrings are shown to be very hardy creatures. This may explain why they are able to tolerate environments that should be completely incompatible with their affinities.\n\n<em>Resistances:</em>\nAbove Average"
+        },
+        {
+            "actor": "data",
+            "action": "say",
+            "text": "Society\n-------\n\nBearrings do not tend to participate in highly-regulated communities. They prefer to sleep for days at a time. This does not lend itself to a society of strict expectations and requirements.\n\nWhen they are not sleeping, they are most often daydreaming, or thinking about their next sleep session. Interpersonal relationships are very slow to start, if they happen at all.\n\nThis is not to suggest that bearrings are distant or cold. They are accepting and friendly, but find difficulty investing themselves in others or situations which require large amounts of waking attention."
+        },
+        {
+            "actor": "data",
+            "action": "say",
+            "text": "Ability\n-------\n\n\"Astral Projection\"\n\nBearrings have the ability to project their consciousness in spiritual form, a phenomenon sometimes known as \"astral projection\". This is usually only possible when the bearring is asleep, although intense periods of daydreaming can trigger it.\n\nUnlike nearly all forms of astral projection, bearrings are able to influence the physical world with theirs, and are even able to be observed by some individuals. What allows an individual to see a bearring's astral form is currently unknown, but if that individual can see one astral form, they can see them all.\n\nBearrings take great delight in exploring places on Owel while dreaming that would otherwise be too dangerous to explore otherwise. Places like Deep Mountain, Dendain, Peril, Neck-Deep Mire, and Sere Valley can all be investigated without any supplies or protective gear.\n\nBearrings are able to remember their dream-explorations with greater clarity than most individuals, but they may struggle with fine details. If their astral form is destroyed or removed for any reason other than being woken up, it will be very difficult for them to remember anything about the dream.\n\nTheir astral form originates from their place of sleep, although a few experienced bearrings are able to start at locations that have been marked by their astral form, essentially acting as a checkpoint. Exactly how this happens is not fully known."
+        },
+        {
+            "actor": "data",
+            "action": "say",
+            "text": "Hybrids\n-------\n\nBearrings are able to hybridize with several other species.\n\nExample specimens follow."
+        },
+        {
+            "actor": "bearring",
+            "action": "show",
+            "view": "maryann"
+        },
+        {
+            "actor": "data",
+            "action": "say",
+            "text": "Sea Bearring\n[MaryAnn]\n× Vanguard\n\nMaryAnn spends most of her time exploring the bottom of the sea. She is responsible for discovering several extinct underwater civilizations. She has also found more than a dozen treasure-laden sunken pirate ships.\n\nHer current astral form whereabouts are unknown. Rumor has it she is currently charting out the countless miles of underwater caverns found beneath the Miaoustok Mountains."
+        },
+        {
+            "actor": "bearring",
+            "action": "show",
+            "view": "angelica"
+        },
+        {
+            "actor": "data",
+            "action": "say",
+            "text": "Singing Bearrub\n[Angelica]\n× Singing Rabbat\n\nAngelica claims to use her astral form to deliver prophetic songs. \"It's much easier than doing it while awake. Sometimes someone doesn't want a prophecy, so they run away from you. Or they don't believe you and try to rob you. Whatever. I just come back when they're asleep.\"\n\nAngelica initially refused to be interviewed. She changed her mind only after being offered a large amount of precious gemstones as compensation."
+        },
+        {
+            "actor": "bearring",
+            "action": "show",
+            "view": "sunny"
+        },
+        {
+            "actor": "data",
+            "action": "say",
+            "text": "Twinkle Tiger\n[Sunny]\n× Turf Tiger\n\nSunny is the ████████ of a highly popular ████████ line.\n\nSunny declined an invitation to be interviewed. They also requested that none of their data be collected here, even though it is publicly available elsewhere."
+        },
+        {
+            "actor": "bearring",
+            "action": "show",
+            "view": "killian"
+        },
+        {
+            "actor": "data",
+            "action": "say",
+            "text": "Grisly Bearring\n[Killian]\n× Necropossum\n\nKillian is the sole heir to the Grisle fortune, making her one of Owel's richest individuals. Despite this, she is normally reclusive, and hard to get in contact with.\n\nShe currently spends her time designing and testing sensory deprivation chambers, which she claims to enhance the bearring sleep experience. Her record for uninterrupted sleep in one of her chambers is a little over two months."
+        },
+        {
+            "actor": "bearring",
+            "action": "show",
+            "view": "cozmo"
+        },
+        {
+            "actor": "bearring",
+            "action": "hide"
+        },
+        {
+            "actor": "interaction",
+            "action": "say",
+            "text": "<span class='-panel'>End of file</span>"
+        },
+        {
+            "actor": "interaction",
+            "action": "say",
+            "text": "&gt; hey TAL\n\n<span class='-tal'>Was the information helpful?</span>\n\n&gt; does Cozmo still work here?\n\n<span class='-tal'>He does.</span>\n\n&gt; where does he work? \n\n<span class='-tal'>In one of the more remote outposts. I'll send its location to Chip. Should I tell Cozmo to expect you?</span>\n\n&gt; i'll make it a surprise, thanks though\n\n<span class='-tal'>Any time, Dr. Neon!</span>"
+        },
+        {
+            "actor": "interaction",
+            "action": "say",
+            "text": "&gt; logout\n\n<span class='-panel'>Logged out.</span>"
+        },
+        {
+            "actor": "curtain",
+            "action": "lower"
+        },
+        {
+            "actor": "jukebox",
+            "action": "stop"
+        },
+        {
+            "action": "notext"
+        },
+        {
+            "actor": "backdrop",
+            "action": "hide"
+        },
+        {
+            "action": "roll_credits"
+        }
+    ]
+}

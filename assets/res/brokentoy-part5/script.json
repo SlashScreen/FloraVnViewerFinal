@@ -1,0 +1,2008 @@
+{
+    "asset_root": ".",
+    "name": "brokentoy-part5",
+    "title": "Broken Toy: Part 5",
+    "subtitle": "Beleth is Returned",
+    "date": "2015-06-22",
+    "preview": "preview.png",
+    "credits": {
+        "people": [
+            {
+                "who": "PK",
+                "for": "Art, Music",
+                "deviantart": "purplekecleon",
+                "tumblr": "purplekecleon",
+                "twitter": "papayakitty"
+            },
+            {
+                "who": "Marl",
+                "for": "Script",
+                "deviantart": "marlcabinet",
+                "tumblr": "avolontes"
+            },
+            {
+                "who": "Eevee",
+                "for": "Programming",
+                "website": "http://eev.ee/",
+                "deviantart": "lexyeevee",
+                "tumblr": "lexyeevee",
+                "twitter": "eevee"
+            }
+        ],
+        "footer_html": [
+            "<a href='http://floraverse.com/'>Floraverse</a>",
+            "<a href='https://floraverse.bandcamp.com/'>Bandcamp</a>",
+            "to be continued"
+        ]
+    },
+    "actors": {
+        "curtain": {
+            "type": "curtain"
+        },
+        "jukebox": {
+            "type": "jukebox",
+            "tracks": {
+                "amdusias-slow": "amdslow_7.oga",
+                "rainchop": "rainchop.oga",
+                "amdusias-creepy": "amdcreepy.oga",
+                "strangeplace-prideanime": "strangeplace_10prideanime.oga",
+                "strangeplace-pridereg": "strangeplace_10pridereg.oga"
+            }
+        },
+        "backdrop": {
+            "type": "spot",
+            "position": "backdrop",
+            "views": {
+                "splash": "part5titlecard.png",
+                "1a": "beleth5bg1a.png",
+                "1b": "beleth5bg1b.png",
+                "1c1": "beleth5bg1c1.png",
+                "1c2": "beleth5bg1c2.png",
+                "1d1": "beleth5bg1d1.png",
+                "1d2": "beleth5bg1d2.png",
+                "1d3": "beleth5bg1d3.png",
+                "1d4": "beleth5bg1d4.png",
+                "1e1": "beleth5bg1e1.png",
+                "1e2": "beleth5bg1e2.png",
+                "1e3": "beleth5bg1e3.png",
+                "1e4": "beleth5bg1e4.png",
+                "1e5": "beleth5bg1e5.png",
+                "1f1": "beleth5bg1f1.png",
+                "1f2": "beleth5bg1f2.png",
+                "1g1": "beleth5bg1g1.png",
+                "1g2": "beleth5bg1g2.png",
+                "1h1": "beleth5bg1h1.png",
+                "1h2": "beleth5bg1h2.png",
+                "1h3": "beleth5bg1h3.png",
+                "1h4": "beleth5bg1h4.png",
+                "1i1": "beleth5bg1i1.png",
+                "1i2": "beleth5bg1i2.png",
+                "1j1": "beleth5bg1j1.png",
+                "1j2": "beleth5bg1j2.png",
+                "1j3": "beleth5bg1j3.png",
+                "1k1": "beleth5bg1k1.png",
+                "1k2": "beleth5bg1k2.png",
+                "1k3": "beleth5bg1k3.png",
+                "1k4": "beleth5bg1k4.png",
+                "1k5": "beleth5bg1k5.png",
+                "1l1": "beleth5bg1l1.png",
+                "1l2": "beleth5bg1l2.png",
+                "1l3": "beleth5bg1l3.png",
+                "1l4": "beleth5bg1l4.png",
+                "1m": "beleth5bg1m.png",
+                "2a1": "beleth5bg2a1.png",
+                "2a2": "beleth5bg2a2.png",
+                "2b1": "beleth5bg2b1.png",
+                "2b2": "beleth5bg2b2.png",
+                "2b3": "beleth5bg2b3.png",
+                "2c1": "beleth5bg2c1.png",
+                "2c2": "beleth5bg2c2.png",
+                "2d": "beleth5bg2d.png",
+                "2e1": "beleth5bg2e1.png",
+                "2e2": "beleth5bg2e2.png",
+                "2e3": "beleth5bg2e3.png",
+                "2e4": "beleth5bg2e4.png",
+                "2f": "beleth5bg2f.png",
+                "2g1": "beleth5bg2g1.png",
+                "2g2": "beleth5bg2g2.png",
+                "2g3": "beleth5bg2g3.png",
+                "2g4": "beleth5bg2g4.png",
+                "2g5": "beleth5bg2g5.png",
+                "2g6": "beleth5bg2g6.png",
+                "2g7": "beleth5bg2g7.png",
+                "2g8": "beleth5bg2g8.png",
+                "2h1": "beleth5bg2h1.png",
+                "2h2": "beleth5bg2h2.png",
+                "2h3": "beleth5bg2h3.png",
+                "2h4": "beleth5bg2h4.png",
+                "2h5": "beleth5bg2h5.png",
+                "2h6": "beleth5bg2h6.png",
+                "2h7": "beleth5bg2h7.png",
+                "2h8": "beleth5bg2h8.png",
+                "2i1": "beleth5bg2i1.png",
+                "2i2": "beleth5bg2i2.png",
+                "2i3": "beleth5bg2i3.png",
+                "2i4": "beleth5bg2i4.png",
+                "2j1": "beleth5bg2j1.png",
+                "2j2": "beleth5bg2j2.png",
+                "2j3": "beleth5bg2j3.png",
+                "2k1": "beleth5bg2k1.png",
+                "2k2": "beleth5bg2k2.png",
+                "2k3": "beleth5bg2k3.png",
+                "2l": "beleth5bg2l.png",
+                "2m1": "beleth5bg2m1.png",
+                "2m2": "beleth5bg2m2.png",
+                "2m3": "beleth5bg2m3.png",
+                "2m4": "beleth5bg2m4.png",
+                "2n": "beleth5bg2n.png",
+                "2o1": "beleth5bg2o1.png",
+                "2o2": "beleth5bg2o2.png",
+                "2p": "beleth5bg2p.png",
+                "3a": "beleth5bg3a.png",
+                "3b1": "beleth5bg3b1.png",
+                "3b2": "beleth5bg3b2.png",
+                "3b3": "beleth5bg3b3.png",
+                "3b4": "beleth5bg3b4.png",
+                "3b5": "beleth5bg3b5.png",
+                "3b6": "beleth5bg3b6.png",
+                "3b7": "beleth5bg3b7.png",
+                "3c1": "beleth5bg3c1.png",
+                "3c2": "beleth5bg3c2.png",
+                "3d1": "beleth5bg3d1.png",
+                "3d2": "beleth5bg3d2.png",
+                "3d3": "beleth5bg3d3.png",
+                "3d4": "beleth5bg3d4.png",
+                "3e": "beleth5bg3e.png",
+                "3f": "beleth5bg3f.png",
+                "3g1": "beleth5bg3g1.png",
+                "3g2": "beleth5bg3g2.png",
+                "3g3": "beleth5bg3g3.png",
+                "3h1": "beleth5bg3h1.png",
+                "3h2": "beleth5bg3h2.png",
+                "3h3": "beleth5bg3h3.png",
+                "3h4": "beleth5bg3h4.png",
+                "3i1": "beleth5bg3i1.png",
+                "3i2": "beleth5bg3i2.png",
+                "3j1": "beleth5bg3j1.png",
+                "3j2": "beleth5bg3j2.png",
+                "3k1": "beleth5bg3k1.png",
+                "3k2": "beleth5bg3k2.png",
+                "3k3": "beleth5bg3k3.png",
+                "3k4": "beleth5bg3k4.png",
+                "3k5": "beleth5bg3k5.png",
+                "3l1": "beleth5bg3l1.png",
+                "3l2": "beleth5bg3l2.png",
+                "3l3": "beleth5bg3l3.png",
+                "3m1": "beleth5bg3m1.png",
+                "3m2": "beleth5bg3m2.png",
+                "3m3": "beleth5bg3m3.png",
+                "3m4": "beleth5bg3m4.png",
+                "3m5": "beleth5bg3m5.png",
+                "3m6": "beleth5bg3m6.png",
+                "3m7": "beleth5bg3m7.png",
+                "3n1": "beleth5bg3n1.png",
+                "3n2": "beleth5bg3n2.png",
+                "3n3": "beleth5bg3n3.png",
+                "3n4": "beleth5bg3n4.png"
+            }
+        },
+        "narrator": {
+            "type": "character",
+            "name": null,
+            "color": "black"
+        },
+        "char:beleth": {
+            "type": "character",
+            "name": "Beleth",
+            "color": "#d22e8c",
+            "position": "right"
+        },
+        "char:orobas": {
+            "type": "character",
+            "name": "Orobas",
+            "color": "#8a5678",
+            "position": "right"
+        },
+        "char:amdusias": {
+            "type": "character",
+            "name": "Amdusias",
+            "color": "#491247",
+            "position": "left"
+        },
+        "char:bweehorse1": {
+            "type": "character",
+            "name": "Bweehorse",
+            "color": "#2a285e",
+            "position": "left"
+        },
+        "char:bweehorse2": {
+            "type": "character",
+            "name": "Bweehorse",
+            "color": "#2a285e",
+            "position": "left"
+        },
+        "char:bweehorse3": {
+            "type": "character",
+            "name": "Bweehorse",
+            "color": "#2a285e",
+            "position": "left"
+        },
+        "char:bweehorse4": {
+            "type": "character",
+            "name": "Bweehorse",
+            "color": "#2a285e",
+            "position": "left"
+        }
+    },
+    "script": [
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "splash"
+        },
+        {
+            "actor": "narrator",
+            "action": "say",
+            "text": ""
+        },
+        {
+            "actor": "jukebox",
+            "action": "play",
+            "track": "rainchop"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "1a"
+        },
+        {
+            "actor": "char:orobas",
+            "action": "say",
+            "text": "Three... two... one..."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "1b"
+        },
+        {
+            "actor": "char:beleth",
+            "action": "say",
+            "text": "Help! Help!"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "1c1"
+        },
+        {
+            "actor": "char:beleth",
+            "action": "say",
+            "text": "Help me! There’s... there’s a... a..."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "1c2"
+        },
+        {
+            "actor": "char:orobas",
+            "action": "say",
+            "text": "Monster in your living room?"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "1d1"
+        },
+        {
+            "actor": "char:beleth",
+            "action": "say",
+            "text": "..."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "1d2"
+        },
+        {
+            "actor": "char:beleth",
+            "action": "say",
+            "text": "Who are you?!"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "1d3"
+        },
+        {
+            "actor": "char:orobas",
+            "action": "say",
+            "text": "I am Orobas, assistant to Vice Monarch Amdusias!"
+        },
+        {
+            "actor": "char:orobas",
+            "action": "say",
+            "text": "Pleased to meet you!"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "1d2"
+        },
+        {
+            "actor": "char:beleth",
+            "action": "say",
+            "text": "There’s... there’s..."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "1d4"
+        },
+        {
+            "actor": "char:orobas",
+            "action": "say",
+            "text": "That’s Amdusias."
+        },
+        {
+            "actor": "char:orobas",
+            "action": "say",
+            "text": "Creepy, huh?"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "1d1"
+        },
+        {
+            "actor": "char:beleth",
+            "action": "say",
+            "text": "..."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "1e1"
+        },
+        {
+            "actor": "char:beleth",
+            "action": "say",
+            "text": "What are you two doing here?! Why is she in my house?!"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "1e2"
+        },
+        {
+            "actor": "char:beleth",
+            "action": "say",
+            "text": "She almost scared me to death!"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "1e1"
+        },
+        {
+            "actor": "char:beleth",
+            "action": "say",
+            "text": "Who just walks into someone’s house and uses their furniture?!"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "1e3"
+        },
+        {
+            "actor": "char:orobas",
+            "action": "say",
+            "text": "She’s probably going <i>through</i> your house now, not just sitting on your chair."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "1e4"
+        },
+        {
+            "actor": "char:beleth",
+            "action": "say",
+            "text": "WHAT?!"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "1e5"
+        },
+        {
+            "actor": "char:orobas",
+            "action": "say",
+            "text": "Yeah, she’s creepy. You better go check on her."
+        },
+        {
+            "action": "notext"
+        },
+        {
+            "actor": "curtain",
+            "action": "lower"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "1f1"
+        },
+        {
+            "actor": "narrator",
+            "action": "say",
+            "text": ""
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "1f2"
+        },
+        {
+            "actor": "char:beleth",
+            "action": "say",
+            "text": "ARE YOU STILL IN MY HOUSE?!"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "1g1"
+        },
+        {
+            "actor": "narrator",
+            "action": "say",
+            "text": ""
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "1g2"
+        },
+        {
+            "actor": "narrator",
+            "action": "say",
+            "text": ""
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "1h2"
+        },
+        {
+            "actor": "jukebox",
+            "action": "play",
+            "track": "amdusias-slow"
+        },
+        {
+            "actor": "char:amdusias",
+            "action": "say",
+            "text": "Vassal Beleth, I presume."
+        },
+        {
+            "actor": "char:amdusias",
+            "action": "say",
+            "text": "You ran outside before I had a chance to speak. Did you meet my assistant, Orobas?"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "1h1"
+        },
+        {
+            "actor": "char:beleth",
+            "action": "say",
+            "text": "Don’t change the subject! What are you doing here?!"
+        },
+        {
+            "actor": "char:beleth",
+            "action": "say",
+            "text": "WHY WERE YOU SNOOPING AROUND?!"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "1h2"
+        },
+        {
+            "actor": "char:amdusias",
+            "action": "say",
+            "text": "I came here to see what kind of individual you are. Andre spoke very highly of you."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "1h3"
+        },
+        {
+            "actor": "char:beleth",
+            "action": "say",
+            "text": "O-oh."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "1h4"
+        },
+        {
+            "actor": "char:amdusias",
+            "action": "say",
+            "text": "I do not know why. I am not impressed by what I see."
+        },
+        {
+            "actor": "char:amdusias",
+            "action": "say",
+            "text": "Toys and comic books everywhere!"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "1i1"
+        },
+        {
+            "actor": "char:amdusias",
+            "action": "say",
+            "text": "Are these the same comic books you were caught reading during the crisis?"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "1i2"
+        },
+        {
+            "actor": "char:amdusias",
+            "action": "say",
+            "text": "Tell me!"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "1j1"
+        },
+        {
+            "actor": "narrator",
+            "action": "say",
+            "text": ""
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "1j2"
+        },
+        {
+            "actor": "char:beleth",
+            "action": "say",
+            "text": "..."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "1j3"
+        },
+        {
+            "actor": "char:beleth",
+            "action": "say",
+            "text": "No. Those are a different series."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "1k1"
+        },
+        {
+            "actor": "char:amdusias",
+            "action": "say",
+            "text": "They are all the same! What would you have done if something happened while you were slacking?!"
+        },
+        {
+            "actor": "char:amdusias",
+            "action": "say",
+            "text": "Trebol could have been doomed!"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "1k2"
+        },
+        {
+            "actor": "char:beleth",
+            "action": "say",
+            "text": "..."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "1k3"
+        },
+        {
+            "actor": "char:amdusias",
+            "action": "say",
+            "text": "Forget it. Andre has already dealt with you."
+        },
+        {
+            "actor": "char:amdusias",
+            "action": "say",
+            "text": "But..."
+        },
+        {
+            "actor": "char:amdusias",
+            "action": "say",
+            "text": "Tell me why. I want to know why."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "1k4"
+        },
+        {
+            "actor": "char:beleth",
+            "action": "say",
+            "text": "Why, what?"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "1k5"
+        },
+        {
+            "actor": "char:amdusias",
+            "action": "say",
+            "text": "Why did you feel it necessary to even <i>bring</i> these with you while on duty?! Were you bored?!"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "1l1"
+        },
+        {
+            "actor": "char:beleth",
+            "action": "say",
+            "text": "..."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "1l3"
+        },
+        {
+            "actor": "char:beleth",
+            "action": "say",
+            "text": "...I guess I was."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "1l1"
+        },
+        {
+            "actor": "char:amdusias",
+            "action": "say",
+            "text": "As a Vassal, you should be concerned with your duties at all times!"
+        },
+        {
+            "actor": "char:amdusias",
+            "action": "say",
+            "text": "You should desire to move ever upward!"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "1l2"
+        },
+        {
+            "actor": "char:beleth",
+            "action": "say",
+            "text": "Hey, that’s not what I—"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "1m"
+        },
+        {
+            "actor": "char:amdusias",
+            "action": "say",
+            "text": "Be quiet!"
+        },
+        {
+            "actor": "char:amdusias",
+            "action": "say",
+            "text": "You lack dedication and focus. That is unacceptable."
+        },
+        {
+            "actor": "char:amdusias",
+            "action": "say",
+            "text": "Trebol deserves more. The Blackjack Isles deserve more."
+        },
+        {
+            "actor": "char:amdusias",
+            "action": "say",
+            "text": "You will be placed under my employ. I will teach you to be more."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "2a1"
+        },
+        {
+            "actor": "char:amdusias",
+            "action": "say",
+            "text": "There will be no more of <i>this</i> while you’re on duty!"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "2a2"
+        },
+        {
+            "actor": "char:beleth",
+            "action": "say",
+            "text": "Hey! You’ll ruin it! It’s a first edition!"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "2b1"
+        },
+        {
+            "actor": "char:amdusias",
+            "action": "say",
+            "text": "I do not care if it’s any edition! It—"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "2b2"
+        },
+        {
+            "actor": "char:beleth",
+            "action": "say",
+            "text": "Give it here!"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "2b3"
+        },
+        {
+            "actor": "char:amdusias",
+            "action": "say",
+            "text": "Wait."
+        },
+        {
+            "actor": "char:amdusias",
+            "action": "say",
+            "text": "..."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "2c1"
+        },
+        {
+            "actor": "jukebox",
+            "action": "stop"
+        },
+        {
+            "actor": "char:amdusias",
+            "action": "say",
+            "text": "Wait. What is this?"
+        },
+        {
+            "actor": "jukebox",
+            "action": "play",
+            "track": "strangeplace-pridereg"
+        },
+        {
+            "actor": "char:amdusias",
+            "action": "say",
+            "text": "Is this... Pride?"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "2c2"
+        },
+        {
+            "actor": "char:beleth",
+            "action": "say",
+            "text": "I SAID—"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "2d"
+        },
+        {
+            "actor": "char:beleth",
+            "action": "say",
+            "text": "<i>GIVE IT HERE!</i>"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "2e1"
+        },
+        {
+            "actor": "char:amdusias",
+            "action": "say",
+            "text": "YOU LITTLE SCOUNDREL, YOU LITTLE <i>ROGUE</i>!"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "2e3"
+        },
+        {
+            "actor": "char:amdusias",
+            "action": "say",
+            "text": "WHY IS <i>PRIDE</i> IN THIS COMIC?"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "2e2"
+        },
+        {
+            "actor": "char:beleth",
+            "action": "say",
+            "text": "THAT'S LUCIE! NOW GIVE IT BACK!"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "2e1"
+        },
+        {
+            "actor": "char:amdusias",
+            "action": "say",
+            "text": "AND—"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "2f"
+        },
+        {
+            "actor": "char:amdusias",
+            "action": "say",
+            "text": "..."
+        },
+        {
+            "actor": "char:amdusias",
+            "action": "say",
+            "text": "Is that... is that supposed to be <i>me?!</i>"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "2g1"
+        },
+        {
+            "actor": "char:beleth",
+            "action": "say",
+            "text": "Get REAL! Even when losing to Lucie, Amdy is <i>way</i> cooler than you'll ever be!"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "2g4"
+        },
+        {
+            "actor": "char:beleth",
+            "action": "say",
+            "text": "Wait..."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "2g3"
+        },
+        {
+            "actor": "char:beleth",
+            "action": "say",
+            "text": "..."
+        },
+        {
+            "actor": "char:beleth",
+            "action": "say",
+            "text": "Uh."
+        },
+        {
+            "actor": "char:amdusias",
+            "action": "say",
+            "text": "..."
+        },
+        {
+            "actor": "char:amdusias",
+            "action": "say",
+            "text": "Ah."
+        },
+        {
+            "actor": "char:amdusias",
+            "action": "say",
+            "text": "I see."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "2g4"
+        },
+        {
+            "actor": "char:beleth",
+            "action": "say",
+            "text": "You do?"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "2g5"
+        },
+        {
+            "actor": "char:amdusias",
+            "action": "say",
+            "text": "You went to “Hellside Expo” in order to publish wild tales regarding what we higher-ranking commanders have been doing!"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "2g6"
+        },
+        {
+            "actor": "char:beleth",
+            "action": "say",
+            "text": "Where the hell did THAT come from?!"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "2g7"
+        },
+        {
+            "actor": "char:amdusias",
+            "action": "say",
+            "text": "You were spying on us in order to provide the author with more material! That is <i>treason!</i> I can have you brought in!"
+        },
+        {
+            "actor": "char:amdusias",
+            "action": "say",
+            "text": "The evidence is scattered all around the room. You were definitely at Hellside Expo."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "2g8"
+        },
+        {
+            "actor": "char:beleth",
+            "action": "say",
+            "text": "I just went there to buy comics!"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "2h1"
+        },
+        {
+            "actor": "char:amdusias",
+            "action": "say",
+            "text": "Nonsense!"
+        },
+        {
+            "actor": "char:amdusias",
+            "action": "say",
+            "text": "Vassal Beleth, you will tell me how we have come to be in this comic book!"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "2h2"
+        },
+        {
+            "actor": "char:beleth",
+            "action": "say",
+            "text": "I have no idea! I didn't even realize that was supposed to be you! Now give it back!"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "2h3"
+        },
+        {
+            "actor": "char:amdusias",
+            "action": "say",
+            "text": "..."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "2h4"
+        },
+        {
+            "actor": "char:amdusias",
+            "action": "say",
+            "text": "I am leaving. I will be taking this with me."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "2h5"
+        },
+        {
+            "actor": "char:beleth",
+            "action": "say",
+            "text": "That's MINE!"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "2h6"
+        },
+        {
+            "actor": "char:amdusias",
+            "action": "say",
+            "text": "I do not care. In fact, I—"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "2h7"
+        },
+        {
+            "actor": "narrator",
+            "action": "say",
+            "text": "<i>knock, knock</i>"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "2h8"
+        },
+        {
+            "actor": "char:beleth",
+            "action": "say",
+            "text": "Looks like <i>someone</i> knows how to not just barge into someone else’s house. Excuse me."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "2i1"
+        },
+        {
+            "actor": "narrator",
+            "action": "say",
+            "text": ""
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "2i2"
+        },
+        {
+            "actor": "narrator",
+            "action": "say",
+            "text": ""
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "2i3"
+        },
+        {
+            "actor": "char:beleth",
+            "action": "say",
+            "text": "Whoa!"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "2j1"
+        },
+        {
+            "actor": "char:amdusias",
+            "action": "say",
+            "text": "It appears you have a pest problem."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "2j2"
+        },
+        {
+            "actor": "char:bweehorse1",
+            "action": "say",
+            "text": "Bwee!"
+        },
+        {
+            "actor": "char:amdusias",
+            "action": "say",
+            "text": "Back away, pest!"
+        },
+        {
+            "actor": "char:bweehorse1",
+            "action": "say",
+            "text": "Bwee!"
+        },
+        {
+            "actor": "narrator",
+            "action": "say",
+            "text": "<i>knock, knock</i>"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "2i1"
+        },
+        {
+            "actor": "narrator",
+            "action": "say",
+            "text": ""
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "2i2"
+        },
+        {
+            "actor": "narrator",
+            "action": "say",
+            "text": ""
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "2i4"
+        },
+        {
+            "actor": "char:beleth",
+            "action": "say",
+            "text": "..."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "2j3"
+        },
+        {
+            "actor": "char:bweehorse2",
+            "action": "say",
+            "text": "Bwee!"
+        },
+        {
+            "actor": "char:bweehorse3",
+            "action": "say",
+            "text": "Bwee!"
+        },
+        {
+            "actor": "char:amdusias",
+            "action": "say",
+            "text": "..."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "2k1"
+        },
+        {
+            "actor": "narrator",
+            "action": "say",
+            "text": ""
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "2k2"
+        },
+        {
+            "actor": "char:beleth",
+            "action": "say",
+            "text": "I think <i>you</i> have a pest problem."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "2k1"
+        },
+        {
+            "actor": "char:amdusias",
+            "action": "say",
+            "text": "..."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "2k3"
+        },
+        {
+            "actor": "char:amdusias",
+            "action": "say",
+            "text": "What?"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "2k2"
+        },
+        {
+            "actor": "char:beleth",
+            "action": "say",
+            "text": "Nothing. It’s nothing <i>you</i> would be interested in, I’m sure. Just comic stuff."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "2l"
+        },
+        {
+            "actor": "char:amdusias",
+            "action": "say",
+            "text": "..."
+        },
+        {
+            "actor": "char:beleth",
+            "action": "say",
+            "text": "What are you doing?"
+        },
+        {
+            "actor": "char:amdusias",
+            "action": "say",
+            "text": "Nothing. Go about your business. Ignore me."
+        },
+        {
+            "actor": "char:amdusias",
+            "action": "say",
+            "text": "Fall asleep watching your inane television program again."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "2m1"
+        },
+        {
+            "actor": "narrator",
+            "action": "say",
+            "text": ""
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "2m3"
+        },
+        {
+            "actor": "narrator",
+            "action": "say",
+            "text": ""
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "2m2"
+        },
+        {
+            "actor": "char:beleth",
+            "action": "say",
+            "text": "You said you were leaving. What happened to that?"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "2m3"
+        },
+        {
+            "actor": "char:amdusias",
+            "action": "say",
+            "text": "I will leave when I am ready to leave. You are in no position to issue me an order."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "2m4"
+        },
+        {
+            "actor": "narrator",
+            "action": "say",
+            "text": "<i>knock, knock</i>"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "2n"
+        },
+        {
+            "actor": "char:amdusias",
+            "action": "say",
+            "text": "Don’t open that!"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "2o1"
+        },
+        {
+            "actor": "narrator",
+            "action": "say",
+            "text": ""
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "2o2"
+        },
+        {
+            "actor": "char:beleth",
+            "action": "say",
+            "text": "I’m on vacation. You are in no position to issue me an order."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "2p"
+        },
+        {
+            "actor": "char:bweehorse4",
+            "action": "say",
+            "text": "Bwee!"
+        },
+        {
+            "actor": "char:amdusias",
+            "action": "say",
+            "text": "..."
+        },
+        {
+            "actor": "char:amdusias",
+            "action": "say",
+            "text": "...."
+        },
+        {
+            "actor": "char:amdusias",
+            "action": "say",
+            "text": "......"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "3a"
+        },
+        {
+            "actor": "char:amdusias",
+            "action": "say",
+            "text": "What happens?!"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "3b1"
+        },
+        {
+            "actor": "char:amdusias",
+            "action": "say",
+            "text": "Tell me what happens!"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "3b2"
+        },
+        {
+            "actor": "char:beleth",
+            "action": "say",
+            "text": "What?"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "3b1"
+        },
+        {
+            "actor": "char:amdusias",
+            "action": "say",
+            "text": "In your fool-comic! What happens to me?!"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "3b3"
+        },
+        {
+            "actor": "char:beleth",
+            "action": "say",
+            "text": "Oh! The <i>fool</i>-comic! Sorry, I don't read that one."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "3b4"
+        },
+        {
+            "actor": "char:amdusias",
+            "action": "say",
+            "text": "..."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "3b5"
+        },
+        {
+            "actor": "char:amdusias",
+            "action": "say",
+            "text": "In... <i>Suit Yourself</i>. Tell me what happens. Now."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "3b6"
+        },
+        {
+            "actor": "char:beleth",
+            "action": "say",
+            "text": "You lost to Lu— er, Pride, I guess. Then she cursed you to a lifetime of misery."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "3b7"
+        },
+        {
+            "actor": "char:amdusias",
+            "action": "say",
+            "text": "..."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "3c1"
+        },
+        {
+            "actor": "char:amdusias",
+            "action": "say",
+            "text": "How does it end? Tell me how it ends!"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "3c2"
+        },
+        {
+            "actor": "char:beleth",
+            "action": "say",
+            "text": "Ah, I would do, but I can't."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "3c1"
+        },
+        {
+            "actor": "char:amdusias",
+            "action": "say",
+            "text": "What?"
+        },
+        {
+            "actor": "char:amdusias",
+            "action": "say",
+            "text": "Out with it! Or I'll—"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "3c2"
+        },
+        {
+            "actor": "char:beleth",
+            "action": "say",
+            "text": "Nobody knows how it ends. The author took a break."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "3d1"
+        },
+        {
+            "actor": "char:amdusias",
+            "action": "say",
+            "text": "..."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "3d2"
+        },
+        {
+            "actor": "char:amdusias",
+            "action": "say",
+            "text": "When will it be finished?"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "3d3"
+        },
+        {
+            "actor": "char:beleth",
+            "action": "say",
+            "text": "Well, last time they took a break, they said it was only going to be a week, but it was actually several months."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "3d4"
+        },
+        {
+            "actor": "char:beleth",
+            "action": "say",
+            "text": "They might do a filler arc next, too. Like an intermission kind of deal. They hinted at it."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "3e"
+        },
+        {
+            "actor": "char:amdusias",
+            "action": "say",
+            "text": "I see."
+        },
+        {
+            "actor": "char:amdusias",
+            "action": "say",
+            "text": "..."
+        },
+        {
+            "actor": "jukebox",
+            "action": "stop"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "3f"
+        },
+        {
+            "actor": "char:amdusias",
+            "action": "say",
+            "text": "UNBELIEVABLE!"
+        },
+        {
+            "actor": "char:amdusias",
+            "action": "say",
+            "text": "I WON'T STAND FOR THIS!"
+        },
+        {
+            "actor": "jukebox",
+            "action": "play",
+            "track": "amdusias-creepy"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "3g1"
+        },
+        {
+            "actor": "char:bweehorse1",
+            "action": "say",
+            "text": "Bwee!"
+        },
+        {
+            "actor": "char:bweehorse2",
+            "action": "say",
+            "text": "Bwee! Bwee!"
+        },
+        {
+            "actor": "char:bweehorse3",
+            "action": "say",
+            "text": "Bwee!"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "3g2"
+        },
+        {
+            "actor": "char:amdusias",
+            "action": "say",
+            "text": "What— what do you mean this is my theme song?!"
+        },
+        {
+            "actor": "char:bweehorse4",
+            "action": "say",
+            "text": "Bweeeee!"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "3g3"
+        },
+        {
+            "actor": "char:amdusias",
+            "action": "say",
+            "text": "WHY ARE YOU DOING THIS?!"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "3h1"
+        },
+        {
+            "actor": "char:beleth",
+            "action": "say",
+            "text": "Hey, are you going to leave any time soon? I need to, uh, go..."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "3h2"
+        },
+        {
+            "actor": "char:beleth",
+            "action": "say",
+            "text": "...go shopping."
+        },
+        {
+            "actor": "char:amdusias",
+            "action": "say",
+            "text": "Do not lie to me!"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "3h3"
+        },
+        {
+            "actor": "char:beleth",
+            "action": "say",
+            "text": "I'm not!"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "3h4"
+        },
+        {
+            "actor": "char:amdusias",
+            "action": "say",
+            "text": "What establishment is open this time during a storm?!"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "3h3"
+        },
+        {
+            "actor": "char:beleth",
+            "action": "say",
+            "text": "That's none of your business!"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "3i1"
+        },
+        {
+            "actor": "char:amdusias",
+            "action": "say",
+            "text": "How dare you!"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "3i2"
+        },
+        {
+            "actor": "char:beleth",
+            "action": "say",
+            "text": "Whatever. I’m leaving."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "3j1"
+        },
+        {
+            "actor": "char:amdusias",
+            "action": "say",
+            "text": "I can’t believe this!"
+        },
+        {
+            "actor": "char:amdusias",
+            "action": "say",
+            "text": "That witch!"
+        },
+        {
+            "actor": "char:amdusias",
+            "action": "say",
+            "text": "Pride!"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "3j2"
+        },
+        {
+            "actor": "char:amdusias",
+            "action": "say",
+            "text": "PRIIIIIDE!"
+        },
+        {
+            "actor": "jukebox",
+            "action": "stop"
+        },
+        {
+            "action": "notext"
+        },
+        {
+            "actor": "curtain",
+            "action": "lower"
+        },
+        {
+            "actor": "jukebox",
+            "action": "play",
+            "track": "rainchop"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "3k1"
+        },
+        {
+            "actor": "char:orobas",
+            "action": "say",
+            "text": "Back again? How did it go?"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "3k2"
+        },
+        {
+            "actor": "char:beleth",
+            "action": "say",
+            "text": "I don’t see how you can stand to be her assistant! She’s so uptight!"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "3k3"
+        },
+        {
+            "actor": "char:orobas",
+            "action": "say",
+            "text": "She’s not so bad once she realizes you’re not going to be scared off by her, uh, personality."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "3k4"
+        },
+        {
+            "actor": "char:bweehorse1",
+            "action": "say",
+            "text": "Bwee!"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "3k5"
+        },
+        {
+            "actor": "char:beleth",
+            "action": "say",
+            "text": "She even managed to scare a Bweehorse away. Wow."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "3l1"
+        },
+        {
+            "actor": "char:beleth",
+            "action": "say",
+            "text": "You’re not gonna help fulfill Pride’s curse?"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "3l2"
+        },
+        {
+            "actor": "char:bweehorse1",
+            "action": "say",
+            "text": "Bwee."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "3l3"
+        },
+        {
+            "actor": "char:beleth",
+            "action": "say",
+            "text": "Yeah, I wouldn't want to be around her for very long either."
+        },
+        {
+            "actor": "char:beleth",
+            "action": "say",
+            "text": "Let's go."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "3m1"
+        },
+        {
+            "actor": "char:orobas",
+            "action": "say",
+            "text": "Oh! The cafe?"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "3m2"
+        },
+        {
+            "actor": "char:beleth",
+            "action": "say",
+            "text": "Huh?"
+        },
+        {
+            "actor": "char:beleth",
+            "action": "say",
+            "text": "Oh, yeah. How’d you know?"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "3m1"
+        },
+        {
+            "actor": "char:orobas",
+            "action": "say",
+            "text": "Just a guess."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "3m3"
+        },
+        {
+            "actor": "narrator",
+            "action": "say",
+            "text": ""
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "3m4"
+        },
+        {
+            "actor": "char:beleth",
+            "action": "say",
+            "text": "..."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "3m5"
+        },
+        {
+            "actor": "char:beleth",
+            "action": "say",
+            "text": "Whatever."
+        },
+        {
+            "actor": "char:beleth",
+            "action": "say",
+            "text": "Can you go do something about her?"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "3m7"
+        },
+        {
+            "actor": "char:orobas",
+            "action": "say",
+            "text": "Sure thing! Is she doing okay?"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "3m6"
+        },
+        {
+            "actor": "char:beleth",
+            "action": "say",
+            "text": "Not really."
+        },
+        {
+            "actor": "char:beleth",
+            "action": "say",
+            "text": "But it’s not my problem. I’m on vacation."
+        },
+        {
+            "actor": "char:bweehorse1",
+            "action": "say",
+            "text": "Bwee!"
+        },
+        {
+            "action": "notext"
+        },
+        {
+            "actor": "jukebox",
+            "action": "stop"
+        },
+        {
+            "actor": "curtain",
+            "action": "lower"
+        },
+        {
+            "actor": "jukebox",
+            "action": "play",
+            "track": "strangeplace-prideanime"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "3n1"
+        },
+        {
+            "actor": "narrator",
+            "action": "say",
+            "text": ""
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "3n2"
+        },
+        {
+            "actor": "narrator",
+            "action": "say",
+            "text": ""
+        },
+        {
+            "actor": "curtain",
+            "action": "lower"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "3n3"
+        },
+        {
+            "actor": "narrator",
+            "action": "say",
+            "text": ""
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "3n4"
+        },
+        {
+            "actor": "narrator",
+            "action": "say",
+            "text": ""
+        },
+        {
+            "action": "notext"
+        },
+        {
+            "actor": "jukebox",
+            "action": "stop"
+        },
+        {
+            "actor": "curtain",
+            "action": "lower"
+        },
+        {
+            "actor": "backdrop",
+            "action": "hide"
+        },
+        {
+            "action": "roll_credits"
+        }
+    ]
+}

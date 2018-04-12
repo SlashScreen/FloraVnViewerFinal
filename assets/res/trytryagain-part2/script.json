@@ -1,0 +1,2305 @@
+{
+    "asset_root": ".",
+    "name": "trytryagain-part2",
+    "title": "Try, Try Again: Part 2",
+    "subtitle": "Lily and Jupet Take a Break",
+    "date": "2015-10-15",
+    "preview": "preview.png",
+    "credits": {
+        "people": [
+            {
+                "who": "Glip",
+                "for": "Art, Music",
+                "deviantart": "glitchedpuppet",
+                "tumblr": "glitchedpuppet",
+                "twitter": "glitchedpuppet"
+            },
+            {
+                "who": "Marl",
+                "for": "Script",
+                "deviantart": "marlcabinet",
+                "tumblr": "avolontes"
+            },
+            {
+                "who": "Eevee",
+                "for": "Programming",
+                "website": "http://eev.ee/",
+                "deviantart": "lexyeevee",
+                "tumblr": "lexyeevee",
+                "twitter": "eevee"
+            }
+        ],
+        "footer_html": [
+            "<a href='http://floraverse.com/'>Floraverse</a>",
+            "<a href='https://floraverse.bandcamp.com/'>Bandcamp</a>",
+            "welcome home"
+        ]
+    },
+    "actors": {
+        "curtain": {
+            "type": "curtain"
+        },
+        "jukebox": {
+            "type": "jukebox",
+            "tracks": {
+                "deadtime": "deadtime.ogg",
+                "newcheery_5": "newcheery_5.ogg",
+                "newcheery_5tal": "newcheery_5tal.ogg",
+                "weirdmachinery_2": "weirdmachinery_2.ogg"
+            }
+        },
+        "backdrop": {
+            "type": "spot",
+            "position": "backdrop",
+            "views": {
+                "splash": "part2titlecard.png",
+                "lilyjupet1a": "lilyjupet1a.png",
+                "lilyjupet1b1": "lilyjupet1b1.png",
+                "lilyjupet1b2": "lilyjupet1b2.png",
+                "lilyjupet1b3": "lilyjupet1b3.png",
+                "lilyjupet1c1": "lilyjupet1c1.png",
+                "lilyjupet1c2": "lilyjupet1c2.png",
+                "lilyjupet1c3": "lilyjupet1c3.png",
+                "lilyjupet1c4": "lilyjupet1c4.png",
+                "lilyjupet1d1": "lilyjupet1d1.png",
+                "lilyjupet1d2": "lilyjupet1d2.png",
+                "lilyjupet1e1": "lilyjupet1e1.png",
+                "lilyjupet1e2": "lilyjupet1e2.png",
+                "lilyjupet1e3": "lilyjupet1e3.png",
+                "lilyjupet1e4": "lilyjupet1e4.png",
+                "lilyjupet2a1": "lilyjupet2a1.png",
+                "lilyjupet2a2": "lilyjupet2a2.png",
+                "lilyjupet2a3": "lilyjupet2a3.png",
+                "lilyjupet2b1": "lilyjupet2b1.png",
+                "lilyjupet2b2": "lilyjupet2b2.png",
+                "lilyjupet2b3": "lilyjupet2b3.png",
+                "lilyjupet2b4": "lilyjupet2b4.png",
+                "lilyjupet2c1": "lilyjupet2c1.png",
+                "lilyjupet2c2": "lilyjupet2c2.png",
+                "lilyjupet2c3": "lilyjupet2c3.png",
+                "lilyjupet2c4": "lilyjupet2c4.png",
+                "lilyjupet2d1": "lilyjupet2d1.png",
+                "lilyjupet2d2": "lilyjupet2d2.png",
+                "lilyjupet2d3": "lilyjupet2d3.png",
+                "lilyjupet2e1": "lilyjupet2e1.png",
+                "lilyjupet2e2": "lilyjupet2e2.png",
+                "lilyjupet2e3": "lilyjupet2e3.png",
+                "lilyjupet2e4": "lilyjupet2e4.png",
+                "lilyjupet2e5": "lilyjupet2e5.png",
+                "lilyjupet2e6": "lilyjupet2e6.png",
+                "lilyjupet3a1": "lilyjupet3a1.png",
+                "lilyjupet3a2": "lilyjupet3a2.png",
+                "lilyjupet3a3": "lilyjupet3a3.png",
+                "lilyjupet3a4": "lilyjupet3a4.png",
+                "lilyjupet3b1": "lilyjupet3b1.png",
+                "lilyjupet3b2": "lilyjupet3b2.png",
+                "lilyjupet3b3": "lilyjupet3b3.png",
+                "lilyjupet3b4": "lilyjupet3b4.png",
+                "lilyjupet3b5": "lilyjupet3b5.png",
+                "lilyjupet3b6": "lilyjupet3b6.png",
+                "lilyjupet3c": "lilyjupet3c.png",
+                "lilyjupet3c1": "lilyjupet3c1.png",
+                "lilyjupet3c2": "lilyjupet3c2.png",
+                "lilyjupet3c3": "lilyjupet3c3.png",
+                "lilyjupet3c4": "lilyjupet3c4.png",
+                "lilyjupet3d1": "lilyjupet3d1.png",
+                "lilyjupet3d2": "lilyjupet3d2.png",
+                "lilyjupet3d3": "lilyjupet3d3.png",
+                "lilyjupet3d4": "lilyjupet3d4.png",
+                "lilyjupet3d5": "lilyjupet3d5.png",
+                "lilyjupet3e1": "lilyjupet3e1.png",
+                "lilyjupet3e2": "lilyjupet3e2.png",
+                "lilyjupet3e3": "lilyjupet3e3.png",
+                "lilyjupet3e4": "lilyjupet3e4.png",
+                "lilyjupet3f1": "lilyjupet3f1.png",
+                "lilyjupet3f2": "lilyjupet3f2.png",
+                "lilyjupet3f3": "lilyjupet3f3.png",
+                "lilyjupet3f4": "lilyjupet3f4.png",
+                "lilyjupet3f5": "lilyjupet3f5.png",
+                "lilyjupet4a1": "lilyjupet4a1.png",
+                "lilyjupet4a2": "lilyjupet4a2.png",
+                "lilyjupet4b1": "lilyjupet4b1.png",
+                "lilyjupet4b2": "lilyjupet4b2.png",
+                "lilyjupet4b3": "lilyjupet4b3.png",
+                "lilyjupet4b4": "lilyjupet4b4.png",
+                "lilyjupet4b5": "lilyjupet4b5.png",
+                "lilyjupet4c1": "lilyjupet4c1.png",
+                "lilyjupet4c2": "lilyjupet4c2.png",
+                "lilyjupet4d1": "lilyjupet4d1.png",
+                "lilyjupet4d2": "lilyjupet4d2.png",
+                "lilyjupet4d3": "lilyjupet4d3.png",
+                "lilyjupet4e1": "lilyjupet4e1.png",
+                "lilyjupet4e2": "lilyjupet4e2.png",
+                "lilyjupet4e3": "lilyjupet4e3.png",
+                "lilyjupet5a1": "lilyjupet5a1.png",
+                "lilyjupet5a2": "lilyjupet5a2.png",
+                "lilyjupet5a3": "lilyjupet5a3.png",
+                "lilyjupet5a4": "lilyjupet5a4.png",
+                "lilyjupet5b1": "lilyjupet5b1.png",
+                "lilyjupet5b2": "lilyjupet5b2.png",
+                "lilyjupet5b3": "lilyjupet5b3.png",
+                "lilyjupet5b4": "lilyjupet5b4.png",
+                "lilyjupet5c1": "lilyjupet5c1.png",
+                "lilyjupet5c2": "lilyjupet5c2.png",
+                "lilyjupet5c3": "lilyjupet5c3.png",
+                "lilyjupet5c4": "lilyjupet5c4.png",
+                "lilyjupet5c5": "lilyjupet5c5.png",
+                "lilyjupet5c6": "lilyjupet5c6.png",
+                "lilyjupet5d1": "lilyjupet5d1.png",
+                "lilyjupet5d2": "lilyjupet5d2.png",
+                "lilyjupet5d3": "lilyjupet5d3.png",
+                "lilyjupet5d4": "lilyjupet5d4.png",
+                "lilyjupet5e1": "lilyjupet5e1.png",
+                "lilyjupet6a1": "lilyjupet6a1.png",
+                "lilyjupet6b1": "lilyjupet6b1.png",
+                "lilyjupet6b2": "lilyjupet6b2.png",
+                "lilyjupet6b3": "lilyjupet6b3.png",
+                "lilyjupet6b4": "lilyjupet6b4.png",
+                "lilyjupet6b5": "lilyjupet6b5.png",
+                "lilyjupet6c1": "lilyjupet6c1.png",
+                "lilyjupet6c2": "lilyjupet6c2.png",
+                "lilyjupet6c3": "lilyjupet6c3.png",
+                "lilyjupet6c4": "lilyjupet6c4.png",
+                "lilyjupet6c5": "lilyjupet6c5.png",
+                "lilyjupet6c6": "lilyjupet6c6.png",
+                "lilyjupet6d1": "lilyjupet6d1.png",
+                "lilyjupet6d2": "lilyjupet6d2.png",
+                "lilyjupet6d3": "lilyjupet6d3.png",
+                "lilyjupet6d4": "lilyjupet6d4.png",
+                "lilyjupet6e1": "lilyjupet6e1.png",
+                "lilyjupet7a1": "lilyjupet7a1.png",
+                "lilyjupet7b1": "lilyjupet7b1.png",
+                "lilyjupet7b2": "lilyjupet7b2.png",
+                "lilyjupet7b3": "lilyjupet7b3.png",
+                "lilyjupet7b4": "lilyjupet7b4.png",
+                "lilyjupet7c1": "lilyjupet7c1.png",
+                "lilyjupet7c2": "lilyjupet7c2.png",
+                "lilyjupet7d1": "lilyjupet7d1.png",
+                "lilyjupet7d2": "lilyjupet7d2.png",
+                "lilyjupet7d3": "lilyjupet7d3.png",
+                "lilyjupet7e1": "lilyjupet7e1.png",
+                "lilyjupet8a1": "lilyjupet8a1.png",
+                "lilyjupet8b1": "lilyjupet8b1.png",
+                "lilyjupet8c1": "lilyjupet8c1.png",
+                "lilyjupet8d1": "lilyjupet8d1.png",
+                "lilyjupet8d2": "lilyjupet8d2.png",
+                "lilyjupet8d3": "lilyjupet8d3.png",
+                "lilyjupet8d4": "lilyjupet8d4.png",
+                "lilyjupet8d5": "lilyjupet8d5.png"
+            }
+        },
+        "narrator": {
+            "type": "character",
+            "name": null,
+            "color": "black"
+        },
+        "char:lily": {
+            "type": "character",
+            "name": "Lily",
+            "color": "#ca5677",
+            "position": "left"
+        },
+        "char:jupet": {
+            "type": "character",
+            "name": "Jupet",
+            "color": "#d22e8c",
+            "position": "right"
+        },
+        "char:?": {
+            "type": "character",
+            "position": "right",
+            "name": "?",
+            "color": "#1f5443"
+        },
+        "char:tal": {
+            "type": "character",
+            "position": "right",
+            "name": "TAL",
+            "color": "#1f5443"
+        }
+    },
+    "script": [
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "splash"
+        },
+        {
+            "actor": "narrator",
+            "action": "say",
+            "text": ""
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "lilyjupet1a"
+        },
+        {
+            "actor": "narrator",
+            "action": "say",
+            "text": "Lily's Boat, Miaoustok River"
+        },
+        {
+            "actor": "jukebox",
+            "action": "play",
+            "track": "newcheery_5"
+        },
+        {
+            "actor": "char:lily",
+            "action": "say",
+            "text": "Lily stands at the wheel, ready to navigate Althar's deadly Miaoustok River."
+        },
+        {
+            "actor": "char:lily",
+            "action": "say",
+            "text": "Her determination: limitless."
+        },
+        {
+            "actor": "char:lily",
+            "action": "say",
+            "text": "Her cargo: Jupet the waif."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "lilyjupet1b1"
+        },
+        {
+            "actor": "char:jupet",
+            "action": "say",
+            "text": "The waif!"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "lilyjupet1b2"
+        },
+        {
+            "actor": "char:lily",
+            "action": "say",
+            "text": "Her cargo: Jupet the scamp."
+        },
+        {
+            "actor": "char:lily",
+            "action": "say",
+            "text": "Only two hours stand between her and her destination. Will she and her cargo survive?"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "lilyjupet1b3"
+        },
+        {
+            "actor": "char:jupet",
+            "action": "say",
+            "text": "<I>Two hours?!</i>"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "lilyjupet1b2"
+        },
+        {
+            "actor": "char:lily",
+            "action": "say",
+            "text": "Yeah, traffic's not too bad, so I'd say about two hours. Well, two hours for Upper Althar."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "lilyjupet1c1"
+        },
+        {
+            "actor": "char:jupet",
+            "action": "say",
+            "text": "It's way too hot for a two hour boat ride!"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "lilyjupet1c2"
+        },
+        {
+            "actor": "char:lily",
+            "action": "say",
+            "text": "We could go to lower Althar instead. Wanna?"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "lilyjupet1c4"
+        },
+        {
+            "actor": "char:jupet",
+            "action": "say",
+            "text": "How long will that take?"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "lilyjupet1c2"
+        },
+        {
+            "actor": "char:lily",
+            "action": "say",
+            "text": "Two hours."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "lilyjupet1c3"
+        },
+        {
+            "actor": "char:jupet",
+            "action": "say",
+            "text": "Aw, man! Can't we take the subway or something?"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "lilyjupet1d2"
+        },
+        {
+            "actor": "char:lily",
+            "action": "say",
+            "text": "No can do, kiddo. Most of TAL's... everything is inactive."
+        },
+        {
+            "actor": "char:lily",
+            "action": "say",
+            "text": "She was lucky enough to get you and what little we do have as far as she did."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "lilyjupet1d1"
+        },
+        {
+            "actor": "char:jupet",
+            "action": "say",
+            "text": "Rats."
+        },
+        {
+            "actor": "char:jupet",
+            "action": "say",
+            "text": "I wish we didn't have to be here, in... in..."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "lilyjupet1e1"
+        },
+        {
+            "actor": "char:lily",
+            "action": "say",
+            "text": "Jupet hesitates as they search for the right combination of words. If they fail, Lily will never know the true extent of their misery."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "lilyjupet1e2"
+        },
+        {
+            "actor": "char:jupet",
+            "action": "say",
+            "text": "...in Owel's Oven: Where the Sun Literally Hates You."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "lilyjupet1e3"
+        },
+        {
+            "actor": "char:lily",
+            "action": "say",
+            "text": "It's not <i>that</i> bad!"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "lilyjupet1e4"
+        },
+        {
+            "actor": "char:jupet",
+            "action": "say",
+            "text": "I miss home."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "lilyjupet1e1"
+        },
+        {
+            "actor": "char:lily",
+            "action": "say",
+            "text": "This is our new home. And it's pretty good."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "lilyjupet2a1"
+        },
+        {
+            "actor": "char:jupet",
+            "action": "say",
+            "text": "I miss our <i>old</i> home. This one is way too hot. I'm turning into a mummy!"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "lilyjupet2a2"
+        },
+        {
+            "actor": "char:lily",
+            "action": "say",
+            "text": "That's partly your fault."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "lilyjupet2a3"
+        },
+        {
+            "actor": "char:jupet",
+            "action": "say",
+            "text": "What?! How is any of that my fault?"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "lilyjupet2a2"
+        },
+        {
+            "actor": "char:lily",
+            "action": "say",
+            "text": "I offered to shave you! We could have been twins, we would both look cool, and we would both <em>be</em> cool. That's twice the cool."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "lilyjupet2b1"
+        },
+        {
+            "actor": "char:jupet",
+            "action": "say",
+            "text": "*cough, cough*"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "lilyjupet2b2"
+        },
+        {
+            "actor": "char:jupet",
+            "action": "say",
+            "text": "I'm dying, Lily..."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "lilyjupet2b3"
+        },
+        {
+            "actor": "char:lily",
+            "action": "say",
+            "text": "It's a little late for that!"
+        },
+        {
+            "actor": "char:lily",
+            "action": "say",
+            "text": "Go downstairs and turn the AC on. I installed it right before we left because I knew you'd stay with that fool hair style."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "lilyjupet2b4"
+        },
+        {
+            "actor": "char:jupet",
+            "action": "say",
+            "text": "I believe you mean... below deck."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "lilyjupet2c4"
+        },
+        {
+            "actor": "char:lily",
+            "action": "say",
+            "text": "I <i>mean</i> downstairs."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "lilyjupet2c1"
+        },
+        {
+            "actor": "char:jupet",
+            "action": "say",
+            "text": "I'll just stay up here."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "lilyjupet2c4"
+        },
+        {
+            "actor": "char:lily",
+            "action": "say",
+            "text": "And complain?"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "lilyjupet2c2"
+        },
+        {
+            "actor": "char:jupet",
+            "action": "say",
+            "text": "Nah, I'm over it already."
+        },
+        {
+            "actor": "char:lily",
+            "action": "say",
+            "text": "Hah!"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "lilyjupet2c3"
+        },
+        {
+            "actor": "char:jupet",
+            "action": "say",
+            "text": "What do you do in Althar, anyway? Is TAL even still running <i>anything</i>?"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "lilyjupet2d1"
+        },
+        {
+            "actor": "char:lily",
+            "action": "say",
+            "text": "Yes. Kinda."
+        },
+        {
+            "actor": "char:jupet",
+            "action": "say",
+            "text": "Kinda?"
+        },
+        {
+            "actor": "char:lily",
+            "action": "say",
+            "text": "She's the one that turned the subway station into the house it is today, and she's in charge of the reclamation efforts."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "lilyjupet2d2"
+        },
+        {
+            "actor": "char:jupet",
+            "action": "say",
+            "text": "..."
+        },
+        {
+            "actor": "char:lily",
+            "action": "say",
+            "text": "Don't be so sad. <i>I</i> still have a pretty good gig."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "lilyjupet2d3"
+        },
+        {
+            "actor": "char:jupet",
+            "action": "say",
+            "text": "Monster hunting?!"
+        },
+        {
+            "actor": "char:lily",
+            "action": "say",
+            "text": "<i>No</i>. We wouldn't have anywhere to put them!"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "lilyjupet2e1"
+        },
+        {
+            "actor": "char:lily",
+            "action": "say",
+            "text": "I get to read books."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "lilyjupet2e2"
+        },
+        {
+            "actor": "char:jupet",
+            "action": "say",
+            "text": "What kind?"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "lilyjupet2e1"
+        },
+        {
+            "actor": "char:lily",
+            "action": "say",
+            "text": "Mostly old religious ones."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "lilyjupet2e2"
+        },
+        {
+            "actor": "char:jupet",
+            "action": "say",
+            "text": "Do—"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "lilyjupet2e3"
+        },
+        {
+            "actor": "char:lily",
+            "action": "say",
+            "text": "And no, they don't have pictures."
+        },
+        {
+            "actor": "char:lily",
+            "action": "say",
+            "text": "Well, they do, but they're more like diagrams."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "lilyjupet2e6"
+        },
+        {
+            "actor": "char:jupet",
+            "action": "say",
+            "text": "\"How to be bored. See Figure 1.\""
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "lilyjupet3a1"
+        },
+        {
+            "actor": "char:lily",
+            "action": "say",
+            "text": "\"How to be thrown overboard. See Figure 2.\""
+        },
+        {
+            "actor": "char:jupet",
+            "action": "say",
+            "text": "Nooooo!"
+        },
+        {
+            "actor": "char:jupet",
+            "action": "say",
+            "text": "You wouldn't!"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "lilyjupet3a2"
+        },
+        {
+            "actor": "char:lily",
+            "action": "say",
+            "text": "I would. It'd be viewed as an act of mercy."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "lilyjupet3a3"
+        },
+        {
+            "actor": "char:lily",
+            "action": "say",
+            "text": "\"Concerned parent protects kid from deadly Althar heat with genius plan: water.\""
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "lilyjupet3a4"
+        },
+        {
+            "actor": "char:jupet",
+            "action": "say",
+            "text": "\"Authorities are investigating known-villain Lily after botched murder plan is uncovered.\""
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "lilyjupet3b1"
+        },
+        {
+            "actor": "char:lily",
+            "action": "say",
+            "text": "Water never killed anyone!"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "lilyjupet3b2"
+        },
+        {
+            "actor": "char:jupet",
+            "action": "say",
+            "text": "That's so not true."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "lilyjupet3b3"
+        },
+        {
+            "actor": "char:lily",
+            "action": "say",
+            "text": "It so is."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "lilyjupet3b2"
+        },
+        {
+            "actor": "char:jupet",
+            "action": "say",
+            "text": "No one has drowned in water ever."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "lilyjupet3b3"
+        },
+        {
+            "actor": "char:lily",
+            "action": "say",
+            "text": "Sure they have. But that's <i>them</i> killing themselves with water. Not the water's doing."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "lilyjupet3c3"
+        },
+        {
+            "actor": "char:jupet",
+            "action": "say",
+            "text": "An evil water sprite?"
+        },
+        {
+            "actor": "char:lily",
+            "action": "say",
+            "text": "The keyword there is sprite. It means it's not water."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "lilyjupet3c1"
+        },
+        {
+            "actor": "char:jupet",
+            "action": "say",
+            "text": "I... uh."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "lilyjupet3c2"
+        },
+        {
+            "actor": "char:jupet",
+            "action": "say",
+            "text": "Hmm."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "lilyjupet3c3"
+        },
+        {
+            "actor": "char:lily",
+            "action": "say",
+            "text": "Cat got your tongue?"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "lilyjupet3c1"
+        },
+        {
+            "actor": "char:jupet",
+            "action": "say",
+            "text": "..."
+        },
+        {
+            "actor": "char:jupet",
+            "action": "say",
+            "text": "I just don't see why\u2014"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "lilyjupet3c4"
+        },
+        {
+            "actor": "char:jupet",
+            "action": "say",
+            "text": "\u2014LILY STOP THE BOAT!"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "lilyjupet3d1"
+        },
+        {
+            "actor": "char:lily",
+            "action": "say",
+            "text": "What's wrong?!"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "lilyjupet3d2"
+        },
+        {
+            "actor": "char:jupet",
+            "action": "say",
+            "text": "I'm so hungry!"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "lilyjupet3d3"
+        },
+        {
+            "actor": "char:lily",
+            "action": "say",
+            "text": "Oh come on. You can't wait until we get to Althar?"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "lilyjupet3d5"
+        },
+        {
+            "actor": "char:jupet",
+            "action": "say",
+            "text": "I don't think I have two hours. I'm fading fast. I won't make it."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "lilyjupet3d4"
+        },
+        {
+            "actor": "char:lily",
+            "action": "say",
+            "text": "Uh-huh."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "lilyjupet3e1"
+        },
+        {
+            "actor": "char:jupet",
+            "action": "say",
+            "text": "I am about to die of starved."
+        },
+        {
+            "actor": "char:jupet",
+            "action": "say",
+            "text": "And when I die, it'll be in the newspaper.  \"Authorities investigating known-villain—\""
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "lilyjupet3e2"
+        },
+        {
+            "actor": "char:lily",
+            "action": "say",
+            "text": "\"Jupet, also known as the lone ham.\""
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "lilyjupet3e3"
+        },
+        {
+            "actor": "char:jupet",
+            "action": "say",
+            "text": "What?!"
+        },
+        {
+            "actor": "char:lily",
+            "action": "say",
+            "text": "Drop the anchor and we'll get something."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "lilyjupet3e4"
+        },
+        {
+            "actor": "char:jupet",
+            "action": "say",
+            "text": "All right!"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "lilyjupet3f1"
+        },
+        {
+            "actor": "char:lily",
+            "action": "say",
+            "text": "But we gotta get it to go. TAL's expecting us, and I haven't told her you're back."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "lilyjupet3f4"
+        },
+        {
+            "actor": "char:jupet",
+            "action": "say",
+            "text": "Huh? Then how can she be expecting us? That doesn't make sense."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "lilyjupet3f5"
+        },
+        {
+            "actor": "char:lily",
+            "action": "say",
+            "text": "She's been expecting you since you left, kid. We both have."
+        },
+        {
+            "action": "notext"
+        },
+        {
+            "actor": "curtain",
+            "action": "lower"
+        },
+        {
+            "actor": "backdrop",
+            "action": "hide"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "lilyjupet4a1"
+        },
+        {
+            "actor": "narrator",
+            "action": "say",
+            "text": "Everything & More Bagels"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "lilyjupet4a2"
+        },
+        {
+            "actor": "char:lily",
+            "action": "say",
+            "text": "They were all out of croissants, so I got you a bagel instead."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "lilyjupet4a1"
+        },
+        {
+            "actor": "char:jupet",
+            "action": "say",
+            "text": "A <i>bagel?</i>"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "lilyjupet4a2"
+        },
+        {
+            "actor": "char:lily",
+            "action": "say",
+            "text": "It's the same thing."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "lilyjupet4b1"
+        },
+        {
+            "actor": "char:jupet",
+            "action": "say",
+            "text": "There's no way you're going to heaven after that lie."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "lilyjupet4b2"
+        },
+        {
+            "actor": "char:lily",
+            "action": "say",
+            "text": "Hah! Just eat it. They really are out of croissants."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "lilyjupet4b3"
+        },
+        {
+            "actor": "char:jupet",
+            "action": "say",
+            "text": "What is this stuff?"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "lilyjupet4b4"
+        },
+        {
+            "actor": "char:lily",
+            "action": "say",
+            "text": "That, dear Jupet, is the \"everything and more\" topping. It alone is responsible for the international fame Everything & More Bagels enjoys today."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "lilyjupet4b5"
+        },
+        {
+            "actor": "char:jupet",
+            "action": "say",
+            "text": "<i>I've</i> never heard of this place."
+        },
+        {
+            "actor": "char:lily",
+            "action": "say",
+            "text": "Yeah, neither have I. But just try it."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "lilyjupet4c1"
+        },
+        {
+            "actor": "char:jupet",
+            "action": "say",
+            "text": "..."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "lilyjupet4c2"
+        },
+        {
+            "actor": "char:jupet",
+            "action": "say",
+            "text": "This is... this is incredible!"
+        },
+        {
+            "actor": "char:lily",
+            "action": "say",
+            "text": "It's that good?"
+        },
+        {
+            "actor": "char:jupet",
+            "action": "say",
+            "text": "This is amazing!"
+        },
+        {
+            "actor": "char:lily",
+            "action": "say",
+            "text": "It <i>does</i> claim to be everything you could ever want."
+        },
+        {
+            "actor": "char:jupet",
+            "action": "say",
+            "text": "Did you get one?"
+        },
+        {
+            "actor": "char:lily",
+            "action": "say",
+            "text": "Nah. I got a breakfast croissant."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "lilyjupet4d1"
+        },
+        {
+            "actor": "char:jupet",
+            "action": "say",
+            "text": "What?! You said they were out!"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "lilyjupet4d2"
+        },
+        {
+            "actor": "char:lily",
+            "action": "say",
+            "text": "I took the last one."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "lilyjupet4d3"
+        },
+        {
+            "actor": "char:jupet",
+            "action": "say",
+            "text": "I don't know how to handle this betrayal. Everything I thought I knew is a lie."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "lilyjupet4e1"
+        },
+        {
+            "actor": "char:jupet",
+            "action": "say",
+            "text": "I don't think I can live in a world like this."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "lilyjupet4e2"
+        },
+        {
+            "actor": "char:lily",
+            "action": "say",
+            "text": "I guess that means... you won't be wanting a bite of my croissant."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "lilyjupet4e3"
+        },
+        {
+            "actor": "char:jupet",
+            "action": "say",
+            "text": "I changed my mind. This world's pretty okay."
+        },
+        {
+            "actor": "char:lily",
+            "action": "say",
+            "text": "That's what I thought."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "lilyjupet5a1"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "lilyjupet5a2"
+        },
+        {
+            "actor": "char:jupet",
+            "action": "say",
+            "text": "..."
+        },
+        {
+            "actor": "char:lily",
+            "action": "say",
+            "text": "That bad?"
+        },
+        {
+            "actor": "char:jupet",
+            "action": "say",
+            "text": "..."
+        },
+        {
+            "actor": "char:jupet",
+            "action": "say",
+            "text": "It's really good."
+        },
+        {
+            "actor": "char:jupet",
+            "action": "say",
+            "text": "..."
+        },
+        {
+            "actor": "char:lily",
+            "action": "say",
+            "text": "That doesn't look like the face of someone who thinks it's really good."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "lilyjupet5a3"
+        },
+        {
+            "actor": "char:jupet",
+            "action": "say",
+            "text": "I'm sorry I couldn't help you and TAL. I really wanted to, and I thought if I—"
+        },
+        {
+            "actor": "char:lily",
+            "action": "say",
+            "text": "Jupet."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "lilyjupet5a4"
+        },
+        {
+            "actor": "char:jupet",
+            "action": "say",
+            "text": "Huh?"
+        },
+        {
+            "actor": "char:lily",
+            "action": "say",
+            "text": "Nothing was your fault."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "lilyjupet5b1"
+        },
+        {
+            "actor": "char:jupet",
+            "action": "say",
+            "text": "But I didn't help at all!"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "lilyjupet5b2"
+        },
+        {
+            "actor": "char:lily",
+            "action": "say",
+            "text": "So?"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "lilyjupet5b3"
+        },
+        {
+            "actor": "char:jupet",
+            "action": "say",
+            "text": "What?"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "lilyjupet5b4"
+        },
+        {
+            "actor": "char:lily",
+            "action": "say",
+            "text": "No one ever said you needed to. And you didn't make anything worse, so there's nothing you need to be sorry for."
+        },
+        {
+            "actor": "char:jupet",
+            "action": "say",
+            "text": "..."
+        },
+        {
+            "actor": "char:lily",
+            "action": "say",
+            "text": "Still feel bad?"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "lilyjupet5b1"
+        },
+        {
+            "actor": "char:jupet",
+            "action": "say",
+            "text": "Yeah."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "lilyjupet5b2"
+        },
+        {
+            "actor": "char:lily",
+            "action": "say",
+            "text": "Well, maybe you can help us get back home."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "lilyjupet5c2"
+        },
+        {
+            "actor": "char:jupet",
+            "action": "say",
+            "text": "Really?"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "lilyjupet5c1"
+        },
+        {
+            "actor": "char:lily",
+            "action": "say",
+            "text": "Dunno. TAL might have something you can do."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "lilyjupet5c3"
+        },
+        {
+            "actor": "char:lily",
+            "action": "say",
+            "text": "Actually, I know what she can do."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "lilyjupet5c2"
+        },
+        {
+            "actor": "char:jupet",
+            "action": "say",
+            "text": "What?"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "lilyjupet5c4"
+        },
+        {
+            "actor": "char:lily",
+            "action": "say",
+            "text": "Make you a new eyeball. Can you even see straight?"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "lilyjupet5c5"
+        },
+        {
+            "actor": "char:jupet",
+            "action": "say",
+            "text": "Define... \"straight\"."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "lilyjupet5c6"
+        },
+        {
+            "actor": "char:lily",
+            "action": "say",
+            "text": "That's what I thought."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "lilyjupet5d1"
+        },
+        {
+            "actor": "char:jupet",
+            "action": "say",
+            "text": "Don't I need these?"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "lilyjupet5d2"
+        },
+        {
+            "actor": "char:lily",
+            "action": "say",
+            "text": "Maybe? I don't know. TAL took pretty good care of you."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "lilyjupet5d1"
+        },
+        {
+            "actor": "char:jupet",
+            "action": "say",
+            "text": "How long will it take?"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "lilyjupet5d3"
+        },
+        {
+            "actor": "char:lily",
+            "action": "say",
+            "text": "It only took her a couple months for my legs. But eyeballs are kinda complicated when compared to those, so..."
+        },
+        {
+            "actor": "char:jupet",
+            "action": "say",
+            "text": "Hmm."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "lilyjupet5d4"
+        },
+        {
+            "actor": "char:lily",
+            "action": "say",
+            "text": "Oh shit!"
+        },
+        {
+            "actor": "char:jupet",
+            "action": "say",
+            "text": "What?"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "lilyjupet5e1"
+        },
+        {
+            "actor": "char:lily",
+            "action": "say",
+            "text": "I forgot we needed to get this to go. We're gonna be late!"
+        },
+        {
+            "actor": "char:jupet",
+            "action": "say",
+            "text": "Back to the boat!"
+        },
+        {
+            "action": "notext"
+        },
+        {
+            "actor": "curtain",
+            "action": "lower"
+        },
+        {
+            "actor": "backdrop",
+            "action": "hide"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "lilyjupet6a1"
+        },
+        {
+            "actor": "narrator",
+            "action": "say",
+            "text": "Upper Althar"
+        },
+        {
+            "actor": "char:lily",
+            "action": "say",
+            "text": "Well hum-dee-dum. TAL's not here."
+        },
+        {
+            "actor": "char:jupet",
+            "action": "say",
+            "text": "Where'd she go?"
+        },
+        {
+            "actor": "char:lily",
+            "action": "say",
+            "text": "Probably checking the other docks for us. We're gonna have to stay put and wait for her to come back around."
+        },
+        {
+            "actor": "char:jupet",
+            "action": "say",
+            "text": "Why can't she check them all?"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "lilyjupet6b1"
+        },
+        {
+            "actor": "char:lily",
+            "action": "say",
+            "text": "She can. One at a time."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "lilyjupet6b2"
+        },
+        {
+            "actor": "char:jupet",
+            "action": "say",
+            "text": "Wait, so she's just one? What happened?"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "lilyjupet6b3"
+        },
+        {
+            "actor": "char:lily",
+            "action": "say",
+            "text": "I told you. Most of her everything is inactive."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "lilyjupet6b4"
+        },
+        {
+            "actor": "char:jupet",
+            "action": "say",
+            "text": "I thought you meant just her subways and stuff!"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "lilyjupet6b5"
+        },
+        {
+            "actor": "char:lily",
+            "action": "say",
+            "text": "That wouldn't be everything!"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "lilyjupet6c1"
+        },
+        {
+            "actor": "char:jupet",
+            "action": "say",
+            "text": "I didn't know everything meant everything!"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "lilyjupet6c2"
+        },
+        {
+            "actor": "char:lily",
+            "action": "say",
+            "text": "It's in the name!"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "lilyjupet6c1"
+        },
+        {
+            "actor": "char:jupet",
+            "action": "say",
+            "text": "Well, you could have been clearer."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "lilyjupet6c2"
+        },
+        {
+            "actor": "char:lily",
+            "action": "say",
+            "text": "You could have told me you thought a term that encompasses everything meant only one specific field."
+        },
+        {
+            "actor": "char:jupet",
+            "action": "say",
+            "text": "..."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "lilyjupet6c3"
+        },
+        {
+            "actor": "char:jupet",
+            "action": "say",
+            "text": "Was it because she left Teslic Yard?"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "lilyjupet6c4"
+        },
+        {
+            "actor": "char:lily",
+            "action": "say",
+            "text": "Kinda."
+        },
+        {
+            "actor": "char:jupet",
+            "action": "say",
+            "text": "Is that a yes?"
+        },
+        {
+            "actor": "char:lily",
+            "action": "say",
+            "text": "No, it's a kinda. We had to leave for the same reason she had to deactivate everything."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "lilyjupet6c3"
+        },
+        {
+            "actor": "char:jupet",
+            "action": "say",
+            "text": "Oh."
+        },
+        {
+            "actor": "char:jupet",
+            "action": "say",
+            "text": "Is that why no one knew I was awake?"
+        },
+        {
+            "actor": "char:lily",
+            "action": "say",
+            "text": "Yep. I actually thought you were a burglar at first. A <i>cat</i> burglar."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "lilyjupet6c6"
+        },
+        {
+            "actor": "char:jupet",
+            "action": "say",
+            "text": "Ugh."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "lilyjupet6d1"
+        },
+        {
+            "actor": "char:lily",
+            "action": "say",
+            "text": "We've actually had a few break-ins in the past."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "lilyjupet6d2"
+        },
+        {
+            "actor": "char:jupet",
+            "action": "say",
+            "text": "Did they steal anything?"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "lilyjupet6d3"
+        },
+        {
+            "actor": "char:lily",
+            "action": "say",
+            "text": "Nah. They were more like... archaeologists. Kept thinking they'd just discovered some long-forgotten tomb."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "lilyjupet6d2"
+        },
+        {
+            "actor": "char:jupet",
+            "action": "say",
+            "text": "..."
+        },
+        {
+            "actor": "char:jupet",
+            "action": "say",
+            "text": "Wait, but... <i>why</i> did we have to leave?"
+        },
+        {
+            "actor": "jukebox",
+            "action": "stop"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "lilyjupet6d4"
+        },
+        {
+            "actor": "char:lily",
+            "action": "say",
+            "text": "Dunno."
+        },
+        {
+            "actor": "char:jupet",
+            "action": "say",
+            "text": "Come on."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "lilyjupet6d3"
+        },
+        {
+            "actor": "char:lily",
+            "action": "say",
+            "text": "..."
+        },
+        {
+            "actor": "jukebox",
+            "action": "play",
+            "track": "weirdmachinery_2"
+        },
+        {
+            "actor": "char:lily",
+            "action": "say",
+            "text": "TAL said it was getting worse."
+        },
+        {
+            "actor": "char:jupet",
+            "action": "say",
+            "text": "..."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "lilyjupet6e1"
+        },
+        {
+            "actor": "char:lily",
+            "action": "say",
+            "text": "It was fine at first, so I came here on my own trying to find a reputable priest since I didn't really know anything about that stuff, and neither did TAL."
+        },
+        {
+            "actor": "char:lily",
+            "action": "say",
+            "text": "She's still not really, uh, knowledgeable about it."
+        },
+        {
+            "actor": "char:lily",
+            "action": "say",
+            "text": "Anyway, I had to find a priest that knew what they were doing, and that also made house calls, and that also could be sworn to secrecy."
+        },
+        {
+            "actor": "char:jupet",
+            "action": "say",
+            "text": "How long did that take?"
+        },
+        {
+            "actor": "char:lily",
+            "action": "say",
+            "text": "A real long time. A year, I think?"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "lilyjupet7a1"
+        },
+        {
+            "actor": "char:lily",
+            "action": "say",
+            "text": "When I finally found someone that fit all the requirements, I took them to the subway and found that TAL was there with you and a bunch of our stuff."
+        },
+        {
+            "actor": "char:lily",
+            "action": "say",
+            "text": "Allegedly the... things spread and got so destructive that TAL couldn't keep you safe there any longer."
+        },
+        {
+            "actor": "char:lily",
+            "action": "say",
+            "text": "About a month after that, she had to deactivate everything but a few puppets, which she sent up here."
+        },
+        {
+            "actor": "char:jupet",
+            "action": "say",
+            "text": "It spread that much?!"
+        },
+        {
+            "actor": "char:lily",
+            "action": "say",
+            "text": "Yep. She couldn't stay there anymore. They were actually starting to mess with her machinery."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "lilyjupet7b1"
+        },
+        {
+            "actor": "char:jupet",
+            "action": "say",
+            "text": "Wow. Who's watching over the place while we're gone?"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "lilyjupet7b2"
+        },
+        {
+            "actor": "char:lily",
+            "action": "say",
+            "text": "Nobody."
+        },
+        {
+            "actor": "char:jupet",
+            "action": "say",
+            "text": "..."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "lilyjupet7b1"
+        },
+        {
+            "actor": "char:jupet",
+            "action": "say",
+            "text": "How close are you and TAL to getting us back home?"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "lilyjupet7b2"
+        },
+        {
+            "actor": "char:lily",
+            "action": "say",
+            "text": "I have no clue. But we'll keep at it until something happens."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "lilyjupet7b4"
+        },
+        {
+            "actor": "char:jupet",
+            "action": "say",
+            "text": "..."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "lilyjupet7b3"
+        },
+        {
+            "actor": "jukebox",
+            "action": "stop"
+        },
+        {
+            "actor": "char:jupet",
+            "action": "say",
+            "text": "Lily..."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "lilyjupet7b4"
+        },
+        {
+            "actor": "char:lily",
+            "action": "say",
+            "text": "Hm?"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "lilyjupet7b3"
+        },
+        {
+            "actor": "char:jupet",
+            "action": "say",
+            "text": "How long was—"
+        },
+        {
+            "actor": "jukebox",
+            "action": "play",
+            "track": "deadtime"
+        },
+        {
+            "actor": "char:lily",
+            "action": "say",
+            "text": "Several years? I think. I didn't count."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "lilyjupet7c1"
+        },
+        {
+            "actor": "char:jupet",
+            "action": "say",
+            "text": "..."
+        },
+        {
+            "actor": "char:jupet",
+            "action": "say",
+            "text": "But it felt like I was just out for a second!"
+        },
+        {
+            "actor": "char:lily",
+            "action": "say",
+            "text": "Time flies when you're dead, I guess. I wouldn't know."
+        },
+        {
+            "actor": "char:jupet",
+            "action": "say",
+            "text": "..."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "lilyjupet7c1"
+        },
+        {
+            "actor": "char:jupet",
+            "action": "say",
+            "text": "I'm sorry, Lily!"
+        },
+        {
+            "actor": "char:lily",
+            "action": "say",
+            "text": "It's all right."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "lilyjupet7d1"
+        },
+        {
+            "actor": "char:jupet",
+            "action": "say",
+            "text": "No, it's not all right! I'm sorry I left!"
+        },
+        {
+            "actor": "char:jupet",
+            "action": "say",
+            "text": "I'm sorry!"
+        },
+        {
+            "actor": "char:jupet",
+            "action": "say",
+            "text": "You must have been so sad! You and TAL! I'm sorry!"
+        },
+        {
+            "actor": "char:jupet",
+            "action": "say",
+            "text": "I'm sorry! I just wanted to help!"
+        },
+        {
+            "actor": "char:jupet",
+            "action": "say",
+            "text": "But I just made it worse. I'm sorry!"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "lilyjupet7d2"
+        },
+        {
+            "actor": "char:jupet",
+            "action": "say",
+            "text": "I'm so sorry."
+        },
+        {
+            "actor": "char:jupet",
+            "action": "say",
+            "text": "I'm so sorry!"
+        },
+        {
+            "actor": "char:jupet",
+            "action": "say",
+            "text": "I shouldn't have been so stupid! I could have stayed here and helped, but I didn't! I'm sorry!"
+        },
+        {
+            "actor": "char:jupet",
+            "action": "say",
+            "text": "I must have worried you so much. I'm sorry."
+        },
+        {
+            "actor": "char:jupet",
+            "action": "say",
+            "text": "..."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "lilyjupet7d3"
+        },
+        {
+            "actor": "char:jupet",
+            "action": "say",
+            "text": "And now I made you sad again! I'm sorry!"
+        },
+        {
+            "actor": "char:lily",
+            "action": "say",
+            "text": "I'm just happy you're back."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "lilyjupet7e1"
+        },
+        {
+            "actor": "char:jupet",
+            "action": "say",
+            "text": "I'm sorry!"
+        },
+        {
+            "actor": "char:jupet",
+            "action": "say",
+            "text": "All I did was make everyone sad."
+        },
+        {
+            "actor": "char:lily",
+            "action": "say",
+            "text": "I wasn't sad at first."
+        },
+        {
+            "actor": "char:lily",
+            "action": "say",
+            "text": "But when several months went by and you weren't awake..."
+        },
+        {
+            "actor": "char:lily",
+            "action": "say",
+            "text": "I mean, it only took him a month."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "lilyjupet8a1"
+        },
+        {
+            "actor": "char:lily",
+            "action": "say",
+            "text": "..."
+        },
+        {
+            "actor": "char:lily",
+            "action": "say",
+            "text": "I only started to worry after a couple years rolled by."
+        },
+        {
+            "actor": "char:lily",
+            "action": "say",
+            "text": "I didn't know what to do, then, so I kept busy."
+        },
+        {
+            "actor": "char:lily",
+            "action": "say",
+            "text": "..."
+        },
+        {
+            "actor": "char:lily",
+            "action": "say",
+            "text": "I didn't like being home, because..."
+        },
+        {
+            "actor": "char:lily",
+            "action": "say",
+            "text": "...because, I didn't want to have to think about you."
+        },
+        {
+            "actor": "char:lily",
+            "action": "say",
+            "text": "I thought you really did die."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "lilyjupet8b1"
+        },
+        {
+            "actor": "char:lily",
+            "action": "say",
+            "text": "But you're back, and it's okay."
+        },
+        {
+            "actor": "char:lily",
+            "action": "say",
+            "text": "You can dry your tears, kiddo. It's okay."
+        },
+        {
+            "actor": "char:jupet",
+            "action": "say",
+            "text": "I'm sorry."
+        },
+        {
+            "actor": "jukebox",
+            "action": "stop"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "lilyjupet8c1"
+        },
+        {
+            "actor": "char:?",
+            "action": "say",
+            "text": "Excuse me."
+        },
+        {
+            "actor": "char:jupet",
+            "action": "say",
+            "text": "..."
+        },
+        {
+            "actor": "char:jupet",
+            "action": "say",
+            "text": "Hi."
+        },
+        {
+            "actor": "jukebox",
+            "action": "play",
+            "track": "newcheery_5tal"
+        },
+        {
+            "actor": "char:?",
+            "action": "say",
+            "text": "Can you tell me where I could find Jupet?"
+        },
+        {
+            "actor": "char:jupet",
+            "action": "say",
+            "text": "..."
+        },
+        {
+            "actor": "char:lily",
+            "action": "say",
+            "text": "Hey, TAL."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "lilyjupet8d1"
+        },
+        {
+            "actor": "char:jupet",
+            "action": "say",
+            "text": "...TAL!?"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "lilyjupet8d2"
+        },
+        {
+            "actor": "char:?",
+            "action": "say",
+            "text": "Correct!"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "lilyjupet8d1"
+        },
+        {
+            "actor": "char:jupet",
+            "action": "say",
+            "text": "You look so weird!"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "lilyjupet8d3"
+        },
+        {
+            "actor": "char:tal",
+            "action": "say",
+            "text": "Just trying to fit in. It wasn't going well, so I need to reconfigure this disguise."
+        },
+        {
+            "actor": "char:jupet",
+            "action": "say",
+            "text": "It looks fine to me. You look like everyone else!"
+        },
+        {
+            "actor": "char:tal",
+            "action": "say",
+            "text": "Only superficially. I chose a poor species to take after. Too many questions. I believe the alligator is the best."
+        },
+        {
+            "actor": "char:lily",
+            "action": "say",
+            "text": "I told you it wouldn't work!"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "lilyjupet8d2"
+        },
+        {
+            "actor": "char:tal",
+            "action": "say",
+            "text": "I wanted to experience it for myself."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "lilyjupet8d4"
+        },
+        {
+            "actor": "char:tal",
+            "action": "say",
+            "text": "..."
+        },
+        {
+            "actor": "char:jupet",
+            "action": "say",
+            "text": "What's wrong?"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "lilyjupet8d3"
+        },
+        {
+            "actor": "char:tal",
+            "action": "say",
+            "text": "Would you like a new eyeball?"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "lilyjupet8d5"
+        },
+        {
+            "actor": "char:lily",
+            "action": "say",
+            "text": "Hah!"
+        },
+        {
+            "actor": "jukebox",
+            "action": "stop"
+        },
+        {
+            "action": "notext"
+        },
+        {
+            "actor": "curtain",
+            "action": "lower"
+        },
+        {
+            "actor": "backdrop",
+            "action": "hide"
+        },
+        {
+            "action": "roll_credits"
+        }
+    ]
+}

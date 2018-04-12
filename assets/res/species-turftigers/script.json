@@ -1,0 +1,605 @@
+{
+    "asset_root": ".",
+    "name": "species-turftigers",
+    "title": "Species Ref: Turf Tigers",
+    "subtitle": "Part 1",
+    "date": "2015-12-21",
+    "preview": "preview.png",
+    "credits": {
+        "people": [
+            {
+                "who": "Glip",
+                "for": "Art, Music",
+                "deviantart": "glitchedpuppet",
+                "tumblr": "glitchedpuppet",
+                "twitter": "glitchedpuppet"
+            },
+            {
+                "who": "Marl",
+                "for": "Script",
+                "deviantart": "marlcabinet",
+                "tumblr": "avolontes"
+            },
+            {
+                "who": "Eevee",
+                "for": "Programming",
+                "website": "http://eev.ee/",
+                "deviantart": "lexyeevee",
+                "tumblr": "lexyeevee",
+                "twitter": "eevee"
+            }
+        ],
+        "footer_html": [
+            "<a href='http://floraverse.com/'>Floraverse</a>",
+            "<a href='https://floraverse.bandcamp.com/'>Bandcamp</a>",
+            "stay tuned"
+        ]
+    },
+    "actors": {
+        "curtain": {
+            "type": "curtain"
+        },
+        "jukebox": {
+            "type": "jukebox",
+            "tracks": {
+                "toyle_2": "toyle_2.ogg"
+            }
+        },
+        "backdrop": {
+            "type": "spot",
+            "position": "backdrop",
+            "views": {
+                "splash": "tigerscoverr.png",
+                "1a": "tigers1a.png",
+                "1b1": "tigers1b1.png",
+                "1b2": "tigers1b2.png",
+                "1b3": "tigers1b3.png",
+                "1b4": "tigers1b4.png",
+                "1b5": "tigers1b5.png",
+                "1b6": "tigers1b6.png",
+                "1c1": "tigers1c1.png",
+                "1c2": "tigers1c2.png",
+                "1c3": "tigers1c3.png",
+                "1c4": "tigers1c4.png",
+                "1c5": "tigers1c5.png",
+                "1c6": "tigers1c6.png",
+                "1d1": "tigers1d1.png",
+                "1d2": "tigers1d2.png",
+                "1d3": "tigers1d3.png",
+                "1d4": "tigers1d4.png",
+                "1d5": "tigers1d5.png",
+                "1e1": "tigers1e1.png",
+                "1e2": "tigers1e2.png",
+                "1e3": "tigers1e3.png",
+                "1e4": "tigers1e4.png",
+                "1e5": "tigers1e5.png",
+                "1e6": "tigers1e6.png",
+                "1e7": "tigers1e7.png"
+            }
+        },
+        "narrator": {
+            "type": "character",
+            "name": null,
+            "color": "black"
+        },
+        "char:toyle": {
+            "type": "character",
+            "name": "Toyle",
+            "color": "#476ca3",
+            "position": "right",
+            "views": {}
+        },
+        "char:jasmaby": {
+            "type": "character",
+            "name": "Jasmaby",
+            "color": "#ba4070",
+            "position": "right",
+            "views": {}
+        },
+        "char:charthur": {
+            "type": "character",
+            "name": "Charthur",
+            "color": "#340f67",
+            "position": "left",
+            "views": {}
+        },
+        "char:shizu": {
+            "type": "character",
+            "name": "Shizu",
+            "color": "#914bc7",
+            "position": "left",
+            "views": {}
+        }
+    },
+    "script": [
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "splash"
+        },
+        {
+            "actor": "narrator",
+            "action": "say",
+            "text": ""
+        },
+        {
+            "actor": "jukebox",
+            "action": "play",
+            "track": "toyle_2"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "1a"
+        },
+        {
+            "actor": "char:toyle",
+            "action": "say",
+            "text": "Well, viewers, there you have it. There's already officially sanctioned merchandise available! But, how can you know which team you're on if you haven't met the teammates?"
+        },
+        {
+            "actor": "char:toyle",
+            "action": "say",
+            "text": "That's right! We're here, live, with teams Jasmaby and Charthur! We'll start with the best team: Team Mummy."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "1b1"
+        },
+        {
+            "actor": "char:toyle",
+            "action": "say",
+            "text": "Take it, Jasmaby!"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "1b2"
+        },
+        {
+            "actor": "char:jasmaby",
+            "action": "say",
+            "text": "Were you not paying attention? Mummies and zombies... That's no longer the issue, darling. We're going to pound their adorable faces into the dust, proving definitively that I actually knew the mummy was a fake the whole time."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "1b3"
+        },
+        {
+            "actor": "char:toyle",
+            "action": "say",
+            "text": "How... does that prove that?"
+        },
+        {
+            "actor": "char:jasmaby",
+            "action": "say",
+            "text": "..."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "1b4"
+        },
+        {
+            "actor": "char:jasmaby",
+            "action": "say",
+            "text": "Leave it to the REAL Turf Tigers to figure that out, dear."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "1b3"
+        },
+        {
+            "actor": "char:toyle",
+            "action": "say",
+            "text": "Hey, look. First off, you're no more full-blooded than I am—"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "1b4"
+        },
+        {
+            "actor": "char:jasmaby",
+            "action": "say",
+            "text": "That's up for contrast."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "1b3"
+        },
+        {
+            "actor": "char:toyle",
+            "action": "say",
+            "text": "...What?"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "1b6"
+        },
+        {
+            "actor": "char:jasmaby",
+            "action": "say",
+            "text": "I <i>said</i>, that's up for contest."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "1b5"
+        },
+        {
+            "actor": "char:toyle",
+            "action": "say",
+            "text": "Right. Second off, all I'm saying is that if you smash the other side, it means that you'll all just AGREE that you proved you knew it was a fake all along. I just think it's an important distinction to make."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "1b6"
+        },
+        {
+            "actor": "char:jasmaby",
+            "action": "say",
+            "text": "Hmm. No. I think it's same enough that it's enough the same. So, you're wrong."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "1b5"
+        },
+        {
+            "actor": "char:toyle",
+            "action": "say",
+            "text": "Ha ha!"
+        },
+        {
+            "actor": "char:toyle",
+            "action": "say",
+            "text": "No. I'm not."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "1b6"
+        },
+        {
+            "actor": "char:jasmaby",
+            "action": "say",
+            "text": "Well, you can bring it after this fight, sweetie. We'll see who's right."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "1b5"
+        },
+        {
+            "actor": "char:toyle",
+            "action": "say",
+            "text": "Well, actually, how about: no thanks. We'll have Charthur take it from here. Let's get a taste of what she's all about."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "1b6"
+        },
+        {
+            "actor": "char:jasmaby",
+            "action": "say",
+            "text": "Maybe don't."
+        },
+        {
+            "actor": "char:toyle",
+            "action": "say",
+            "text": "..."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "1c1"
+        },
+        {
+            "actor": "char:toyle",
+            "action": "say",
+            "text": "Hello, Charthur! Tell us a little about what you represent."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "1c2"
+        },
+        {
+            "actor": "char:charthur",
+            "action": "say",
+            "text": "..."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "1c3"
+        },
+        {
+            "actor": "char:charthur",
+            "action": "say",
+            "text": "Hello."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "1c1"
+        },
+        {
+            "actor": "char:toyle",
+            "action": "say",
+            "text": "We're all dying to know how you feel! All the viewers at home really want to know what you stand for in this conflict."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "1c2"
+        },
+        {
+            "actor": "char:charthur",
+            "action": "say",
+            "text": "..."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "1c5"
+        },
+        {
+            "actor": "char:toyle",
+            "action": "say",
+            "text": "..."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "1c6"
+        },
+        {
+            "actor": "char:toyle",
+            "action": "say",
+            "text": "Uh, so, have you already picked out your team?"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "1c5"
+        },
+        {
+            "actor": "char:charthur",
+            "action": "say",
+            "text": "..."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "1d1"
+        },
+        {
+            "actor": "char:jasmaby",
+            "action": "say",
+            "text": "I told you, maybe don't. You're making her uncomfortable. You should put the camera away."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "1d2"
+        },
+        {
+            "actor": "char:toyle",
+            "action": "say",
+            "text": "Well, I'd kind of like to get some time in\u2014"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "1d3"
+        },
+        {
+            "actor": "char:jasmaby",
+            "action": "say",
+            "text": "..."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "1d1"
+        },
+        {
+            "actor": "char:jasmaby",
+            "action": "say",
+            "text": "No, she says she doesn't want to answer your questions. Go away and let us fight in peace."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "1d2"
+        },
+        {
+            "actor": "char:toyle",
+            "action": "say",
+            "text": "C'mon, you don't want to talk to your faithful fans at home?"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "1d1"
+        },
+        {
+            "actor": "char:jasmaby",
+            "action": "say",
+            "text": "No. She doesn't. Go away."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "1d2"
+        },
+        {
+            "actor": "char:toyle",
+            "action": "say",
+            "text": "Okay, look. Can you guys at least pose coolly for the everyone? I just need something good, like shots of the teams. Then we'll be on our way."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "1d5"
+        },
+        {
+            "actor": "char:jasmaby",
+            "action": "say",
+            "text": "... uh huh... okay... all right, darling."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "1d1"
+        },
+        {
+            "actor": "char:jasmaby",
+            "action": "say",
+            "text": "She'll look cool, but that's it."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "1d4"
+        },
+        {
+            "actor": "char:toyle",
+            "action": "say",
+            "text": "Good enough."
+        },
+        {
+            "action": "notext"
+        },
+        {
+            "actor": "curtain",
+            "action": "lower"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "1e3"
+        },
+        {
+            "actor": "char:toyle",
+            "action": "say",
+            "text": "Hello, viewers! For those of you just tuning in, you might be wondering: \"Turf Tiger battle? What on earth is that? How does it work? Why is everyone so much more fashionable than I could ever hope to be?\""
+        },
+        {
+            "actor": "char:toyle",
+            "action": "say",
+            "text": "The answer is very simple! Battles occur whenever a conflict arises and the group of tigers needs to determine which side is right. Whichever side wins the battle is the side whose prevailing opinion is heralded as the only correct one among the group."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "1e1"
+        },
+        {
+            "actor": "char:toyle",
+            "action": "say",
+            "text": "These battles can happen anywhere, at any time, and anyone in the area who is seen dealing with one side will be treated as the enemy by the other side. What this means in practical terms is: you can't sell goods to both sides, or if you do, you have to be discreet. It's considered treason to engage with the enemy, and your store will <i>not</i> be excluded from attacks in this instance."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "1e2"
+        },
+        {
+            "actor": "char:toyle",
+            "action": "say",
+            "text": "That ESPECIALLY goes for you."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "1e3"
+        },
+        {
+            "actor": "char:toyle",
+            "action": "say",
+            "text": "Despite how destructive the battles can be, they're never lethal! Our species's motto would be something like, \"How can you keep starting wars if everyone's dead?\""
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "1e4"
+        },
+        {
+            "actor": "jukebox",
+            "action": "stop"
+        },
+        {
+            "actor": "char:shizu",
+            "action": "say",
+            "text": "..."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "1e5"
+        },
+        {
+            "actor": "char:toyle",
+            "action": "say",
+            "text": "..."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "1e6"
+        },
+        {
+            "actor": "jukebox",
+            "action": "play",
+            "track": "toyle_2"
+        },
+        {
+            "actor": "char:toyle",
+            "action": "say",
+            "text": "All right. I apologize for callously excluding necromancers in my little motto, but I must point out that most Turf Tigers aren't capable of turning undead."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "1e7"
+        },
+        {
+            "actor": "char:toyle",
+            "action": "say",
+            "text": "Anyway, I can't actually answer the \"why are Turf Tigers so much more fashionable than everyone else\" question. It's just kind of a fact of life that we're beautiful."
+        },
+        {
+            "actor": "char:toyle",
+            "action": "say",
+            "text": "And with that, I shall introduce to you all the teams, the team members, and their abilities!"
+        },
+        {
+            "actor": "jukebox",
+            "action": "stop"
+        },
+        {
+            "action": "notext"
+        },
+        {
+            "actor": "curtain",
+            "action": "lower"
+        },
+        {
+            "actor": "backdrop",
+            "action": "hide"
+        },
+        {
+            "action": "roll_credits"
+        }
+    ]
+}

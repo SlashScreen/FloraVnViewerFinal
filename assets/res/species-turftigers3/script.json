@@ -1,0 +1,786 @@
+{
+    "asset_root": ".",
+    "name": "species-turftigers3",
+    "title": "Species Ref: Turf Tigers",
+    "subtitle": "Part 3",
+    "date": "2016-01-05",
+    "preview": "preview.png",
+    "credits": {
+        "people": [
+            {
+                "who": "Glip",
+                "for": "Art, Music",
+                "deviantart": "glitchedpuppet",
+                "tumblr": "glitchedpuppet",
+                "twitter": "glitchedpuppet"
+            },
+            {
+                "who": "Marl",
+                "for": "Script",
+                "deviantart": "marlcabinet",
+                "tumblr": "avolontes"
+            },
+            {
+                "who": "Eevee",
+                "for": "Programming",
+                "website": "http://eev.ee/",
+                "deviantart": "lexyeevee",
+                "tumblr": "lexyeevee",
+                "twitter": "eevee"
+            }
+        ],
+        "footer_html": [
+            "<a href='http://floraverse.com/'>Floraverse</a>",
+            "<a href='https://floraverse.bandcamp.com/'>Bandcamp</a>",
+            "let's get ready to rumble"
+        ]
+    },
+    "actors": {
+        "curtain": {
+            "type": "curtain"
+        },
+        "jukebox": {
+            "type": "jukebox",
+            "tracks": {
+                "toyle_2": "toyle_2.ogg"
+            }
+        },
+        "backdrop": {
+            "type": "spot",
+            "position": "backdrop",
+            "views": {
+                "splash": "tigerscover3.png",
+                "4a1": "tigers4a1.png",
+                "4a2": "tigers4a2.png",
+                "4a3": "tigers4a3.png",
+                "4a3-2": "tigers4a3-2.png",
+                "4a4": "tigers4a4.png",
+                "4a5": "tigers4a5.png",
+                "4a6": "tigers4a6.png",
+                "4a7": "tigers4a7.png",
+                "4a8": "tigers4a8.png",
+                "4b1": "tigers4b1.png",
+                "4b2": "tigers4b2.png",
+                "4b3": "tigers4b3.png",
+                "4b4": "tigers4b4.png",
+                "4b5": "tigers4b5.png",
+                "4c1": "tigers4c1.png",
+                "4c2": "tigers4c2.png",
+                "4c3": "tigers4c3.png",
+                "4c4": "tigers4c4.png",
+                "4c5": "tigers4c5.png",
+                "4d1": "tigers4d1.png",
+                "4d2": "tigers4d2.png",
+                "4d3": "tigers4d3.png",
+                "4d4": "tigers4d4.png",
+                "4d5": "tigers4d5.png",
+                "4d6": "tigers4d6.png",
+                "4e1": "tigers4e1.png",
+                "4e2": "tigers4e2.png",
+                "4f": "tigers4f.png",
+                "4f1": "tigers4f1.png",
+                "4g1": "tigers4g1.png",
+                "4g2": "tigers4g2.png"
+            }
+        },
+        "narrator": {
+            "type": "character",
+            "name": null,
+            "color": "black"
+        },
+        "char:toyle": {
+            "type": "character",
+            "name": "Toyle",
+            "color": "#476ca3",
+            "position": "left",
+            "views": {}
+        },
+        "char:fizzy": {
+            "type": "character",
+            "name": "?",
+            "color": "#9a349b",
+            "position": "right",
+            "views": {}
+        },
+        "char:claude": {
+            "type": "character",
+            "name": "Claude",
+            "color": "#ec3c89",
+            "position": "left",
+            "views": {}
+        },
+        "char:incognitoxell": {
+            "type": "character",
+            "name": "?",
+            "color": "#322f6c",
+            "position": "right",
+            "views": {}
+        },
+        "char:xell": {
+            "type": "character",
+            "name": "Xell",
+            "color": "#322f6c",
+            "position": "right",
+            "views": {}
+        },
+        "char:eclaire": {
+            "type": "character",
+            "name": "Eclaire",
+            "color": "#b501ad",
+            "position": "right",
+            "views": {}
+        },
+        "char:jasmaby": {
+            "type": "character",
+            "name": "Jasmaby",
+            "color": "#ba4070",
+            "position": "right",
+            "views": {}
+        },
+        "char:charthur": {
+            "type": "character",
+            "name": "Charthur",
+            "color": "#340f67",
+            "position": "left",
+            "views": {}
+        }
+    },
+    "script": [
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "splash"
+        },
+        {
+            "actor": "narrator",
+            "action": "say",
+            "text": ""
+        },
+        {
+            "actor": "jukebox",
+            "action": "play",
+            "track": "toyle_2"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "4a1"
+        },
+        {
+            "actor": "char:toyle",
+            "action": "say",
+            "text": "Aaand... I believe that about wraps it up\u2014"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "4a2"
+        },
+        {
+            "actor": "char:fizzy",
+            "action": "say",
+            "text": "What?! No! That wasn't a mummy! That was a zombie!"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "4a3"
+        },
+        {
+            "actor": "char:toyle",
+            "action": "say",
+            "text": "Huh?"
+        },
+        {
+            "actor": "char:toyle",
+            "action": "say",
+            "text": "Wait, you mean Shizu? Do you know her? Are you on her team?"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "4a2"
+        },
+        {
+            "actor": "char:fizzy",
+            "action": "say",
+            "text": "Team... what? I'm here to fight zombies!"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "4a3-2"
+        },
+        {
+            "actor": "char:toyle",
+            "action": "say",
+            "text": "..."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "4a4"
+        },
+        {
+            "actor": "char:fizzy",
+            "action": "say",
+            "text": "Where are the zombies?! I'll beat them up!"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "4a5"
+        },
+        {
+            "actor": "char:toyle",
+            "action": "say",
+            "text": "I, uh."
+        },
+        {
+            "actor": "char:toyle",
+            "action": "say",
+            "text": "So you want to... fight Shizu?"
+        },
+        {
+            "actor": "char:toyle",
+            "action": "say",
+            "text": "I guess you're on Team Charthur, then?"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "4a4"
+        },
+        {
+            "actor": "char:fizzy",
+            "action": "say",
+            "text": "What are you even talking about?! Where did the zombie go? Don't get bit! You'll turn into one!"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "4a6"
+        },
+        {
+            "actor": "char:toyle",
+            "action": "say",
+            "text": "I'll be fine."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "4a7"
+        },
+        {
+            "actor": "char:fizzy",
+            "action": "say",
+            "text": "That's what all the zombies say! Aughhh!"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "4a8"
+        },
+        {
+            "actor": "char:toyle",
+            "action": "say",
+            "text": "..."
+        },
+        {
+            "action": "notext"
+        },
+        {
+            "actor": "curtain",
+            "action": "lower"
+        },
+        {
+            "actor": "backdrop",
+            "action": "hide"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "4b1"
+        },
+        {
+            "actor": "char:toyle",
+            "action": "say",
+            "text": "Okay, no. Hold on. That can't be everyone. It's uneven now."
+        },
+        {
+            "actor": "char:toyle",
+            "action": "say",
+            "text": "Hey, Claude. Are you taking part in this?"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "4b2"
+        },
+        {
+            "actor": "char:claude",
+            "action": "say",
+            "text": "Er, no. Last time I got roped into this stuff I chipped a tooth. Never again."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "4b3"
+        },
+        {
+            "actor": "char:toyle",
+            "action": "say",
+            "text": "Hmm. Yeah, I feel you. Last year, my mask almost got blown off."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "4b4"
+        },
+        {
+            "actor": "char:incognitoxell",
+            "action": "say",
+            "text": "H-hey, excuse me. Uh..."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "4b5"
+        },
+        {
+            "actor": "char:toyle",
+            "action": "say",
+            "text": "Oh, hey."
+        },
+        {
+            "actor": "char:toyle",
+            "action": "say",
+            "text": "Wait. You're the kid from earlier."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "4c2"
+        },
+        {
+            "actor": "char:xell",
+            "action": "say",
+            "text": "Have you seen, uh, Fizzy?"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "4c1"
+        },
+        {
+            "actor": "char:toyle",
+            "action": "say",
+            "text": "Who?"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "4c5"
+        },
+        {
+            "actor": "char:xell",
+            "action": "say",
+            "text": "She's a flowercat, uh, tiger. Flower tiger? A Taiga Tiger, like me, but with a flo—"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "4c3"
+        },
+        {
+            "actor": "char:toyle",
+            "action": "say",
+            "text": "The little cat with the helmet? Are you in the fight, too?"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "4c4"
+        },
+        {
+            "actor": "char:toyle",
+            "action": "say",
+            "text": "Claude, get rolling!"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "4d1"
+        },
+        {
+            "actor": "char:toyle",
+            "action": "say",
+            "text": "It seems there's one more combatant, folks! It's the tiger from earlier! The one, the only... Xell!"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "4d2"
+        },
+        {
+            "actor": "char:xell",
+            "action": "say",
+            "text": "Wh... what?"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "4d1"
+        },
+        {
+            "actor": "char:toyle",
+            "action": "say",
+            "text": "Xell, of Team Jasmaby! Xell, the mummy sniffer! This kid really knows what's up. I bet\u2014"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "4d2"
+        },
+        {
+            "actor": "char:xell",
+            "action": "say",
+            "text": "Hey, no, I'm just looking for Fizzy!"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "4d1"
+        },
+        {
+            "actor": "char:toyle",
+            "action": "say",
+            "text": "Fizzy, of Team Chathur! I bet you're really looking forward to sparring against her, huh? You guys got some sort of rivalry going on?"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "4d2"
+        },
+        {
+            "actor": "char:xell",
+            "action": "say",
+            "text": "What?! No! Wait, she's with Charthur? That's the side I want!"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "4d4"
+        },
+        {
+            "actor": "char:toyle",
+            "action": "say",
+            "text": "Oh, that's too bad. Can't switch after the call's been made, kid. Sorry. Also, it'd be uneven, and that's just not fair."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "4d5"
+        },
+        {
+            "actor": "char:xell",
+            "action": "say",
+            "text": "If you ask me, it's more unfair when you don't even get to pick what side you're on."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "4d4"
+        },
+        {
+            "actor": "char:toyle",
+            "action": "say",
+            "text": "Well, good thing I didn't ask you, huh."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "4d6"
+        },
+        {
+            "actor": "char:xell",
+            "action": "say",
+            "text": "..."
+        },
+        {
+            "action": "notext"
+        },
+        {
+            "actor": "curtain",
+            "action": "lower"
+        },
+        {
+            "actor": "backdrop",
+            "action": "hide"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "4e1"
+        },
+        {
+            "actor": "char:toyle",
+            "action": "say",
+            "text": "And that does it! We've met all of the core teammates from either side! It's time, now, to introduce..."
+        },
+        {
+            "actor": "char:toyle",
+            "action": "say",
+            "text": "Eclaire!"
+        },
+        {
+            "actor": "char:toyle",
+            "action": "say",
+            "text": "Tell us about all of... this, Eclaire."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "4e2"
+        },
+        {
+            "actor": "char:eclaire",
+            "action": "say",
+            "text": "Fighting's kind of a drag, so I don't like to do it. Dig?"
+        },
+        {
+            "actor": "char:eclaire",
+            "action": "say",
+            "text": "But down the line I figured, someone's gotta be the judge. And Jasmaby and Charthur both asked me anyway, and I was like, groovy."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "4e1"
+        },
+        {
+            "actor": "char:toyle",
+            "action": "say",
+            "text": "They asked you to be a referee?"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "4e2"
+        },
+        {
+            "actor": "char:eclaire",
+            "action": "say",
+            "text": "You betcha. When you got some real gone cats like those two, there's bound to be disagreements."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "4e1"
+        },
+        {
+            "actor": "char:toyle",
+            "action": "say",
+            "text": "As the referee, what will you be judging?"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "4e2"
+        },
+        {
+            "actor": "char:eclaire",
+            "action": "say",
+            "text": "This venue looks like it's the perfect size for capture the flag, so it'll probably be that."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "4e1"
+        },
+        {
+            "actor": "char:toyle",
+            "action": "say",
+            "text": "That's the \"war?\" Moving a flag from one place to another?"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "4e2"
+        },
+        {
+            "actor": "char:eclaire",
+            "action": "say",
+            "text": "Toyle, you're cool and all, but you haven't seen how they do capture the flag."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "4e1"
+        },
+        {
+            "actor": "char:toyle",
+            "action": "say",
+            "text": "And everyone here is OK with deciding reality based on the victor?"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "4e2"
+        },
+        {
+            "actor": "char:eclaire",
+            "action": "say",
+            "text": "You got it."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "4e1"
+        },
+        {
+            "actor": "char:toyle",
+            "action": "say",
+            "text": "Great. Just wanted to make sure everyone understood that."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "4e2"
+        },
+        {
+            "actor": "char:eclaire",
+            "action": "say",
+            "text": "It's a pretty simple concept. Winner's right."
+        },
+        {
+            "actor": "char:eclaire",
+            "action": "say",
+            "text": "Now I need to inform everyone of the rules."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "4e1"
+        },
+        {
+            "actor": "char:toyle",
+            "action": "say",
+            "text": "Thank you for being with us, Eclaire!"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "4e2"
+        },
+        {
+            "actor": "char:eclaire",
+            "action": "say",
+            "text": "Stay cool."
+        },
+        {
+            "actor": "narrator",
+            "action": "say",
+            "text": "<em>Eclaire ★ Truce Tiger\nPower: Love and Peace\nBattles Won: 0 ★ Battles Lost: 0 ★ Battles Refereed: 97</em>"
+        },
+        {
+            "action": "notext"
+        },
+        {
+            "actor": "curtain",
+            "action": "lower"
+        },
+        {
+            "actor": "backdrop",
+            "action": "hide"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "4f"
+        },
+        {
+            "actor": "char:toyle",
+            "action": "say",
+            "text": "Viewers, we've introduced the representatives from Team Charthur and Team Jasmaby, but now we bring you the captains themselves!"
+        },
+        {
+            "actor": "char:toyle",
+            "action": "say",
+            "text": "Introducing Charthur!"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "4f1"
+        },
+        {
+            "actor": "char:charthur",
+            "action": "say",
+            "text": "..."
+        },
+        {
+            "actor": "narrator",
+            "action": "say",
+            "text": "<em>Charthur ★ Turf Tiger\nPowers: Icy You, Ice Sickle, Have An Ice Day\nBattles Won: 87 ★ Battles Lost: 23</em>"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "4f"
+        },
+        {
+            "actor": "char:toyle",
+            "action": "say",
+            "text": "That's quite the record, Charthur! We'll see if you can add another win by the time this war's over."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "4g1"
+        },
+        {
+            "actor": "char:toyle",
+            "action": "say",
+            "text": "And last but not least, Jasmaby!"
+        },
+        {
+            "actor": "narrator",
+            "action": "say",
+            "text": "<em>Jasmaby ★ Turf Tiger Flowercat\nPowers: St. Maby's Fire, Solar Wind, Flare Imp\nBattles Won: 72 ★ Battles Lost: 18</em>"
+        },
+        {
+            "actor": "char:toyle",
+            "action": "say",
+            "text": "Also an impressive record, Jasmaby! But can you defend it and your honor from the upcoming assault?"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "4g2"
+        },
+        {
+            "actor": "char:jasmaby",
+            "action": "say",
+            "text": "I think we all know the answer to that."
+        },
+        {
+            "actor": "jukebox",
+            "action": "stop"
+        },
+        {
+            "action": "notext"
+        },
+        {
+            "actor": "curtain",
+            "action": "lower"
+        },
+        {
+            "actor": "backdrop",
+            "action": "hide"
+        },
+        {
+            "action": "roll_credits"
+        }
+    ]
+}

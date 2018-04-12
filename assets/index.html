@@ -1,17 +1,77 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="UTF-8">
-    <title>Hello World!</title>
-  </head>
-  <body>
-  <h>Hello World!!</h>
-  <p>This is a test file for seeing if my HTML viewer works correctly!</p>
-  <p>Ra, Ra, shish-koom-ba, gooooooo HTML!</p>
-  <a href="doc2.html">doc2</a>
-    <script>
-      // You can also require other files to run in this process
-      require('./renderer.js')
-    </script>
-  </body>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <script type="text/javascript" src="js/jquery-2.1.1.min.js"></script>
+
+        <!-- HEY: if you're looking for source code, you probably want coffee/all-temp.coffee -->
+        <script type="text/javascript" src="js/all-temp.js?23"></script>
+        <script type="text/javascript" src="js/scripts.js?23"></script>
+
+
+        <!-- XXX would loooove for this to be dynamic somehow -->
+        <link href='http://fonts.googleapis.com/css?family=Comfortaa&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=Gochi+Hand&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=Montez&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=Source+Code+Pro&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" type="text/css" href="css/all.css?23">
+        <title>Floraverse cutscenes</title>
+    </head>
+    <body class="js-no">
+        <script>
+            document.body.classList.remove('js-no');
+            document.body.classList.add('js-yes');
+        </script>
+        <div id="cutscene-container">
+            <div class="cutscene-splash -active">
+                <header class="no-js">
+                    <p>sorry!  requires a modern browser with javascript enabled</p>
+                    <p>(it was either this or flash, so, you know)</p>
+                </header>
+                <header class="js-only">
+                    <p>spacebar, arrow keys, or click/tap — backwards too — click ⚙ to pause</p>
+                    <p class="-when-audio-on">warning: there's music!  apply volume or headphones as necessary</p>
+                    <p class="-when-audio-off">warning: your browser doesn't support ogg vorbis, the music won't play :(</p>
+                </header>
+                <section class="-when-loading">...loading...</section>
+                <section class="-when-ready">▶</section>
+                <section class="-when-failed">kaboom!  loading failed  :(</section>
+                <footer>
+                    <p>please contact eevee (<a href="https://twitter.com/eevee">twitter</a>, <a href="http://lexyeevee.tumblr.com/">tumblr</a>, <a href="irc://irc.veekun.com/flora">irc</a>, <a href="mailto:eevee.cutscene@veekun.com">email</a>) in case of problems</p>
+                    <p>art and music licensed under <a href="http://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA</a>; <a href="coffee">code</a> licensed under <a href="http://opensource.org/licenses/ISC">ISC</a></p>
+                </footer>
+            </div>
+            <ol class="cutscene-list">
+                <li><a href="res/prompt2-itchyitchy-final/script.json">Itchy Itchy: Final</a></li>
+                <li><a href="res/brokentoy-part1/script.json">Broken Toy: Part 1</a></li>
+                <li><a href="res/brokentoy-part2/script.json">Broken Toy: Part 2</a></li>
+                <li><a href="res/brokentoy-part4/script.json">Broken Toy: Part 4</a></li>
+                <li><a href="res/brokentoy-part5/script.json">Broken Toy: Part 5</a></li>
+                <li><a href="res/species-scrapgoat/script.json">Scrapgoats</a></li>
+                <li><a href="res/marrow/script.json">Marrow</a></li>
+                <li><a href="res/species-revealeon/script.json">Revealeons</a></li>
+                <li><a href="res/species-bugs/script.json">Bugs</a></li>
+                <li><a href="res/anniversary2/script.json">Cotton Anniversary Extravaganza</a></li>
+                <li><a href="res/trytryagain-part2/script.json">Try, Try Again: Part 2</a></li>
+                <li><a href="res/species-turftigers/script.json">Turf Tigers: Part 1</a></li>
+                <li><a href="res/species-turftigers2/script.json">Turf Tigers: Part 2</a></li>
+                <li><a href="res/species-turftigers3/script.json">Turf Tigers: Part 3</a></li>
+                <li><a href="res/species-turftigers4/script.json">Turf Tigers: Turf Tiger Sheet</a></li>
+                <li><a href="res/species-turftigers5/script.json">Turf Tigers: Pygmy Tiger Sheet</a></li>
+                <li><a href="res/species-bearrings/script.json">Bearrings</a></li>
+                <li><a href="res/species-sirens-new/script.json">beholding_sirens_new</a></li>
+            </ol>
+        </div>
+        <script>
+            if (location.hostname === 'apps.veekun.com') {
+                (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+                })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+                ga('create', 'UA-48398230-2', 'apps.veekun.com');
+                ga('send', 'pageview');
+            }
+        </script>
+    </body>
 </html>

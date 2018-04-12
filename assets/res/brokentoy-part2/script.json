@@ -1,0 +1,1859 @@
+{
+    "asset_root": ".",
+    "name": "brokentoy-part2",
+    "title": "Broken Toy: Part 2",
+    "subtitle": "Beleth Gets a Weekend Pass",
+    "date": "2015-06-01",
+    "preview": "preview.png",
+    "credits": {
+        "people": [
+            {
+                "who": "PK",
+                "for": "Art, Music",
+                "deviantart": "purplekecleon",
+                "tumblr": "purplekecleon",
+                "twitter": "papayakitty"
+            },
+            {
+                "who": "Marl",
+                "for": "Script",
+                "deviantart": "marlcabinet",
+                "tumblr": "avolontes"
+            },
+            {
+                "who": "Eevee",
+                "for": "Programming",
+                "website": "http://eev.ee/",
+                "deviantart": "lexyeevee",
+                "tumblr": "lexyeevee",
+                "twitter": "eevee"
+            }
+        ],
+        "footer_html": [
+            "<a href='http://floraverse.com/'>Floraverse</a>",
+            "<a href='https://floraverse.bandcamp.com/'>Bandcamp</a>",
+            "the end...?"
+        ]
+    },
+    "actors": {
+        "curtain": {
+            "type": "curtain"
+        },
+        "jukebox": {
+            "type": "jukebox",
+            "tracks": {
+                "andre": "andre_5beleditnolow.oga",
+                "exposong": "exposong_5.oga",
+                "goforbroke": "goforbroke_2.oga",
+                "belethwhatever": "belethwhatever_2.oga"
+            }
+        },
+        "backdrop": {
+            "type": "spot",
+            "position": "backdrop",
+            "views": {
+                "splash": "part2titlecard.png",
+                "1a": "beleth2bg1a.png",
+                "1b": "beleth2bg1b.png",
+                "1c1": "beleth2bg1c1.png",
+                "1c2": "beleth2bg1c2.png",
+                "1d": "beleth2bg1d.png",
+                "1e": "beleth2bg1e.png",
+                "1f": "beleth2bg1f.png",
+                "1g": "beleth2bg1g.png",
+                "1h1": "beleth2bg1h1.png",
+                "1h2": "beleth2bg1h2.png",
+                "1h3": "beleth2bg1h3.png",
+                "1i": "beleth2bg1i.png",
+                "1j1": "beleth2bg1j1.png",
+                "1j2": "beleth2bg1j2.png",
+                "1j3": "beleth2bg1j3.png",
+                "1j4": "beleth2bg1j4.png",
+                "1k1": "beleth2bg1k1.png",
+                "1k2": "beleth2bg1k2.png",
+                "1k3": "beleth2bg1k3.png",
+                "1l": "beleth2bg1l.png",
+                "2a1": "beleth2bg2a1.png",
+                "2a2": "beleth2bg2a2.png",
+                "2b1": "beleth2bg2b1.png",
+                "2b2": "beleth2bg2b2.png",
+                "2c1": "beleth2bg2c1.png",
+                "2c2": "beleth2bg2c2.png",
+                "2d1": "beleth2bg2d1.png",
+                "2d2": "beleth2bg2d2.png",
+                "2d3": "beleth2bg2d3.png",
+                "2e1": "beleth2bg2e1.png",
+                "2e2": "beleth2bg2e2.png",
+                "2f1": "beleth2bg2f1.png",
+                "2f2": "beleth2bg2f2.png",
+                "2g1": "beleth2bg2g1.png",
+                "2g2": "beleth2bg2g2.png",
+                "2h": "beleth2bg2h.png",
+                "2i": "beleth2bg2i.png",
+                "2j": "beleth2bg2j.png",
+                "2k1": "beleth2bg2k1.png",
+                "2k2": "beleth2bg2k2.png",
+                "2k3": "beleth2bg2k3.png",
+                "2l1": "beleth2bg2l1.png",
+                "2l2": "beleth2bg2l2.png",
+                "3a1": "beleth2bg3a1.png",
+                "3a2": "beleth2bg3a2.png",
+                "3b": "beleth2bg3b.png",
+                "3c1": "beleth2bg3c1.png",
+                "3c2": "beleth2bg3c2.png",
+                "3d": "beleth2bg3d.png",
+                "3e1": "beleth2bg3e1.png",
+                "3e2": "beleth2bg3e2.png",
+                "3f1": "beleth2bg3f1.png",
+                "3f2": "beleth2bg3f2.png",
+                "3g1": "beleth2bg3g1.png",
+                "3g2": "beleth2bg3g2.png",
+                "3g3": "beleth2bg3g3.png",
+                "3h": "beleth2bg3h.png",
+                "3i1": "beleth2bg3i1.png",
+                "3i2": "beleth2bg3i2.png",
+                "3j1": "beleth2bg3j1.png",
+                "3j2": "beleth2bg3j2.png",
+                "3k1": "beleth2bg3k1.png",
+                "3k2": "beleth2bg3k2.png",
+                "3k3": "beleth2bg3k3.png",
+                "4a1": "beleth2bg4a1.png",
+                "4a2": "beleth2bg4a2.png",
+                "4b": "beleth2bg4b.png",
+                "4c1": "beleth2bg4c1.png",
+                "4c2": "beleth2bg4c2.png",
+                "4d1": "beleth2bg4d1.png",
+                "4d2": "beleth2bg4d2.png",
+                "4d3": "beleth2bg4d3.png",
+                "4d4": "beleth2bg4d4.png",
+                "4e1": "beleth2bg4e1.png",
+                "4e2": "beleth2bg4e2.png",
+                "4e3": "beleth2bg4e3.png",
+                "4e4": "beleth2bg4e4.png",
+                "4f1": "beleth2bg4f1.png",
+                "4f2": "beleth2bg4f2.png",
+                "4g": "beleth2bg4g.png",
+                "4h": "beleth2bg4h.png",
+                "4i": "beleth2bg4i.png",
+                "4j": "beleth2bg4j.png",
+                "4k": "beleth2bg4k.png",
+                "4l1": "beleth2bg4l1.png",
+                "4l2": "beleth2bg4l2.png",
+                "4l3": "beleth2bg4l3.png",
+                "4m1": "beleth2bg4m1.png",
+                "4m2": "beleth2bg4m2.png",
+                "4n1": "beleth2bg4n1.png",
+                "4n2": "beleth2bg4n2.png",
+                "4o1": "beleth2bg4o1.png",
+                "4o2": "beleth2bg4o2.png"
+            }
+        },
+        "narrator": {
+            "type": "character",
+            "name": null,
+            "color": "black"
+        },
+        "char:beleth": {
+            "type": "character",
+            "name": "Beleth",
+            "color": "#d22e8c",
+            "position": "right"
+        },
+        "char:drnurse": {
+            "type": "character",
+            "name": "Doctor Nurse",
+            "color": "#d22e59",
+            "position": "right"
+        },
+        "char:fox": {
+            "type": "character",
+            "name": "n Fox",
+            "color": "#d2512e",
+            "position": "right"
+        },
+        "char:teller": {
+            "type": "character",
+            "name": "Teller",
+            "color": "#e461b3",
+            "position": "left"
+        },
+        "char:attendant": {
+            "type": "character",
+            "name": "Attendant",
+            "color": "#710c92",
+            "position": "left"
+        },
+        "char:andrecosplayer": {
+            "type": "character",
+            "name": "Annoying Attendee",
+            "color": "#bd639a",
+            "position": "left"
+        },
+        "char:andrecosplayer2": {
+            "type": "character",
+            "name": "Dumpy Andre",
+            "color": "#bd639a",
+            "position": "left"
+        },
+        "char:attendee": {
+            "type": "character",
+            "name": "Attendee",
+            "color": "#aa919e",
+            "position": "left"
+        },
+        "char:randomcosplayer2": {
+            "type": "character",
+            "name": "Cosplayer",
+            "color": "#a88f9c",
+            "position": "left"
+        },
+        "char:employee": {
+            "type": "character",
+            "name": "Employee",
+            "color": "#a37dac",
+            "position": "left"
+        }
+    },
+    "script": [
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "splash"
+        },
+        {
+            "actor": "narrator",
+            "action": "say",
+            "text": ""
+        },
+        {
+            "actor": "jukebox",
+            "action": "play",
+            "track": "andre"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "1a"
+        },
+        {
+            "actor": "narrator",
+            "action": "say",
+            "text": ""
+        },
+        {
+            "actor": "char:beleth",
+            "action": "say",
+            "text": "What the hell is..."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "1b"
+        },
+        {
+            "actor": "char:beleth",
+            "action": "say",
+            "text": "this?"
+        },
+        {
+            "actor": "char:beleth",
+            "action": "say",
+            "text": "I can’t believe this! He actually used my money and preordered it!"
+        },
+        {
+            "actor": "char:beleth",
+            "action": "say",
+            "text": "What a dick!"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "1c1"
+        },
+        {
+            "actor": "char:beleth",
+            "action": "say",
+            "text": "Augh! Now I have to go withdraw money from my account. This sucks."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "1c2"
+        },
+        {
+            "actor": "char:beleth",
+            "action": "say",
+            "text": "Well, it’s the weekend. Gotta go pick up my paycheck and deposit it at the bank, anyway. I guess this isn’t so bad."
+        },
+        {
+            "action": "notext"
+        },
+        {
+            "actor": "jukebox",
+            "action": "stop"
+        },
+        {
+            "actor": "curtain",
+            "action": "lower"
+        },
+        {
+            "actor": "jukebox",
+            "action": "play",
+            "track": "goforbroke"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "1d"
+        },
+        {
+            "actor": "narrator",
+            "action": "say",
+            "text": "Go For Broke (bank) - Trebol Branch - Inside"
+        },
+        {
+            "actor": "char:teller",
+            "action": "say",
+            "text": "Good morning! What can we do for you today?"
+        },
+        {
+            "actor": "char:beleth",
+            "action": "say",
+            "text": "I, uh, just want to deposit my paycheck."
+        },
+        {
+            "actor": "char:teller",
+            "action": "say",
+            "text": "It would be my pleasure. ID, please?"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "1e"
+        },
+        {
+            "actor": "char:beleth",
+            "action": "say",
+            "text": "Here."
+        },
+        {
+            "actor": "char:teller",
+            "action": "say",
+            "text": "Mmm, okay. One moment."
+        },
+        {
+            "actor": "char:teller",
+            "action": "say",
+            "text": "Do you want to deposit it into checking or savings?"
+        },
+        {
+            "actor": "char:beleth",
+            "action": "say",
+            "text": "Checking is fine."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "1f"
+        },
+        {
+            "actor": "char:beleth",
+            "action": "say",
+            "text": "Hey, I have a question."
+        },
+        {
+            "actor": "char:teller",
+            "action": "say",
+            "text": "Hm?"
+        },
+        {
+            "actor": "char:beleth",
+            "action": "say",
+            "text": "Do you accept..."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "1g"
+        },
+        {
+            "actor": "char:beleth",
+            "action": "say",
+            "text": "uh, this?"
+        },
+        {
+            "actor": "char:teller",
+            "action": "say",
+            "text": "Oh! It’s been quite some time since we last saw one of these! We do accept them."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "1h1"
+        },
+        {
+            "actor": "char:beleth",
+            "action": "say",
+            "text": "What!?"
+        },
+        {
+            "actor": "char:teller",
+            "action": "say",
+            "text": "Is there a problem?"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "1h2"
+        },
+        {
+            "actor": "char:beleth",
+            "action": "say",
+            "text": "No, no. I was just surprised. I didn’t think you would."
+        },
+        {
+            "actor": "char:teller",
+            "action": "say",
+            "text": "Of course we would!"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "1h3"
+        },
+        {
+            "actor": "char:beleth",
+            "action": "say",
+            "text": "Why? Not that I’m complaining."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "1i"
+        },
+        {
+            "actor": "char:teller",
+            "action": "say",
+            "text": "This is just as good as real money! Andre is the one responsible for printing Blackjack’s local currency, and since he gave you this, well..."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "1j1"
+        },
+        {
+            "actor": "char:beleth",
+            "action": "say",
+            "text": "It counts as real money, then?"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "1j2"
+        },
+        {
+            "actor": "char:teller",
+            "action": "say",
+            "text": "It’s real money."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "1j1"
+        },
+        {
+            "actor": "char:beleth",
+            "action": "say",
+            "text": "Wow. Okay."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "1j2"
+        },
+        {
+            "actor": "char:teller",
+            "action": "say",
+            "text": "All done! Will there be anything else, today?"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "1j3"
+        },
+        {
+            "actor": "char:beleth",
+            "action": "say",
+            "text": "Nah. I’m good."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "1j2"
+        },
+        {
+            "actor": "char:teller",
+            "action": "say",
+            "text": "Here’s your receipt. Have a lovely day!"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "1j4"
+        },
+        {
+            "actor": "char:beleth",
+            "action": "say",
+            "text": "Thanks. You too."
+        },
+        {
+            "action": "notext"
+        },
+        {
+            "actor": "jukebox",
+            "action": "stop"
+        },
+        {
+            "actor": "curtain",
+            "action": "lower"
+        },
+        {
+            "actor": "jukebox",
+            "action": "play",
+            "track": "belethwhatever"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "1k1"
+        },
+        {
+            "actor": "narrator",
+            "action": "say",
+            "text": "Go For Broke (bank) - Trebol Branch - Outside"
+        },
+        {
+            "actor": "char:beleth",
+            "action": "say",
+            "text": "I guess I’ll forgive him for running off with my wallet."
+        },
+        {
+            "actor": "char:beleth",
+            "action": "say",
+            "text": "Did he know I’d try to deposit it? Or was he just messing with me?"
+        },
+        {
+            "actor": "char:beleth",
+            "action": "say",
+            "text": "Whatever."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "1k2"
+        },
+        {
+            "actor": "char:beleth",
+            "action": "say",
+            "text": "Hmm."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "1k3"
+        },
+        {
+            "actor": "char:beleth",
+            "action": "say",
+            "text": "Oh!"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "1l"
+        },
+        {
+            "actor": "narrator",
+            "action": "say",
+            "text": ""
+        },
+        {
+            "actor": "narrator",
+            "action": "say",
+            "text": "<i>COMICS! GAMES! FIGURINES AND MORE!\nSEE IT AND GET IT ALL AT\nHELLSIDE EXPO: SLIDE\nTHIS WEEKEND ONLY!!!</i>"
+        },
+        {
+            "actor": "char:beleth",
+            "action": "say",
+            "text": "Oh man! It’s this weekend! I totally forgot!"
+        },
+        {
+            "actor": "char:beleth",
+            "action": "say",
+            "text": "I gotta get to Slide!"
+        },
+        {
+            "action": "notext"
+        },
+        {
+            "actor": "jukebox",
+            "action": "stop"
+        },
+        {
+            "actor": "curtain",
+            "action": "lower"
+        },
+        {
+            "actor": "jukebox",
+            "action": "play",
+            "track": "exposong"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "2a1"
+        },
+        {
+            "actor": "narrator",
+            "action": "say",
+            "text": "The Next Day\nSlide\nHellside Expo - Ticket Counter"
+        },
+        {
+            "actor": "char:beleth",
+            "action": "say",
+            "text": "One weekend pass, please."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "2a2"
+        },
+        {
+            "actor": "char:attendant",
+            "action": "say",
+            "text": "Can I see your notarized form of parental consent?"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "2b1"
+        },
+        {
+            "actor": "char:beleth",
+            "action": "say",
+            "text": "What? Why would I have that?"
+        },
+        {
+            "actor": "char:attendant",
+            "action": "say",
+            "text": "All minors need one in order to get in without parental supervision."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "2b2"
+        },
+        {
+            "actor": "char:beleth",
+            "action": "say",
+            "text": "Uh, I’m not a minor. One weekend pass, please."
+        },
+        {
+            "actor": "char:attendant",
+            "action": "say",
+            "text": "..."
+        },
+        {
+            "actor": "char:attendant",
+            "action": "say",
+            "text": "Let me see your ID."
+        },
+        {
+            "actor": "char:beleth",
+            "action": "say",
+            "text": "Here."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "2c2"
+        },
+        {
+            "actor": "narrator",
+            "action": "say",
+            "text": ""
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "2c1"
+        },
+        {
+            "actor": "char:attendant",
+            "action": "say",
+            "text": "What is this?"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "2c2"
+        },
+        {
+            "actor": "char:beleth",
+            "action": "say",
+            "text": "It’s my ID."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "2d1"
+        },
+        {
+            "actor": "char:attendant",
+            "action": "say",
+            "text": "I’m supposed to believe you’re the, what’s it say, here? Vassal Beleth?"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "2d2"
+        },
+        {
+            "actor": "char:beleth",
+            "action": "say",
+            "text": "Yes, you are. That’s me."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "2d3"
+        },
+        {
+            "actor": "char:attendant",
+            "action": "say",
+            "text": "Let me show you something, kid."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "2e1"
+        },
+        {
+            "actor": "narrator",
+            "action": "say",
+            "text": ""
+        },
+        {
+            "actor": "char:beleth",
+            "action": "say",
+            "text": "Why are you showing me this?"
+        },
+        {
+            "actor": "char:attendant",
+            "action": "say",
+            "text": "Lots of kids like you think it’s fun to dress up like... whatever it is you’re dressed up as and give me some bogus ID."
+        },
+        {
+            "actor": "char:attendant",
+            "action": "say",
+            "text": "We don’t accept cosplay props as identification."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "2f1"
+        },
+        {
+            "actor": "char:beleth",
+            "action": "say",
+            "text": "I don’t care about any of that! I want my weekend pass! That’s my real ID."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "2f2"
+        },
+        {
+            "actor": "char:attendant",
+            "action": "say",
+            "text": "Uh huh. That’s what everybody before you with this kind of ID said."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "2f1"
+        },
+        {
+            "actor": "char:beleth",
+            "action": "say",
+            "text": "What!? Why would they have my ID!?"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "2e2"
+        },
+        {
+            "actor": "char:attendant",
+            "action": "say",
+            "text": "Tell you what, kid. Come back with your parents and I’ll sell you a weekend pass. I’ll even give this back to you."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "2g1"
+        },
+        {
+            "actor": "char:beleth",
+            "action": "say",
+            "text": "Grr..."
+        },
+        {
+            "actor": "char:attendant",
+            "action": "say",
+            "text": "Next!"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "2g2"
+        },
+        {
+            "actor": "char:beleth",
+            "action": "say",
+            "text": "Give me back my ID!"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "2g1"
+        },
+        {
+            "actor": "char:attendant",
+            "action": "say",
+            "text": "I told you, kid—"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "2g2"
+        },
+        {
+            "actor": "char:beleth",
+            "action": "say",
+            "text": "Augh!"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "2h"
+        },
+        {
+            "actor": "char:beleth",
+            "action": "say",
+            "text": "I can destroy you!"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "2i"
+        },
+        {
+            "actor": "char:beleth",
+            "action": "say",
+            "text": "With a wave of this wand!"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "2j"
+        },
+        {
+            "actor": "char:attendant",
+            "action": "say",
+            "text": "Sure, kid. Whatever. Come back when you’re not wasting my time."
+        },
+        {
+            "actor": "char:beleth",
+            "action": "say",
+            "text": "Grr..."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "2k1"
+        },
+        {
+            "actor": "char:beleth",
+            "action": "say",
+            "text": "..."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "2k2"
+        },
+        {
+            "actor": "char:beleth",
+            "action": "say",
+            "text": "... ..."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "2k3"
+        },
+        {
+            "actor": "char:beleth",
+            "action": "say",
+            "text": "It’d look bad if anyone saw me using my puppets to teach this jerk a lesson. Damnit!"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "2l1"
+        },
+        {
+            "actor": "char:beleth",
+            "action": "say",
+            "text": "I’ll be back later."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "2l2"
+        },
+        {
+            "actor": "char:attendant",
+            "action": "say",
+            "text": "Uh huh."
+        },
+        {
+            "actor": "char:attendant",
+            "action": "say",
+            "text": "Next!"
+        },
+        {
+            "action": "notext"
+        },
+        {
+            "actor": "curtain",
+            "action": "lower"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "3a1"
+        },
+        {
+            "actor": "narrator",
+            "action": "say",
+            "text": "Hellside Expo\nSomewhere else outside, near ticket area"
+        },
+        {
+            "actor": "char:andrecosplayer",
+            "action": "say",
+            "text": "Hey, kid, what are you doing?"
+        },
+        {
+            "actor": "char:beleth",
+            "action": "say",
+            "text": "..."
+        },
+        {
+            "actor": "char:andrecosplayer",
+            "action": "say",
+            "text": "Talkin' to you, kid."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "3a2"
+        },
+        {
+            "actor": "char:beleth",
+            "action": "say",
+            "text": "..."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "3b"
+        },
+        {
+            "actor": "char:andrecosplayer",
+            "action": "say",
+            "text": "Bellith! Are you disobeying me, number one commander in all of Hellside!?"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "3c1"
+        },
+        {
+            "actor": "char:beleth",
+            "action": "say",
+            "text": "WHAT!?"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "3c2"
+        },
+        {
+            "actor": "char:andrecosplayer",
+            "action": "say",
+            "text": "Heh. Got your attention now kid, didn't I?"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "3d"
+        },
+        {
+            "actor": "char:andrecosplayer",
+            "action": "say",
+            "text": "Think you can get away for the weekend, did you? When we're at war with the Shadow Ur-Demons?"
+        },
+        {
+            "actor": "char:beleth",
+            "action": "say",
+            "text": "What the hell are you talking about?"
+        },
+        {
+            "actor": "char:andrecosplayer",
+            "action": "say",
+            "text": "That's 'What the hell are you talking about, SIR?' to you, Bellith!"
+        },
+        {
+            "actor": "char:andrecosplayer",
+            "action": "say",
+            "text": "That's one week worth of pay, docked!"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "3e1"
+        },
+        {
+            "actor": "char:beleth",
+            "action": "say",
+            "text": "Are you supposed to be... Andre?"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "3e2"
+        },
+        {
+            "actor": "char:andrecosplayer2",
+            "action": "say",
+            "text": "Two weeks!"
+        },
+        {
+            "actor": "char:andrecosplayer2",
+            "action": "say",
+            "text": "And you're on zombie maintenance duty for one week! My zombie stalls need cleaning, and you're the unlucky peon that gets to do it now."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "3f1"
+        },
+        {
+            "actor": "char:beleth",
+            "action": "say",
+            "text": "Uh..."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "3f2"
+        },
+        {
+            "actor": "narrator",
+            "action": "say",
+            "text": ""
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "3g1"
+        },
+        {
+            "actor": "char:attendee",
+            "action": "say",
+            "text": "Oh!!! You two are so cute! Can I get a picture?"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "3g2"
+        },
+        {
+            "actor": "char:andrecosplayer2",
+            "action": "say",
+            "text": "Sure!"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "3g3"
+        },
+        {
+            "actor": "char:beleth",
+            "action": "say",
+            "text": "NO."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "3h"
+        },
+        {
+            "actor": "char:andrecosplayer2",
+            "action": "say",
+            "text": "I am giving you a direct order, Bellith. Do not disobey me, or it's two weeks in the slave mines with you."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "3i1"
+        },
+        {
+            "actor": "char:attendee",
+            "action": "say",
+            "text": "Oh, that's perfect! An in-character shot!"
+        },
+        {
+            "action": "notext"
+        },
+        {
+            "actor": "curtain",
+            "action": "flash"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "3i2"
+        },
+        {
+            "actor": "char:attendee",
+            "action": "say",
+            "text": "I am SO gonna post this everywhere. Thanks!"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "3j1"
+        },
+        {
+            "actor": "char:andrecosplayer2",
+            "action": "say",
+            "text": "Heh, heh. Another fan, another satisfied customer."
+        },
+        {
+            "actor": "char:andrecosplayer2",
+            "action": "say",
+            "text": "What say you and me pair up, kid?"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "3j2"
+        },
+        {
+            "actor": "char:andrecosplayer2",
+            "action": "say",
+            "text": "Kid?"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "3k1"
+        },
+        {
+            "actor": "char:andrecosplayer2",
+            "action": "say",
+            "text": "If I found out where you went, that's three weeks in the slave mines! And a month in the zombie stalls!"
+        },
+        {
+            "actor": "char:andrecosplayer2",
+            "action": "say",
+            "text": "I'll find you, or I'm not the Supreme King Commander of Hellside!"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "3k2"
+        },
+        {
+            "actor": "char:randomcosplayer2",
+            "action": "say",
+            "text": "Oh, can I get a picture?"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "3k3"
+        },
+        {
+            "actor": "char:andrecosplayer2",
+            "action": "say",
+            "text": "Sure!"
+        },
+        {
+            "action": "notext"
+        },
+        {
+            "actor": "curtain",
+            "action": "lower"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "4a1"
+        },
+        {
+            "actor": "char:beleth",
+            "action": "say",
+            "text": "Finally."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "4a2"
+        },
+        {
+            "actor": "char:beleth",
+            "action": "say",
+            "text": "Time to get to work."
+        },
+        {
+            "action": "notext"
+        },
+        {
+            "actor": "curtain",
+            "action": "lower"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "4b"
+        },
+        {
+            "actor": "narrator",
+            "action": "say",
+            "text": "Hellside Expo - Ticket Counter"
+        },
+        {
+            "actor": "char:attendant",
+            "action": "say",
+            "text": "Next!"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "4c1"
+        },
+        {
+            "actor": "char:drnurse",
+            "action": "say",
+            "text": "..."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "4c2"
+        },
+        {
+            "actor": "char:attendant",
+            "action": "say",
+            "text": "Yes?"
+        },
+        {
+            "actor": "char:drnurse",
+            "action": "say",
+            "text": "I..."
+        },
+        {
+            "actor": "char:drnurse",
+            "action": "say",
+            "text": "What was it, again dear? I’m no good at this sort of thing."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "4d1"
+        },
+        {
+            "actor": "char:beleth",
+            "action": "say",
+            "text": "Ask them for my ID! And then a weekend pass!"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "4c1"
+        },
+        {
+            "actor": "char:drnurse",
+            "action": "say",
+            "text": "I would like my ID. Then a weekend pass."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "4c2"
+        },
+        {
+            "actor": "char:attendant",
+            "action": "say",
+            "text": "Uh, what? Your ID? Did you lose it? Lost and found is on the other side of the room."
+        },
+        {
+            "actor": "char:drnurse",
+            "action": "say",
+            "text": "..."
+        },
+        {
+            "actor": "char:drnurse",
+            "action": "say",
+            "text": "One moment, please."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "4d1"
+        },
+        {
+            "actor": "char:drnurse",
+            "action": "say",
+            "text": "They did not appear to understand. Your command has confused them, Beleth."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "4d2"
+        },
+        {
+            "actor": "char:beleth",
+            "action": "say",
+            "text": "Can’t you just, like, give them a tranquilizer or something, to knock them out? I need my ID! And I need to get into the expo!"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "4c1"
+        },
+        {
+            "actor": "char:drnurse",
+            "action": "say",
+            "text": "Are you suffering from insomnia, fear, or extreme exhaustion, ticket attendant?"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "4c2"
+        },
+        {
+            "actor": "char:attendant",
+            "action": "say",
+            "text": "What are you talking about? I’m going to have to ask you to step aside, if you’re not going to buy anything."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "4d1"
+        },
+        {
+            "actor": "char:drnurse",
+            "action": "say",
+            "text": "They are in no need of a tranquilizer."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "4d3"
+        },
+        {
+            "actor": "char:beleth",
+            "action": "say",
+            "text": "I didn’t ask if they needed one!"
+        },
+        {
+            "actor": "char:drnurse",
+            "action": "say",
+            "text": "I’m afraid I don’t understand."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "4d4"
+        },
+        {
+            "actor": "char:beleth",
+            "action": "say",
+            "text": "I just need you to get my ID back, and I need you to get me a weekend pass."
+        },
+        {
+            "actor": "char:drnurse",
+            "action": "say",
+            "text": "Perhaps you should consult Cat n Fox for that, dear. I’m just a doctor."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "4c2"
+        },
+        {
+            "actor": "char:attendant",
+            "action": "say",
+            "text": "Next!"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "4d3"
+        },
+        {
+            "actor": "char:beleth",
+            "action": "say",
+            "text": "Augh!"
+        },
+        {
+            "actor": "char:drnurse",
+            "action": "say",
+            "text": "What shall I do?"
+        },
+        {
+            "actor": "char:beleth",
+            "action": "say",
+            "text": "Nothing. Just come back. I’ll get Cat n Fox."
+        },
+        {
+            "actor": "char:drnurse",
+            "action": "say",
+            "text": "Understood, dear!"
+        },
+        {
+            "action": "notext"
+        },
+        {
+            "actor": "curtain",
+            "action": "lower"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "4b"
+        },
+        {
+            "actor": "char:attendant",
+            "action": "say",
+            "text": "Next!"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "4e1"
+        },
+        {
+            "actor": "char:fox",
+            "action": "say",
+            "text": "I’m next! That’s me!"
+        },
+        {
+            "actor": "char:attendant",
+            "action": "say",
+            "text": "What can I do for you?"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "4e3"
+        },
+        {
+            "actor": "char:fox",
+            "action": "say",
+            "text": "..."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "4f1"
+        },
+        {
+            "actor": "char:fox",
+            "action": "say",
+            "text": "What can they do for me?"
+        },
+        {
+            "actor": "char:beleth",
+            "action": "say",
+            "text": "I need my ID back! And a weekend pass!"
+        },
+        {
+            "actor": "char:fox",
+            "action": "say",
+            "text": "Oh! Is that it?"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "4f2"
+        },
+        {
+            "actor": "char:beleth",
+            "action": "say",
+            "text": "What do you mean “is that it?”!? I’ve been trying for over an hour to get them!"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "4e2"
+        },
+        {
+            "actor": "char:fox",
+            "action": "say",
+            "text": "I need their ID! And a weekend pass!"
+        },
+        {
+            "actor": "char:attendant",
+            "action": "say",
+            "text": "This again? What ID are you talking about? And you’re a bit young to get a weekend pass on your own, kid."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "4e2"
+        },
+        {
+            "actor": "char:fox",
+            "action": "say",
+            "text": "No I’m not!"
+        },
+        {
+            "actor": "char:attendant",
+            "action": "say",
+            "text": "You’re probably the youngest kid I’ve seen today. Come back with your parents and we’ll get you a pass."
+        },
+        {
+            "actor": "char:fox",
+            "action": "say",
+            "text": "Give me their ID! And a weekend pass!"
+        },
+        {
+            "actor": "char:attendant",
+            "action": "say",
+            "text": "..."
+        },
+        {
+            "actor": "char:attendant",
+            "action": "say",
+            "text": "No."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "4e4"
+        },
+        {
+            "actor": "char:fox",
+            "action": "say",
+            "text": "Yes!"
+        },
+        {
+            "actor": "char:attendant",
+            "action": "say",
+            "text": "You don’t listen, do you?"
+        },
+        {
+            "actor": "char:fox",
+            "action": "say",
+            "text": "No!"
+        },
+        {
+            "actor": "char:attendant",
+            "action": "say",
+            "text": "If I have to call security, you’re going to feel really embarrassed. Do you want that?"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "4e3"
+        },
+        {
+            "actor": "char:fox",
+            "action": "say",
+            "text": "No!"
+        },
+        {
+            "actor": "char:attendant",
+            "action": "say",
+            "text": "That’s what I thought. Go—"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "4e4"
+        },
+        {
+            "actor": "char:fox",
+            "action": "say",
+            "text": "Give me their ID! And a weekend pass!"
+        },
+        {
+            "actor": "char:attendant",
+            "action": "say",
+            "text": "Fine. Have it your way. I’m calling security—"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "4g"
+        },
+        {
+            "actor": "char:fox",
+            "action": "say",
+            "text": "No!"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "4h"
+        },
+        {
+            "actor": "char:beleth",
+            "action": "say",
+            "text": "Holy crap! What are you doing!"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "4i"
+        },
+        {
+            "actor": "char:fox",
+            "action": "say",
+            "text": "I’m coming back!"
+        },
+        {
+            "actor": "char:fox",
+            "action": "say",
+            "text": "I have lots of IDs and weekend passes!"
+        },
+        {
+            "actor": "char:beleth",
+            "action": "say",
+            "text": "No!!! Don’t come back to me!"
+        },
+        {
+            "action": "notext"
+        },
+        {
+            "actor": "curtain",
+            "action": "lower"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "4j"
+        },
+        {
+            "actor": "narrator",
+            "action": "say",
+            "text": "Street next to Hellside Expo"
+        },
+        {
+            "actor": "char:beleth",
+            "action": "say",
+            "text": "What were you thinking!? Security’s all over the place now, looking for you!"
+        },
+        {
+            "actor": "char:fox",
+            "action": "say",
+            "text": "I have your ID!"
+        },
+        {
+            "actor": "char:fox",
+            "action": "say",
+            "text": "And a weekend pass!"
+        },
+        {
+            "actor": "char:fox",
+            "action": "say",
+            "text": "Lots!"
+        },
+        {
+            "actor": "char:beleth",
+            "action": "say",
+            "text": "I didn’t tell you to do any of that! I’m going to get in trouble!"
+        },
+        {
+            "actor": "char:fox",
+            "action": "say",
+            "text": "You told me you needed your ID! And a weekend pass!"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "4k"
+        },
+        {
+            "actor": "char:fox",
+            "action": "say",
+            "text": "I got them both! Lots of both!"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "4l1"
+        },
+        {
+            "actor": "char:beleth",
+            "action": "say",
+            "text": "..."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "4l2"
+        },
+        {
+            "actor": "char:beleth",
+            "action": "say",
+            "text": "I... I guess."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "4l3"
+        },
+        {
+            "actor": "char:fox",
+            "action": "say",
+            "text": "Yes!"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "4m1"
+        },
+        {
+            "actor": "char:beleth",
+            "action": "say",
+            "text": "Actually... they don’t know it was me. They don’t!"
+        },
+        {
+            "actor": "char:fox",
+            "action": "say",
+            "text": "Yes!"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "4m2"
+        },
+        {
+            "actor": "char:beleth",
+            "action": "say",
+            "text": "Good work, Fox!"
+        },
+        {
+            "actor": "char:fox",
+            "action": "say",
+            "text": "I’m good!"
+        },
+        {
+            "action": "notext"
+        },
+        {
+            "actor": "curtain",
+            "action": "lower"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "4n1"
+        },
+        {
+            "actor": "narrator",
+            "action": "say",
+            "text": "Hellside Expo - Entrance"
+        },
+        {
+            "actor": "char:employee",
+            "action": "say",
+            "text": "Pass?"
+        },
+        {
+            "actor": "char:beleth",
+            "action": "say",
+            "text": "Right here. It’s a weekend."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "4n2"
+        },
+        {
+            "actor": "char:employee",
+            "action": "say",
+            "text": "‘Kay, you’re good to go. Enjoy the expo!"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "4o1"
+        },
+        {
+            "actor": "char:beleth",
+            "action": "say",
+            "text": "Oh, I will."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "4o2"
+        },
+        {
+            "actor": "char:beleth",
+            "action": "say",
+            "text": "You can count on it."
+        },
+        {
+            "actor": "char:employee",
+            "action": "say",
+            "text": "..."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "4n2"
+        },
+        {
+            "actor": "char:employee",
+            "action": "say",
+            "text": "Next!"
+        },
+        {
+            "action": "notext"
+        },
+        {
+            "actor": "jukebox",
+            "action": "stop"
+        },
+        {
+            "actor": "curtain",
+            "action": "lower"
+        },
+        {
+            "actor": "backdrop",
+            "action": "hide"
+        },
+        {
+            "action": "roll_credits"
+        }
+    ]
+}

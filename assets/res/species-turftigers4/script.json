@@ -1,0 +1,376 @@
+{
+    "asset_root": ".",
+    "name": "species-turftigers4",
+    "title": "Species Ref: Turf Tigers",
+    "subtitle": "Part 4: Turf Tiger sheet",
+    "date": "2016-01-08",
+    "preview": "preview.png",
+    "credits": {
+        "people": [
+            {
+                "who": "Glip",
+                "for": "Art, Music",
+                "deviantart": "glitchedpuppet",
+                "tumblr": "glitchedpuppet",
+                "twitter": "glitchedpuppet"
+            },
+            {
+                "who": "Marl",
+                "for": "Script",
+                "deviantart": "marlcabinet",
+                "tumblr": "avolontes"
+            },
+            {
+                "who": "Eevee",
+                "for": "Programming",
+                "website": "http://eev.ee/",
+                "deviantart": "lexyeevee",
+                "tumblr": "lexyeevee",
+                "twitter": "eevee"
+            }
+        ],
+        "footer_html": [
+            "<a href='http://floraverse.com/'>Floraverse</a>",
+            "<a href='https://floraverse.bandcamp.com/'>Bandcamp</a>",
+            "let's get ready to rumble"
+        ]
+    },
+    "actors": {
+        "curtain": {
+            "type": "curtain"
+        },
+        "jukebox": {
+            "type": "jukebox",
+            "tracks": {
+                "toyle_2": "toyle_2.ogg"
+            }
+        },
+        "backdrop": {
+            "type": "spot",
+            "position": "backdrop",
+            "views": {
+                "splash": "tigersheetlayers.png",
+                "1": "tigersheetlayers1.png",
+                "2": "tigersheetlayers2.png",
+                "3": "tigersheetlayers3.png",
+                "4": "tigersheetlayers4.png",
+                "5": "tigersheetlayers5.png",
+                "6": "tigersheetlayers6.png"
+            }
+        },
+        "tiger": {
+            "type": "spot",
+            "position": "left",
+            "views": {
+                "t1": "tigersheetlayerst1.png",
+                "t2": "tigersheetlayerst2.png",
+                "t3": "tigersheetlayerst3.png",
+                "t4": "tigersheetlayerst4.png",
+                "t5": "tigersheetlayerst5.png",
+                "t6": "tigersheetlayerst6.png",
+                "t7": "tigersheetlayerst7.png",
+                "t8": "tigersheetlayerst8.png",
+                "t9": "tigersheetlayerst9.png",
+                "t10": "tigersheetlayerst10.png",
+                "t11": "tigersheetlayerst11.png"
+            }
+        },
+        "narrator": {
+            "type": "character",
+            "name": null,
+            "color": "black"
+        },
+        "data": {
+            "type": "character",
+            "position": "alice-tigers",
+            "name": null,
+            "color": "black"
+        },
+        "char:toyle": {
+            "type": "character",
+            "name": "Toyle",
+            "color": "#476ca3",
+            "position": "left",
+            "views": {}
+        }
+    },
+    "script": [
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "splash"
+        },
+        {
+            "actor": "narrator",
+            "action": "say",
+            "text": ""
+        },
+        {
+            "actor": "jukebox",
+            "action": "play",
+            "track": "toyle_2"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "2"
+        },
+        {
+            "actor": "char:toyle",
+            "action": "say",
+            "text": "Bad news, folks. Eclaire won't let us broadcast the rules and expectations, so while she's doing that..."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "3"
+        },
+        {
+            "actor": "char:toyle",
+            "action": "say",
+            "text": "Hold on. I'm just receiving word that... okay!"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "4"
+        },
+        {
+            "actor": "char:toyle",
+            "action": "say",
+            "text": "Looks like a betting system has just gone up for the upcoming war!"
+        },
+        {
+            "actor": "char:toyle",
+            "action": "say",
+            "text": "After all, what competition would be complete without someone else exploiting it for monetary gain?"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "5"
+        },
+        {
+            "actor": "char:toyle",
+            "action": "say",
+            "text": "Don't answer that. It's a trick question!"
+        },
+        {
+            "actor": "char:toyle",
+            "action": "say",
+            "text": "Before you go rushing over to place your bets for which side will win and how hard, however, you might want to do some research."
+        },
+        {
+            "actor": "char:toyle",
+            "action": "say",
+            "text": "There's a lot of different tigers in the upcoming match, and a lot of variables you may want to consider when putting your money down."
+        },
+        {
+            "actor": "char:toyle",
+            "action": "say",
+            "text": "Let's take a look, starting with one of our top two favorite captains: Charthur!"
+        },
+        {
+            "actor": "char:toyle",
+            "action": "say",
+            "text": "Charthur is a purebred turf tiger, according to our independent witch-analyst. She's sending me the statistics on them now..."
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "1"
+        },
+        {
+            "actor": "tiger",
+            "action": "show",
+            "view": "t2"
+        },
+        {
+            "actor": "data",
+            "action": "say",
+            "text": "<strong>Turf Tiger - war just means they like you</strong>\n\nIntelligent, fierce, prone to changing their minds, and incredibly stubborn. If they're not currently at war with someone over something, they'll see to starting one soon enough."
+        },
+        {
+            "actor": "data",
+            "action": "say",
+            "text": "Hereditary influence: Low\nEnvironmental influence: High\nNative to: Owel\nLanguage: no native language\nAbility to reason: High\nClimate preference: Varies\nFound in: Smaller towns and cities"
+        },
+        {
+            "actor": "data",
+            "action": "say",
+            "text": "<strong>Elements</strong>\n\nAffinities: Varies\nTurf tigers are highly adaptable to their environment. Their affinity can change in as little as a year by living in an area not aligned with their current affinity. They usually have a \"favorite\" affinity however, and tend to stick with it."
+        },
+        {
+            "actor": "data",
+            "action": "say",
+            "text": "Weaknesses: Varies\nResistances: Varies\n\nTurf tigers are very adept at fighting, and terms like \"weakness\" and \"resistance\" do not fully apply. They are often aware of the pros and cons of their individual affinities and will go to great lengths to compensate for them in order to be more effective in an upcoming war. "
+        },
+        {
+            "actor": "data",
+            "action": "say",
+            "text": "<strong>Society</strong>\n\nTurf tigers love battle more than anything, and they love community almost more than anything. (Fashion is a close second.) They value individualism and speaking one's mind, and they believe everyone's opinions are equally valid. Until a war breaks out over those opinions and a victor emerges. Then the victor's opinion is the correct and best one. Until war breaks out again. And again. You get the idea."
+        },
+        {
+            "actor": "data",
+            "action": "say",
+            "text": "Although they have a tendency to escalate even the most trivial of situations into a declaration of war, they feel a great fondness for and bond with those they declare war on. These feelings are so strong it has shaped their very beings, giving them an innate ability that most of Kadath's researchers would love to get their hands on."
+        },
+        {
+            "actor": "data",
+            "action": "say",
+            "text": "<strong>Ability:</strong> War?\n\nTurf tigers specialize in the practical application of nonlethal battle tactics, be they magical or physical in nature. When at war, all forms of combat in that war, whatever they may be, are rendered completely incapable of causing grievous or permanent injury to anyone subjected to them.\n\nEverlasting curses are diminished to a tiny fragment of their intended duration. Fireballs normally hot enough to melt rocks merely knock the victim senseless. Deadly poisons result in temporary unconsciousness. Bone-shattering impacts cause severe dizziness.\n\nHow all of this works... nobody knows. Not even the turf tigers. They aren't complaining, though, as it means they can have as many wars with each other as they like. After all, if everyone's dead, there's no one left to fight with, you know?"
+        },
+        {
+            "actor": "data",
+            "action": "say",
+            "text": "<strong>Physiology</strong>\n\nPurebred turf tigers are relatively short: usually no more than three or four feet tall."
+        },
+        {
+            "actor": "tiger",
+            "action": "show",
+            "view": "t1"
+        },
+        {
+            "actor": "data",
+            "action": "say",
+            "text": "<strong>Hybrids</strong>\n\nTurf tigers are compatible with many other species, and hybrids are very plentiful as a result. Let's take a look at some of them!"
+        },
+        {
+            "actor": "data",
+            "action": "say",
+            "text": "<em>Thistle Tiger - Flowercat hybrid</em>\n\nNone other than the other one of our two favorite captains: Jasmaby! Few can match the beauty and power of his carefully-crafted image."
+        },
+        {
+            "actor": "tiger",
+            "action": "show",
+            "view": "t6"
+        },
+        {
+            "actor": "data",
+            "action": "say",
+            "text": "<em>Tomb Tiger - Necropossum hybrid</em>\n\nShe would say she's drop-dead gorgeous. She would then laugh at her own pun. Her style is good enough for absolutely everyone, but it might not be appreciated by everyone. Or so she says. "
+        },
+        {
+            "actor": "tiger",
+            "action": "show",
+            "view": "t4"
+        },
+        {
+            "actor": "data",
+            "action": "say",
+            "text": "<em>Surf Tiger - Vanguard hybrid</em>\n\nAdrian's got no time for philosophical questions such as \"who is the most beautiful?\" There's no time for things like that when you're in love... with the sea."
+        },
+        {
+            "actor": "tiger",
+            "action": "show",
+            "view": "t7"
+        },
+        {
+            "actor": "data",
+            "action": "say",
+            "text": "<em>Glam Candies - Rock Candies hybrid</em>\n\nVivian isn't interested in beauty or love. In Vivian's world, there's only time to rock. And melt faces. But that's really part of what's expected in the world of rock, so they're kind of the same thing."
+        },
+        {
+            "actor": "tiger",
+            "action": "show",
+            "view": "t3"
+        },
+        {
+            "actor": "data",
+            "action": "say",
+            "text": "<em>Stripe Goat - Scrapgoat hybrid</em>\n\nThis neo-tiger can change its stripes. In the form of neo-tech cyber-enhancements. Cyber eyes. Cyber gloves. Cyber body armor. Cyber mohawk. Stripe goats are the pinnacle of techno fashion, and Kid Neon is no exception."
+        },
+        {
+            "actor": "tiger",
+            "action": "show",
+            "view": "t8"
+        },
+        {
+            "actor": "data",
+            "action": "say",
+            "text": "<em>Truce Tiger - Clover Lamb hybrid</em>\n\nQuite possibly the most level-headed and calm hybrid of all the turf tiger hybrids. Quite possibly the only level-headed and calm hybrid out of all of the other hybrids. Eclaire is the best referee to have if you're interested in fairness."
+        },
+        {
+            "actor": "tiger",
+            "action": "show",
+            "view": "t5"
+        },
+        {
+            "actor": "data",
+            "action": "say",
+            "text": "<em>Pygmy Tiger - Not actually a Turf Tiger</em>\n\nMore commonly known as a Taiga Tiger on Topside. Related to Turf Tigers, but seems to lack the warlust of their cousin species. "
+        },
+        {
+            "actor": "tiger",
+            "action": "show",
+            "view": "t9"
+        },
+        {
+            "actor": "data",
+            "action": "say",
+            "text": "<em>Flower Tiger - Pygmy Tiger and Flowercat hybrid</em>\n\nNot a Turf Tiger, but a tiger in a turf battle. Actually, I guess we could technically call Fizzy a Turf Tiger during this. Why not?"
+        },
+        {
+            "actor": "tiger",
+            "action": "show",
+            "view": "t10"
+        },
+        {
+            "actor": "data",
+            "action": "say",
+            "text": "<em>Unknown hybrid - Claude</em>\n\nNeed more info. Maybe manticore? Ask Claude later."
+        },
+        {
+            "actor": "tiger",
+            "action": "show",
+            "view": "t11"
+        },
+        {
+            "actor": "data",
+            "action": "say",
+            "text": "<em>Unknown hybrid - Toyle</em>\n\nNeed more info. Maybe—"
+        },
+        {
+            "actor": "tiger",
+            "action": "hide"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "6"
+        },
+        {
+            "actor": "char:toyle",
+            "action": "say",
+            "text": "Well, uh, looks like that's all there is! Thank you, unbiased witch-analyst!"
+        },
+        {
+            "actor": "backdrop",
+            "action": "show",
+            "view": "5"
+        },
+        {
+            "actor": "char:toyle",
+            "action": "say",
+            "text": "Keep this info in mind, folks, as you head on over to the betting windows of Alice's Bracketeer! Good luck!"
+        },
+        {
+            "actor": "jukebox",
+            "action": "stop"
+        },
+        {
+            "action": "notext"
+        },
+        {
+            "actor": "curtain",
+            "action": "lower"
+        },
+        {
+            "actor": "backdrop",
+            "action": "hide"
+        },
+        {
+            "action": "roll_credits"
+        }
+    ]
+}
