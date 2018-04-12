@@ -2,11 +2,15 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8">
-        <script type="text/javascript" src="js/jquery-2.1.1.min.js"></script>
+        <script type="text/javascript" src="./js/jquery-2.1.1.min.js"></script>
 
         <!-- HEY: if you're looking for source code, you probably want coffee/all-temp.coffee -->
-        <script type="text/javascript" src="js/all-temp.js?23"></script>
-        <script type="text/javascript" src="js/scripts.js?23"></script>
+        <script>
+            require('./js/all-temp.js')
+            require('./js/scripts.js')
+        </script>
+        <script type="text/javascript" src="./js/all-temp.js"></script>
+        <script type="text/javascript" src="./js/scripts.js"></script>
 
 
         <!-- XXX would loooove for this to be dynamic somehow -->
@@ -14,10 +18,12 @@
         <link href='http://fonts.googleapis.com/css?family=Gochi+Hand&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
         <link href='http://fonts.googleapis.com/css?family=Montez&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
         <link href='http://fonts.googleapis.com/css?family=Source+Code+Pro&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
-        <link rel="stylesheet" type="text/css" href="css/all.css?23">
+        <link rel="stylesheet" type="text/css" href="./css/all.css">
         <title>Floraverse cutscenes</title>
     </head>
     <body class="js-no">
+        <p><a href="./js/all-temp.js">all-temp</a></p>
+        <p><a href="./doc2.html">doc2</a></p> <!--test line-->
         <script>
             document.body.classList.remove('js-no');
             document.body.classList.add('js-yes');
@@ -35,7 +41,7 @@
                 </header>
                 <section class="-when-loading">...loading...</section>
                 <section class="-when-ready">▶</section>
-                <section class="-when-failed">kaboom!  loading failed  :(</section>
+                <section class="-when-failed">kaboom!  loading failed :(</section>
                 <footer>
                     <p>please contact eevee (<a href="https://twitter.com/eevee">twitter</a>, <a href="http://lexyeevee.tumblr.com/">tumblr</a>, <a href="irc://irc.veekun.com/flora">irc</a>, <a href="mailto:eevee.cutscene@veekun.com">email</a>) in case of problems</p>
                     <p>art and music licensed under <a href="http://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA</a>; <a href="coffee">code</a> licensed under <a href="http://opensource.org/licenses/ISC">ISC</a></p>
@@ -72,6 +78,12 @@
                 ga('create', 'UA-48398230-2', 'apps.veekun.com');
                 ga('send', 'pageview');
             }
+        </script>
+        <script>
+      // You can also require other files to run in this process
+        require('./renderer.js') 
+        require('./js/all-temp.js')
+        require('./js/scripts.js')
         </script>
     </body>
 </html>
