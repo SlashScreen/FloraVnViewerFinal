@@ -1,4 +1,4 @@
-# electron-quick-start
+# Floraverse VN viewer
 
 **About**
 This is a standalone viewer for the Visual Novels posted to floraverse.com , made by Glip and @eevee for the webcomic Floraverse, such as Itchy Itchy and Try Try Again. This is an experiment to see if I can do it. I did not paint any of the pretty pictures.
