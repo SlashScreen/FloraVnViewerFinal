@@ -14,13 +14,9 @@ All the coffeescript (literally all of it) is written by Eevee, and almost all o
 To clone and run this repository you'll need [Git](https://git-scm.com) and [Node.js](https://nodejs.org/en/download/) (which comes with [npm](http://npmjs.com)) installed on your computer. From your command line:
 
 ```bash
-# Clone this repository
 git clone https://github.com/SlashScreen/FloraVnViewerFinal
-# Go into the repository
-cd electron-quick-start
-# Install dependencies
+cd Flora-Vn-Viewer
 npm install
-# Run the app
 npm start
 ```
 
@@ -29,3 +25,4 @@ Note: If you're using Linux Bash for Windows, [see this guide](https://www.howto
 ## License
 
 [CC0 1.0 (Public Domain)](LICENSE.md)
+[Floraverse-related content (I.E. not the code) protected under IRC](https://opensource.org/licenses/ISC)
